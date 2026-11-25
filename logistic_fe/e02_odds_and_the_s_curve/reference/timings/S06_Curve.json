@@ -1,0 +1,31 @@
+{
+ "scene": "S06_Curve",
+ "duration": 49.8167,
+ "segments": [
+  {
+   "id": "s6_1",
+   "start": 0.0,
+   "duration": 10.091
+  },
+  {
+   "id": "s6_2",
+   "start": 10.4333,
+   "duration": 6.23
+  },
+  {
+   "id": "s6_3",
+   "start": 17.0,
+   "duration": 9.75
+  },
+  {
+   "id": "s6_4",
+   "start": 27.1,
+   "duration": 13.974
+  },
+  {
+   "id": "s6_5",
+   "start": 41.4167,
+   "duration": 6.273
+  }
+ ]
+}

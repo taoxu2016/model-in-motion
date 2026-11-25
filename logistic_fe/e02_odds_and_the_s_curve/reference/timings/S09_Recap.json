@@ -1,0 +1,26 @@
+{
+ "scene": "S09_Recap",
+ "duration": 33.7333,
+ "segments": [
+  {
+   "id": "s9_1",
+   "start": 0.0,
+   "duration": 11.265
+  },
+  {
+   "id": "s9_2",
+   "start": 11.6,
+   "duration": 8.705
+  },
+  {
+   "id": "s9_3",
+   "start": 20.65,
+   "duration": 6.038
+  },
+  {
+   "id": "s9_4",
+   "start": 27.0333,
+   "duration": 3.905
+  }
+ ]
+}

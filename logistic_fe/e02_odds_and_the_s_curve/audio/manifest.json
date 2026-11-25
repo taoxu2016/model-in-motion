@@ -1,0 +1,547 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 8.427,
+  "sentences": [
+   {
+    "text": "Last time, we ended with a wish: one ruler for risk, where everything we know about a patient turns into a single probability.",
+    "start": 0.0,
+    "end": 8.277
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 7.19,
+  "sentences": [
+   {
+    "text": "Here's the obvious way to build it.",
+    "start": 0.0,
+    "end": 1.963
+   },
+   {
+    "text": "Start a typical patient at 20%, then add points for each risk factor.",
+    "start": 2.283,
+    "end": 7.04
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 7.595,
+  "sentences": [
+   {
+    "text": "Age 81: plus 25. Diabetes: plus 30. A third hospital stay this year: plus 35.",
+    "start": 0.0,
+    "end": 7.445
+   }
+  ]
+ },
+ "s1_4": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_4.wav",
+  "duration": 7.361,
+  "sentences": [
+   {
+    "text": "That's 110%.",
+    "start": 0.0,
+    "end": 1.856
+   },
+   {
+    "text": "A probability can't do that. Adding points was the wrong move, on the wrong ruler.",
+    "start": 2.176,
+    "end": 7.211
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 6.913,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: odds, and the curve that turns any patient into a probability.",
+    "start": 2.261,
+    "end": 6.763
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Odds",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 8.534,
+  "sentences": [
+   {
+    "text": "Let's try a different ruler.",
+    "start": 0.0,
+    "end": 1.621
+   },
+   {
+    "text": "Take ten patients who each have a 20% chance of coming back. On average, two do, and eight don't.",
+    "start": 1.941,
+    "end": 8.384
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Odds",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 6.657,
+  "sentences": [
+   {
+    "text": "Probability compares the two with all ten.",
+    "start": 0.0,
+    "end": 2.539
+   },
+   {
+    "text": "Odds compare the two with the eight: one to four, or a quarter.",
+    "start": 2.859,
+    "end": 6.507
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_Odds",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 7.233,
+  "sentences": [
+   {
+    "text": "At 50%, it's five against five: odds of one.",
+    "start": 0.0,
+    "end": 3.563
+   },
+   {
+    "text": "At 80%, eight against two: odds of four.",
+    "start": 3.883,
+    "end": 7.083
+   }
+  ]
+ },
+ "s3_4": {
+  "scene": "S03_Odds",
+  "file": "audio/segments/s3_4.wav",
+  "duration": 10.625,
+  "sentences": [
+   {
+    "text": "And as the probability creeps toward 100%, the odds just keep running: 9, 99, 999.",
+    "start": 0.0,
+    "end": 8.448
+   },
+   {
+    "text": "This ruler has no ceiling.",
+    "start": 8.768,
+    "end": 10.475
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_LogOdds",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 9.323,
+  "sentences": [
+   {
+    "text": "But it's a lopsided ruler.",
+    "start": 0.0,
+    "end": 1.643
+   },
+   {
+    "text": "Every patient below fifty-fifty is squeezed between zero and one, while everyone above gets all the room in the world.",
+    "start": 1.963,
+    "end": 9.173
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_LogOdds",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 8.257,
+  "sentences": [
+   {
+    "text": "The cure is a logarithm.",
+    "start": 0.0,
+    "end": 1.707
+   },
+   {
+    "text": "On a log scale, every doubling of the odds is one equal step: a quarter, a half, one, two, four.",
+    "start": 2.027,
+    "end": 8.107
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_LogOdds",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 11.094,
+  "sentences": [
+   {
+    "text": "This is the log-odds ruler. Fifty-fifty sits at zero.",
+    "start": 0.0,
+    "end": 3.499
+   },
+   {
+    "text": "20% is about minus 1.4, and 80% is plus 1.4: perfectly symmetric.",
+    "start": 3.819,
+    "end": 10.944
+   }
+  ]
+ },
+ "s4_4": {
+  "scene": "S04_LogOdds",
+  "file": "audio/segments/s4_4.wav",
+  "duration": 5.825,
+  "sentences": [
+   {
+    "text": "And it runs forever in both directions. No floor, no ceiling, nothing to bump into.",
+    "start": 0.0,
+    "end": 5.675
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_Steps",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 10.625,
+  "sentences": [
+   {
+    "text": "Here's why that matters. On the log-odds ruler, a risk factor is simply a step.",
+    "start": 0.0,
+    "end": 4.928
+   },
+   {
+    "text": "Take one that multiplies the odds by four: a step of 1.4 to the right.",
+    "start": 5.248,
+    "end": 10.475
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_Steps",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 3.094,
+  "sentences": [
+   {
+    "text": "Now give that same step to four different patients.",
+    "start": 0.0,
+    "end": 2.944
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_Steps",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 9.089,
+  "sentences": [
+   {
+    "text": "On the probability ruler, 5% becomes 17%. 20% becomes 50%. 50% becomes 80%. And 80% becomes 94%.",
+    "start": 0.0,
+    "end": 8.939
+   }
+  ]
+ },
+ "s5_4": {
+  "scene": "S05_Steps",
+  "file": "audio/segments/s5_4.wav",
+  "duration": 7.083,
+  "sentences": [
+   {
+    "text": "Same step, very different jumps: big in the middle, small near the ends.",
+    "start": 0.0,
+    "end": 4.181
+   },
+   {
+    "text": "And nobody ever goes past one hundred.",
+    "start": 4.501,
+    "end": 6.933
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Curve",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 10.091,
+  "sentences": [
+   {
+    "text": "Now picture a risk factor that comes in amounts, like the number of earlier hospital stays.",
+    "start": 0.0,
+    "end": 5.483
+   },
+   {
+    "text": "Suppose each extra stay is one more equal step in log-odds.",
+    "start": 5.803,
+    "end": 9.941
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Curve",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 6.23,
+  "sentences": [
+   {
+    "text": "On this scale, the pattern is a straight line. Its slope is the size of the step, and we'll call it beta.",
+    "start": 0.0,
+    "end": 6.08
+   }
+  ]
+ },
+ "s6_3": {
+  "scene": "S06_Curve",
+  "file": "audio/segments/s6_3.wav",
+  "duration": 9.75,
+  "sentences": [
+   {
+    "text": "Now switch the vertical axis back to probability.",
+    "start": 0.0,
+    "end": 3.008
+   },
+   {
+    "text": "The line bends into an S: steep in the middle, flat at both ends, and always between zero and one.",
+    "start": 3.328,
+    "end": 9.6
+   }
+  ]
+ },
+ "s6_4": {
+  "scene": "S06_Curve",
+  "file": "audio/segments/s6_4.wav",
+  "duration": 13.974,
+  "sentences": [
+   {
+    "text": "How steep it is depends on where you stand. The steepness is proportional to p times one minus p: greatest at fifty-fifty, fading to nothing at the ends.",
+    "start": 0.0,
+    "end": 10.133
+   },
+   {
+    "text": "Keep that in your pocket. It comes back when we fit the model.",
+    "start": 10.453,
+    "end": 13.824
+   }
+  ]
+ },
+ "s6_5": {
+  "scene": "S06_Curve",
+  "file": "audio/segments/s6_5.wav",
+  "duration": 6.273,
+  "sentences": [
+   {
+    "text": "Turn beta up, and the S gets steeper.",
+    "start": 0.0,
+    "end": 2.411
+   },
+   {
+    "text": "Shift the starting point, and the whole curve slides sideways.",
+    "start": 2.731,
+    "end": 6.123
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Cedar",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 8.726,
+  "sentences": [
+   {
+    "text": "Let's fit one of these by hand. Remember Cedar?",
+    "start": 0.0,
+    "end": 2.88
+   },
+   {
+    "text": "Ten lower-risk patients, 2 readmitted. Ten higher-risk patients, 6 readmitted.",
+    "start": 3.2,
+    "end": 8.576
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Cedar",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 4.289,
+  "sentences": [
+   {
+    "text": "So the odds are 2 to 8, a quarter; and 6 to 4, one and a half.",
+    "start": 0.0,
+    "end": 4.139
+   }
+  ]
+ },
+ "s7_3": {
+  "scene": "S07_Cedar",
+  "file": "audio/segments/s7_3.wav",
+  "duration": 7.851,
+  "sentences": [
+   {
+    "text": "Divide one by the other, and you get an odds ratio of six. At Cedar, higher risk multiplies the odds by six.",
+    "start": 0.0,
+    "end": 7.701
+   }
+  ]
+ },
+ "s7_4": {
+  "scene": "S07_Cedar",
+  "file": "audio/segments/s7_4.wav",
+  "duration": 10.305,
+  "sentences": [
+   {
+    "text": "On the log-odds ruler, that's a step of 1.79, starting from minus 1.39.",
+    "start": 0.0,
+    "end": 6.336
+   },
+   {
+    "text": "Those two numbers are a complete logistic model of Cedar.",
+    "start": 6.656,
+    "end": 10.155
+   }
+  ]
+ },
+ "s7_5": {
+  "scene": "S07_Cedar",
+  "file": "audio/segments/s7_5.wav",
+  "duration": 9.003,
+  "sentences": [
+   {
+    "text": "One caution. Six times the odds is not six times the risk.",
+    "start": 0.0,
+    "end": 4.117
+   },
+   {
+    "text": "Cedar's rate went from 20% to 60%: three times, not six.",
+    "start": 4.437,
+    "end": 8.853
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_RiskChip",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 4.161,
+  "sentences": [
+   {
+    "text": "Now, back to our patient. This time, we add on the right ruler.",
+    "start": 0.0,
+    "end": 4.011
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_RiskChip",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 5.569,
+  "sentences": [
+   {
+    "text": "Each risk factor is a step in log-odds, and the steps simply stack, one after another.",
+    "start": 0.0,
+    "end": 5.419
+   }
+  ]
+ },
+ "s8_3": {
+  "scene": "S08_RiskChip",
+  "file": "audio/segments/s8_3.wav",
+  "duration": 4.971,
+  "sentences": [
+   {
+    "text": "And the probability? 94%.",
+    "start": 0.0,
+    "end": 2.581
+   },
+   {
+    "text": "High, but still a probability.",
+    "start": 2.901,
+    "end": 4.821
+   }
+  ]
+ },
+ "s8_4": {
+  "scene": "S08_RiskChip",
+  "file": "audio/segments/s8_4.wav",
+  "duration": 9.259,
+  "sentences": [
+   {
+    "text": "From now on, every chip carries its probability with it, as a shaded slice.",
+    "start": 0.0,
+    "end": 4.693
+   },
+   {
+    "text": "A sliver for a low-risk patient; nearly the whole disc for this one.",
+    "start": 5.013,
+    "end": 9.109
+   }
+  ]
+ },
+ "s9_1": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_1.wav",
+  "duration": 11.265,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "Odds compare the patients who come back with those who don't.",
+    "start": 1.536,
+    "end": 4.693
+   },
+   {
+    "text": "Log-odds is the ruler where risk factors add.",
+    "start": 5.013,
+    "end": 7.872
+   },
+   {
+    "text": "And the S-curve carries the sum back to a probability.",
+    "start": 8.192,
+    "end": 11.115
+   }
+  ]
+ },
+ "s9_2": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_2.wav",
+  "duration": 8.705,
+  "sentences": [
+   {
+    "text": "So now every patient has a probability.",
+    "start": 0.0,
+    "end": 2.645
+   },
+   {
+    "text": "Add them up across a clinic, and you get a number of patients: the readmissions we should expect.",
+    "start": 2.965,
+    "end": 8.555
+   }
+  ]
+ },
+ "s9_3": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_3.wav",
+  "duration": 6.038,
+  "sentences": [
+   {
+    "text": "Next time, we'll set that number beside what actually happened. Observed, versus expected.",
+    "start": 0.0,
+    "end": 5.888
+   }
+  ]
+ },
+ "s9_4": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_4.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}

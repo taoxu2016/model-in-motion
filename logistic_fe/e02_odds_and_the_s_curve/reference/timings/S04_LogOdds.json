@@ -1,0 +1,26 @@
+{
+ "scene": "S04_LogOdds",
+ "duration": 37.0333,
+ "segments": [
+  {
+   "id": "s4_1",
+   "start": 0.0,
+   "duration": 9.323
+  },
+  {
+   "id": "s4_2",
+   "start": 9.6667,
+   "duration": 8.257
+  },
+  {
+   "id": "s4_3",
+   "start": 18.2833,
+   "duration": 11.094
+  },
+  {
+   "id": "s4_4",
+   "start": 29.7167,
+   "duration": 5.825
+  }
+ ]
+}

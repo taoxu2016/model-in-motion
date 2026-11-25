@@ -1,0 +1,26 @@
+{
+ "scene": "S05_Steps",
+ "duration": 32.4,
+ "segments": [
+  {
+   "id": "s5_1",
+   "start": 0.0,
+   "duration": 10.625
+  },
+  {
+   "id": "s5_2",
+   "start": 10.9667,
+   "duration": 3.094
+  },
+  {
+   "id": "s5_3",
+   "start": 14.4,
+   "duration": 9.089
+  },
+  {
+   "id": "s5_4",
+   "start": 23.8333,
+   "duration": 7.083
+  }
+ ]
+}

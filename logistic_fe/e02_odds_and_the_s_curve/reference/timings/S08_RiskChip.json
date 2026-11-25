@@ -1,0 +1,26 @@
+{
+ "scene": "S08_RiskChip",
+ "duration": 26.4333,
+ "segments": [
+  {
+   "id": "s8_1",
+   "start": 0.0,
+   "duration": 4.161
+  },
+  {
+   "id": "s8_2",
+   "start": 4.5,
+   "duration": 5.569
+  },
+  {
+   "id": "s8_3",
+   "start": 10.2667,
+   "duration": 4.971
+  },
+  {
+   "id": "s8_4",
+   "start": 15.5833,
+   "duration": 9.259
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "scene": "S07_Cedar",
+ "duration": 43.15,
+ "segments": [
+  {
+   "id": "s7_1",
+   "start": 0.0,
+   "duration": 8.726
+  },
+  {
+   "id": "s7_2",
+   "start": 9.0667,
+   "duration": 4.289
+  },
+  {
+   "id": "s7_3",
+   "start": 13.7,
+   "duration": 7.851
+  },
+  {
+   "id": "s7_4",
+   "start": 21.9,
+   "duration": 10.305
+  },
+  {
+   "id": "s7_5",
+   "start": 32.55,
+   "duration": 9.003
+  }
+ ]
+}

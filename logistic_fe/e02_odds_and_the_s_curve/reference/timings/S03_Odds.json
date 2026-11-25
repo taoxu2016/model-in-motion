@@ -1,0 +1,26 @@
+{
+ "scene": "S03_Odds",
+ "duration": 35.5667,
+ "segments": [
+  {
+   "id": "s3_1",
+   "start": 0.0,
+   "duration": 8.534
+  },
+  {
+   "id": "s3_2",
+   "start": 8.8833,
+   "duration": 6.657
+  },
+  {
+   "id": "s3_3",
+   "start": 15.8833,
+   "duration": 7.233
+  },
+  {
+   "id": "s3_4",
+   "start": 23.45,
+   "duration": 10.625
+  }
+ ]
+}
