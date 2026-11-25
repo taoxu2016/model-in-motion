@@ -1,0 +1,372 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 8,
+ "title": "The Arrow Matrix",
+ "subtitle": "how thousands of sliders step at once",
+ "name": "ModelInMotion_LogisticFE_E08_TheArrowMatrix",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Episode 7's map: the staircase of 54 rounds, then the straight path of five steps.",
+     "sentences": [
+      {
+       "text": "Last time, taking turns took 54 rounds.",
+       "say": "Last time, taking turns took fifty-four rounds."
+      },
+      {
+       "text": "And we ended on a promise: let the sliders and the dial step together, and it takes five."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Episode 6's machine in miniature: Dune's slider moves, and the dial's meter moves with it.",
+     "sentences": [
+      {
+       "text": "But stepping together is harder than it sounds."
+      },
+      {
+       "text": "When Dune's slider moved, two episodes ago, the dial's meter moved too."
+      },
+      {
+       "text": "To step together, every control has to know how its move disturbs every meter."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "A small 6 × 6 grid beside a vast one: 5 clinics, then 7,000 providers and 50 million cells.",
+     "sentences": [
+      {
+       "text": "For five clinics, that is a small table. For 7,000 providers, it is 50 million numbers.",
+       "say": "For five clinics, that is a small table. For seven thousand providers, it is fifty million numbers."
+      },
+      {
+       "text": "So how can this possibly be fast?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: the arrow matrix."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Table",
+   "chapter": "Who disturbs whom",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "An empty 6 × 6 table. Rows are the six meters, columns the six controls: five clinics and the dial.",
+     "sentences": [
+      {
+       "text": "Here is that table for our five clinics, at the fit. One row for each meter, one column for each control."
+      },
+      {
+       "text": "Each cell says how much that meter moves when that control does."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "The diagonal fills in: 6.38, 6.66, 3.82, 2.31, 0.02. Then the corner: 10.20.",
+     "sentences": [
+      {
+       "text": "Down the diagonal is each clinic's own wobble, from last time: 6.38 for Alder, 6.66 for Birch, down to 0.02 for Elm.",
+       "say": "Down the diagonal is each clinic's own wobble, from last time: six point three eight for Alder, six point six six for Birch, down to zero point zero two for Elm."
+      },
+      {
+       "text": "In the corner is the dial's own: 10.2.",
+       "say": "In the corner is the dial's own: ten point two."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "The last row and last column fill in: 0.97, 5.94, 2.35, 0.93, 0.",
+     "sentences": [
+      {
+       "text": "Along the two edges is how strongly each clinic is tied to the dial."
+      },
+      {
+       "text": "Birch, with 24 higher-risk patients, most of all: 5.94. Elm, with none: zero.",
+       "say": "Birch, with twenty-four higher-risk patients, most of all: five point nine four. Elm, with none: zero."
+      }
+     ]
+    },
+    {
+     "id": "s3_4",
+     "visual": "The twenty remaining cells show as empty. One is picked out: Alder's slider, Birch's meter. Then an outline traces the arrowhead.",
+     "sentences": [
+      {
+       "text": "And everywhere else, nothing. Alder's slider cannot move Birch's meter, because no patient belongs to both."
+      },
+      {
+       "text": "That is not an approximation. It is the model."
+      },
+      {
+       "text": "Look at the shape it leaves: an arrowhead."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Scale",
+   "chapter": "Why the shape matters",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "A square for the crowd's table, drawn as an arrow: 40,804 cells, 1,004 not zero.",
+     "sentences": [
+      {
+       "text": "With five clinics, the shape hardly matters. So scale up."
+      },
+      {
+       "text": "Our crowd of 200 providers, with two risk factors, has a table of 40,804 cells. Only 1,004 of them are not zero.",
+       "say": "Our crowd of two hundred providers, with two risk factors, has a table of forty thousand eight hundred and four cells. Only one thousand and four of them are not zero."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "A larger square: 7,000 providers, 50 risk factors, 49,702,500 cells, 1.4% not zero.",
+     "sentences": [
+      {
+       "text": "A national measure, with 7,000 providers and 50 risk factors, has almost 50 million cells. Nearly all of them are empty.",
+       "say": "A national measure, with seven thousand providers and fifty risk factors, has almost fifty million cells. Nearly all of them are empty."
+      },
+      {
+       "text": "Treat that as an ordinary table, and you are stuck. Use the arrow, and it is easy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Fold",
+   "chapter": "Folding the arrow",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "The 6 × 6 table again. One clinic's three cells are picked out: its diagonal cell and its two edge cells.",
+     "sentences": [
+      {
+       "text": "Here is how. Take one clinic at a time."
+      },
+      {
+       "text": "Square its tie to the dial, divide by its own wobble, and take that away from the corner."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "Clinic by clinic, a small amount leaves the corner: 0.15, 5.30, 1.45, 0.38, 0. The corner counts down from 10.20 to 2.93.",
+     "sentences": [
+      {
+       "text": "Alder takes away 0.15. Birch, 5.30. Cedar, 1.45. Dune, 0.38. Elm, nothing.",
+       "say": "Alder takes away zero point one five. Birch, five point three zero. Cedar, one point four five. Dune, zero point three eight. Elm, nothing."
+      },
+      {
+       "text": "The corner falls from 10.2 to 2.93.",
+       "say": "The corner falls from ten point two to two point nine three."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "The clinic rows and columns dim. Only the corner cell stays lit: 2.93.",
+     "sentences": [
+      {
+       "text": "And now the sliders are out of the problem. What is left is one small number, for the dial alone."
+      }
+     ]
+    },
+    {
+     "id": "s5_4",
+     "visual": "The same 2.93 built another way: 0.82 + 0.64 + 0.90 + 0.56 + 0, one piece per clinic.",
+     "sentences": [
+      {
+       "text": "That number has a meaning. It adds up, clinic by clinic, how much patients differ in risk from others in their own clinic."
+      },
+      {
+       "text": "Elm, where every patient is lower-risk, adds nothing. It is Episode 4's idea again: the risk rule is learned inside clinics.",
+       "say": "Elm, where every patient is lower-risk, adds nothing. It is Episode four's idea again: the risk rule is learned inside clinics."
+      }
+     ]
+    },
+    {
+     "id": "s5_5",
+     "visual": "Two bars: 10.20 before folding, 2.93 after. A label: 3.5 times.",
+     "sentences": [
+      {
+       "text": "It is also a warning. Ignore the clinics, and the data would seem to say three and a half times as much about the dial as they really do."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Step",
+   "chapter": "One step, together",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "The machine at the plain guess. Beside the dial: its first step, 1.81.",
+     "sentences": [
+      {
+       "text": "So the dial's step takes one division. From the plain guess, it is 1.81.",
+       "say": "So the dial's step takes one division. From the plain guess, it is one point eight one."
+      },
+      {
+       "text": "Then each clinic takes its own step, corrected for what the dial just did."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "Sliders and dial move at once. A step counter: 1, 2, 3, then 5. The meters level.",
+     "sentences": [
+      {
+       "text": "Watch the machine. One joint step, and the dial reads 1.81. A second: 2.00. A third: 2.0164, the top.",
+       "say": "Watch the machine. One joint step, and the dial reads one point eight one. A second: two point zero zero. A third: two point zero one six four, the top."
+      },
+      {
+       "text": "Five steps until the dial stops moving, where taking turns needed 54.",
+       "say": "Five steps until the dial stops moving, where taking turns needed fifty-four."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "Three rows: the risk factor recorded as 0 and 1, as 5 and 6, as 50 and 51. Five steps each time.",
+     "sentences": [
+      {
+       "text": "And the trouble with where we put zero? Record the risk factor five units higher, or fifty. The joint path does not change at all."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Cost",
+   "chapter": "What it buys",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Three jobs in a row: add up over patients, fold once per provider, solve one small system. Then a test: 2,000 providers, 205,367 patients, under a second.",
+     "sentences": [
+      {
+       "text": "Each step is three cheap jobs: add up over the patients, fold once for each provider, and solve one small system."
+      },
+      {
+       "text": "We tried it on 2,000 providers and about 200,000 patients. The fit took well under a second.",
+       "say": "We tried it on two thousand providers and about two hundred thousand patients. The fit took well under a second."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "The same data as an ordinary table: 2,002 columns wide, 3.3 gigabytes.",
+     "sentences": [
+      {
+       "text": "Written out as an ordinary table, with a column for every provider, the same data would fill 3.3 gigabytes before any fitting began.",
+       "say": "Written out as an ordinary table, with a column for every provider, the same data would fill three point three gigabytes before any fitting began."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "A caution card: one patient, one provider. A second grouping drawn across the first, and the empty cells fill in.",
+     "sentences": [
+      {
+       "text": "So a separate number for every provider is not a computing problem. It only looked like one."
+      },
+      {
+       "text": "One caution. The arrow needs every patient to belong to exactly one provider. A second grouping that cuts across the first would break it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "Clinics disturb each other only through the dial, so the table is an arrow."
+      },
+      {
+       "text": "Fold each clinic into the corner, and one small system is left."
+      },
+      {
+       "text": "Nothing is approximated. It is last episode's step, taken for everything at once."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "The folded number, 2.93, large; the next episode's title.",
+     "sentences": [
+      {
+       "text": "And keep an eye on that folded number, 2.93. It says how firmly the data hold the dial in place.",
+       "say": "And keep an eye on that folded number, two point nine three. It says how firmly the data hold the dial in place."
+      },
+      {
+       "text": "Next time: how sure are we?"
+      }
+     ]
+    },
+    {
+     "id": "s8_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

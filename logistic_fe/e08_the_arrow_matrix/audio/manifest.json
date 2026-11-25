@@ -1,0 +1,405 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 8.875,
+  "sentences": [
+   {
+    "text": "Last time, taking turns took 54 rounds.",
+    "start": 0.0,
+    "end": 2.987
+   },
+   {
+    "text": "And we ended on a promise: let the sliders and the dial step together, and it takes five.",
+    "start": 3.307,
+    "end": 8.725
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 12.929,
+  "sentences": [
+   {
+    "text": "But stepping together is harder than it sounds.",
+    "start": 0.0,
+    "end": 2.645
+   },
+   {
+    "text": "When Dune's slider moved, two episodes ago, the dial's meter moved too.",
+    "start": 2.965,
+    "end": 7.467
+   },
+   {
+    "text": "To step together, every control has to know how its move disturbs every meter.",
+    "start": 7.787,
+    "end": 12.779
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 8.555,
+  "sentences": [
+   {
+    "text": "For five clinics, that is a small table. For 7,000 providers, it is 50 million numbers.",
+    "start": 0.0,
+    "end": 6.101
+   },
+   {
+    "text": "So how can this possibly be fast?",
+    "start": 6.421,
+    "end": 8.405
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.075,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: the arrow matrix.",
+    "start": 2.261,
+    "end": 3.925
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Table",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 10.817,
+  "sentences": [
+   {
+    "text": "Here is that table for our five clinics, at the fit. One row for each meter, one column for each control.",
+    "start": 0.0,
+    "end": 6.869
+   },
+   {
+    "text": "Each cell says how much that meter moves when that control does.",
+    "start": 7.189,
+    "end": 10.667
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Table",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 14.593,
+  "sentences": [
+   {
+    "text": "Down the diagonal is each clinic's own wobble, from last time: 6.38 for Alder, 6.66 for Birch, down to 0.02 for Elm.",
+    "start": 0.0,
+    "end": 11.136
+   },
+   {
+    "text": "In the corner is the dial's own: 10.2.",
+    "start": 11.456,
+    "end": 14.443
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_Table",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 11.307,
+  "sentences": [
+   {
+    "text": "Along the two edges is how strongly each clinic is tied to the dial.",
+    "start": 0.0,
+    "end": 4.117
+   },
+   {
+    "text": "Birch, with 24 higher-risk patients, most of all: 5.94. Elm, with none: zero.",
+    "start": 4.437,
+    "end": 11.157
+   }
+  ]
+ },
+ "s3_4": {
+  "scene": "S03_Table",
+  "file": "audio/segments/s3_4.wav",
+  "duration": 12.993,
+  "sentences": [
+   {
+    "text": "And everywhere else, nothing. Alder's slider cannot move Birch's meter, because no patient belongs to both.",
+    "start": 0.0,
+    "end": 6.848
+   },
+   {
+    "text": "That is not an approximation. It is the model.",
+    "start": 7.168,
+    "end": 10.176
+   },
+   {
+    "text": "Look at the shape it leaves: an arrowhead.",
+    "start": 10.496,
+    "end": 12.843
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Scale",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 14.23,
+  "sentences": [
+   {
+    "text": "With five clinics, the shape hardly matters. So scale up.",
+    "start": 0.0,
+    "end": 3.477
+   },
+   {
+    "text": "Our crowd of 200 providers, with two risk factors, has a table of 40,804 cells. Only 1,004 of them are not zero.",
+    "start": 3.797,
+    "end": 14.08
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Scale",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 14.315,
+  "sentences": [
+   {
+    "text": "A national measure, with 7,000 providers and 50 risk factors, has almost 50 million cells. Nearly all of them are empty.",
+    "start": 0.0,
+    "end": 8.64
+   },
+   {
+    "text": "Treat that as an ordinary table, and you are stuck. Use the arrow, and it is easy.",
+    "start": 8.96,
+    "end": 14.165
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_Fold",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 8.257,
+  "sentences": [
+   {
+    "text": "Here is how. Take one clinic at a time.",
+    "start": 0.0,
+    "end": 2.56
+   },
+   {
+    "text": "Square its tie to the dial, divide by its own wobble, and take that away from the corner.",
+    "start": 2.88,
+    "end": 8.107
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_Fold",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 14.571,
+  "sentences": [
+   {
+    "text": "Alder takes away 0.15. Birch, 5.30. Cedar, 1.45. Dune, 0.38. Elm, nothing.",
+    "start": 0.0,
+    "end": 10.56
+   },
+   {
+    "text": "The corner falls from 10.2 to 2.93.",
+    "start": 10.88,
+    "end": 14.421
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_Fold",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 6.209,
+  "sentences": [
+   {
+    "text": "And now the sliders are out of the problem. What is left is one small number, for the dial alone.",
+    "start": 0.0,
+    "end": 6.059
+   }
+  ]
+ },
+ "s5_4": {
+  "scene": "S05_Fold",
+  "file": "audio/segments/s5_4.wav",
+  "duration": 16.363,
+  "sentences": [
+   {
+    "text": "That number has a meaning. It adds up, clinic by clinic, how much patients differ in risk from others in their own clinic.",
+    "start": 0.0,
+    "end": 7.445
+   },
+   {
+    "text": "Elm, where every patient is lower-risk, adds nothing. It is Episode 4's idea again: the risk rule is learned inside clinics.",
+    "start": 7.765,
+    "end": 16.213
+   }
+  ]
+ },
+ "s5_5": {
+  "scene": "S05_Fold",
+  "file": "audio/segments/s5_5.wav",
+  "duration": 8.342,
+  "sentences": [
+   {
+    "text": "It is also a warning. Ignore the clinics, and the data would seem to say three and a half times as much about the dial as they really do.",
+    "start": 0.0,
+    "end": 8.192
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Step",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 10.177,
+  "sentences": [
+   {
+    "text": "So the dial's step takes one division. From the plain guess, it is 1.81.",
+    "start": 0.0,
+    "end": 5.312
+   },
+   {
+    "text": "Then each clinic takes its own step, corrected for what the dial just did.",
+    "start": 5.632,
+    "end": 10.027
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Step",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 16.278,
+  "sentences": [
+   {
+    "text": "Watch the machine. One joint step, and the dial reads 1.81. A second: 2.00. A third: 2.0164, the top.",
+    "start": 0.0,
+    "end": 11.051
+   },
+   {
+    "text": "Five steps until the dial stops moving, where taking turns needed 54.",
+    "start": 11.371,
+    "end": 16.128
+   }
+  ]
+ },
+ "s6_3": {
+  "scene": "S06_Step",
+  "file": "audio/segments/s6_3.wav",
+  "duration": 8.278,
+  "sentences": [
+   {
+    "text": "And the trouble with where we put zero? Record the risk factor five units higher, or fifty. The joint path does not change at all.",
+    "start": 0.0,
+    "end": 8.128
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Cost",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 14.614,
+  "sentences": [
+   {
+    "text": "Each step is three cheap jobs: add up over the patients, fold once for each provider, and solve one small system.",
+    "start": 0.0,
+    "end": 7.296
+   },
+   {
+    "text": "We tried it on 2,000 providers and about 200,000 patients. The fit took well under a second.",
+    "start": 7.616,
+    "end": 14.464
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Cost",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 9.366,
+  "sentences": [
+   {
+    "text": "Written out as an ordinary table, with a column for every provider, the same data would fill 3.3 gigabytes before any fitting began.",
+    "start": 0.0,
+    "end": 9.216
+   }
+  ]
+ },
+ "s7_3": {
+  "scene": "S07_Cost",
+  "file": "audio/segments/s7_3.wav",
+  "duration": 15.126,
+  "sentences": [
+   {
+    "text": "So a separate number for every provider is not a computing problem. It only looked like one.",
+    "start": 0.0,
+    "end": 5.504
+   },
+   {
+    "text": "One caution. The arrow needs every patient to belong to exactly one provider. A second grouping that cuts across the first would break it.",
+    "start": 5.824,
+    "end": 14.976
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 15.937,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "Clinics disturb each other only through the dial, so the table is an arrow.",
+    "start": 1.536,
+    "end": 5.845
+   },
+   {
+    "text": "Fold each clinic into the corner, and one small system is left.",
+    "start": 6.165,
+    "end": 10.091
+   },
+   {
+    "text": "Nothing is approximated. It is last episode's step, taken for everything at once.",
+    "start": 10.411,
+    "end": 15.787
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 9.345,
+  "sentences": [
+   {
+    "text": "And keep an eye on that folded number, 2.93. It says how firmly the data hold the dial in place.",
+    "start": 0.0,
+    "end": 7.019
+   },
+   {
+    "text": "Next time: how sure are we?",
+    "start": 7.339,
+    "end": 9.195
+   }
+  ]
+ },
+ "s8_3": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_3.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}
