@@ -1,0 +1,373 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 8.662,
+  "sentences": [
+   {
+    "text": "Last time, Alder's ratio came out at 1.62, and Dune's at 1.46. So Alder looks the worse of the two.",
+    "start": 0.0,
+    "end": 8.512
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 9.537,
+  "sentences": [
+   {
+    "text": "But put their curves side by side. Dune's is the higher one, at every level of risk.",
+    "start": 0.0,
+    "end": 5.376
+   },
+   {
+    "text": "Whoever you are, your chance of readmission is greater at Dune.",
+    "start": 5.696,
+    "end": 9.387
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 7.787,
+  "sentences": [
+   {
+    "text": "So how did Alder end up with the bigger ratio?",
+    "start": 0.0,
+    "end": 2.56
+   },
+   {
+    "text": "The answer is in who each clinic treats. And it leads to a second way of measuring.",
+    "start": 2.88,
+    "end": 7.637
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.097,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: swap the patients.",
+    "start": 2.261,
+    "end": 3.947
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Puzzle",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 11.947,
+  "sentences": [
+   {
+    "text": "Start with lower-risk patients. At the reference, their chance is 18%. At Alder it is 34%, and at Dune, 36.",
+    "start": 0.0,
+    "end": 9.067
+   },
+   {
+    "text": "At either clinic, that is close to double.",
+    "start": 9.387,
+    "end": 11.797
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Puzzle",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 16.79,
+  "sentences": [
+   {
+    "text": "Now the higher-risk patients: 62% at the reference, 80 at Alder, 81 at Dune.",
+    "start": 0.0,
+    "end": 6.251
+   },
+   {
+    "text": "A much smaller multiple, about 1.3. It is Episode 5 again: the same gap in odds means less, in proportion, when the risk is already high.",
+    "start": 6.571,
+    "end": 16.64
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_Puzzle",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 15.062,
+  "sentences": [
+   {
+    "text": "Here is the catch. Of Alder's 30 patients, 24 are lower-risk, where the multiple is near 2. Dune's 12 are split evenly.",
+    "start": 0.0,
+    "end": 8.768
+   },
+   {
+    "text": "So Alder's ratio is the larger because of who Alder treats, not because its curve is higher.",
+    "start": 9.088,
+    "end": 14.912
+   }
+  ]
+ },
+ "s3_4": {
+  "scene": "S03_Puzzle",
+  "file": "audio/segments/s3_4.wav",
+  "duration": 11.521,
+  "sentences": [
+   {
+    "text": "Give Dune Alder's patients, and Dune's ratio would be 1.68.",
+    "start": 0.0,
+    "end": 4.437
+   },
+   {
+    "text": "Last time's ratio judges each clinic on its own patients. It does not line clinics up against one another.",
+    "start": 4.757,
+    "end": 11.371
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 13.697,
+  "sentences": [
+   {
+    "text": "So turn last time's method around. Keep each clinic's curve, and swap the patients.",
+    "start": 0.0,
+    "end": 5.141
+   },
+   {
+    "text": "Give every clinic the same crowd: all 103 patients in the cast. 57 lower-risk, 46 higher-risk.",
+    "start": 5.461,
+    "end": 13.547
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 20.353,
+  "sentences": [
+   {
+    "text": "Under Alder's curve, that is 57 patients at 34%, and 46 at 80%. Add up the chances: 56.2 readmissions.",
+    "start": 0.0,
+    "end": 10.475
+   },
+   {
+    "text": "56.2 out of 103. If everyone had gone to Alder, the model expects 54.5% to be readmitted.",
+    "start": 10.795,
+    "end": 20.203
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 4.374,
+  "sentences": [
+   {
+    "text": "That is Alder's direct rate. One clinic's curve, everyone's patients.",
+    "start": 0.0,
+    "end": 4.224
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 17.089,
+  "sentences": [
+   {
+    "text": "Now every clinic. Alder, 54.5%. Birch, 32.2. Cedar, 37.6. Dune, 55.9.",
+    "start": 0.0,
+    "end": 10.709
+   },
+   {
+    "text": "And Dune is back above Alder. On the same patients, the higher curve always gives the higher rate.",
+    "start": 11.029,
+    "end": 16.939
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 7.467,
+  "sentences": [
+   {
+    "text": "Elm's figure, 0.7%, is hatched. It rests on a gamma that only records where the fitting stopped.",
+    "start": 0.0,
+    "end": 7.317
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 22.742,
+  "sentences": [
+   {
+    "text": "One trap. The overall rate was 41%, but that is not the yardstick here. Cedar, the reference clinic itself, comes out at 37.6.",
+    "start": 0.0,
+    "end": 10.539
+   },
+   {
+    "text": "Everyone at the reference would have 38.8 readmissions, the same 38.8 we met last time. So compare a direct rate with the reference clinic's, not with the overall rate.",
+    "start": 10.859,
+    "end": 22.592
+   }
+  ]
+ },
+ "s5_4": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_4.wav",
+  "duration": 14.059,
+  "sentences": [
+   {
+    "text": "Against Cedar's 37.6, Alder's 54.5 is 1.45 times as high. Last time's ratio said 1.62.",
+    "start": 0.0,
+    "end": 10.901
+   },
+   {
+    "text": "Both are right. They answer different questions.",
+    "start": 11.221,
+    "end": 13.909
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Which",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 8.449,
+  "sentences": [
+   {
+    "text": "Last time's question: how did this clinic do with the patients it actually treated? That is the one to ask when a clinic is held to account.",
+    "start": 0.0,
+    "end": 8.299
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Which",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 11.905,
+  "sentences": [
+   {
+    "text": "Today's question: how would this clinic do with everyone's patients? That is closer to what someone choosing between clinics wants to know.",
+    "start": 0.0,
+    "end": 8.085
+   },
+   {
+    "text": "And neither is a rate that anyone actually experienced.",
+    "start": 8.405,
+    "end": 11.755
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Price",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 13.995,
+  "sentences": [
+   {
+    "text": "A common footing has a price. Alder treated only 6 higher-risk patients. Its direct rate asks its curve about 46.",
+    "start": 0.0,
+    "end": 8.107
+   },
+   {
+    "text": "Two-thirds of that 56.2 comes from patients of a kind Alder hardly saw.",
+    "start": 8.427,
+    "end": 13.845
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Price",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 10.646,
+  "sentences": [
+   {
+    "text": "For Elm it is starker. Elm treated no higher-risk patients at all. Its figure rests entirely on the model's assumption that every clinic's curve has the same shape.",
+    "start": 0.0,
+    "end": 10.496
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Crowd",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 12.609,
+  "sentences": [
+   {
+    "text": "In the crowd of 200, the two measures agree closely. Yet between the two rankings, four providers move ten places or more.",
+    "start": 0.0,
+    "end": 8.213
+   },
+   {
+    "text": "A ranking can shift with the question, before luck has even entered.",
+    "start": 8.533,
+    "end": 12.459
+   }
+  ]
+ },
+ "s9_1": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_1.wav",
+  "duration": 17.003,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "Last time: a clinic's own patients, on the reference curve.",
+    "start": 1.536,
+    "end": 5.056
+   },
+   {
+    "text": "This time: everyone's patients, on the clinic's own curve.",
+    "start": 5.376,
+    "end": 8.896
+   },
+   {
+    "text": "The second compares like with like, but asks each clinic about patients it never treated. Always say which one you are reporting.",
+    "start": 9.216,
+    "end": 16.853
+   }
+  ]
+ },
+ "s9_2": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_2.wav",
+  "duration": 10.283,
+  "sentences": [
+   {
+    "text": "One question is still open. Alder had 13 readmissions where the reference expects 8. A real difference, or luck?",
+    "start": 0.0,
+    "end": 7.808
+   },
+   {
+    "text": "Next time: unequal coins.",
+    "start": 8.128,
+    "end": 10.133
+   }
+  ]
+ },
+ "s9_3": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_3.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}

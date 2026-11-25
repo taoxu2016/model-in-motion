@@ -1,0 +1,359 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 12,
+ "title": "Swap the Patients",
+ "subtitle": "one clinic's curve, everyone's patients",
+ "name": "ModelInMotion_LogisticFE_E12_SwapThePatients",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Last time's ratio axis with two markers: Alder at 1.62, Dune at 1.46.",
+     "sentences": [
+      {
+       "text": "Last time, Alder's ratio came out at 1.62, and Dune's at 1.46. So Alder looks the worse of the two.",
+       "say": "Last time, Alder's ratio came out at one point six two, and Dune's at one point four six. So Alder looks the worse of the two."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "The probability panel with Alder's and Dune's curves. Dune's is the higher at both risk levels: 36% against 34%, and 81% against 80%. A lens magnifies the gap between them.",
+     "sentences": [
+      {
+       "text": "But put their curves side by side. Dune's is the higher one, at every level of risk."
+      },
+      {
+       "text": "Whoever you are, your chance of readmission is greater at Dune."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "A question beside the curves: the higher curve, but the smaller ratio?",
+     "sentences": [
+      {
+       "text": "So how did Alder end up with the bigger ratio?"
+      },
+      {
+       "text": "The answer is in who each clinic treats. And it leads to a second way of measuring."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: swap the patients."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Puzzle",
+   "chapter": "Two clinics, two crowds",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "A grid of risk chips. The lower-risk column: 18% at the reference, 34% at Alder, 36% at Dune, with the multiples × 1.9 and × 2.0.",
+     "sentences": [
+      {
+       "text": "Start with lower-risk patients. At the reference, their chance is 18%. At Alder it is 34%, and at Dune, 36.",
+       "say": "Start with lower-risk patients. At the reference, their chance is eighteen percent. At Alder it is thirty-four percent, and at Dune, thirty-six."
+      },
+      {
+       "text": "At either clinic, that is close to double."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "The higher-risk column: 62%, 80% and 81%, with the multiples × 1.3 and × 1.3.",
+     "sentences": [
+      {
+       "text": "Now the higher-risk patients: 62% at the reference, 80 at Alder, 81 at Dune.",
+       "say": "Now the higher-risk patients: sixty-two percent at the reference, eighty at Alder, eighty-one at Dune."
+      },
+      {
+       "text": "A much smaller multiple, about 1.3. It is Episode 5 again: the same gap in odds means less, in proportion, when the risk is already high.",
+       "say": "A much smaller multiple, about one point three. It is Episode five again: the same gap in odds means less, in proportion, when the risk is already high."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "Under the grid, who each clinic treats: Alder, 24 lower-risk and 6 higher-risk; Dune, 6 and 6. Beside them, their ratios: 1.62 and 1.46.",
+     "sentences": [
+      {
+       "text": "Here is the catch. Of Alder's 30 patients, 24 are lower-risk, where the multiple is near 2. Dune's 12 are split evenly.",
+       "say": "Here is the catch. Of Alder's thirty patients, twenty-four are lower-risk, where the multiple is near two. Dune's twelve are split evenly."
+      },
+      {
+       "text": "So Alder's ratio is the larger because of who Alder treats, not because its curve is higher."
+      }
+     ]
+    },
+    {
+     "id": "s3_4",
+     "visual": "Dune's curve with Alder's patients: 1.68, above Alder's 1.62.",
+     "sentences": [
+      {
+       "text": "Give Dune Alder's patients, and Dune's ratio would be 1.68.",
+       "say": "Give Dune Alder's patients, and Dune's ratio would be one point six eight."
+      },
+      {
+       "text": "Last time's ratio judges each clinic on its own patients. It does not line clinics up against one another."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Swap",
+   "chapter": "Swap the patients",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "Two small pictures: last time, a clinic's own patients on the reference curve; today, everyone's patients on the clinic's own curve. Then everyone as chips in clinic colours: 57 lower-risk, 46 higher-risk.",
+     "sentences": [
+      {
+       "text": "So turn last time's method around. Keep each clinic's curve, and swap the patients."
+      },
+      {
+       "text": "Give every clinic the same crowd: all 103 patients in the cast. 57 lower-risk, 46 higher-risk.",
+       "say": "Give every clinic the same crowd: all one hundred and three patients in the cast. Fifty-seven lower-risk, forty-six higher-risk."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "Alder's curve on the probability panel, with two large risk chips: 57 patients at 34%, 46 at 80%. The sum: 57 × 0.343 + 46 × 0.796 = 56.2. Then 56.2 of 103 = 54.5%.",
+     "sentences": [
+      {
+       "text": "Under Alder's curve, that is 57 patients at 34%, and 46 at 80%. Add up the chances: 56.2 readmissions.",
+       "say": "Under Alder's curve, that is fifty-seven patients at thirty-four percent, and forty-six at eighty percent. Add up the chances: fifty-six point two readmissions."
+      },
+      {
+       "text": "56.2 out of 103. If everyone had gone to Alder, the model expects 54.5% to be readmitted.",
+       "say": "Fifty-six point two out of one hundred and three. If everyone had gone to Alder, the model expects fifty-four point five percent to be readmitted."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "A label: Alder's direct rate. One clinic's curve, everyone's patients.",
+     "sentences": [
+      {
+       "text": "That is Alder's direct rate. One clinic's curve, everyone's patients."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_All",
+   "chapter": "The same patients, at every clinic",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Five bars: 54.5%, 32.2%, 37.6%, 55.9%, and Elm's 0.7%. Beside Alder and Dune, last time's ratios, 1.62 and 1.46, for contrast.",
+     "sentences": [
+      {
+       "text": "Now every clinic. Alder, 54.5%. Birch, 32.2. Cedar, 37.6. Dune, 55.9.",
+       "say": "Now every clinic. Alder, fifty-four point five percent. Birch, thirty-two point two. Cedar, thirty-seven point six. Dune, fifty-five point nine."
+      },
+      {
+       "text": "And Dune is back above Alder. On the same patients, the higher curve always gives the higher rate."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "Elm's bar is hatched, with a note: 0.74% or 0.004%, depending on where the fitting stopped.",
+     "sentences": [
+      {
+       "text": "Elm's figure, 0.7%, is hatched. It rests on a gamma that only records where the fitting stopped.",
+       "say": "Elm's figure, zero point seven percent, is hatched. It rests on a gamma that only records where the fitting stopped."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "Two vertical lines across the bars: the overall rate, 40.8%, marked as not the yardstick; and the reference clinic's rate, 37.6%. A note: 38.8 readmissions, as last time.",
+     "sentences": [
+      {
+       "text": "One trap. The overall rate was 41%, but that is not the yardstick here. Cedar, the reference clinic itself, comes out at 37.6.",
+       "say": "One trap. The overall rate was forty-one percent, but that is not the yardstick here. Cedar, the reference clinic itself, comes out at thirty-seven point six."
+      },
+      {
+       "text": "Everyone at the reference would have 38.8 readmissions, the same 38.8 we met last time. So compare a direct rate with the reference clinic's, not with the overall rate.",
+       "say": "Everyone at the reference would have thirty-eight point eight readmissions, the same thirty-eight point eight we met last time. So compare a direct rate with the reference clinic's, not with the overall rate."
+      }
+     ]
+    },
+    {
+     "id": "s5_4",
+     "visual": "54.5 ÷ 37.6 = 1.45, beside last time's 1.62.",
+     "sentences": [
+      {
+       "text": "Against Cedar's 37.6, Alder's 54.5 is 1.45 times as high. Last time's ratio said 1.62.",
+       "say": "Against Cedar's thirty-seven point six, Alder's fifty-four point five is one point four five times as high. Last time's ratio said one point six two."
+      },
+      {
+       "text": "Both are right. They answer different questions."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Which",
+   "chapter": "Which question?",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "The left card: this clinic, the patients it treated. Under it: holding a clinic to account.",
+     "sentences": [
+      {
+       "text": "Last time's question: how did this clinic do with the patients it actually treated? That is the one to ask when a clinic is held to account."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "The right card: this clinic, everyone's patients. Under it: choosing between clinics. Across both: neither is a rate anyone experienced.",
+     "sentences": [
+      {
+       "text": "Today's question: how would this clinic do with everyone's patients? That is closer to what someone choosing between clinics wants to know."
+      },
+      {
+       "text": "And neither is a rate that anyone actually experienced."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Price",
+   "chapter": "The price of a common footing",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Alder: treated 24 lower-risk and 6 higher-risk patients; asked about 57 and 46. A bar for its 56.2: 19.5 from lower-risk patients, 36.6 from higher-risk.",
+     "sentences": [
+      {
+       "text": "A common footing has a price. Alder treated only 6 higher-risk patients. Its direct rate asks its curve about 46.",
+       "say": "A common footing has a price. Alder treated only six higher-risk patients. Its direct rate asks its curve about forty-six."
+      },
+      {
+       "text": "Two-thirds of that 56.2 comes from patients of a kind Alder hardly saw.",
+       "say": "Two-thirds of that fifty-six point two comes from patients of a kind Alder hardly saw."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "Elm: treated 11 and 0; asked about 57 and 46. A note: all of it rests on curves of one shape.",
+     "sentences": [
+      {
+       "text": "For Elm it is starker. Elm treated no higher-risk patients at all. Its figure rests entirely on the model's assumption that every clinic's curve has the same shape."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Crowd",
+   "chapter": "In the crowd",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "The crowd: each provider's ratio from last time against today's. A tight band, with four providers ringed: they move ten places or more between the two rankings.",
+     "sentences": [
+      {
+       "text": "In the crowd of 200, the two measures agree closely. Yet between the two rankings, four providers move ten places or more.",
+       "say": "In the crowd of two hundred, the two measures agree closely. Yet between the two rankings, four providers move ten places or more."
+      },
+      {
+       "text": "A ranking can shift with the question, before luck has even entered."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "Last time: a clinic's own patients, on the reference curve."
+      },
+      {
+       "text": "This time: everyone's patients, on the clinic's own curve."
+      },
+      {
+       "text": "The second compares like with like, but asks each clinic about patients it never treated. Always say which one you are reporting."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "Alder's 13 against 8.02, large; the next episode's title.",
+     "sentences": [
+      {
+       "text": "One question is still open. Alder had 13 readmissions where the reference expects 8. A real difference, or luck?",
+       "say": "One question is still open. Alder had thirteen readmissions where the reference expects eight. A real difference, or luck?"
+      },
+      {
+       "text": "Next time: unequal coins."
+      }
+     ]
+    },
+    {
+     "id": "s9_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
