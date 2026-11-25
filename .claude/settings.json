@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tools/setup_env.sh --check)",
+      "Bash(tools/build.sh *)",
+      "Bash(python3 tools/*)",
+      "Bash(python tools/*)",
+      "Bash(manim *)",
+      "Bash(ffprobe *)",
+      "Bash(ffmpeg *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)"
+    ],
+    "ask": [
+      "Bash(git push*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

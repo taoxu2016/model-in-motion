@@ -8,6 +8,7 @@ still board per narration clip).
 
 Start here:
 
+- `docs/HANDOFF.md` and `CLAUDE.md`: how this work continues in Claude Code, and what comes next.
 - `docs/STATUS.md`: one row per episode, with its stage, running time, check count and review link.
 - `docs/DECISIONS.md`: the 86 choices the fifteen draft scripts are waiting on.
 - `renders/animatics/`: the current animatic of every unfinished episode, ready to watch.
@@ -36,6 +37,7 @@ tools/                   one copy of each tool; each takes the episode folder as
   listen_through.py      the narration as one audio file with a timestamped script, before any animation
   make_data.py           Episode 1's data files (crowd ranks, luck re-deals)
   check_repo.py          regression test for finished episodes
+  setup_env.sh           installs or checks everything a build needs (Ubuntu or Debian); used by the dev container
 logistic_fe/
   e01_unfair_comparisons/        5:52   narration/  audio/  data/  episode/episode01.py  reference/timings/
   e02_odds_and_the_s_curve/      5:00   narration/  audio/         episode/episode02.py  reference/timings/
@@ -64,6 +66,9 @@ docs/
 renders/
   animatics/             the 720p animatic of Episodes 4 to 19, each with captions and a timed script
   finished/              Episodes 1 to 3 at 1080p60, each with captions and a timed script
+CLAUDE.md                what every Claude Code session loads: layout, commands, rules, conventions
+.claude/                 Claude Code settings, a session-start check, skills and review agents
+.devcontainer/           Codespaces or Dev Containers: Ubuntu 24.04, tools/setup_env.sh, the Claude Code CLI
 ```
 
 An episode folder holds only what is its own. Each episode file sets `MIM_EPISODE` to its folder and imports `mim.common`,
@@ -145,7 +150,8 @@ The work was not under version control while it was made. This repository was as
 so its history is a record of structure, not of time: one commit for the scaffold, one for the shared library and
 tools, one for each episode and one for the documents. The rendered animatics are one further commit on top, so that
 they can be left out. The scripts behind the blueprint's numbers followed on the same day, in one more commit.
-The finished videos of Episodes 1 to 3 came last, in a commit of their own like the animatics. The commits carry a placeholder author.
+The finished videos of Episodes 1 to 3 came last, in a commit of their own like the animatics.
+The handoff to Claude Code (CLAUDE.md, .claude/, the dev container, tools/setup_env.sh) came after them. The commits carry a placeholder author.
 To make them yours before you publish:
 
     git rebase -r --root --exec "git commit --amend --no-edit --reset-author"

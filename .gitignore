@@ -18,3 +18,7 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Claude Code: personal settings and notes
+.claude/settings.local.json
+CLAUDE.local.md
