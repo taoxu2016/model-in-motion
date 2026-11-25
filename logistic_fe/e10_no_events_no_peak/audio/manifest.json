@@ -1,0 +1,383 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 9.473,
+  "sentences": [
+   {
+    "text": "One clinic has waited six episodes for its turn.",
+    "start": 0.0,
+    "end": 2.901
+   },
+   {
+    "text": "Elm: 11 patients, all lower-risk, and not one readmission. The best record in the cast.",
+    "start": 3.221,
+    "end": 9.323
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 13.739,
+  "sentences": [
+   {
+    "text": "So what is Elm's gamma? Ask the software, and it prints minus 6.25.",
+    "start": 0.0,
+    "end": 4.992
+   },
+   {
+    "text": "Ask again with its other fitting routine, and it prints minus 11.52.",
+    "start": 5.312,
+    "end": 10.517
+   },
+   {
+    "text": "Same patients. Same model. Two answers.",
+    "start": 10.837,
+    "end": 13.589
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 4.566,
+  "sentences": [
+   {
+    "text": "Which one is right? Neither. And seeing why shows us what to trust instead.",
+    "start": 0.0,
+    "end": 4.416
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.267,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: no events, no peak.",
+    "start": 2.261,
+    "end": 4.117
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Ramp",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 17.494,
+  "sentences": [
+   {
+    "text": "Here is Elm's own hill: the height, for each position of its slider.",
+    "start": 0.0,
+    "end": 4.075
+   },
+   {
+    "text": "With the slider at the middle clinic's level, the height is minus 2.17. At minus 3, it is minus 0.53. At minus 6.25, minus 0.02.",
+    "start": 4.395,
+    "end": 17.344
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Ramp",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 8.726,
+  "sentences": [
+   {
+    "text": "It keeps rising, more and more slowly, toward a ceiling at zero that it never reaches.",
+    "start": 0.0,
+    "end": 5.355
+   },
+   {
+    "text": "A ramp, not a hill. There is no top to find.",
+    "start": 5.675,
+    "end": 8.576
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_Ramp",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 13.505,
+  "sentences": [
+   {
+    "text": "The meter tells the same story. Elm observed no readmissions. But wherever the slider sits, the model expects more than none.",
+    "start": 0.0,
+    "end": 8.299
+   },
+   {
+    "text": "So expected always exceeds observed, and the meter always says: lower.",
+    "start": 8.619,
+    "end": 13.355
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_March",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 13.099,
+  "sentences": [
+   {
+    "text": "So the slider marches, about one unit a step, for as long as the fitting runs.",
+    "start": 0.0,
+    "end": 4.8
+   },
+   {
+    "text": "Stepping together stops once the dial has settled. That takes five steps, and leaves Elm's slider at minus 6.25.",
+    "start": 5.12,
+    "end": 12.949
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_March",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 13.313,
+  "sentences": [
+   {
+    "text": "Taking turns waits for every slider to settle, and Elm's never will.",
+    "start": 0.0,
+    "end": 4.096
+   },
+   {
+    "text": "So the software builds a wall, ten units below the middle clinic. Elm's slider runs into it and stops: minus 11.52.",
+    "start": 4.416,
+    "end": 13.163
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_March",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 9.217,
+  "sentences": [
+   {
+    "text": "Even the stopping rule matters. Loosen it, and stepping together prints minus 5.24. Tighten it: minus 7.25.",
+    "start": 0.0,
+    "end": 9.067
+   }
+  ]
+ },
+ "s4_4": {
+  "scene": "S04_March",
+  "file": "audio/segments/s4_4.wav",
+  "duration": 11.691,
+  "sentences": [
+   {
+    "text": "Each of these numbers records when an algorithm stopped. None of them is an estimate.",
+    "start": 0.0,
+    "end": 5.077
+   },
+   {
+    "text": "And nothing else is harmed. The dial and the other four sliders finish in the same place every time.",
+    "start": 5.397,
+    "end": 11.541
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_Breaks",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 9.323,
+  "sentences": [
+   {
+    "text": "What breaks is anything built on that number.",
+    "start": 0.0,
+    "end": 2.219
+   },
+   {
+    "text": "Last episode's interval, from minus 19.7 to plus 7.2, was one casualty.",
+    "start": 2.539,
+    "end": 9.173
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_Breaks",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 25.345,
+  "sentences": [
+   {
+    "text": "Here is a worse one. Suppose the reference is the average gamma, weighted by size.",
+    "start": 0.0,
+    "end": 5.163
+   },
+   {
+    "text": "That average is minus 1.75 after one routine, and minus 2.31 after the other.",
+    "start": 5.483,
+    "end": 12.523
+   },
+   {
+    "text": "Measured against it, Alder's readmissions come out at 1.87 times expected, or 2.76 times. Alder's patients did not change. Elm's stopping point did.",
+    "start": 12.843,
+    "end": 25.195
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_Breaks",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 4.651,
+  "sentences": [
+   {
+    "text": "A clinic with no readmissions has quietly moved the yardstick for everyone.",
+    "start": 0.0,
+    "end": 4.501
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Survives",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 12.203,
+  "sentences": [
+   {
+    "text": "What survives is anything built on the count.",
+    "start": 0.0,
+    "end": 2.453
+   },
+   {
+    "text": "Take the middle clinic as the reference instead. The median does not care how far out Elm's slider went: minus 1.52, either way.",
+    "start": 2.773,
+    "end": 12.053
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Survives",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 15.425,
+  "sentences": [
+   {
+    "text": "At that reference, Elm's 11 patients would expect 1.97 readmissions. Elm had none.",
+    "start": 0.0,
+    "end": 6.613
+   },
+   {
+    "text": "How surprising is none? Each patient has an 82% chance of staying out. For all eleven, that comes to 11%.",
+    "start": 6.933,
+    "end": 15.275
+   }
+  ]
+ },
+ "s6_3": {
+  "scene": "S06_Survives",
+  "file": "audio/segments/s6_3.wav",
+  "duration": 6.337,
+  "sentences": [
+   {
+    "text": "Eleven percent is not rare. So Elm is not flagged. Zero is not automatically excellent.",
+    "start": 0.0,
+    "end": 6.187
+   }
+  ]
+ },
+ "s6_4": {
+  "scene": "S06_Survives",
+  "file": "audio/segments/s6_4.wav",
+  "duration": 9.366,
+  "sentences": [
+   {
+    "text": "But thirty such patients with no readmissions would be another matter: about three chances in a thousand.",
+    "start": 0.0,
+    "end": 6.4
+   },
+   {
+    "text": "The count speaks, even when gamma cannot.",
+    "start": 6.72,
+    "end": 9.216
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Footnotes",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 7.745,
+  "sentences": [
+   {
+    "text": "Two footnotes. First, the mirror image: a clinic where every patient is readmitted runs to an upper wall instead.",
+    "start": 0.0,
+    "end": 7.595
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Footnotes",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 12.971,
+  "sentences": [
+   {
+    "text": "Second, there was a sixth clinic. Fen, with 8 patients, never entered the fit, because the software screens out any provider with 10 records or fewer.",
+    "start": 0.0,
+    "end": 9.515
+   },
+   {
+    "text": "Elm, with 11, stayed in by a single patient.",
+    "start": 9.835,
+    "end": 12.821
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 16.385,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "No readmissions means a hill with no top, and a printed gamma that only records where the fitting stopped.",
+    "start": 1.536,
+    "end": 7.936
+   },
+   {
+    "text": "Anything built on that gamma breaks. Anything built on the count survives.",
+    "start": 8.256,
+    "end": 12.565
+   },
+   {
+    "text": "And zero, from a handful of patients, is weak evidence.",
+    "start": 12.885,
+    "end": 16.235
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 8.321,
+  "sentences": [
+   {
+    "text": "That count, set against what the reference would expect, is the measure this whole series has been heading for.",
+    "start": 0.0,
+    "end": 6.059
+   },
+   {
+    "text": "Next time: swap the curve.",
+    "start": 6.379,
+    "end": 8.171
+   }
+  ]
+ },
+ "s8_3": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_3.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}

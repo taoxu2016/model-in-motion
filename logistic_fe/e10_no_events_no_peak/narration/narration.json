@@ -1,0 +1,356 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 10,
+ "title": "No Events, No Peak",
+ "subtitle": "what a clinic with no readmissions can tell us",
+ "name": "ModelInMotion_LogisticFE_E10_NoEventsNoPeak",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Five bars, one per clinic: the share of patients readmitted. Elm's bar is empty: 0 of 11.",
+     "sentences": [
+      {
+       "text": "One clinic has waited six episodes for its turn."
+      },
+      {
+       "text": "Elm: 11 patients, all lower-risk, and not one readmission. The best record in the cast.",
+       "say": "Elm: eleven patients, all lower-risk, and not one readmission. The best record in the cast."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Two printouts side by side, one from each fitting routine: Elm's gamma as −6.25, and as −11.52.",
+     "sentences": [
+      {
+       "text": "So what is Elm's gamma? Ask the software, and it prints minus 6.25.",
+       "say": "So what is Elm's gamma? Ask the software, and it prints minus six point two five."
+      },
+      {
+       "text": "Ask again with its other fitting routine, and it prints minus 11.52.",
+       "say": "Ask again with its other fitting routine, and it prints minus eleven point five two."
+      },
+      {
+       "text": "Same patients. Same model. Two answers."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Both printouts are struck through. One word: neither.",
+     "sentences": [
+      {
+       "text": "Which one is right? Neither. And seeing why shows us what to trust instead."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: no events, no peak."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Ramp",
+   "chapter": "A hill with no top",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Elm's own hill: height against the position of its slider. Three points are marked: −2.17 at the middle clinic's level, −0.53 at −3, −0.02 at −6.25.",
+     "sentences": [
+      {
+       "text": "Here is Elm's own hill: the height, for each position of its slider."
+      },
+      {
+       "text": "With the slider at the middle clinic's level, the height is minus 2.17. At minus 3, it is minus 0.53. At minus 6.25, minus 0.02.",
+       "say": "With the slider at the middle clinic's level, the height is minus two point one seven. At minus three, it is minus zero point five three. At minus six point two five, minus zero point zero two."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "A dashed ceiling at zero. The curve runs on to the left under it, with a fourth point: −0.0001 at −11.5.",
+     "sentences": [
+      {
+       "text": "It keeps rising, more and more slowly, toward a ceiling at zero that it never reaches."
+      },
+      {
+       "text": "A ramp, not a hill. There is no top to find."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "A dot slides down the ramp. Beside it, Elm's meter: observed 0, expected falling from 1.97 to 0.02 and never reaching zero.",
+     "sentences": [
+      {
+       "text": "The meter tells the same story. Elm observed no readmissions. But wherever the slider sits, the model expects more than none."
+      },
+      {
+       "text": "So expected always exceeds observed, and the meter always says: lower."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_March",
+   "chapter": "Where the slider stops",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "Elm's slider on a long track, stepping left: −2.06, −3.19, −4.23, −5.24, −6.25. A flag at −6.25: stepping together, 5 steps.",
+     "sentences": [
+      {
+       "text": "So the slider marches, about one unit a step, for as long as the fitting runs."
+      },
+      {
+       "text": "Stepping together stops once the dial has settled. That takes five steps, and leaves Elm's slider at minus 6.25.",
+       "say": "Stepping together stops once the dial has settled. That takes five steps, and leaves Elm's slider at minus six point two five."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "The slider marches on until it meets a wall drawn at −11.52, ten units below the middle clinic. A note: without the wall, still running after 10,000 rounds.",
+     "sentences": [
+      {
+       "text": "Taking turns waits for every slider to settle, and Elm's never will."
+      },
+      {
+       "text": "So the software builds a wall, ten units below the middle clinic. Elm's slider runs into it and stops: minus 11.52.",
+       "say": "So the software builds a wall, ten units below the middle clinic. Elm's slider runs into it and stops: minus eleven point five two."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "Two more flags on the track: −5.24 with a looser stopping rule, −7.25 with a tighter one.",
+     "sentences": [
+      {
+       "text": "Even the stopping rule matters. Loosen it, and stepping together prints minus 5.24. Tighten it: minus 7.25.",
+       "say": "Even the stopping rule matters. Loosen it, and stepping together prints minus five point two four. Tighten it: minus seven point two five."
+      }
+     ]
+    },
+    {
+     "id": "s4_4",
+     "visual": "The track keeps its four flags. Under it, two lines: four printed values, none of them an estimate; the dial and the other four sliders, the same in every run.",
+     "sentences": [
+      {
+       "text": "Each of these numbers records when an algorithm stopped. None of them is an estimate."
+      },
+      {
+       "text": "And nothing else is harmed. The dial and the other four sliders finish in the same place every time."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Breaks",
+   "chapter": "What breaks",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Episode 9's hatched interval for Elm: −19.7 to +7.2.",
+     "sentences": [
+      {
+       "text": "What breaks is anything built on that number."
+      },
+      {
+       "text": "Last episode's interval, from minus 19.7 to plus 7.2, was one casualty.",
+       "say": "Last episode's interval, from minus nineteen point seven to plus seven point two, was one casualty."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "A long log-odds ruler with all five clinics. A marker for the size-weighted average sits at −1.75; Elm moves from −6.25 to −11.52 and the marker slides to −2.31. Alder's ratio changes from 1.87 to 2.76.",
+     "sentences": [
+      {
+       "text": "Here is a worse one. Suppose the reference is the average gamma, weighted by size."
+      },
+      {
+       "text": "That average is minus 1.75 after one routine, and minus 2.31 after the other.",
+       "say": "That average is minus one point seven five after one routine, and minus two point three one after the other."
+      },
+      {
+       "text": "Measured against it, Alder's readmissions come out at 1.87 times expected, or 2.76 times. Alder's patients did not change. Elm's stopping point did.",
+       "say": "Measured against it, Alder's readmissions come out at one point eight seven times expected, or two point seven six times. Alder's patients did not change. Elm's stopping point did."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "One line: a clinic with no readmissions has moved the yardstick for everyone.",
+     "sentences": [
+      {
+       "text": "A clinic with no readmissions has quietly moved the yardstick for everyone."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Survives",
+   "chapter": "What survives",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "The same ruler. The middle clinic's marker stays at −1.52 while Elm moves between −6.25 and −11.52.",
+     "sentences": [
+      {
+       "text": "What survives is anything built on the count."
+      },
+      {
+       "text": "Take the middle clinic as the reference instead. The median does not care how far out Elm's slider went: minus 1.52, either way.",
+       "say": "Take the middle clinic as the reference instead. The median does not care how far out Elm's slider went: minus one point five two, either way."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "Elm's 11 patients as a row of markers, each labelled 82%. Expected 1.97 against observed 0. The product: 11%.",
+     "sentences": [
+      {
+       "text": "At that reference, Elm's 11 patients would expect 1.97 readmissions. Elm had none.",
+       "say": "At that reference, Elm's eleven patients would expect one point nine seven readmissions. Elm had none."
+      },
+      {
+       "text": "How surprising is none? Each patient has an 82% chance of staying out. For all eleven, that comes to 11%.",
+       "say": "How surprising is none? Each patient has an eighty-two percent chance of staying out. For all eleven, that comes to eleven percent."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "A verdict: 11%, not flagged.",
+     "sentences": [
+      {
+       "text": "Eleven percent is not rare. So Elm is not flagged. Zero is not automatically excellent."
+      }
+     ]
+    },
+    {
+     "id": "s6_4",
+     "visual": "A curve: the chance of no readmissions against the number of such patients, with a line at 5%. Points at 11 patients, at 16 and at 30.",
+     "sentences": [
+      {
+       "text": "But thirty such patients with no readmissions would be another matter: about three chances in a thousand."
+      },
+      {
+       "text": "The count speaks, even when gamma cannot."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Footnotes",
+   "chapter": "Two footnotes",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "The track again, with a wall at each end, ten units either side of the middle clinic. A second slider runs right, into the upper wall.",
+     "sentences": [
+      {
+       "text": "Two footnotes. First, the mirror image: a clinic where every patient is readmitted runs to an upper wall instead."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "Six clinics by size: 30, 30, 20, 12, 11, and Fen with 8. A line marks the screen: more than 10 records. Fen falls below it.",
+     "sentences": [
+      {
+       "text": "Second, there was a sixth clinic. Fen, with 8 patients, never entered the fit, because the software screens out any provider with 10 records or fewer.",
+       "say": "Second, there was a sixth clinic. Fen, with eight patients, never entered the fit, because the software screens out any provider with ten records or fewer."
+      },
+      {
+       "text": "Elm, with 11, stayed in by a single patient.",
+       "say": "Elm, with eleven, stayed in by a single patient."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "No readmissions means a hill with no top, and a printed gamma that only records where the fitting stopped."
+      },
+      {
+       "text": "Anything built on that gamma breaks. Anything built on the count survives."
+      },
+      {
+       "text": "And zero, from a handful of patients, is weak evidence."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "Observed 0 against expected 1.97, large; the next episode's title.",
+     "sentences": [
+      {
+       "text": "That count, set against what the reference would expect, is the measure this whole series has been heading for."
+      },
+      {
+       "text": "Next time: swap the curve."
+      }
+     ]
+    },
+    {
+     "id": "s8_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
