@@ -1,0 +1,182 @@
+{
+  "series": "Model in Motion",
+  "arc": "The Logistic Fixed-Effect Model",
+  "episode": 1,
+  "title": "Unfair Comparisons",
+  "subtitle": "case mix and raw rates",
+  "name": "ModelInMotion_LogisticFE_E01_UnfairComparisons",
+  "voice": {"engine": "kokoro-onnx v1.0", "name": "af_heart", "speed": 0.92, "lang": "en-us",
+            "pause_between_sentences": 0.32, "tail_pad": 0.15},
+  "pronunciations": {"readmitted": "re-admitted", "readmission": "re-admission"},
+  "scenes": [
+    {"id": "S01_ColdOpen", "chapter": null, "segments": [
+      {"id": "s1_1", "visual": "Five clinic trays fade in. Chips pop in as hollow rings, then some fill. The question appears on top.",
+       "sentences": [
+         {"text": "Here's a question that sounds simple."},
+         {"text": "Five clinics send their patients home. Some of those patients are back in hospital within thirty days. Which clinic is doing the best job?"}]},
+      {"id": "s1_2", "visual": "Legend: filled chip = readmitted, hollow chip = not readmitted.",
+       "sentences": [
+         {"text": "Each chip is one patient. A filled chip is a patient who was readmitted."}]},
+      {"id": "s1_3", "visual": "A rate bar and a percentage grow under each tray in turn.",
+       "sentences": [
+         {"text": "The obvious move is to count. At Alder, 13 of 30 patients came back: that's 43%.",
+          "say": "The obvious move is to count. At Alder, thirteen of thirty patients came back: that's forty-three percent."},
+         {"text": "Birch, 47%. Cedar, 40%. Dune, 58%. And at Elm, nobody at all.",
+          "say": "Birch, forty-seven percent. Cedar, forty. Dune, fifty-eight. And at Elm, nobody at all."}]},
+      {"id": "s1_4", "visual": "The trays slide into rank order: Elm, Cedar, Alder, Birch, Dune. Rank numbers appear.",
+       "sentences": [
+         {"text": "Line them up from lowest to highest, and we have a league table."},
+         {"text": "Elm in first place, Dune in last, and Alder just ahead of Birch."}]},
+      {"id": "s1_5", "visual": "Everything dims except Alder and Birch; a swap mark hangs between them.",
+       "sentences": [
+         {"text": "It looks like an answer. But for those two, the table has it backwards."}]}
+    ]},
+    {"id": "S02_Title", "chapter": null, "segments": [
+      {"id": "s2_1", "visual": "Series logo and wordmark; arc and episode title.",
+       "sentences": [
+         {"text": "Welcome to Model in Motion, where we build statistical models one moving piece at a time."},
+         {"text": "This is the start of a new story: how to compare providers fairly. Today, unfair comparisons, and what a fair one would need."}]}
+    ]},
+    {"id": "S03_CaseMix", "chapter": "Who walked in the door", "segments": [
+      {"id": "s3_1", "visual": "Alder and Birch as two large trays of jumbled chips.",
+       "sentences": [
+         {"text": "Let's look more closely at Alder and Birch."},
+         {"text": "So far, we've treated every patient as interchangeable. They aren't."}]},
+      {"id": "s3_2", "visual": "A pale ring grows around every higher-risk patient.",
+       "sentences": [
+         {"text": "Some are frail, or going home after a long and complicated stay. Patients like that are more likely to come back, wherever they're treated."},
+         {"text": "Let's mark those higher-risk patients with a ring."}]},
+      {"id": "s3_3", "visual": "Chips sort inside each tray: lower-risk left, higher-risk right.",
+       "sentences": [
+         {"text": "Now sort the chips: lower-risk patients on the left, higher-risk on the right."}]},
+      {"id": "s3_4", "visual": "Counts appear under each pile; Alder's big lower-risk pile and Birch's big higher-risk pile light up.",
+       "sentences": [
+         {"text": "Look at who each clinic is caring for. At Alder, 24 of the 30 patients are lower-risk.",
+          "say": "Look at who each clinic is caring for. At Alder, twenty-four of the thirty patients are lower-risk."},
+         {"text": "Birch is the mirror image: 24 of its 30 are higher-risk.",
+          "say": "Birch is the mirror image: twenty-four of its thirty are higher-risk."}]},
+      {"id": "s3_5", "visual": "The term 'case mix' appears.",
+       "sentences": [
+         {"text": "This is a clinic's case mix: the kind of patients it serves. And these two could hardly be more different."}]}
+    ]},
+    {"id": "S04_LikeWithLike", "chapter": "Like with like", "segments": [
+      {"id": "s4_1", "visual": "The higher-risk piles dim.",
+       "sentences": [
+         {"text": "So let's compare like with like, starting with the lower-risk patients."}]},
+      {"id": "s4_2", "visual": "Row one of a scoreboard: 8 of 24 = 33% against 1 of 6 = 17%; Birch's number turns green.",
+       "sentences": [
+         {"text": "At Alder, 8 of 24 were readmitted: one in three. At Birch, 1 of 6: about 17%.",
+          "say": "At Alder, eight of twenty-four were readmitted: one in three. At Birch, one of six: about seventeen percent."},
+         {"text": "For these patients, Birch does better."}]},
+      {"id": "s4_3", "visual": "Row two: 5 of 6 = 83% against 13 of 24 = 54%; Birch's number turns green.",
+       "sentences": [
+         {"text": "Now the higher-risk patients. Alder: 5 of 6, or 83%. Birch: 13 of 24, or 54%.",
+          "say": "Now the higher-risk patients. Alder: five of six, or eighty-three percent. Birch: thirteen of twenty-four, or fifty-four percent."},
+         {"text": "Birch does better again."}]},
+      {"id": "s4_4", "visual": "Row three, everyone: 43% against 47%; this time Alder's number is the lower one.",
+       "sentences": [
+         {"text": "Lower-risk patients do better at Birch. Higher-risk patients do better at Birch."},
+         {"text": "And yet, put everyone back together, and it's Alder with the lower rate."}]},
+      {"id": "s4_5", "visual": "The label 'Simpson's paradox' appears under the scoreboard.",
+       "sentences": [
+         {"text": "Nothing is wrong with the arithmetic. This is Simpson's paradox, and it lies in wait wherever groups with different mixes are compared."}]}
+    ]},
+    {"id": "S05_Balance", "chapter": "A balancing act", "segments": [
+      {"id": "s5_1", "visual": "Two beams marked 0 to 100%. Each clinic's chips fly from its tray onto its beam, as a pile at each group's rate.",
+       "sentences": [
+         {"text": "Here's what's going on. Give each clinic a beam, marked from zero to one hundred percent."},
+         {"text": "Each group of patients sits on the beam at its own readmission rate."}]},
+      {"id": "s5_2", "visual": "A pivot appears under Alder's beam; the beam tips toward the heavy pile.",
+       "sentences": [
+         {"text": "A clinic's overall rate is the point where its beam balances. And that depends on how much weight sits at each end."}]},
+      {"id": "s5_3", "visual": "Alder's pivot slides left until the beam levels at 43%.",
+       "sentences": [
+         {"text": "Alder's patients are mostly lower-risk, so its balance point sits near the low end: 43%.",
+          "say": "Alder's patients are mostly lower-risk, so its balance point sits near the low end: forty-three percent."}]},
+      {"id": "s5_4", "visual": "Guides show both of Birch's piles left of Alder's. Birch's pivot slides right to 47%.",
+       "sentences": [
+         {"text": "Birch's piles both sit further left: lower rates in both groups."},
+         {"text": "But most of its weight is at the higher-risk end, and that drags the balance point up to 47%.",
+          "say": "But most of its weight is at the higher-risk end, and that drags the balance point up to forty-seven percent."}]},
+      {"id": "s5_5", "visual": "Two tags: where the piles sit = performance; how heavy they are = case mix.",
+       "sentences": [
+         {"text": "So a raw rate blends two things: how well a clinic performs, and who walked in the door."}]}
+    ]},
+    {"id": "S06_Trade", "chapter": "Trading patients", "segments": [
+      {"id": "s6_1", "visual": "The chips trade beams: Birch's blue piles rise to Alder's beam, Alder's orange piles drop to Birch's.",
+       "sentences": [
+         {"text": "Here's a way to feel the difference. Imagine the two clinics traded patients."}]},
+      {"id": "s6_2", "visual": "Alder's beam tips right; its pivot slides to 73%. A link joins it to Birch's own 47%.",
+       "sentences": [
+         {"text": "Alder's two rates stay where they were. But now it carries Birch's patients, and its balance point slides all the way up to 73%.",
+          "say": "Alder's two rates stay where they were. But now it carries Birch's patients, and its balance point slides all the way up to seventy-three percent."},
+         {"text": "With those same patients, Birch managed 47%.",
+          "say": "With those same patients, Birch managed forty-seven."}]},
+      {"id": "s6_3", "visual": "Birch's pivot slides down to 24%. A second link joins it to Alder's own 43%.",
+       "sentences": [
+         {"text": "And Birch, with Alder's easier mix? Its balance point falls to 24%, where Alder had 43%.",
+          "say": "And Birch, with Alder's easier mix? Its balance point falls to twenty-four percent, where Alder had forty-three."}]},
+      {"id": "s6_4", "visual": "Both links lean the same way: on the same patients, Birch is lower both times.",
+       "sentences": [
+         {"text": "Whichever set of patients you choose, Birch comes out well ahead. The league table had these two the wrong way round."}]}
+    ]},
+    {"id": "S07_Crowd", "chapter": "Two hundred providers", "segments": [
+      {"id": "s7_1", "visual": "200 dots appear as a block.",
+       "sentences": [
+         {"text": "Two clinics could be a fluke. So let's zoom out to 200 providers.",
+          "say": "Two clinics could be a fluke. So let's zoom out to two hundred providers."},
+         {"text": "They're simulated, which means we know how good each one truly is."}]},
+      {"id": "s7_2", "visual": "Dots line up along the bottom by true performance, then rise to their raw-rate rank.",
+       "sentences": [
+         {"text": "Line them up from truly best on the left to truly worst on the right."},
+         {"text": "Then lift each one by its raw rate: lowest at the bottom, highest at the top."}]},
+      {"id": "s7_3", "visual": "A dashed diagonal; the readout shows rank correlation 0.16.",
+       "sentences": [
+         {"text": "If raw rates told the truth, the dots would hug the diagonal. Instead, they're scattered almost everywhere: a rank correlation of just 0.16.",
+          "say": "If raw rates told the truth, the dots would hug the diagonal. Instead, they're scattered almost everywhere: a rank correlation of just zero point one six."}]},
+      {"id": "s7_4", "visual": "A five-by-five grid; the diagonal blocks glow; dots outside them turn coral; 142 of 200.",
+       "sentences": [
+         {"text": "Cut the table into fifths, and 142 of the 200 providers land in the wrong one.",
+          "say": "Cut the table into fifths, and a hundred and forty-two of the two hundred providers land in the wrong one."}]},
+      {"id": "s7_5", "visual": "The x-axis is relabelled by how sick the patients are; dots slide sideways into a clear trend; 0.58.",
+       "sentences": [
+         {"text": "Now re-sort the very same providers by how sick their patients are."},
+         {"text": "There's the pattern the raw rates were following all along: a correlation of 0.58.",
+          "say": "There's the pattern the raw rates were following all along: a correlation of zero point five eight."}]}
+    ]},
+    {"id": "S08_Luck", "chapter": "And then there's luck", "segments": [
+      {"id": "s8_1", "visual": "The league table returns; Elm and Dune light up.",
+       "sentences": [
+         {"text": "There's a second problem in that league table, and it has nothing to do with case mix. Look at the two extremes."}]},
+      {"id": "s8_2", "visual": "The patient counts under Dune and Elm pulse: 12 and 11.",
+       "sentences": [
+         {"text": "Dune's 58% rests on 12 patients. Elm's perfect zero, on 11.",
+          "say": "Dune's fifty-eight percent rests on twelve patients. Elm's perfect zero, on eleven."}]},
+      {"id": "s8_3", "visual": "Outcomes are re-dealt again and again; bars jump; a tick is left at every rate visited.",
+       "sentences": [
+         {"text": "So try an experiment. Suppose all five clinics were secretly identical: every patient with the same four-in-ten chance of coming back. Now deal out the luck. And again. And again."},
+         {"text": "Even the bigger clinics wobble. The smallest swing much further."}]},
+      {"id": "s8_4", "visual": "A bracket spans each clinic's ticks.",
+       "sentences": [
+         {"text": "So before trusting any gap between providers, we'll have to ask how much of it chance alone could produce. That question gets an episode of its own."}]}
+    ]},
+    {"id": "S09_Recap", "chapter": "Recap", "segments": [
+      {"id": "s9_1", "visual": "Three recap cards, each with a small icon.",
+       "sentences": [
+         {"text": "Let's gather it up."},
+         {"text": "A raw rate blends performance with case mix."},
+         {"text": "Compare like with like, and a ranking can flip."},
+         {"text": "And small providers swing with chance."}]},
+      {"id": "s9_2", "visual": "One chip sprouts many attribute tags; the two piles keep splitting into ever smaller ones.",
+       "sentences": [
+         {"text": "What we really want is to compare providers as if they had all treated the same patients."},
+         {"text": "With one risk factor, sorting chips into two piles was enough. But real patients differ in dozens of ways at once."}]},
+      {"id": "s9_3", "visual": "The tags collapse onto one ruler from 0 to 100%; the chip slides along it. Next episode title.",
+       "sentences": [
+         {"text": "So next time, we'll build a single ruler for risk: a way to turn everything we know about a patient into one probability."}]},
+      {"id": "s9_4", "visual": "Series end card with the next episode title.",
+       "sentences": [
+         {"text": "This has been Model in Motion. Thanks for following the story."}]}
+    ]}
+  ]
+}

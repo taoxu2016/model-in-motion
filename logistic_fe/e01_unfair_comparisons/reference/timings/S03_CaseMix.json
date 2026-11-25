@@ -1,0 +1,31 @@
+{
+ "scene": "S03_CaseMix",
+ "duration": 43.2833,
+ "segments": [
+  {
+   "id": "s3_1",
+   "start": 0.0,
+   "duration": 7.275
+  },
+  {
+   "id": "s3_2",
+   "start": 7.6167,
+   "duration": 11.798
+  },
+  {
+   "id": "s3_3",
+   "start": 19.75,
+   "duration": 4.673
+  },
+  {
+   "id": "s3_4",
+   "start": 24.7667,
+   "duration": 10.753
+  },
+  {
+   "id": "s3_5",
+   "start": 35.8667,
+   "duration": 6.123
+  }
+ ]
+}

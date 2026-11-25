@@ -1,0 +1,26 @@
+{
+ "scene": "S06_Trade",
+ "duration": 34.4667,
+ "segments": [
+  {
+   "id": "s6_1",
+   "start": 0.0,
+   "duration": 4.523
+  },
+  {
+   "id": "s6_2",
+   "start": 5.8,
+   "duration": 12.353
+  },
+  {
+   "id": "s6_3",
+   "start": 18.5,
+   "duration": 7.062
+  },
+  {
+   "id": "s6_4",
+   "start": 25.9,
+   "duration": 6.87
+  }
+ ]
+}

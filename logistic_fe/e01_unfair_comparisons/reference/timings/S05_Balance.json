@@ -1,0 +1,31 @@
+{
+ "scene": "S05_Balance",
+ "duration": 42.7167,
+ "segments": [
+  {
+   "id": "s5_1",
+   "start": 0.0,
+   "duration": 10.006
+  },
+  {
+   "id": "s5_2",
+   "start": 10.35,
+   "duration": 7.297
+  },
+  {
+   "id": "s5_3",
+   "start": 17.9833,
+   "duration": 6.401
+  },
+  {
+   "id": "s5_4",
+   "start": 24.7333,
+   "duration": 11.051
+  },
+  {
+   "id": "s5_5",
+   "start": 36.1333,
+   "duration": 5.291
+  }
+ ]
+}

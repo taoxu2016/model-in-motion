@@ -1,0 +1,26 @@
+{
+ "scene": "S08_Luck",
+ "duration": 40.1667,
+ "segments": [
+  {
+   "id": "s8_1",
+   "start": 0.0,
+   "duration": 6.422
+  },
+  {
+   "id": "s8_2",
+   "start": 6.7667,
+   "duration": 5.718
+  },
+  {
+   "id": "s8_3",
+   "start": 12.8333,
+   "duration": 16.171
+  },
+  {
+   "id": "s8_4",
+   "start": 29.3,
+   "duration": 9.067
+  }
+ ]
+}

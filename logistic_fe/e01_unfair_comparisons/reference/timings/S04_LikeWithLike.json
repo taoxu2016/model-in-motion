@@ -1,0 +1,31 @@
+{
+ "scene": "S04_LikeWithLike",
+ "duration": 44.95,
+ "segments": [
+  {
+   "id": "s4_1",
+   "start": 0.0,
+   "duration": 3.734
+  },
+  {
+   "id": "s4_2",
+   "start": 4.0833,
+   "duration": 9.985
+  },
+  {
+   "id": "s4_3",
+   "start": 14.4167,
+   "duration": 10.646
+  },
+  {
+   "id": "s4_4",
+   "start": 25.4,
+   "duration": 9.153
+  },
+  {
+   "id": "s4_5",
+   "start": 34.9,
+   "duration": 8.662
+  }
+ ]
+}

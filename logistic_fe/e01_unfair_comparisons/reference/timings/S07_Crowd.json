@@ -1,0 +1,31 @@
+{
+ "scene": "S07_Crowd",
+ "duration": 48.1667,
+ "segments": [
+  {
+   "id": "s7_1",
+   "start": 0.0,
+   "duration": 8.299
+  },
+  {
+   "id": "s7_2",
+   "start": 8.6333,
+   "duration": 9.323
+  },
+  {
+   "id": "s7_3",
+   "start": 18.3,
+   "duration": 10.454
+  },
+  {
+   "id": "s7_4",
+   "start": 29.1,
+   "duration": 6.251
+  },
+  {
+   "id": "s7_5",
+   "start": 35.7,
+   "duration": 10.667
+  }
+ ]
+}
