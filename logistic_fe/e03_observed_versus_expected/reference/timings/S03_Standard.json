@@ -1,0 +1,21 @@
+{
+ "scene": "S03_Standard",
+ "duration": 26.3833,
+ "segments": [
+  {
+   "id": "s3_1",
+   "start": 0.0,
+   "duration": 5.377
+  },
+  {
+   "id": "s3_2",
+   "start": 5.7167,
+   "duration": 13.782
+  },
+  {
+   "id": "s3_3",
+   "start": 19.8333,
+   "duration": 4.95
+  }
+ ]
+}

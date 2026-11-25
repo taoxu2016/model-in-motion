@@ -1,0 +1,21 @@
+{
+ "scene": "S07_Rule",
+ "duration": 33.5,
+ "segments": [
+  {
+   "id": "s7_1",
+   "start": 0.0,
+   "duration": 7.979
+  },
+  {
+   "id": "s7_2",
+   "start": 8.3167,
+   "duration": 11.243
+  },
+  {
+   "id": "s7_3",
+   "start": 19.9,
+   "duration": 11.905
+  }
+ ]
+}

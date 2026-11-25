@@ -1,0 +1,26 @@
+{
+ "scene": "S08_Recap",
+ "duration": 36.5,
+ "segments": [
+  {
+   "id": "s8_1",
+   "start": 0.0,
+   "duration": 15.467
+  },
+  {
+   "id": "s8_2",
+   "start": 15.8167,
+   "duration": 8.001
+  },
+  {
+   "id": "s8_3",
+   "start": 24.1667,
+   "duration": 5.291
+  },
+  {
+   "id": "s8_4",
+   "start": 29.8,
+   "duration": 3.905
+  }
+ ]
+}

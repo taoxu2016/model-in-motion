@@ -1,0 +1,107 @@
+{
+  "series": "Model in Motion",
+  "arc": "The Logistic Fixed-Effect Model",
+  "episode": 3,
+  "title": "Observed versus Expected",
+  "subtitle": "how many readmissions should a clinic have had?",
+  "name": "ModelInMotion_LogisticFE_E03_ObservedVersusExpected",
+  "voice": {"engine": "kokoro-onnx v1.0", "name": "af_heart", "speed": 0.92, "lang": "en-us",
+            "pause_between_sentences": 0.32, "tail_pad": 0.15},
+  "pronunciations": {"readmitted": "re-admitted", "readmission": "re-admission", "readmissions": "re-admissions"},
+  "scenes": [
+    {"id": "S01_ColdOpen", "chapter": null, "segments": [
+      {"id": "s1_1", "visual": "Cedar's twenty risk chips, the expected bar at 8.0 and the eight observed chips, as Episode 2 left them.",
+       "sentences": [{"text": "Last time, we gave every patient a probability, added them up for Cedar, and got 8 expected readmissions. Cedar had exactly 8.",
+                      "say": "Last time, we gave every patient a probability, added them up for Cedar, and got eight expected readmissions. Cedar had exactly eight."}]},
+      {"id": "s1_2", "visual": "A loop arrow runs from Cedar's observed chips back up to its own slices.",
+       "sentences": [{"text": "A perfect match. But a hollow one."},
+                     {"text": "Those probabilities were built from Cedar's own results. We compared Cedar with itself."}]},
+      {"id": "s1_3", "visual": "The slices empty; the question appears.",
+       "sentences": [{"text": "To judge a clinic, the expected number has to come from somewhere else."},
+                     {"text": "So the real question is: expected, according to whom?"}]}
+    ]},
+    {"id": "S02_Title", "chapter": null, "segments": [
+      {"id": "s2_1", "visual": "Series logo and wordmark; arc and episode title.",
+       "sentences": [{"text": "Welcome back to Model in Motion."}, {"text": "Today: observed, versus expected."}]}
+    ]},
+    {"id": "S03_Standard", "chapter": "A first standard", "segments": [
+      {"id": "s3_1", "visual": "Five clusters of chips, one per clinic, in their colours.",
+       "sentences": [{"text": "Here's a first idea. Pour all five clinics together: 103 patients.",
+                      "say": "Here's a first idea. Pour all five clinics together: one hundred and three patients."}]},
+      {"id": "s3_2", "visual": "The chips lose their colours and sort into a lower-risk block of 57 and a higher-risk block of 46, readmitted first.",
+       "sentences": [{"text": "Sort them by risk, and forget which clinic they came from."},
+                     {"text": "13 of the 57 lower-risk patients were readmitted: 23%.",
+                      "say": "Thirteen of the fifty-seven lower-risk patients were readmitted: twenty-three percent."},
+                     {"text": "And 29 of the 46 higher-risk patients: 63%.",
+                      "say": "And twenty-nine of the forty-six higher-risk patients: sixty-three percent."}]},
+      {"id": "s3_3", "visual": "Two large risk chips with slices of 23% and 63%: the pooled standard.",
+       "sentences": [{"text": "Call that the pooled standard: what happens to a typical patient of each kind."}]}
+    ]},
+    {"id": "S04_Meter", "chapter": "Expected", "segments": [
+      {"id": "s4_1", "visual": "Alder's thirty patients twice: on the left as outcomes, on the right as risk chips carrying the standard's slices.",
+       "sentences": [{"text": "Now take Alder's 30 patients. On the left, what happened to them.",
+                      "say": "Now take Alder's thirty patients. On the left, what happened to them."},
+                     {"text": "On the right, the slice the standard gives each one."}]},
+      {"id": "s4_2", "visual": "The slices pour into one dashed bar on a scale of patients: 9.3.",
+       "sentences": [{"text": "Add up the slices: 24 small ones and 6 large ones come to about 9.3.",
+                      "say": "Add up the slices: twenty-four small ones and six large ones come to about nine point three."},
+                     {"text": "That's Alder's expected count: what these same patients would produce at a typical clinic."}]},
+      {"id": "s4_3", "visual": "The thirteen readmitted chips line up on the same scale; a bracket marks +3.7; a small balance tips; the ratio 1.40 appears.",
+       "sentences": [{"text": "Alder actually had 13.", "say": "Alder actually had thirteen."},
+                     {"text": "That's 3.7 more than expected. Or, as a ratio, 13 over 9.3: 1.4.",
+                      "say": "That's three point seven more than expected. Or, as a ratio, thirteen over nine point three: one point four."}]}
+    ]},
+    {"id": "S05_Five", "chapter": "Five verdicts", "segments": [
+      {"id": "s5_1", "visual": "Five rows, one per clinic: observed chips above a dashed expected bar, with the ratio at the right.",
+       "sentences": [{"text": "Now do the same for all five clinics."}]},
+      {"id": "s5_2", "visual": "Birch's row lights up: 14 against 16.5, ratio 0.85.",
+       "sentences": [{"text": "Birch had 14, against 16.5 expected: a ratio of 0.85. Fewer than expected.",
+                      "say": "Birch had fourteen, against sixteen and a half expected: a ratio of zero point eight five. Fewer than expected."}]},
+      {"id": "s5_3", "visual": "Raw rates appear beside Alder and Birch: 43% and 47%, the opposite order to the ratios.",
+       "sentences": [{"text": "Remember the league table? Birch's raw rate was higher than Alder's."},
+                     {"text": "Measured against what their own patients were expected to do, Birch comes out ahead."}]},
+      {"id": "s5_4", "visual": "A totals line: expected 42.0, observed 42.",
+       "sentences": [{"text": "And notice: the expected counts add up to 42, exactly the number observed.",
+                      "say": "And notice: the expected counts add up to forty-two, exactly the number observed."},
+                     {"text": "Against a pooled standard, the clinics as a whole always break even."}]}
+    ]},
+    {"id": "S06_Flaw", "chapter": "Who built the standard?", "segments": [
+      {"id": "s6_1", "visual": "The pooled lower-risk block again, this time in clinic colours.",
+       "sentences": [{"text": "It looks like we're done. But look at where that standard came from."}]},
+      {"id": "s6_2", "visual": "Alder's 24 chips are bracketed; its 8 readmitted chips pulse.",
+       "sentences": [{"text": "Of the 57 lower-risk patients in the pool, 24 are Alder's own. And they supplied 8 of the 13 readmissions.",
+                      "say": "Of the fifty-seven lower-risk patients in the pool, twenty-four are Alder's own. And they supplied eight of the thirteen readmissions."}]},
+      {"id": "s6_3", "visual": "Alder's chips leave the pool: 23% becomes 15%. Below, Alder's expected bar shortens from 9.3 to 7.2 and its ratio rises to 1.80.",
+       "sentences": [{"text": "Take Alder out, and the lower-risk rate drops from 23% to 15%.",
+                      "say": "Take Alder out, and the lower-risk rate drops from twenty-three percent to fifteen."},
+                     {"text": "Alder has been measured against a standard it pushed up itself. Against everyone else, its ratio is not 1.4, but 1.8.",
+                      "say": "Alder has been measured against a standard it pushed up itself. Against everyone else, its ratio is not one point four, but one point eight."}]}
+    ]},
+    {"id": "S07_Rule", "chapter": "A bent risk rule", "segments": [
+      {"id": "s7_1", "visual": "A log-odds ruler; the pooled step from lower to higher risk, times 5.8.",
+       "sentences": [{"text": "There's a second, subtler problem: the risk rule itself."},
+                     {"text": "In the pool, higher risk multiplies the odds by 5.8.",
+                      "say": "In the pool, higher risk multiplies the odds by five point eight."}]},
+      {"id": "s7_2", "visual": "Four more steps, one per clinic in its colour: times 10, 10, 6 and 5.9; then the within-clinic summary, times 7.5.",
+       "sentences": [{"text": "But compare patients inside the same clinic, and the gap is wider: 10 at Alder, 10 at Dune, about 6 at Cedar and at Birch.",
+                      "say": "But compare patients inside the same clinic, and the gap is wider: ten at Alder, ten at Dune, about six at Cedar and at Birch."},
+                     {"text": "Taken together, about seven and a half."}]},
+      {"id": "s7_3", "visual": "Guides show the pooled step starting near Alder's lower-risk patients and ending near Birch's higher-risk ones.",
+       "sentences": [{"text": "Why the difference? Most higher-risk patients are at Birch, which does well. Most lower-risk patients are at Alder, which doesn't."},
+                     {"text": "The pool mixes up how sick patients are with where they were treated."}]}
+    ]},
+    {"id": "S08_Recap", "chapter": "Recap", "segments": [
+      {"id": "s8_1", "visual": "Three recap cards, each with a small icon.",
+       "sentences": [{"text": "Let's gather it up."},
+                     {"text": "Expected is a sum of probabilities, taken over a clinic's own patients."},
+                     {"text": "Observed minus expected is the evidence. Observed over expected is the ratio."},
+                     {"text": "And both are only as fair as the standard behind them."}]},
+      {"id": "s8_2", "visual": "Two requirements appear as lines of text.",
+       "sentences": [{"text": "A fair standard needs two things: a risk rule learned from patients who share a clinic, and a yardstick no single clinic can bend."}]},
+      {"id": "s8_3", "visual": "Five parallel lines in the clinics' colours on a log-odds panel; the next episode title.",
+       "sentences": [{"text": "Next time, we get both, with one small change: every clinic gets a number of its own."}]},
+      {"id": "s8_4", "visual": "Series end card with the next episode title.",
+       "sentences": [{"text": "This has been Model in Motion. Thanks for following the story."}]}
+    ]}
+  ]
+}

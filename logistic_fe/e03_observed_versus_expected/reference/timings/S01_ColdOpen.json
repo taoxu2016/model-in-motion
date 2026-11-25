@@ -1,0 +1,21 @@
+{
+ "scene": "S01_ColdOpen",
+ "duration": 27.3667,
+ "segments": [
+  {
+   "id": "s1_1",
+   "start": 0.0,
+   "duration": 9.174
+  },
+  {
+   "id": "s1_2",
+   "start": 9.5167,
+   "duration": 7.873
+  },
+  {
+   "id": "s1_3",
+   "start": 17.7333,
+   "duration": 7.937
+  }
+ ]
+}

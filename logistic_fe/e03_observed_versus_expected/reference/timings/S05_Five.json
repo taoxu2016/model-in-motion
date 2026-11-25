@@ -1,0 +1,26 @@
+{
+ "scene": "S05_Five",
+ "duration": 31.8167,
+ "segments": [
+  {
+   "id": "s5_1",
+   "start": 0.0,
+   "duration": 2.369
+  },
+  {
+   "id": "s5_2",
+   "start": 2.7,
+   "duration": 7.83
+  },
+  {
+   "id": "s5_3",
+   "start": 10.8667,
+   "duration": 9.131
+  },
+  {
+   "id": "s5_4",
+   "start": 20.3333,
+   "duration": 9.899
+  }
+ ]
+}

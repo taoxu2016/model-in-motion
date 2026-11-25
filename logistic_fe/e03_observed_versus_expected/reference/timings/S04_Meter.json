@@ -1,0 +1,21 @@
+{
+ "scene": "S04_Meter",
+ "duration": 30.9,
+ "segments": [
+  {
+   "id": "s4_1",
+   "start": 0.0,
+   "duration": 7.233
+  },
+  {
+   "id": "s4_2",
+   "start": 7.5667,
+   "duration": 11.649
+  },
+  {
+   "id": "s4_3",
+   "start": 19.55,
+   "duration": 9.665
+  }
+ ]
+}
