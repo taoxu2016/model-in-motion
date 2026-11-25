@@ -1,0 +1,335 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 14,
+ "title": "Three Shortcuts",
+ "subtitle": "when can a faster test replace the exact one?",
+ "name": "ModelInMotion_LogisticFE_E14_ThreeShortcuts",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Alder's exact pile from last time, its tail shaded, and the p-value: 0.035.",
+     "sentences": [
+      {
+       "text": "Last time we built Alder's pile coin by coin, and read its p-value from the tail: 3.5%.",
+       "say": "Last time we built Alder's pile coin by coin, and read its p-value from the tail: three point five percent."
+      },
+      {
+       "text": "Exact, and a fair amount of work."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Three small pictures in a row: a bell curve, a ruler, and a scatter of flipped coins.",
+     "sentences": [
+      {
+       "text": "In practice, people often skip the pile. Three shortcuts are in everyday use: a bell curve, a ruler, and brute-force flipping."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Under each picture, an empty slot for Alder's p-value, with a line at 5%.",
+     "sentences": [
+      {
+       "text": "Each gives Alder a p-value of its own. Will all three land on the same side of 5%? And is there a clinic where a shortcut goes badly wrong?",
+       "say": "Each gives Alder a p-value of its own. Will all three land on the same side of five percent? And is there a clinic where a shortcut goes badly wrong?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: three shortcuts."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Bell",
+   "chapter": "One: a bell curve",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Alder's pile with a bell curve laid over it: the same centre, 8.02, and the same spread, 2.22.",
+     "sentences": [
+      {
+       "text": "The first shortcut replaces the pile with a bell curve of the same centre and the same spread."
+      },
+      {
+       "text": "For Alder, that is centred on 8.02, with a standard deviation of 2.22.",
+       "say": "For Alder, that is centred on eight point zero two, with a standard deviation of two point two two."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "A marker at 13 and an arrow from the centre: 4.98, or 2.24 spreads. The curve's two tails beyond that are shaded: 2.5%.",
+     "sentences": [
+      {
+       "text": "Alder's 13 is 4.98 above the centre. Divide by the spread: 2.24 standard deviations out.",
+       "say": "Alder's thirteen is four point nine eight above the centre. Divide by the spread: two point two four standard deviations out."
+      },
+      {
+       "text": "The bell curve's two tails beyond that hold 2.5%.",
+       "say": "The bell curve's two tails beyond that hold two point five percent."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "The formula with Alder's numbers: (13 − 8.02) ÷ 2.22 = 2.24. A tag: the score test.",
+     "sentences": [
+      {
+       "text": "That is the score test. It needs just three numbers: observed, expected, and the spread."
+      },
+      {
+       "text": "It is our old friend, observed minus expected, measured in standard units."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Ruler",
+   "chapter": "Two: a ruler on the gamma axis",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The log-odds ruler with the reference at −1.52 and Alder at −0.65. A bracket between them: 0.87. Whiskers on Alder: its standard error, 0.43.",
+     "sentences": [
+      {
+       "text": "The second shortcut never looks at the count. It goes back to the sliders."
+      },
+      {
+       "text": "Alder's gamma sits 0.87 above the reference, and Episode 9 gave it a standard error of 0.43.",
+       "say": "Alder's gamma sits zero point eight seven above the reference, and Episode nine gave it a standard error of zero point four three."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "The gap measured off in standard errors: 0.87 ÷ 0.43 = 2.02. The p-value: 0.044. A tag: the Wald test.",
+     "sentences": [
+      {
+       "text": "0.87 over 0.43 is 2.02 standard errors, and a p-value of 4.4%. That is the Wald test.",
+       "say": "Zero point eight seven over zero point four three is two point zero two standard errors, and a p-value of four point four percent. That is the Wald test."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Flip",
+   "chapter": "Three: just flip",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Alder's thirty coins above a histogram that fills in: 100 rounds, 1,000, then 10,000. The exact pile is outlined behind it. The p-value: 0.038.",
+     "sentences": [
+      {
+       "text": "The third shortcut takes last episode's opening idea seriously. Flip Alder's thirty coins ten thousand times, and simply count."
+      },
+      {
+       "text": "This run gives a p-value of 3.8%.",
+       "say": "This run gives a p-value of three point eight percent."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "A note on the far tail: nothing rarer than 1 in 10,000 can be reported. A tag: the software calls it a bootstrap.",
+     "sentences": [
+      {
+       "text": "It homes in on the exact pile as the rounds add up. But with ten thousand rounds, it cannot report anything rarer than one in ten thousand."
+      },
+      {
+       "text": "The software calls this one a bootstrap."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Board",
+   "chapter": "The scoreboard",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Alder's p-value four ways: 3.5% exact, 2.5% bell curve, 4.4% ruler, 3.8% flipping, all under a line at 5%.",
+     "sentences": [
+      {
+       "text": "So, Alder four ways: 3.5% exact, 2.5% by the bell curve, 4.4% by the ruler, 3.8% by flipping.",
+       "say": "So, Alder four ways: three point five percent exact, two point five percent by the bell curve, four point four percent by the ruler, three point eight percent by flipping."
+      },
+      {
+       "text": "All below 5%. All four flag Alder, and none of the tests flags anyone else.",
+       "say": "All below five percent. All four flag Alder, and none of the tests flags anyone else."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "A table of standard units for four clinics by exact, bell curve and ruler. Elm's row: −1.58, −1.55, and −0.69 boxed in red.",
+     "sentences": [
+      {
+       "text": "But look at Elm. Exact and bell curve agree: about one and a half standard units below the reference."
+      },
+      {
+       "text": "The ruler says only 0.7. It is measuring from a gamma that does not exist.",
+       "say": "The ruler says only zero point seven. It is measuring from a gamma that does not exist."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Fail",
+   "chapter": "Where they fail",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Two rows for Alder's ruler test. With the textbook standard error and the risk factor recorded 65 units higher: 38, and 0.02. With the standard error at the average case mix: 0.43, and 2.02.",
+     "sentences": [
+      {
+       "text": "That is the ruler's first weakness. Its second is one we have met: which standard error?"
+      },
+      {
+       "text": "Record the risk factor sixty-five units higher, as an age in years might be, and the textbook standard error of Alder's gamma becomes 38. The test collapses to 0.02.",
+       "say": "Record the risk factor sixty-five units higher, as an age in years might be, and the textbook standard error of Alder's gamma becomes thirty-eight. The test collapses to zero point zero two."
+      },
+      {
+       "text": "Taken at the average case mix, it stays at 2.02.",
+       "say": "Taken at the average case mix, it stays at two point zero two."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "Elm's pile with a bell curve over it. The curve runs on to the left of zero; that part is shaded: 6%.",
+     "sentences": [
+      {
+       "text": "The bell curve's weakness is small numbers. Elm expects fewer than two readmissions, and a bell curve centred there spills below zero."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "Three bars against a line at 5%, for providers under 50 patients who truly equal the reference: exact 4.7%, bell curve 4.9%, ruler 4.0%.",
+     "sentences": [
+      {
+       "text": "In our crowds where every provider equals the reference, among those with fewer than fifty patients, the exact test flags 4.7%, the bell curve 4.9%, and the ruler only 4.0%.",
+       "say": "In our crowds where every provider equals the reference, among those with fewer than fifty patients, the exact test flags four point seven percent, the bell curve four point nine percent, and the ruler only four point zero percent."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Choose",
+   "chapter": "Which one, when",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Three intervals for Alder's ratio on one axis: 1.04 to 2.26 exact, 1.07 to 2.25 bell curve, 1.02 to 2.31 ruler.",
+     "sentences": [
+      {
+       "text": "Each test also turns inside out into an interval. For Alder's ratio: 1.04 to 2.26, exact. 1.07 to 2.25 by the bell curve. 1.02 to 2.31 by the ruler.",
+       "say": "Each test also turns inside out into an interval. For Alder's ratio: one point zero four to two point two six, exact. One point zero seven to two point two five by the bell curve. One point zero two to two point three one by the ruler."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "A card with four rows: exact, for flags; bell curve, for a formula and smooth limits; ruler, for anything built on gamma; flipping, as a check.",
+     "sentences": [
+      {
+       "text": "So which one, when? The exact test for flags: it is the software's default."
+      },
+      {
+       "text": "The bell curve when you need a formula. It costs almost nothing, and next time it will draw smooth limits."
+      },
+      {
+       "text": "The ruler for anything built on gamma itself. And flipping, as a check on the others."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "The bell curve swaps the pile for a normal curve with the same centre and spread."
+      },
+      {
+       "text": "The ruler measures the gap between sliders in standard errors."
+      },
+      {
+       "text": "Flipping rebuilds the pile by brute force. On Alder, all three agree with the exact test. On small clinics, they can part ways."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "Five verdicts in a row, then a field of two hundred dots; the next episode's title.",
+     "sentences": [
+      {
+       "text": "We now have a verdict for every clinic. Five verdicts are easy to read. What about two hundred, or seven thousand?"
+      },
+      {
+       "text": "Next time: the funnel."
+      }
+     ]
+    },
+    {
+     "id": "s9_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
