@@ -1,0 +1,15 @@
+# Text is stored with LF endings so that scripts and checksums agree on every platform.
+* text=auto eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.srt  text eol=lf
+*.vtt  text eol=lf
+
+# Binary: never converted, never diffed as text, and never delta-compressed (it gains nothing and is slow).
+*.wav binary -delta
+*.mp4 binary -delta
+*.m4a binary -delta
+*.png binary -delta
+*.pdf binary -delta

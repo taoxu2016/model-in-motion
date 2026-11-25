@@ -1,0 +1,13 @@
+# Versions this repository was last built and checked with (25 November 2026, Python 3.12).
+manim==0.22.1
+kokoro-onnx==0.6.1
+onnxruntime==1.31.0
+soundfile==0.14.0
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.0.6
+pillow==13.0.0.post1
+matplotlib==3.11.2
+statsmodels==0.15.0
+# pprof_py 0.7.0, the package the logistic series explains, at the commit the numbers files were checked against:
+pprof_py @ git+https://github.com/UM-KevinHe/pprof_py.git@070f9af
