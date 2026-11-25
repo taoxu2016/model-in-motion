@@ -1,0 +1,404 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 6,
+ "title": "Fitting by Balance",
+ "subtitle": "how the dial and the sliders find their places",
+ "name": "ModelInMotion_LogisticFE_E06_FittingByBalance",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "The log-odds panel. The dial and sliders drift from an unfitted position and settle; the lines settle with them.",
+     "sentences": [
+      {
+       "text": "For two episodes, the dial and the sliders have simply known where to stop."
+      },
+      {
+       "text": "Four sliders settled, the dial settled, and we read off the answers."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Beside the panel: 103 patients, and who came back.",
+     "sentences": [
+      {
+       "text": "But nobody handed them those answers. All they had was the data: 103 patients, and who came back.",
+       "say": "But nobody handed them those answers. All they had was the data: one hundred and three patients, and who came back."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "The question, in two lines.",
+     "sentences": [
+      {
+       "text": "So what makes one setting of the dial and sliders better than another?"
+      },
+      {
+       "text": "And how do they find the best one?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: fitting by balance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Score",
+   "chapter": "Scoring a guess",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "All 103 patients as chips in five trays. A label: the plain guess, 41% for everyone.",
+     "sentences": [
+      {
+       "text": "Start with any setting at all. Here is the plainest: every patient, at every clinic, gets the overall rate, 41%.",
+       "say": "Start with any setting at all. Here is the plainest: every patient, at every clinic, gets the overall rate, forty-one percent."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "Two example chips: a filled one marked 41%, an empty one marked 59%.",
+     "sentences": [
+      {
+       "text": "Now ask of each patient: what probability did this guess give to what actually happened?"
+      },
+      {
+       "text": "For a patient who was readmitted, 41%. For one who wasn't, 59%.",
+       "say": "For a patient who was readmitted, forty-one percent. For one who wasn't, fifty-nine percent."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "The product: 0.41 to the power 42 times 0.59 to the power 61, about 6 × 10⁻³¹. Then its logarithm: −69.6.",
+     "sentences": [
+      {
+       "text": "Multiply those 103 numbers together, and you have the probability the guess gave to the whole story. That is its likelihood.",
+       "say": "Multiply those one hundred and three numbers together, and you have the probability the guess gave to the whole story. That is its likelihood."
+      },
+      {
+       "text": "It is tiny: a decimal point followed by thirty zeros. So we take its logarithm instead: minus 69.6.",
+       "say": "It is tiny: a decimal point followed by thirty zeros. So we take its logarithm instead: minus sixty-nine point six."
+      }
+     ]
+    },
+    {
+     "id": "s3_4",
+     "visual": "A height bar, with its level at −69.63 near the bottom and an arrow pointing up.",
+     "sentences": [
+      {
+       "text": "Think of that number as a height. A better guess stands higher."
+      },
+      {
+       "text": "The height itself means nothing. Only the climb from one guess to another does."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Meters",
+   "chapter": "Which way is up?",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The machine: a slider and an observed-minus-expected meter for each clinic, the dial with its own meter, and the height bar. All set to the plain guess.",
+     "sentences": [
+      {
+       "text": "So which way is up? Bring back the meter from Episode 3: observed on one side, expected on the other.",
+       "say": "So which way is up? Bring back the meter from Episode three: observed on one side, expected on the other."
+      },
+      {
+       "text": "Here is one for every clinic, under the plain guess."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "Dune's, Birch's and Elm's meters are picked out in turn: +2.11, +1.77, −4.49.",
+     "sentences": [
+      {
+       "text": "Dune expected 4.9 readmissions and saw 7. Birch expected 12.2 and saw 14. Elm expected 4.5 and saw none.",
+       "say": "Dune expected four point nine readmissions and saw seven. Birch expected twelve point two and saw fourteen. Elm expected four point five and saw none."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "An arrow beside each slider: up where observed is above expected, down where it is below. Caption: tilt = slope.",
+     "sentences": [
+      {
+       "text": "And here is the fact that makes fitting possible."
+      },
+      {
+       "text": "Each meter's tilt is exactly the slope of the height in that clinic's gamma."
+      },
+      {
+       "text": "Observed above expected: push the slider up. Observed below: pull it down."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Moves",
+   "chapter": "One at a time?",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Dune's slider rises. Of the clinic meters only Dune's moves; its expected count climbs to 7.0 and the height bar rises by 0.75. The dial's meter eases from +10.24 to +9.19.",
+     "sentences": [
+      {
+       "text": "Try it with Dune. Push its slider up, and among the clinics, only Dune's meter responds."
+      },
+      {
+       "text": "Its expected count climbs toward 7, and the height rises with it.",
+       "say": "Its expected count climbs toward seven, and the height rises with it."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "Dune's meter is level. Then the slider is pushed further: the meter tips the other way and the height bar drops. It returns to level.",
+     "sentences": [
+      {
+       "text": "When the meter is level, the height is as high as this one slider can take it."
+      },
+      {
+       "text": "Push further, and the meter tips the other way. The height falls."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "Back at the plain guess. The dial's yellow meter is picked out: 29 observed, 18.8 expected.",
+     "sentences": [
+      {
+       "text": "The dial has a meter too. It weighs only the higher-risk patients: 29 of them were readmitted, and the plain guess expected fewer than 19.",
+       "say": "The dial has a meter too. It weighs only the higher-risk patients: twenty-nine of them were readmitted, and the plain guess expected fewer than nineteen."
+      }
+     ]
+    },
+    {
+     "id": "s5_4",
+     "visual": "The dial turns to 0.91 and its meter levels. Four clinic meters shift as it turns; Elm's does not.",
+     "sentences": [
+      {
+       "text": "Turn the dial up until that meter is level."
+      },
+      {
+       "text": "But look at the clinics. Every one that has higher-risk patients has shifted."
+      }
+     ]
+    },
+    {
+     "id": "s5_5",
+     "visual": "Caption: nothing settles one piece at a time.",
+     "sentences": [
+      {
+       "text": "So nothing can be settled one piece at a time. The dial and the sliders have to find their places together."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Level",
+   "chapter": "Level everything",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Dial and sliders move together to the fit. Four clinic meters and the dial's meter come level; the height bar climbs.",
+     "sentences": [
+      {
+       "text": "And here is where they stop. The dial at 2.02, and the sliders where we found them two episodes ago.",
+       "say": "And here is where they stop. The dial at two point zero two, and the sliders where we found them two episodes ago."
+      },
+      {
+       "text": "Four clinic meters are level, and so is the dial's."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "The four expected counts are picked out: 13.0, 14.0, 8.0, 7.0.",
+     "sentences": [
+      {
+       "text": "In each of those four clinics, expected now equals observed: 13, 14, 8 and 7.",
+       "say": "In each of those four clinics, expected now equals observed: thirteen, fourteen, eight and seven."
+      },
+      {
+       "text": "That is what fitting is: balancing."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "A note under Alder: 8.2 + 4.8 expected, 8 + 5 observed.",
+     "sentences": [
+      {
+       "text": "One detail. The balance holds for each clinic's total, not for each group inside it."
+      },
+      {
+       "text": "Alder expected 8.2 among its lower-risk patients and 4.8 among its higher-risk ones. Not 8 and 5. But together, 13.",
+       "say": "Alder expected eight point two among its lower-risk patients and four point eight among its higher-risk ones. Not eight and five. But together, thirteen."
+      }
+     ]
+    },
+    {
+     "id": "s6_4",
+     "visual": "Elm's slider keeps sliding down, past the end of its track. Its meter approaches level and never reaches it; the height bar creeps up.",
+     "sentences": [
+      {
+       "text": "And Elm? Its meter can never level. With no readmissions, expected stays above observed wherever the slider sits."
+      },
+      {
+       "text": "So the slider keeps sliding, gaining a little less height each time. We'll come back to Elm."
+      }
+     ]
+    },
+    {
+     "id": "s6_5",
+     "visual": "Beside the height bar: −69.6 to −55.6.",
+     "sentences": [
+      {
+       "text": "With Elm's slider run all the way down, the height has climbed from minus 69.6 to minus 55.6.",
+       "say": "With Elm's slider run all the way down, the height has climbed from minus sixty-nine point six to minus fifty-five point six."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Hill",
+   "chapter": "The hill",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "A chart: dial position along the bottom, height up the side. A dot traces the curve from left to right.",
+     "sentences": [
+      {
+       "text": "One last picture. For each position of the dial, level the clinics' meters, and record the height."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "The top is marked at 2.02. A second mark at 1.75, the pooled step, sits just below it on the left.",
+     "sentences": [
+      {
+       "text": "The result is a hill, with one top, at 2.02.",
+       "say": "The result is a hill, with one top, at two point zero two."
+      },
+      {
+       "text": "The pooled step from Episode 3, 1.75, sits a little way down the left side.",
+       "say": "The pooled step from Episode three, one point seven five, sits a little way down the left side."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "A bracket over the rounded top.",
+     "sentences": [
+      {
+       "text": "And notice how gently the top is rounded. That gentleness is the roughness we keep promising to measure."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "A guess is scored by the probability it gave to what actually happened."
+      },
+      {
+       "text": "Each clinic's meter, observed minus expected, says which way its slider should move."
+      },
+      {
+       "text": "And at the best fit, every meter that can level is level."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "A caution card: level meters do not show the model is right.",
+     "sentences": [
+      {
+       "text": "A caution. Level meters do not show that the model is right."
+      },
+      {
+       "text": "Any model with a number for each clinic will level them. Whether it is right has to be judged inside the clinics, and that comes later."
+      }
+     ]
+    },
+    {
+     "id": "s8_3",
+     "visual": "The hill again, small, with a climber's path sketched toward the top; the next episode's title.",
+     "sentences": [
+      {
+       "text": "We have seen where the top of the hill is, not how to get there. No formula gives it."
+      },
+      {
+       "text": "Next time: climbing the hill."
+      }
+     ]
+    },
+    {
+     "id": "s8_4",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
