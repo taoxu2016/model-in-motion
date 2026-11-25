@@ -1,0 +1,285 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 18,
+ "title": "Too Many Intercepts",
+ "subtitle": "when one intercept per provider bends the shared rule",
+ "name": "ModelInMotion_LogisticFE_E18_TooManyIntercepts",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "One provider with two patients, drawn as two chips under one intercept marker. Then a field of such pairs: two thousand providers, four thousand patients.",
+     "sentences": [
+      {
+       "text": "Here is the smallest provider there could be: two patients."
+      },
+      {
+       "text": "And here are two thousand of them. Each pair has its own intercept, as always, and all of them share one risk rule."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "The dial for the shared rule, with the truth marked on it: 0.5. A question: what will the fit return?",
+     "sentences": [
+      {
+       "text": "We built this world, so we know the rule: a coefficient of 0.5.",
+       "say": "We built this world, so we know the rule: a coefficient of zero point five."
+      },
+      {
+       "text": "Four thousand patients is a lot of evidence. What should the fit return?"
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "The dial's needle swings past the truth to 0.92. Then a pile of four hundred fits from four hundred such worlds, centred on 1.01, with the truth at 0.5 far to its left.",
+     "sentences": [
+      {
+       "text": "It returns 0.92. Nearly twice the truth.",
+       "say": "It returns zero point nine two. Nearly twice the truth."
+      },
+      {
+       "text": "Draw the world again, four hundred times. The average is 1.01. This is not bad luck, and it is not a bug.",
+       "say": "Draw the world again, four hundred times. The average is one point zero one. This is not bad luck, and it is not a bug."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: too many intercepts."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Why",
+   "chapter": "Where the bias comes from",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "The field of pairs, sorted in two: 1,224 pairs whose two outcomes match, dimmed, and 776 pairs with one readmission, lit.",
+     "sentences": [
+      {
+       "text": "Look inside the pairs. In 1,224 of these 2,000, both patients had the same outcome.",
+       "say": "Look inside the pairs. In one thousand two hundred and twenty-four of these two thousand, both patients had the same outcome."
+      },
+      {
+       "text": "Episode 10 told us what happens then: the intercept runs to the wall, and the pair says nothing about the rule.",
+       "say": "Episode ten told us what happens then: the intercept runs to the wall, and the pair says nothing about the rule."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "One mixed pair up close: its two patients on the risk-factor line, one readmitted and one not, and the fitted intercept placing their two chances either side of 50%, adding to one.",
+     "sentences": [
+      {
+       "text": "In the other pairs, one patient was readmitted and one was not. Here the intercept is free to go wherever fits this pair best, and it settles exactly midway between the two patients."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "Three such pairs, each with its two fitted chances adding to exactly one. Under them: joint fit 0.9229, conditional fit 0.4614, a ratio of exactly two.",
+     "sentences": [
+      {
+       "text": "That fit is too good. The intercept has been tuned to two patients and nobody else, and it flatters them."
+      },
+      {
+       "text": "The shared rule inherits a little of that from every pair. For pairs the sum is exact: twice the truth."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Sweep",
+   "chapter": "How large must a provider be?",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The same four thousand patients regrouped: providers of 2, 5, 10, 25 and 100. A chart of the fitted rule over the true one against provider size: 2.01, 1.26, 1.12, 1.05, 1.01.",
+     "sentences": [
+      {
+       "text": "Keep the same four thousand patients and regroup them, into providers of 5, of 10, of 25, of 100.",
+       "say": "Keep the same four thousand patients and regroup them, into providers of five, of ten, of twenty-five, of a hundred."
+      },
+      {
+       "text": "The rule comes out 26% too steep, then 12%, then 5%, then 1%.",
+       "say": "The rule comes out twenty-six percent too steep, then twelve percent, then five percent, then one percent."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "A curve through the points: one plus about 1.2 over the provider's size. A note: more providers of the same size add intercepts, not information for each one.",
+     "sentences": [
+      {
+       "text": "The error shrinks as each provider grows. It does not shrink as providers are added."
+      },
+      {
+       "text": "More providers of the same size bring more intercepts, and no more information for each one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_NoWarning",
+   "chapter": "No warning",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "For three provider sizes, forty 95% intervals each, drawn against the truth at 0.5. For pairs every interval misses; for fives most miss; for hundreds nearly all hold it. Standard errors: 0.08, 0.05, 0.04.",
+     "sentences": [
+      {
+       "text": "And nothing in the output warns you. The standard error stays small, between 0.04 and 0.08.",
+       "say": "And nothing in the output warns you. The standard error stays small, between zero point zero four and zero point zero eight."
+      },
+      {
+       "text": "So the 95% intervals are narrow, and in the wrong place. With providers of 5, they hold the truth about a quarter of the time. With pairs, never.",
+       "say": "So the ninety-five percent intervals are narrow, and in the wrong place. With providers of five, they hold the truth about a quarter of the time. With pairs, never."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Remedy",
+   "chapter": "A remedy that deletes the intercepts",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "One provider of five patients, two readmitted. The question changes from how many to which two; the intercept marker fades out. A small tag links this to the Cox series: who, not when.",
+     "sentences": [
+      {
+       "text": "There is a fit that escapes this. Within each provider, take the number of readmissions as given, and ask only which patients they were."
+      },
+      {
+       "text": "Asked that way, the provider's intercept cancels. It is the same move the Cox model makes when it asks who, not when."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "The chart of S04 again with a second line, flat at 1.00: the conditional fit at every size. Beside it, an empty column where the intercepts would be.",
+     "sentences": [
+      {
+       "text": "This conditional fit gets the rule right at every size: within 1% of the truth, even for pairs.",
+       "say": "This conditional fit gets the rule right at every size: within one percent of the truth, even for pairs."
+      },
+      {
+       "text": "But it has deleted the very numbers we came for. It returns no intercepts, so it cannot profile a provider."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Practice",
+   "chapter": "In practice",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "The provider-size axis with three marks: the software's cutoff at 10; 25 patients, 5% too steep; 100 patients, 1%. A band from 20 to 500 for the series' crowd: 1% too steep.",
+     "sentences": [
+      {
+       "text": "So we keep the joint fit, and keep an eye on provider size. At 25 patients the rule is about 5% too steep; at 100, about 1%.",
+       "say": "So we keep the joint fit, and keep an eye on provider size. At twenty-five patients the rule is about five percent too steep; at a hundred, about one percent."
+      },
+      {
+       "text": "The software sets aside providers with 10 patients or fewer before it fits. And in our crowd, with 20 to 500 patients a provider, the rule comes out about 1% too steep.",
+       "say": "The software sets aside providers with ten patients or fewer before it fits. And in our crowd, with twenty to five hundred patients a provider, the rule comes out about one percent too steep."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "A note: a property of the method, not of a program. pprof_py's fit of one world of tens gives the same coefficient to five decimals: 0.58803.",
+     "sentences": [
+      {
+       "text": "One last thing. This is a property of the method, not of any program. Every joint fit, in any package, has it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "Each intercept is fitted to its own few patients, and overfits them a little."
+      },
+      {
+       "text": "The shared rule inherits that, and comes out too steep, by a little more than one over the provider's size."
+      },
+      {
+       "text": "Conditioning removes the bias, and the intercepts with it."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "Episode 15's funnel with a quarter of its dots outside. The last episode's title.",
+     "sentences": [
+      {
+       "text": "One question has been waiting since Episode 15. When a quarter of the providers fall outside the funnel, are they all outliers?",
+       "say": "One question has been waiting since Episode fifteen. When a quarter of the providers fall outside the funnel, are they all outliers?"
+      },
+      {
+       "text": "Next time, the last episode: wider than chance."
+      }
+     ]
+    },
+    {
+     "id": "s8_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 11.094,
+  "sentences": [
+   {
+    "text": "Here is the smallest provider there could be: two patients.",
+    "start": 0.0,
+    "end": 3.477
+   },
+   {
+    "text": "And here are two thousand of them. Each pair has its own intercept, as always, and all of them share one risk rule.",
+    "start": 3.797,
+    "end": 10.944
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 9.579,
+  "sentences": [
+   {
+    "text": "We built this world, so we know the rule: a coefficient of 0.5.",
+    "start": 0.0,
+    "end": 4.8
+   },
+   {
+    "text": "Four thousand patients is a lot of evidence. What should the fit return?",
+    "start": 5.12,
+    "end": 9.429
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 12.075,
+  "sentences": [
+   {
+    "text": "It returns 0.92. Nearly twice the truth.",
+    "start": 0.0,
+    "end": 3.691
+   },
+   {
+    "text": "Draw the world again, four hundred times. The average is 1.01. This is not bad luck, and it is not a bug.",
+    "start": 4.011,
+    "end": 11.925
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.161,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: too many intercepts.",
+    "start": 2.261,
+    "end": 4.011
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Why",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 14.763,
+  "sentences": [
+   {
+    "text": "Look inside the pairs. In 1,224 of these 2,000, both patients had the same outcome.",
+    "start": 0.0,
+    "end": 7.488
+   },
+   {
+    "text": "Episode 10 told us what happens then: the intercept runs to the wall, and the pair says nothing about the rule.",
+    "start": 7.808,
+    "end": 14.613
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Why",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 11.649,
+  "sentences": [
+   {
+    "text": "In the other pairs, one patient was readmitted and one was not. Here the intercept is free to go wherever fits this pair best, and it settles exactly midway between the two patients.",
+    "start": 0.0,
+    "end": 11.499
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_Why",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 12.95,
+  "sentences": [
+   {
+    "text": "That fit is too good. The intercept has been tuned to two patients and nobody else, and it flatters them.",
+    "start": 0.0,
+    "end": 6.272
+   },
+   {
+    "text": "The shared rule inherits a little of that from every pair. For pairs the sum is exact: twice the truth.",
+    "start": 6.592,
+    "end": 12.8
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Sweep",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 14.507,
+  "sentences": [
+   {
+    "text": "Keep the same four thousand patients and regroup them, into providers of 5, of 10, of 25, of 100.",
+    "start": 0.0,
+    "end": 7.531
+   },
+   {
+    "text": "The rule comes out 26% too steep, then 12%, then 5%, then 1%.",
+    "start": 7.851,
+    "end": 14.357
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Sweep",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 11.329,
+  "sentences": [
+   {
+    "text": "The error shrinks as each provider grows. It does not shrink as providers are added.",
+    "start": 0.0,
+    "end": 5.205
+   },
+   {
+    "text": "More providers of the same size bring more intercepts, and no more information for each one.",
+    "start": 5.525,
+    "end": 11.179
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_NoWarning",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 18.987,
+  "sentences": [
+   {
+    "text": "And nothing in the output warns you. The standard error stays small, between 0.04 and 0.08.",
+    "start": 0.0,
+    "end": 8.384
+   },
+   {
+    "text": "So the 95% intervals are narrow, and in the wrong place. With providers of 5, they hold the truth about a quarter of the time. With pairs, never.",
+    "start": 8.704,
+    "end": 18.837
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Remedy",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 16.449,
+  "sentences": [
+   {
+    "text": "There is a fit that escapes this. Within each provider, take the number of readmissions as given, and ask only which patients they were.",
+    "start": 0.0,
+    "end": 8.405
+   },
+   {
+    "text": "Asked that way, the provider's intercept cancels. It is the same move the Cox model makes when it asks who, not when.",
+    "start": 8.725,
+    "end": 16.299
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Remedy",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 13.889,
+  "sentences": [
+   {
+    "text": "This conditional fit gets the rule right at every size: within 1% of the truth, even for pairs.",
+    "start": 0.0,
+    "end": 6.549
+   },
+   {
+    "text": "But it has deleted the very numbers we came for. It returns no intercepts, so it cannot profile a provider.",
+    "start": 6.869,
+    "end": 13.739
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Practice",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 23.083,
+  "sentences": [
+   {
+    "text": "So we keep the joint fit, and keep an eye on provider size. At 25 patients the rule is about 5% too steep; at 100, about 1%.",
+    "start": 0.0,
+    "end": 10.411
+   },
+   {
+    "text": "The software sets aside providers with 10 patients or fewer before it fits. And in our crowd, with 20 to 500 patients a provider, the rule comes out about 1% too steep.",
+    "start": 10.731,
+    "end": 22.933
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Practice",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 7.083,
+  "sentences": [
+   {
+    "text": "One last thing. This is a property of the method, not of any program. Every joint fit, in any package, has it.",
+    "start": 0.0,
+    "end": 6.933
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 16.513,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "Each intercept is fitted to its own few patients, and overfits them a little.",
+    "start": 1.536,
+    "end": 6.101
+   },
+   {
+    "text": "The shared rule inherits that, and comes out too steep, by a little more than one over the provider's size.",
+    "start": 6.421,
+    "end": 12.715
+   },
+   {
+    "text": "Conditioning removes the bias, and the intercepts with it.",
+    "start": 13.035,
+    "end": 16.363
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 11.457,
+  "sentences": [
+   {
+    "text": "One question has been waiting since Episode 15. When a quarter of the providers fall outside the funnel, are they all outliers?",
+    "start": 0.0,
+    "end": 7.851
+   },
+   {
+    "text": "Next time, the last episode: wider than chance.",
+    "start": 8.171,
+    "end": 11.307
+   }
+  ]
+ },
+ "s8_3": {
+  "scene": "S08_Recap",
+  "file": "audio/segments/s8_3.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}
