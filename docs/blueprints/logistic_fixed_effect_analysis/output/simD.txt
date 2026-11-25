@@ -1,0 +1,24 @@
+RE fit time 1.7
+RE coefficient keys ['beta', 'alpha']
+  beta [-1.5358  0.7849  0.5115]
+sigma_hat 0.3325 true SD of gamma (incl. planted) 0.3306 SD of alpha_hat 0.2606 SD of gamma_hat 0.4359
+FE beta [0.8143 0.5141] truth [0.8 0.5]
+all     RMSE FE 0.280  RE 0.196
+n<50    RMSE FE 0.403  RE 0.250
+n>=200  RMSE FE 0.148  RE 0.128
+corr(error, case mix): FE 0.065  RE 0.351
+mean error (estimate - truth): sickest fifth FE 0.003 RE 0.095 | healthiest fifth FE -0.064 RE -0.105
+reliability rho: n<50 median 0.374 n>=200 median 0.83
+corr(BLUP, rho*(gamma_hat - mean)) 0.9989
+flags: FE exact 52 RE wald 42
+planted sizes [ 37 100 280  37 105 285] FE flags [ 0.  1.  1.  0. -1. -1.] RE flags [ 0.  1.  1.  0.  0. -1.]
+planted: gamma_hat dev [ 0.56  0.69  1.04 -0.27 -0.54 -0.94] RE dev [ 0.25  0.46  0.87 -0.12 -0.33 -0.73] truth [ 0.79  0.79  0.79 -0.81 -0.81 -0.81]
+example reliability at SE=0.66: 0.202 at SE=0.12: 0.885
+
+== same comparison with tau=0.3 but no correlation with case mix (rho=0)
+ RE beta [-1.6115  0.8138  0.5276]
+ FE beta [0.8225 0.5326] corr(gamma, mu) -0.051
+ all     RMSE FE 0.328  RE 0.202
+ n<50    RMSE FE 0.501  RE 0.279
+ n>=200  RMSE FE 0.165  RE 0.132
+ corr(error, case mix): FE 0.042  RE 0.061

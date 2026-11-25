@@ -1,0 +1,29 @@
+== crowd (tau=0.3): N 28848 events 6601 rate 0.2288
+
+== M1: raw rates vs true effects
+spearman(raw, gamma_true) 0.1643697118486425 spearman(raw, case mix mu) 0.5775048357916932 spearman(gamma_hat, gamma_true) 0.7608573040079362
+providers whose raw-rate quintile differs from true-effect quintile: 142 by 2+ quintiles: 86
+same for gamma_hat: 104 by 2+: 26
+worst-20 by raw rate that are in true worst-20: 7 ; worst-20 by gamma_hat in true worst-20: 12
+raw rate range 0.05 0.559
+
+== M3/M4: pooled vs fixed-effect risk rule (truth 0.8, 0.5)
+pooled: [-1.4978  0.7096  0.5059] se [0.0193 0.0142 0.0314]
+FE    : [0.8143 0.5141] se [0.0168 0.032 ]
+corr of log(O/E_pooled error) with case mix (n>=100): 0.356 ; FE ISR error with case mix: 0.071
+mean O/E_pooled / true ratio: sickest fifth 1.043 healthiest fifth 0.907
+mean FE ISR / true ratio: sickest fifth 1.009 healthiest fifth 0.965
+
+== M9: SE vs size
+slope of log SE on log n [-0.499  0.945] corr(log se, -0.5 log info) 1.0
+  sizes 20-30: n providers 21, median SE 0.549, median info per patient 0.137
+  sizes 90-110: n providers 14, median SE 0.258, median info per patient 0.155
+  sizes 400-500: n providers 12, median SE 0.122, median info per patient 0.158
+  1/sqrt(n*wbar) at n=25,100,450 with wbar 0.1527 : [0.512 0.256 0.121]
+  max ratio own-info SE / total SE 0.9764 1.0
+
+== M11/M12: indirect vs direct in the crowd
+corr(ISR, DSR) 0.9907 spearman 0.9979
+reference DSR 0.997 largest rank change 14 providers moving 10+ ranks 4
+corr(log ISR - log DSR0, case mix mu) among O>0: 0.101
+ISR range 0.437 1.991 median 1.0

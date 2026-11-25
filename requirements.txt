@@ -9,5 +9,7 @@ pandas==3.0.6
 pillow==13.0.0.post1
 matplotlib==3.11.2
 statsmodels==0.15.0
+# Only for one cross-check in docs/blueprints/logistic_fixed_effect_analysis/cast_full.py:
+scikit-learn==1.9.1
 # pprof_py 0.7.0, the package the logistic series explains, at the commit the numbers files were checked against:
 pprof_py @ git+https://github.com/UM-KevinHe/pprof_py.git@070f9af

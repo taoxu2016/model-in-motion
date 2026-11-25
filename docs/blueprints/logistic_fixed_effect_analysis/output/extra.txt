@@ -1,0 +1,69 @@
+== CMH for beta=0
+sum(a - E) 7.700000000000001 CMH var 4.513784853984491 CMH chi2 (no continuity corr.) 13.135318123915997 score chi2 13.780360255665313
+Mantel-Haenszel OR 7.416666666666666 log 2.0037297199441393
+within-clinic ORs [10.      5.9091  6.     10.         nan]
+
+== M1 weights swap
+Alder rates with Birch mix 0.7333333333333334 Birch rates with Alder mix 0.24166666666666667
+Alder rates on whole cast mix (57 low, 46 high): 0.5566343042071198 Birch: 0.33414239482200647
+
+== M5 translations for OR Alder vs Cedar 2.388930293647883 gap 0.8708456898718917
+  p_ref 0.050 -> 0.112  diff 0.062  ratio 2.234
+  p_ref 0.179 -> 0.343  diff 0.163  ratio 1.913
+  p_ref 0.500 -> 0.705  diff 0.205  ratio 1.410
+  p_ref 0.621 -> 0.796  diff 0.176  ratio 1.283
+  p_ref 0.900 -> 0.956  diff 0.056  ratio 1.062
+marginal log OR Alder vs Cedar from direct rates 0.6864371672230911 ; Dune vs Cedar 0.7433994074015462 conditional 0.9423886185306267
+centring x at 0.5: gamma shift 1.008201429219833
+  refit: beta [2.0164] gamma [ 0.3562 -0.8135 -0.5146  0.4278 -5.2418] SE gamma [0.445  0.4501 0.5158 0.6601 6.8818] SE case mix [0.4317 0.4668 0.5209 0.6582 6.8806]
+  ISR [1.6204 0.8763 1.     1.4583 0.    ] exact p [0.0346 0.4455 0.9942 0.1648 0.1142]
+
+== M7 one-dimensional Newton for Dune at beta_hat, starting from the reference
+  iter 0: gamma -1.52281  E 4.8000  O-E 2.2000  V 2.2942  step 0.95896  ll -7.58197
+  iter 1: gamma -0.56386  E 7.0383  O-E -0.0383  V 2.3088  step -0.01658  ll -6.54437
+  iter 2: gamma -0.58043  E 7.0000  O-E 0.0000  V 2.3119  step 0.00001  ll -6.54405
+  iter 3: gamma -0.58042  E 7.0000  O-E 0.0000  V 2.3119  step 0.00000  ll -6.54405
+  iter 4: gamma -0.58042  E 7.0000  O-E 0.0000  V 2.3119  step 0.00000  ll -6.54405
+  iter 5: gamma -0.58042  E 7.0000  O-E 0.0000  V 2.3119  step 0.00000  ll -6.54405
+  same for Alder from the reference:
+  iter 0: gamma -1.52281  E 8.0229  O-E 4.9771  V 4.9400  step 1.00752
+  iter 1: gamma -0.51529  E 13.8814  O-E -0.8814  V 6.5129  step -0.13532
+  iter 2: gamma -0.65061  E 13.0086  O-E -0.0086  V 6.3791  step -0.00135
+  iter 3: gamma -0.65197  E 13.0000  O-E -0.0000  V 6.3776  step -0.00000
+  iter 4: gamma -0.65197  E 13.0000  O-E -0.0000  V 6.3776  step -0.00000
+
+== M10 Fen screening
+providers kept ['Alder' 'Birch' 'Cedar' 'Dune' 'Elm'] excluded:
+             n_records              reason
+provider_id                               
+Fen                  8  at most 10 records
+beta with Fen screened [2.0164]
+cutoff=5 keeps ['Alder' 'Birch' 'Cedar' 'Dune' 'Elm' 'Fen'] beta [2.0234] gamma [-0.653 -1.828 -1.527 -0.583 -6.253 -1.361]
+cutoff=11 keeps ['Alder' 'Birch' 'Cedar' 'Dune']
+Elm counterfactual: P(0 of 30) = 0.0026886525702389964  P(0 of 11) = 0.11415529259185554 ; Elm Newton step -1/(1-p) at gamma=-3: -1.0497870683678638
+             events  trials  zero_events  all_events  finite_estimate
+provider_id                                                          
+Alder          13.0    30.0        False       False             True
+Birch          14.0    30.0        False       False             True
+Cedar           8.0    20.0        False       False             True
+Dune            7.0    12.0        False       False             True
+Elm             0.0    11.0         True       False            False
+at_bound [False False False False  True]
+
+== binomial rows (n_var): 9 rows instead of 103
+  clinic  x  events  trials
+0  Alder  0       8      24
+1  Alder  1       5       6
+2  Birch  0       1       6
+3  Birch  1      13      24
+4  Cedar  0       2      10
+5  Cedar  1       6      10
+6   Dune  0       2       6
+7   Dune  1       5       6
+8    Elm  0       0      11
+beta [2.0164] gamma [-0.652  -1.8217 -1.5228 -0.5804 -6.25  ] exact p [0.0346 0.4455 0.9942 0.1648 0.1142] ISR [1.6204 0.8763 1.     1.4583 0.    ]
+
+== Wald variance and the covariates' origin (cast): SE from variances_['gamma'] when x is recorded as x, x+3, x+65
+  x+0: gamma [-0.652 -1.822 -1.523 -0.58 ] SE(gamma) [0.406 0.65  0.625 0.699] z with it [ 2.146 -0.46   0.     1.349] | SE case mix [0.432 0.467 0.521 0.658] z [ 2.017 -0.64   0.     1.432]
+  x+3: gamma [-6.701 -7.871 -7.572 -6.63 ] SE(gamma) [1.885 2.308 2.174 2.095] z with it [ 0.462 -0.13   0.     0.45 ] | SE case mix [0.432 0.467 0.521 0.658] z [ 2.017 -0.64   0.     1.432]
+  x+65: gamma [-131.718 -132.888 -132.589 -131.647] SE(gamma) [38.086 38.518 38.358 38.236] z with it [ 0.023 -0.008  0.     0.025] | SE case mix [0.432 0.467 0.521 0.658] z [ 2.017 -0.64   0.     1.432]

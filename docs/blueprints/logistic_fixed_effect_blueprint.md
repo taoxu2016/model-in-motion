@@ -117,7 +117,52 @@ Nineteen modules in five acts take the viewer from unfair comparisons to the lim
 | M18 | Too many intercepts | When does one intercept per provider bias the shared risk rule? | V · Trust and limits | 9 | Advanced |
 | M19 | Wider than chance | Why are so many providers flagged, and what should a flag mean? | V · Trust and limits | 12 | Advanced |
 Each module stands alone: it opens with a 30-second recap of the one earlier idea it needs, and closes on a question the next module answers.
-[embed: Module dependencies · 19 modules, hubs M6 and M11]
+```mermaid
+flowchart TD
+  M1["M1 · Unfair comparisons"]
+  M2["M2 · Odds and the S-curve"]
+  M3["M3 · Observed vs expected"]
+  M4["M4 · One intercept each"]
+  M5["M5 · Reading γ"]
+  M6["M6 · Fitting by balance"]
+  M7["M7 · Climbing the hill"]
+  M8["M8 · The arrow matrix"]
+  M9["M9 · How sure are we?"]
+  M10["M10 · No events, no peak"]
+  M11["M11 · Swap the curve"]
+  M12["M12 · Swap the patients"]
+  M13["M13 · Unequal coins"]
+  M14["M14 · Three shortcuts"]
+  M15["M15 · The funnel"]
+  M16["M16 · Trusting the model"]
+  M17["M17 · Fixed or random?"]
+  M18["M18 · Too many intercepts"]
+  M19["M19 · Wider than chance"]
+  M1 --> M2
+  M2 --> M3
+  M3 --> M4
+  M4 --> M5
+  M4 --> M6
+  M6 --> M7
+  M6 --> M11
+  M6 --> M16
+  M7 --> M8
+  M7 --> M9
+  M7 --> M10
+  M11 --> M13
+  M11 --> M12
+  M8 --> M18
+  M9 --> M17
+  M13 --> M15
+  M13 --> M14
+  M15 --> M19
+  classDef hub fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#0f172a
+  classDef elective stroke-dasharray:5 4
+  class M6,M11 hub
+  class M8,M10,M12,M14,M16,M17,M18,M19 elective
+```
+
+*Module dependencies · 19 modules, hubs M6 and M11. Arrows point to modules that build on the source. Solid = core; dashed = elective; tinted = hub.*
 Acts I and II lead to the balance of M6, and every later module descends from it; the reference provider of M11 carries Act IV. Arrows show each module's main prerequisite (the full list is in its Prerequisites line); leaves such as M5, M10, M12, M14 and M16 to M19 can be produced in any order once their parent exists.
 
 ## Act I · The shape of the problem (M1–M3)

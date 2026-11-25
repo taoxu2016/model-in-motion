@@ -1,0 +1,4 @@
+providers 200 patients 28848 size min/median/max 20 102.5 484 under 50: 47 over 200: 50
+planted + sizes [ 37 100 280] planted - sizes [ 37 105 285]
+tau=0.0: events 6611 rate 0.2292; beta_hat [0.8176 0.5284] se [0.0169 0.0322]; iters 6; no-event providers 0; SD true gamma 0.139; SD gamma_hat 0.325; corr(gamma, mu) -0.061
+tau=0.3: events 6601 rate 0.2288; beta_hat [0.8143 0.5141] se [0.0168 0.032 ]; iters 6; no-event providers 0; SD true gamma 0.331; SD gamma_hat 0.436; corr(gamma, mu) -0.503

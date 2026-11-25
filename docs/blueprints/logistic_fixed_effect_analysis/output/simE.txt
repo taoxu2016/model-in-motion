@@ -1,0 +1,6 @@
+== M18 incidental parameters: 4,000 patients, beta=0.5, gamma_i ~ N(-0.5, 1), x ~ N(0,1); 100 replicates
+size   2 (2000 providers): joint ML mean beta_hat/beta 2.004, coverage 0.00, mean SE 0.080 | conditional ML 1.024, coverage 0.90
+size   5 ( 800 providers): joint ML mean beta_hat/beta 1.241, coverage 0.32, mean SE 0.049 | conditional ML 0.991, coverage 0.95
+size  10 ( 400 providers): joint ML mean beta_hat/beta 1.123, coverage 0.72, mean SE 0.043 | conditional ML 0.995, coverage 0.93
+size  25 ( 160 providers): joint ML mean beta_hat/beta 1.055, coverage 0.85, mean SE 0.040 | conditional ML 1.021, coverage 0.93
+size 100 (  40 providers): joint ML mean beta_hat/beta 1.006, coverage 0.97, mean SE 0.038 | conditional ML 1.004, coverage 0.93

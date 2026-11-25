@@ -54,10 +54,12 @@ logistic_fe/
   e16_trusting_the_risk_model/          animatic stage: numbers file, draft script, voiceover, a board per clip
   e17_fixed_or_random/                  animatic stage: numbers file, draft script, voiceover, a board per clip
   e18_too_many_intercepts/              animatic stage: numbers file, draft script, voiceover, a board per clip
-  e19_wider_than_chance/                animatic stage: numbers file, draft script, voiceover, a board per clip (the arc's last episode)docs/
+  e19_wider_than_chance/                animatic stage: numbers file, draft script, voiceover, a board per clip (the arc's last episode)
+docs/
   STATUS.md              one row per episode: stage, script, time, words, clips, checks, review link
   DECISIONS.md           the open choices of the fifteen draft scripts, gathered from their reviews
   blueprints/            the logistic fixed-effect blueprint (Markdown) and the Cox blueprint (PDF)
+    logistic_fixed_effect_analysis/   the pprof_py scripts that computed the blueprint's numbers, and their output
 renders/
   animatics/             the 720p animatic of Episodes 4 to 19, each with captions and a timed script
 ```
@@ -69,7 +71,8 @@ so narration, audio, data and build output are always found beside the episode.
 
 1. **Narration first.** The script is written, read and voiced before any scene. Scenes are cut to the voice clips.
 2. **Numbers come from code.** From Episode 4 on, each episode has a numbers file that computes and checks every figure
-   shown or said. Scenes and narration read its JSON; nothing numeric is typed into scene code.
+   shown or said. Scenes and narration read its JSON; nothing numeric is typed into scene code. The blueprint's
+   own numbers come from `docs/blueprints/logistic_fixed_effect_analysis/`.
 3. **One copy of shared code.** Shared code lives in `mim/` and `tools/`. Episodes 1 to 3 used byte-identical copies
    of `common.py`, so moving to one copy changed nothing but three import lines per episode.
 4. **Finished episodes are frozen behind a test.** See below.
@@ -141,7 +144,7 @@ providers, and the experiments built on them. There is no patient-level or restr
 The work was not under version control while it was made. This repository was assembled from it on 25 November 2026,
 so its history is a record of structure, not of time: one commit for the scaffold, one for the shared library and
 tools, one for each episode and one for the documents. The rendered animatics are one further commit on top, so that
-they can be left out. The commits carry a placeholder author.
+they can be left out. The scripts behind the blueprint's numbers followed on the same day, in one more commit. The commits carry a placeholder author.
 To make them yours before you publish:
 
     git rebase -r --root --exec "git commit --amend --no-edit --reset-author"

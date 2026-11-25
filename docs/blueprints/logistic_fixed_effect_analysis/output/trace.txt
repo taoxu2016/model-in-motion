@@ -1,0 +1,43 @@
+start gamma -0.373204245889943 beta [0.] ll -69.63165610517905
+   iter1 scores: U_gamma [ 0.767   1.767  -0.1553  2.1068 -4.4854] U_beta [10.2427] D [7.2448 7.2448 4.8299 2.8979 2.6564] B [[1.449  5.7958 2.4149 1.449  0.    ]] A [[11.1087]] S [[4.2503]]
+   iter1 steps : d_gamma [-0.2565 -1.2054 -0.938  -0.1788 -1.6885] d_beta [1.8116]
+iter 1: v=1.000 backtracks=0 beta=[1.8116] gamma=[-0.6297 -1.5786 -1.3112 -0.552  -2.0617] ll=-57.00070 crit=1.81e+00
+iter 2: v=1.000 backtracks=0 beta=[2.0039] gamma=[-0.6513 -1.8085 -1.5102 -0.5788 -3.189 ] ll=-56.03282 crit=1.92e-01
+iter 3: v=1.000 backtracks=0 beta=[2.0164] gamma=[-0.652  -1.8216 -1.5228 -0.5804 -4.2302] ll=-55.74714 crit=1.24e-02
+iter 4: v=1.000 backtracks=0 beta=[2.0164] gamma=[-0.652  -1.8217 -1.5228 -0.5804 -5.2447] ll=-55.64612 crit=4.78e-05
+iter 5: v=1.000 backtracks=0 beta=[2.0164] gamma=[-0.652  -1.8217 -1.5228 -0.5804 -6.25  ] ll=-55.60946 crit=7.21e-10
+final [-0.652  -1.8217 -1.5228 -0.5804 -6.25  ] [2.0164] 5
+tol 0.0001 iters 4 Elm gamma -5.244727063396968 beta [2.0164]
+tol 1e-05 iters 5 Elm gamma -6.250002324707016 beta [2.0164]
+tol 1e-06 iters 5 Elm gamma -6.250002324707016 beta [2.0164]
+tol 1e-08 iters 5 Elm gamma -6.250002324707016 beta [2.0164]
+tol 1e-10 iters 6 Elm gamma -7.2519327743555095 beta [2.0164]
+tol 1e-12 iters 6 Elm gamma -7.2519327743555095 beta [2.0164]
+
+Elm's own log-likelihood term: -11*log(1+exp(g))
+-1.52 -2.17574
+-2 -1.39621
+-3 -0.53446
+-4 -0.19965
+-6.25 -0.02121
+-8 -0.00369
+-11.52 -0.00011
+-20 -0.0
+  BAN iter 1: beta=[1.3915] gamma=[-0.8888 -0.7508 -1.0268 -0.2676 -2.6832]
+  BAN iter 2: beta=[1.8076] gamma=[-0.7181 -1.4777 -1.3362 -0.5034 -3.9373]
+  BAN iter 3: beta=[1.9405] gamma=[-0.6773 -1.6966 -1.455  -0.5544 -5.0162]
+  BAN iter 4: beta=[1.9883] gamma=[-0.6615 -1.7756 -1.4976 -0.571  -6.0442]
+  BAN iter 5: beta=[2.0059] gamma=[-0.6555 -1.8045 -1.5134 -0.577  -7.0544]
+  BAN iter 6: beta=[2.0125] gamma=[-0.6533 -1.8153 -1.5193 -0.5791 -8.0582]
+BAN centred: iters 21 beta [2.0164] gamma [ -0.652   -1.8217  -1.5228  -0.5804 -11.5228]
+BAN uncentred, x shifted by 0.0: iters 54 beta [2.0164]
+BAN uncentred, x shifted by 5.0: iters 3125 beta [2.0162]
+BAN uncentred, x shifted by 50.0: iters 200000 beta [2.0145]
+pprof BAN gamma [ -0.652   -1.8217  -1.5228  -0.5804 -11.5228] iters 21 weighted mean reference -2.314395757003517
+pprof SerBIN gamma [-0.652  -1.8217 -1.5228 -0.5804 -6.25  ] weighted mean reference -1.7512713056088023 medians -1.5228114573994964 -1.5228216844788747
+BAN direct rate Elm:   provider_id  direct_ratio  direct_rate  observed  expected  n_pop
+0       Alder       1.33722     54.52748        42  56.16331  103.0
+1       Birch       0.78972     32.20222        42  33.16828  103.0
+2       Cedar       0.92308     37.64030        42  38.76951  103.0
+3        Dune       1.37176     55.93577        42  57.61384  103.0
+4         Elm       0.00009      0.00387        42   0.00399  103.0

@@ -1,0 +1,30 @@
+== M16 (a) well-specified crowd
+      O         E     n   pbar     OE      z
+q                                           
+0   127   127.793  2885  0.044  0.994 -0.072
+1   227   228.673  2885  0.079  0.993 -0.115
+2   318   316.855  2885  0.110  1.004  0.068
+3   413   406.236  2884  0.141  1.017  0.362
+4   494   502.305  2885  0.174  0.983 -0.408
+5   598   611.463  2885  0.212  0.978 -0.614
+6   709   742.200  2884  0.257  0.955 -1.415
+7   952   908.614  2885  0.315  1.048  1.740
+8  1154  1139.301  2885  0.395  1.013  0.561
+9  1609  1617.561  2885  0.561  0.995 -0.327
+AUC 0.7388  O/E range 0.955 1.048 max |z| 1.74
+AUC pooled (no provider effects) 0.7173
+AUC of provider raw rate alone 0.614
+
+== M16 (b) wrong functional form: truth has + 0.3*(x1^2 - 1) on the log-odds scale; fitted linear in x1
+linear fit: O/E by decile [2.47  1.254 1.003 0.863 0.844 0.789 0.831 0.88  0.975 1.176] max |z| 17.49 AUC 0.7387
+with x1^2 : O/E by decile [1.051 0.95  1.044 1.027 1.012 0.984 1.006 0.962 1.007 1.001] max |z| 1.33 AUC 0.7545
+beta linear fit [0.853 0.466] beta with square [0.811 0.491 0.302]
+O/E by x1 band, linear fit: [2.35  0.934 0.798 0.945 1.228]  with square: [1.012 0.976 1.012 1.001 0.996]
+flags linear 42 flags with square 47 providers whose flag changes 17
+corr(log ISR_linear - log ISR_square, |case mix|) 0.744 ; with share of extreme patients 0.854
+mean ISR_linear / ISR_square for the fifth with the most unusual case mix: 1.132 ; others: 0.991
+
+== M16 (c) one provider with a steeper slope (1.6 instead of 0.8) for x1
+provider size 484 total O 135 total E 135.0
+low-risk half:  n 202 O 18 E 29.24 | high-risk half: n 282 O 117 E 105.76
+by tercile of x1: O [8, 31, 96] E [20.9, 43.0, 71.1]

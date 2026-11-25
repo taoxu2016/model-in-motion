@@ -1,0 +1,5 @@
+crowd: SerBIN 0.027 s, iters 6 | BAN 0.086 s, iters 21 | max diff beta 6.356641879534664e-10 gamma 3.3994469461617882e-09
+statsmodels GLM with 200 dummy columns: 3.71 s; max |diff| beta 1.199040866595169e-14 gamma 1.9095836023552692e-14 ; SE beta diff 1.291119988700018e-13 SE gamma diff 1.70527865162029e-08
+matrix cells: crowd (m+p)^2 = 40804 non-zero: 1004
+2,000 providers, 201671 patients, 5 covariates: SerBIN 0.28 s, iters 6; dense design would hold 3.2 GB; information matrix 4,020,025 cells, Schur complement 25 cells
+national scale 7,000 providers, 50 covariates: (m+p)^2 = 49,702,500 ; p^2 = 2500

@@ -1,0 +1,24 @@
+== M19: the tau knob (same patients, same random numbers, provider differences scaled by tau)
+tau=0.0: flagged (exact) 14/200 = 0.070; non-planted 11/194 = 0.057; n<50 0.067, mid 0.059, n>=200 0.042; SD of z (non-planted) 0.95; formula-predicted rate 0.050 (n>=200: 0.050); score flags 16
+     empirical null (3 size groups): flagged 25/200; non-planted 20; planted flags [ 1.  1.  1.  0. -1. -1.] (theoretical: [ 0.  1.  1.  0.  0. -1.]); null sd by group [0.79 0.82 1.06] mean [-0.07  0.09  0.17]
+     empirical null (one group): flagged 24; null sd 0.89 mean 0.07; planted [ 0.  1.  1.  0. -1. -1.]
+tau=0.1: flagged (exact) 19/200 = 0.095; non-planted 16/194 = 0.082; n<50 0.044, mid 0.079, n>=200 0.125; SD of z (non-planted) 1.10; formula-predicted rate 0.076 (n>=200: 0.106); score flags 21
+     empirical null (3 size groups): flagged 12/200; non-planted 8; planted flags [ 0.  1.  1.  0. -1. -1.] (theoretical: [ 0.  1.  1.  0.  0. -1.]); null sd by group [1.06 0.96 1.35] mean [-0.01 -0.05  0.12]
+     empirical null (one group): flagged 16; null sd 1.06 mean 0.02; planted [ 0.  1.  1.  0.  0. -1.]
+tau=0.2: flagged (exact) 38/200 = 0.190; non-planted 35/194 = 0.180; n<50 0.067, mid 0.188, n>=200 0.271; SD of z (non-planted) 1.40; formula-predicted rate 0.145 (n>=200: 0.246); score flags 38
+     empirical null (3 size groups): flagged 14/200; non-planted 11; planted flags [ 0.  1.  1.  0.  0. -1.] (theoretical: [ 0.  1.  1.  0.  0. -1.]); null sd by group [1.02 1.32 1.8 ] mean [-0.01 -0.12  0.23]
+     empirical null (one group): flagged 22; null sd 1.25 mean 0.03; planted [ 0.  1.  1.  0.  0. -1.]
+tau=0.3: flagged (exact) 52/200 = 0.260; non-planted 48/194 = 0.247; n<50 0.067, mid 0.257, n>=200 0.396; SD of z (non-planted) 1.79; formula-predicted rate 0.230 (n>=200: 0.386); score flags 52
+     empirical null (3 size groups): flagged 13/200; non-planted 10; planted flags [ 0.  1.  1.  0.  0. -1.] (theoretical: [ 0.  1.  1.  0. -1. -1.]); null sd by group [1.14 1.6  2.18] mean [ 0.07 -0.19  0.27]
+     empirical null (one group): flagged 24; null sd 1.56 mean 0.05; planted [ 0.  0.  1.  0.  0. -1.]
+group sizes: n<50 47 mid 103 n>=200 50 ; planted sizes [ 37 100 280  37 105 285]
+example: SE 0.1, tau 0.3 -> SD of z 3.16 ; SE 0.5 -> 1.17 ; flag prob 0.535 0.093
+tau=0.3 funnel (score test): outside theoretical limits 52 ; outside empirical limits 15
+  provider size 280 precision 65.1 theoretical limits 0.757 1.243 empirical limits 0.497 1.571 O/E 1.991
+  provider size 285 precision 114.5 theoretical limits 0.817 1.183 empirical limits 0.62 1.431 O/E 0.509
+            null_mean  null_sd
+null_group                    
+1               0.049    1.150
+2              -0.183    1.602
+3               0.274    2.212
+20 replicates at tau=0.3: mean flag rate among non-planted: theoretical 0.244 empirical 0.057
