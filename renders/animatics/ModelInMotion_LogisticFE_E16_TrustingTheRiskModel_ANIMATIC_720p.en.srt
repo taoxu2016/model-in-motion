@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:03,316
+Every picture in the last
+act leaned on the risk model.
+
+2
+00:00:03,356 --> 00:00:05,955
+So here is a comforting fact about it.
+
+3
+00:00:05,995 --> 00:00:08,818
+For every one of our two hundred providers,
+
+4
+00:00:08,858 --> 00:00:12,937
+observed equals expected,
+exactly. Every meter is level.
+
+5
+00:00:13,067 --> 00:00:18,446
+Here is a second crowd, fitted the same
+way. Its two hundred meters are level too.
+
+6
+00:00:18,486 --> 00:00:23,145
+One of these two models is badly wrong.
+From here, you cannot tell which.
+
+7
+00:00:23,267 --> 00:00:26,667
+That is because the fit
+itself levels these meters.
+
+8
+00:00:26,707 --> 00:00:30,630
+Episode 6 showed how: balancing
+is what fitting means.
+
+9
+00:00:30,670 --> 00:00:33,702
+A check that every model
+passes is no check at all.
+
+10
+00:00:33,742 --> 00:00:36,502
+We need to cut the patients another way.
+
+11
+00:00:38,100 --> 00:00:40,321
+Welcome back to Model in Motion.
+
+12
+00:00:40,361 --> 00:00:42,653
+Today: trusting the risk model.
+
+13
+00:00:44,733 --> 00:00:47,607
+Forget the providers for a moment.
+
+14
+00:00:47,647 --> 00:00:55,210
+Line up all 28,848 patients by the risk the
+model gives them, from lowest to highest.
+
+15
+00:00:55,250 --> 00:01:00,144
+Cut the line into ten equal groups,
+and give each group a meter of its own.
+
+16
+00:01:00,267 --> 00:01:04,933
+For the first crowd, the
+ten meters barely tilt.
+
+17
+00:01:04,973 --> 00:01:09,763
+Observed over expected runs from 0.95 to 1.05.
+
+18
+00:01:09,803 --> 00:01:14,014
+Every one of those is within what
+luck allows. This model passes.
+
+19
+00:01:16,600 --> 00:01:23,992
+Now the second crowd. In its lowest-risk
+tenth, the model expected 136 readmissions.
+
+20
+00:01:24,032 --> 00:01:28,293
+There were 339: two and a half times as many.
+
+21
+00:01:28,333 --> 00:01:33,185
+In the middle, the meters tilt the other
+way: more than a fifth fewer than expected.
+
+22
+00:01:33,333 --> 00:01:35,803
+Here is what went wrong. In this crowd,
+
+23
+00:01:35,843 --> 00:01:39,985
+risk does not rise in a straight
+line with the first risk factor.
+
+24
+00:01:40,025 --> 00:01:45,709
+It bends: patients at either extreme are
+at higher risk than a straight line allows.
+
+25
+00:01:45,749 --> 00:01:49,384
+The model was given a straight
+line, and did the best it could.
+
+26
+00:01:49,533 --> 00:01:56,923
+Give it the bend, as a squared term, and
+the ten meters settle: from 0.92 to 1.08.
+
+27
+00:01:58,500 --> 00:02:01,630
+Did the bend matter for the providers? It did.
+
+28
+00:02:01,670 --> 00:02:05,671
+Between the two fits, 16 of
+the 200 change their flag.
+
+29
+00:02:05,711 --> 00:02:11,326
+And the fifth of providers with the most
+unusual case mix had ratios 16% too high.
+
+30
+00:02:11,366 --> 00:02:14,957
+They were being blamed
+for the model's mistake.
+
+31
+00:02:16,533 --> 00:02:20,760
+There is a famous one-number
+summary of a risk model: the AUC.
+
+32
+00:02:20,800 --> 00:02:24,614
+Take one patient who was
+readmitted and one who was not.
+
+33
+00:02:24,654 --> 00:02:29,683
+The AUC is the chance that the model
+gave the first the higher risk.
+
+34
+00:02:29,833 --> 00:02:36,321
+For the wrong model, it is 0.74.
+For the corrected one, 0.76.
+
+35
+00:02:36,361 --> 00:02:40,139
+A tenth of the patients were off
+by a factor of two and a half,
+
+36
+00:02:40,179 --> 00:02:45,436
+and the AUC barely noticed. It measures
+ranking, not whether the risks are right.
+
+37
+00:02:45,567 --> 00:02:52,730
+One more caution. In the first crowd, the
+AUC is 0.72 from the risk factors alone,
+
+38
+00:02:52,770 --> 00:02:57,794
+and 0.74 once the model knows
+each patient's provider.
+
+39
+00:02:57,834 --> 00:03:02,770
+That gain says providers differ. It does
+not say the risk rule got any better.
+
+40
+00:03:04,367 --> 00:03:10,444
+A third cut: inside one provider. Our
+largest has 484 patients, and for them,
+
+41
+00:03:10,484 --> 00:03:16,792
+in this experiment, risk climbs twice
+as steeply as the shared rule allows.
+
+42
+00:03:16,933 --> 00:03:24,125
+Its total balances, as it must:
+143 observed, 143 expected.
+
+43
+00:03:24,165 --> 00:03:30,268
+But split its patients into a
+lower-risk half and a higher-risk half.
+
+44
+00:03:30,308 --> 00:03:33,774
+18 against 41. And 125 against 102.
+
+45
+00:03:33,900 --> 00:03:36,328
+One gamma cannot describe this provider.
+
+46
+00:03:36,368 --> 00:03:39,721
+It is an average over the
+patients it happens to treat,
+
+47
+00:03:39,761 --> 00:03:42,826
+and a direct rate built on it would mislead.
+
+48
+00:03:44,400 --> 00:03:48,330
+Software can catch some trouble
+before fitting: missing values,
+
+49
+00:03:48,370 --> 00:03:53,006
+a risk factor that never varies,
+two that say nearly the same thing.
+
+50
+00:03:53,133 --> 00:03:56,799
+But every check today compared
+the model with data we have.
+
+51
+00:03:56,839 --> 00:04:00,133
+None can see a risk factor
+that nobody recorded.
+
+52
+00:04:00,173 --> 00:04:04,774
+And more is not always better. Adjust
+for something a provider causes,
+
+53
+00:04:04,814 --> 00:04:09,142
+such as a complication, and you
+adjust its performance away.
+
+54
+00:04:10,733 --> 00:04:12,229
+Let's gather it up.
+
+55
+00:04:12,269 --> 00:04:16,368
+Provider meters are level by
+construction. They prove nothing.
+
+56
+00:04:16,408 --> 00:04:21,680
+So take the same meter to new groups: tenths
+of risk, and halves within a provider.
+
+57
+00:04:21,720 --> 00:04:24,715
+And the AUC measures ranking, not fairness.
+
+58
+00:04:24,833 --> 00:04:30,222
+Throughout this series, each provider has had
+a number of its own, estimated on its own.
+
+59
+00:04:30,262 --> 00:04:35,908
+Many analysts would do it differently, and
+pull the small providers toward the average.
+
+60
+00:04:35,948 --> 00:04:38,260
+Next time: fixed or random?
+
+61
+00:04:38,400 --> 00:04:42,505
+This has been Model in Motion.
+Thanks for following the story.

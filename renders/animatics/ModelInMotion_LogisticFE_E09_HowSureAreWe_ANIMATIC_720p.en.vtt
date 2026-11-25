@@ -1,0 +1,237 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.696
+For five episodes, one phrase has
+followed every number: rough estimates.
+
+00:00:04.736 --> 00:00:12.638
+The step is 2.02. Alder sits 0.87 above
+Cedar. Rough, we said, and moved on.
+
+00:00:12.767 --> 00:00:14.519
+Today we pay that debt.
+
+00:00:14.559 --> 00:00:19.146
+The dial reads 2.02, which multiplies
+the odds by seven and a half.
+
+00:00:19.186 --> 00:00:24.786
+Would you stake much on seven and a
+half? On somewhere between five and ten?
+
+00:00:24.933 --> 00:00:28.270
+Hold your guess. The answer
+is in the shape of the hill.
+
+00:00:29.867 --> 00:00:32.088
+Welcome back to Model in Motion.
+
+00:00:32.128 --> 00:00:34.057
+Today: how sure are we?
+
+00:00:36.133 --> 00:00:40.850
+Here is the hill from Episode 6: the
+height for each position of the dial.
+
+00:00:40.890 --> 00:00:46.808
+Its top is at 2.02. The question is how
+far from the top the truth could be.
+
+00:00:46.933 --> 00:00:49.867
+That depends on how sharply the top is curved.
+
+00:00:49.907 --> 00:00:53.677
+A sharp peak pins the dial.
+A flat one lets it wander.
+
+00:00:53.717 --> 00:00:59.827
+And we already have the curvature. It is
+the folded number from last time: 2.93.
+
+00:00:59.967 --> 00:01:04.578
+One over its square root gives
+the standard error: 0.58.
+
+00:01:04.618 --> 00:01:08.908
+Go about two of those either side of the top,
+
+00:01:08.948 --> 00:01:13.821
+and you have a 95%
+interval: from 0.87 to 3.16.
+
+00:01:13.967 --> 00:01:19.794
+As a multiplier on the odds, that
+is anywhere from 2.4 to 23.6.
+
+00:01:19.834 --> 00:01:23.324
+So the data are clear that
+higher risk raises the odds.
+
+00:01:23.364 --> 00:01:27.309
+They cannot say whether by a
+factor of two or of twenty.
+
+00:01:28.900 --> 00:01:32.700
+Could the true step be zero?
+The hill answers in three ways.
+
+00:01:32.740 --> 00:01:37.137
+Across: zero lies about three and a
+half standard errors from the top.
+
+00:01:37.177 --> 00:01:41.319
+Down: the hill at zero
+stands 7.3 below the top.
+
+00:01:41.359 --> 00:01:45.591
+And by the slope: at zero, the
+ground is still climbing steeply.
+
+00:01:45.733 --> 00:01:48.136
+Three different measurements, one verdict.
+
+00:01:48.176 --> 00:01:52.654
+A step this large would turn up by
+chance less than once in a thousand.
+
+00:01:54.233 --> 00:01:57.375
+Now the clinics. Each one
+has a little hill of its own,
+
+00:01:57.415 --> 00:02:00.124
+and its curvature is that clinic's wobble.
+
+00:02:00.164 --> 00:02:10.604
+Alder's is 6.38, so on its own its standard
+error is 0.40. Dune's is 2.31: 0.66.
+
+00:02:10.733 --> 00:02:16.645
+Notice what earns precision. Not the number
+of patients, but what each patient adds:
+
+00:02:16.685 --> 00:02:20.720
+most near 50%, almost nothing
+near zero or a hundred.
+
+00:02:20.760 --> 00:02:24.193
+Elm has 11 patients and a wobble of 0.02.
+
+00:02:24.233 --> 00:02:29.750
+A hundred patients at 2% would
+carry less than Dune's twelve.
+
+00:02:31.333 --> 00:02:33.902
+But a clinic's gamma is not read on its own.
+
+00:02:33.942 --> 00:02:38.845
+It is read where the risk factor is zero,
+and getting there leans on the dial.
+
+00:02:38.885 --> 00:02:46.853
+Birch's patients are mostly higher-risk,
+so its gamma at zero borrows heavily:
+
+00:02:46.893 --> 00:02:54.531
+0.65, against 0.39 on its own. Alder
+barely borrows: 0.41 against 0.40.
+
+00:02:54.667 --> 00:02:59.235
+And here zero bites again. Record
+the risk factor three units higher,
+
+00:02:59.275 --> 00:03:05.236
+and Alder's standard error swells to 1.9,
+though no gap between clinics has changed.
+
+00:03:05.367 --> 00:03:10.212
+So read each clinic where the patients
+actually are: at the average case mix.
+
+00:03:10.252 --> 00:03:15.904
+There the standard errors are
+0.43, 0.47, 0.52 and 0.66,
+
+00:03:15.944 --> 00:03:24.426
+however the risk factor is recorded. These
+are the ones a fair comparison needs.
+
+00:03:26.000 --> 00:03:31.555
+Put it in one picture. Each clinic's
+gamma, with its 95% interval.
+
+00:03:31.700 --> 00:03:34.113
+Every interval overlaps every other.
+
+00:03:34.153 --> 00:03:39.146
+With 103 patients, the model has an
+opinion about the order of these clinics,
+
+00:03:39.186 --> 00:03:41.693
+and very little confidence in it.
+
+00:03:41.833 --> 00:03:47.169
+And Elm. Its printed interval
+runs from minus 19.7 to plus 7.2.
+
+00:03:47.209 --> 00:03:51.484
+That is not an estimate. It is a warning sign.
+
+00:03:51.633 --> 00:03:55.783
+One caution about the picture.
+Each interval is about one clinic.
+
+00:03:55.823 --> 00:04:00.879
+Whether two clinics differ is a separate
+calculation, and it comes later.
+
+00:04:02.467 --> 00:04:05.435
+So what would it take to
+be sure? Ask the crowd.
+
+00:04:05.475 --> 00:04:14.593
+Among its 200 providers, those with 20 to
+30 patients have a standard error near 0.55.
+
+00:04:14.633 --> 00:04:19.350
+Near 100 patients: 0.26. Above 400: 0.12.
+
+00:04:19.467 --> 00:04:22.030
+Four times the patients, half the error.
+
+00:04:22.070 --> 00:04:27.149
+For a standard error of 0.1
+at a 20% readmission rate,
+
+00:04:27.189 --> 00:04:30.953
+a provider needs about 625 patients.
+
+00:04:32.533 --> 00:04:34.029
+Let's gather it up.
+
+00:04:34.069 --> 00:04:39.448
+A sharp peak means a small standard error:
+one over the square root of the curvature.
+
+00:04:39.488 --> 00:04:43.288
+A clinic's uncertainty is its
+own, plus a share of the dial's.
+
+00:04:43.328 --> 00:04:47.795
+And for a fair comparison, read
+every clinic at the average case mix.
+
+00:04:47.933 --> 00:04:51.434
+All of it assumes patients are
+independent of one another.
+
+00:04:51.474 --> 00:04:55.792
+Count the same patient twice, and
+these intervals are too narrow.
+
+00:04:55.933 --> 00:05:00.742
+We have left one clinic waiting
+since Episode 4. Next time: Elm.
+
+00:05:00.867 --> 00:05:04.972
+This has been Model in Motion.
+Thanks for following the story.

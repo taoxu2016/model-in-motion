@@ -1,0 +1,248 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.267
+Last time, taking turns took 54 rounds.
+
+00:00:03.307 --> 00:00:04.868
+And we ended on a promise:
+
+00:00:04.908 --> 00:00:09.075
+let the sliders and the dial
+step together, and it takes five.
+
+00:00:09.200 --> 00:00:12.125
+But stepping together is
+harder than it sounds.
+
+00:00:12.165 --> 00:00:16.947
+When Dune's slider moved, two episodes
+ago, the dial's meter moved too.
+
+00:00:16.987 --> 00:00:22.329
+To step together, every control has to
+know how its move disturbs every meter.
+
+00:00:22.467 --> 00:00:28.848
+For five clinics, that is a small table. For
+7,000 providers, it is 50 million numbers.
+
+00:00:28.888 --> 00:00:31.222
+So how can this possibly be fast?
+
+00:00:32.800 --> 00:00:35.021
+Welcome back to Model in Motion.
+
+00:00:35.061 --> 00:00:37.075
+Today: the arrow matrix.
+
+00:00:39.167 --> 00:00:42.561
+Here is that table for our
+five clinics, at the fit.
+
+00:00:42.601 --> 00:00:46.316
+One row for each meter, one
+column for each control.
+
+00:00:46.356 --> 00:00:50.184
+Each cell says how much that meter
+moves when that control does.
+
+00:00:50.333 --> 00:00:56.297
+Down the diagonal is each clinic's
+own wobble, from last time:
+
+00:00:56.337 --> 00:01:01.749
+6.38 for Alder, 6.66 for
+Birch, down to 0.02 for Elm.
+
+00:01:01.789 --> 00:01:05.126
+In the corner is the dial's own: 10.2.
+
+00:01:05.267 --> 00:01:09.664
+Along the two edges is how strongly
+each clinic is tied to the dial.
+
+00:01:09.704 --> 00:01:16.774
+Birch, with 24 higher-risk patients,
+most of all: 5.94. Elm, with none: zero.
+
+00:01:16.900 --> 00:01:18.733
+And everywhere else, nothing.
+
+00:01:18.773 --> 00:01:24.028
+Alder's slider cannot move Birch's meter,
+because no patient belongs to both.
+
+00:01:24.068 --> 00:01:27.356
+That is not an approximation. It is the model.
+
+00:01:27.396 --> 00:01:30.093
+Look at the shape it leaves: an arrowhead.
+
+00:01:31.667 --> 00:01:35.424
+With five clinics, the shape
+hardly matters. So scale up.
+
+00:01:35.464 --> 00:01:40.056
+Our crowd of 200 providers,
+with two risk factors,
+
+00:01:40.096 --> 00:01:46.097
+has a table of 40,804 cells.
+Only 1,004 of them are not zero.
+
+00:01:46.233 --> 00:01:50.622
+A national measure, with 7,000
+providers and 50 risk factors,
+
+00:01:50.662 --> 00:01:55.153
+has almost 50 million cells.
+Nearly all of them are empty.
+
+00:01:55.193 --> 00:02:00.748
+Treat that as an ordinary table, and you
+are stuck. Use the arrow, and it is easy.
+
+00:02:03.333 --> 00:02:06.173
+Here is how. Take one clinic at a time.
+
+00:02:06.213 --> 00:02:09.321
+Square its tie to the dial,
+divide by its own wobble,
+
+00:02:09.361 --> 00:02:11.790
+and take that away from the corner.
+
+00:02:11.933 --> 00:02:22.773
+Alder takes away 0.15. Birch, 5.30.
+Cedar, 1.45. Dune, 0.38. Elm, nothing.
+
+00:02:22.813 --> 00:02:26.704
+The corner falls from 10.2 to 2.93.
+
+00:02:26.833 --> 00:02:29.507
+And now the sliders are out of the problem.
+
+00:02:29.547 --> 00:02:33.242
+What is left is one small
+number, for the dial alone.
+
+00:02:33.367 --> 00:02:36.772
+That number has a meaning.
+It adds up, clinic by clinic,
+
+00:02:36.812 --> 00:02:41.092
+how much patients differ in risk
+from others in their own clinic.
+
+00:02:41.132 --> 00:02:44.732
+Elm, where every patient is
+lower-risk, adds nothing.
+
+00:02:44.772 --> 00:02:49.930
+It is Episode 4's idea again: the
+risk rule is learned inside clinics.
+
+00:02:50.067 --> 00:02:52.515
+It is also a warning. Ignore the clinics,
+
+00:02:52.555 --> 00:02:55.913
+and the data would seem to
+say three and a half times as
+
+00:02:55.953 --> 00:02:58.609
+much about the dial as they really do.
+
+00:03:01.200 --> 00:03:06.792
+So the dial's step takes one division.
+From the plain guess, it is 1.81.
+
+00:03:06.832 --> 00:03:11.577
+Then each clinic takes its own step,
+corrected for what the dial just did.
+
+00:03:11.700 --> 00:03:18.180
+Watch the machine. One joint
+step, and the dial reads 1.81.
+
+00:03:18.220 --> 00:03:23.031
+A second: 2.00. A third: 2.0164, the top.
+
+00:03:23.071 --> 00:03:28.178
+Five steps until the dial stops
+moving, where taking turns needed 54.
+
+00:03:28.300 --> 00:03:33.364
+And the trouble with where we put zero?
+Record the risk factor five units higher,
+
+00:03:33.404 --> 00:03:36.778
+or fifty. The joint path
+does not change at all.
+
+00:03:38.367 --> 00:03:41.975
+Each step is three cheap jobs:
+add up over the patients,
+
+00:03:42.015 --> 00:03:45.943
+fold once for each provider,
+and solve one small system.
+
+00:03:45.983 --> 00:03:50.307
+We tried it on 2,000 providers
+and about 200,000 patients.
+
+00:03:50.347 --> 00:03:53.181
+The fit took well under a second.
+
+00:03:53.300 --> 00:03:57.973
+Written out as an ordinary table,
+with a column for every provider,
+
+00:03:58.013 --> 00:04:02.866
+the same data would fill 3.3
+gigabytes before any fitting began.
+
+00:04:03.000 --> 00:04:07.012
+So a separate number for every
+provider is not a computing problem.
+
+00:04:07.052 --> 00:04:08.784
+It only looked like one.
+
+00:04:08.824 --> 00:04:13.928
+One caution. The arrow needs every
+patient to belong to exactly one provider.
+
+00:04:13.968 --> 00:04:18.326
+A second grouping that cuts
+across the first would break it.
+
+00:04:19.900 --> 00:04:21.396
+Let's gather it up.
+
+00:04:21.436 --> 00:04:26.025
+Clinics disturb each other only through
+the dial, so the table is an arrow.
+
+00:04:26.065 --> 00:04:30.271
+Fold each clinic into the corner,
+and one small system is left.
+
+00:04:30.311 --> 00:04:36.037
+Nothing is approximated. It is last
+episode's step, taken for everything at once.
+
+00:04:36.167 --> 00:04:39.378
+And keep an eye on that folded number, 2.93.
+
+00:04:39.418 --> 00:04:43.466
+It says how firmly the data
+hold the dial in place.
+
+00:04:43.506 --> 00:04:45.712
+Next time: how sure are we?
+
+00:04:45.833 --> 00:04:49.938
+This has been Model in Motion.
+Thanks for following the story.

@@ -1,0 +1,314 @@
+1
+00:00:00,000 --> 00:00:06,147
+Alder had 13 readmissions. The reference
+clinic, given the same patients, expects 8.
+
+2
+00:00:06,187 --> 00:00:07,777
+Is that a real difference?
+
+3
+00:00:07,817 --> 00:00:12,617
+Or could a clinic exactly like the
+reference have had 13, just by luck?
+
+4
+00:00:12,767 --> 00:00:15,564
+To answer, we need to
+see what luck looks like.
+
+5
+00:00:15,604 --> 00:00:19,080
+We'll start with Dune, because
+Dune has only 12 patients,
+
+6
+00:00:19,120 --> 00:00:21,629
+and we can watch every one of them.
+
+7
+00:00:21,767 --> 00:00:25,258
+Dune had 7 readmissions against 4.8 expected:
+
+8
+00:00:25,298 --> 00:00:30,906
+the highest raw rate in the cast.
+So make a guess. Is Dune unusual?
+
+9
+00:00:32,500 --> 00:00:34,721
+Welcome back to Model in Motion.
+
+10
+00:00:34,761 --> 00:00:36,839
+Today: unequal coins.
+
+11
+00:00:38,933 --> 00:00:43,714
+Suppose Dune were exactly like the
+reference. Then each patient is a coin.
+
+12
+00:00:43,754 --> 00:00:49,188
+For the six lower-risk patients, it
+comes up readmitted 18% of the time.
+
+13
+00:00:49,228 --> 00:00:52,467
+For the six higher-risk patients, 62%.
+
+14
+00:00:52,600 --> 00:00:55,760
+Flip all twelve and count. Three readmissions.
+
+15
+00:00:55,800 --> 00:00:58,689
+Flip again: five. And again: three.
+
+16
+00:00:58,833 --> 00:01:03,316
+Do it two thousand times, and
+the counts pile up around 4.8.
+
+17
+00:01:03,356 --> 00:01:08,484
+That pile is what luck looks like, for a
+clinic like the reference with Dune's patients.
+
+18
+00:01:10,067 --> 00:01:12,434
+We don't actually have to flip anything.
+
+19
+00:01:12,474 --> 00:01:16,134
+The pile can be worked out
+exactly, one coin at a time.
+
+20
+00:01:16,267 --> 00:01:20,767
+Each new coin splits every bar in
+two. One part stays where it is:
+
+21
+00:01:20,807 --> 00:01:24,873
+no readmission. The other
+moves one step to the right.
+
+22
+00:01:26,600 --> 00:01:32,526
+After twelve coins, the
+chance of exactly 5 is 26%.
+
+23
+00:01:32,566 --> 00:01:37,830
+Of 6, 19%. Of 7, 9%. And of 8 or more, 4%.
+
+24
+00:01:40,400 --> 00:01:44,575
+Dune's count was 7. For a
+clinic just like the reference,
+
+25
+00:01:44,615 --> 00:01:47,257
+the chance of 7 or more is 13%.
+
+26
+00:01:47,400 --> 00:01:50,500
+Two refinements. Counts move in whole steps,
+
+27
+00:01:50,540 --> 00:01:55,531
+so we take only half of the bar
+at 7 itself. That brings it to 8%.
+
+28
+00:01:55,571 --> 00:02:00,742
+And a clinic can surprise us in either
+direction, so we double it: 16%.
+
+29
+00:02:00,867 --> 00:02:06,977
+That is the p-value. About one time in six,
+luck alone does this. Dune is not flagged.
+
+30
+00:02:08,567 --> 00:02:16,655
+Now Alder. Thirty coins: 24 at 18%,
+and 6 at 62%. The pile centres on 8.
+
+31
+00:02:16,695 --> 00:02:19,562
+Alder's 13 sits far out in the tail.
+
+32
+00:02:19,602 --> 00:02:26,090
+The chance of 13 or more is two and a
+half percent, and the p-value is 3.5%.
+
+33
+00:02:26,233 --> 00:02:29,771
+That is below the usual
+5% line. Alder is flagged:
+
+34
+00:02:29,811 --> 00:02:33,666
+more readmissions than
+luck comfortably explains.
+
+35
+00:02:33,800 --> 00:02:37,988
+So the clinic with the highest raw
+rate is not flagged, and Alder is.
+
+36
+00:02:38,028 --> 00:02:42,299
+Twelve patients leave a lot of
+room for luck. Thirty leave less.
+
+37
+00:02:42,433 --> 00:02:46,188
+For the others: Birch, 45%. Cedar, 99%.
+
+38
+00:02:46,228 --> 00:02:51,636
+And Elm, 11%, which is
+simply its whole bar at zero.
+
+39
+00:02:53,233 --> 00:02:55,830
+Why insist that the coins are unequal?
+
+40
+00:02:55,870 --> 00:03:00,937
+Swap Alder's thirty for thirty
+identical coins with the same average.
+
+41
+00:03:00,977 --> 00:03:09,946
+The pile gets wider. The p-value rises from
+3.5% to 5.2%, and Alder slips under the bar.
+
+42
+00:03:10,067 --> 00:03:16,028
+Mixed coins vary less than identical ones.
+Use the right pile, and the test is sharper.
+
+43
+00:03:17,600 --> 00:03:20,248
+So far we built the pile at the reference.
+
+44
+00:03:20,288 --> 00:03:25,886
+But we can build it at any gamma, and ask
+where Alder's 13 stops being surprising.
+
+45
+00:03:26,033 --> 00:03:30,068
+Slide the gamma up, and the pile slides right.
+
+46
+00:03:30,108 --> 00:03:35,614
+Between minus 1.46 and plus
+0.13, thirteen is unremarkable.
+
+47
+00:03:35,654 --> 00:03:41,352
+That is Alder's exact 95% interval.
+The reference, at minus 1.52,
+
+48
+00:03:41,392 --> 00:03:46,244
+lies just outside it: the
+same verdict as the flag.
+
+49
+00:03:46,367 --> 00:03:51,410
+Carried through the rising
+curve from Episode 11,
+
+50
+00:03:51,450 --> 00:03:55,663
+Alder's ratio lies between 1.04 and 2.26.
+
+51
+00:03:55,703 --> 00:04:01,032
+Dune's, between 0.82 and
+2.04, which includes 1.
+
+52
+00:04:02,600 --> 00:04:04,554
+Does the test keep its promise?
+
+53
+00:04:04,594 --> 00:04:09,250
+We built fifty crowds in which every
+provider truly equals the reference,
+
+54
+00:04:09,290 --> 00:04:11,371
+and tested all ten thousand.
+
+55
+00:04:11,411 --> 00:04:16,134
+It flagged 4.8%, against the 5% it promises.
+
+56
+00:04:16,267 --> 00:04:20,600
+Two cautions. The test treats the
+dial and the reference as known.
+
+57
+00:04:20,640 --> 00:04:24,219
+And a p-value is not the chance
+that the clinic is ordinary.
+
+58
+00:04:24,259 --> 00:04:27,625
+It is the chance of a count
+like this, if it were.
+
+59
+00:04:29,200 --> 00:04:30,696
+Let's gather it up.
+
+60
+00:04:30,736 --> 00:04:32,591
+If a clinic were like the reference,
+
+61
+00:04:32,631 --> 00:04:35,859
+each patient would be a coin
+with a chance of their own.
+
+62
+00:04:35,899 --> 00:04:39,238
+The count's whole distribution
+can be worked out exactly,
+
+63
+00:04:39,278 --> 00:04:42,877
+and the tail beyond what was
+observed gives the p-value.
+
+64
+00:04:42,917 --> 00:04:46,211
+Turned inside out, the same
+test gives an interval.
+
+65
+00:04:46,333 --> 00:04:48,695
+Exact is satisfying, but it takes work.
+
+66
+00:04:48,735 --> 00:04:52,032
+Are there quicker ways to
+nearly the same answer?
+
+67
+00:04:52,072 --> 00:04:54,342
+Next time: three shortcuts.
+
+68
+00:04:54,467 --> 00:04:58,572
+This has been Model in Motion.
+Thanks for following the story.

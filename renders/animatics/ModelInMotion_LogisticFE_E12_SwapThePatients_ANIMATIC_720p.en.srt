@@ -1,0 +1,302 @@
+1
+00:00:00,000 --> 00:00:05,345
+Last time, Alder's ratio came
+out at 1.62, and Dune's at 1.46.
+
+2
+00:00:05,385 --> 00:00:08,862
+So Alder looks the worse of the two.
+
+3
+00:00:09,000 --> 00:00:14,656
+But put their curves side by side. Dune's
+is the higher one, at every level of risk.
+
+4
+00:00:14,696 --> 00:00:18,737
+Whoever you are, your chance of
+readmission is greater at Dune.
+
+5
+00:00:18,867 --> 00:00:21,707
+So how did Alder end up with the bigger ratio?
+
+6
+00:00:21,747 --> 00:00:26,854
+The answer is in who each clinic treats.
+And it leads to a second way of measuring.
+
+7
+00:00:28,433 --> 00:00:30,654
+Welcome back to Model in Motion.
+
+8
+00:00:30,694 --> 00:00:32,730
+Today: swap the patients.
+
+9
+00:00:34,800 --> 00:00:38,951
+Start with lower-risk
+patients. At the reference,
+
+10
+00:00:38,991 --> 00:00:44,147
+their chance is 18%. At Alder
+it is 34%, and at Dune, 36.
+
+11
+00:00:44,187 --> 00:00:46,947
+At either clinic, that is close to double.
+
+12
+00:00:47,066 --> 00:00:53,597
+Now the higher-risk patients: 62% at
+the reference, 80 at Alder, 81 at Dune.
+
+13
+00:00:53,637 --> 00:00:57,892
+A much smaller multiple, about
+1.3. It is Episode 5 again:
+
+14
+00:00:57,932 --> 00:01:04,056
+the same gap in odds means less, in
+proportion, when the risk is already high.
+
+15
+00:01:04,200 --> 00:01:08,692
+Here is the catch. Of Alder's
+30 patients, 24 are lower-risk,
+
+16
+00:01:08,732 --> 00:01:13,248
+where the multiple is near 2.
+Dune's 12 are split evenly.
+
+17
+00:01:13,288 --> 00:01:17,024
+So Alder's ratio is the larger
+because of who Alder treats,
+
+18
+00:01:17,064 --> 00:01:19,462
+not because its curve is higher.
+
+19
+00:01:19,600 --> 00:01:24,317
+Give Dune Alder's patients,
+and Dune's ratio would be 1.68.
+
+20
+00:01:24,357 --> 00:01:27,907
+Last time's ratio judges each
+clinic on its own patients.
+
+21
+00:01:27,947 --> 00:01:31,321
+It does not line clinics
+up against one another.
+
+22
+00:01:32,900 --> 00:01:38,321
+So turn last time's method around. Keep
+each clinic's curve, and swap the patients.
+
+23
+00:01:38,361 --> 00:01:41,190
+Give every clinic the same crowd:
+
+24
+00:01:41,230 --> 00:01:46,797
+all 103 patients in the cast.
+57 lower-risk, 46 higher-risk.
+
+25
+00:01:46,933 --> 00:01:51,871
+Under Alder's curve, that
+is 57 patients at 34%,
+
+26
+00:01:51,911 --> 00:01:57,688
+and 46 at 80%. Add up the
+chances: 56.2 readmissions.
+
+27
+00:01:57,728 --> 00:02:02,713
+56.2 out of 103. If
+everyone had gone to Alder,
+
+28
+00:02:02,753 --> 00:02:07,486
+the model expects 54.5% to be readmitted.
+
+29
+00:02:07,633 --> 00:02:12,207
+That is Alder's direct rate. One
+clinic's curve, everyone's patients.
+
+30
+00:02:13,800 --> 00:02:24,789
+Now every clinic. Alder, 54.5%.
+Birch, 32.2. Cedar, 37.6. Dune, 55.9.
+
+31
+00:02:24,829 --> 00:02:27,896
+And Dune is back above
+Alder. On the same patients,
+
+32
+00:02:27,936 --> 00:02:31,089
+the higher curve always gives the higher rate.
+
+33
+00:02:31,233 --> 00:02:33,581
+Elm's figure, 0.7%, is hatched.
+
+34
+00:02:33,621 --> 00:02:38,900
+It rests on a gamma that only
+records where the fitting stopped.
+
+35
+00:02:39,033 --> 00:02:44,979
+One trap. The overall rate was 41%,
+but that is not the yardstick here.
+
+36
+00:02:45,019 --> 00:02:49,852
+Cedar, the reference clinic
+itself, comes out at 37.6.
+
+37
+00:02:49,892 --> 00:02:55,964
+Everyone at the reference would have 38.8
+readmissions, the same 38.8 we met last time.
+
+38
+00:02:56,004 --> 00:03:01,975
+So compare a direct rate with the reference
+clinic's, not with the overall rate.
+
+39
+00:03:02,100 --> 00:03:13,281
+Against Cedar's 37.6, Alder's 54.5 is 1.45
+times as high. Last time's ratio said 1.62.
+
+40
+00:03:13,321 --> 00:03:16,359
+Both are right. They
+answer different questions.
+
+41
+00:03:17,933 --> 00:03:22,849
+Last time's question: how did this clinic
+do with the patients it actually treated?
+
+42
+00:03:22,889 --> 00:03:26,582
+That is the one to ask when
+a clinic is held to account.
+
+43
+00:03:26,700 --> 00:03:30,644
+Today's question: how would this
+clinic do with everyone's patients?
+
+44
+00:03:30,684 --> 00:03:35,065
+That is closer to what someone
+choosing between clinics wants to know.
+
+45
+00:03:35,105 --> 00:03:38,805
+And neither is a rate that
+anyone actually experienced.
+
+46
+00:03:40,400 --> 00:03:45,571
+A common footing has a price. Alder
+treated only 6 higher-risk patients.
+
+47
+00:03:45,611 --> 00:03:48,787
+Its direct rate asks its curve about 46.
+
+48
+00:03:48,827 --> 00:03:54,595
+Two-thirds of that 56.2 comes from
+patients of a kind Alder hardly saw.
+
+49
+00:03:54,733 --> 00:03:58,969
+For Elm it is starker. Elm treated
+no higher-risk patients at all.
+
+50
+00:03:59,009 --> 00:04:02,597
+Its figure rests entirely on
+the model's assumption that
+
+51
+00:04:02,637 --> 00:04:05,579
+every clinic's curve has the same shape.
+
+52
+00:04:07,166 --> 00:04:10,656
+In the crowd of 200, the
+two measures agree closely.
+
+53
+00:04:10,696 --> 00:04:15,659
+Yet between the two rankings, four
+providers move ten places or more.
+
+54
+00:04:15,699 --> 00:04:19,975
+A ranking can shift with the question,
+before luck has even entered.
+
+55
+00:04:21,566 --> 00:04:23,062
+Let's gather it up.
+
+56
+00:04:23,102 --> 00:04:26,902
+Last time: a clinic's own
+patients, on the reference curve.
+
+57
+00:04:26,942 --> 00:04:30,742
+This time: everyone's patients,
+on the clinic's own curve.
+
+58
+00:04:30,782 --> 00:04:32,847
+The second compares like with like,
+
+59
+00:04:32,887 --> 00:04:36,034
+but asks each clinic about
+patients it never treated.
+
+60
+00:04:36,074 --> 00:04:38,769
+Always say which one you are reporting.
+
+61
+00:04:38,900 --> 00:04:44,768
+One question is still open. Alder had 13
+readmissions where the reference expects 8.
+
+62
+00:04:44,808 --> 00:04:46,988
+A real difference, or luck?
+
+63
+00:04:47,028 --> 00:04:49,383
+Next time: unequal coins.
+
+64
+00:04:49,500 --> 00:04:53,605
+This has been Model in Motion.
+Thanks for following the story.

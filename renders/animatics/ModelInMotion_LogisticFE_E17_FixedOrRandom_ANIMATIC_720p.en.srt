@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:04,125
+Dune's number is minus 0.58:
+the highest of any clinic.
+
+2
+00:00:04,165 --> 00:00:08,685
+On that number, Dune is the
+worst performer in the cast.
+
+3
+00:00:08,725 --> 00:00:10,803
+It comes from 12 patients.
+
+4
+00:00:10,933 --> 00:00:16,440
+Alder is just behind, at
+minus 0.65, from 30 patients.
+
+5
+00:00:16,480 --> 00:00:21,054
+If you had to bet on which clinic is truly
+the worst, would you still pick Dune?
+
+6
+00:00:21,200 --> 00:00:25,514
+Many analysts would not. They would
+pull every estimate toward the average,
+
+7
+00:00:25,554 --> 00:00:28,563
+and pull hardest where
+there is least to go on.
+
+8
+00:00:28,603 --> 00:00:30,527
+That is the random-effect model,
+
+9
+00:00:30,567 --> 00:00:34,414
+and this episode is about what
+it buys and what it costs.
+
+10
+00:00:36,000 --> 00:00:38,221
+Welcome back to Model in Motion.
+
+11
+00:00:38,261 --> 00:00:40,297
+Today: fixed or random?
+
+12
+00:00:42,367 --> 00:00:45,406
+So far, each provider has
+had a number of its own,
+
+13
+00:00:45,446 --> 00:00:50,284
+and we have assumed nothing about those
+numbers. That is what fixed means.
+
+14
+00:00:50,324 --> 00:00:52,333
+The alternative assumes something:
+
+15
+00:00:52,373 --> 00:00:57,245
+that the numbers are draws from one
+bell curve, with a centre and a spread.
+
+16
+00:00:57,367 --> 00:01:02,626
+Then each estimate is a compromise between
+the provider's own data and the centre.
+
+17
+00:01:02,666 --> 00:01:06,372
+The weight on its own data
+is called its reliability.
+
+18
+00:01:06,412 --> 00:01:12,590
+For Dune, with a spread of 0.33 borrowed
+from our crowd, the reliability is 0.20.
+
+19
+00:01:12,630 --> 00:01:16,896
+Dune keeps a fifth of its
+distance from the centre.
+
+20
+00:01:17,033 --> 00:01:21,228
+Do that for every clinic.
+Dune moves to minus 1.33.
+
+21
+00:01:21,268 --> 00:01:27,276
+Alder, with more patients, keeps
+two fifths, and stops at minus 1.18.
+
+22
+00:01:27,316 --> 00:01:32,231
+The order has flipped. And Elm, which
+had no estimate at all, now has one.
+
+23
+00:01:34,800 --> 00:01:37,825
+Now the crowd of two
+hundred, fitted both ways.
+
+24
+00:01:37,865 --> 00:01:43,101
+Each line joins a provider's fixed-effect
+estimate to its random-effect one.
+
+25
+00:01:43,141 --> 00:01:47,705
+Small providers move most. Under 50 patients,
+
+26
+00:01:47,745 --> 00:01:53,518
+a typical reliability is
+0.37. Above 200, it is 0.83.
+
+27
+00:01:53,667 --> 00:02:00,091
+The estimates draw together. Their
+spread falls from 0.44 to 0.26.
+
+28
+00:02:00,131 --> 00:02:01,858
+The true spread is 0.33.
+
+29
+00:02:01,898 --> 00:02:07,329
+Fixed effects scatter wider than
+the truth; random effects, narrower.
+
+30
+00:02:09,900 --> 00:02:12,513
+What does the pull buy? Accuracy, on average.
+
+31
+00:02:12,553 --> 00:02:16,900
+We know the truth in this crowd, so
+we can measure the typical error.
+
+32
+00:02:16,940 --> 00:02:26,741
+It falls from 0.28 to 0.20. For providers
+under 50 patients, from 0.40 to 0.25.
+
+33
+00:02:29,333 --> 00:02:33,944
+Now the costs. First, the pull
+does not know who truly differs.
+
+34
+00:02:33,984 --> 00:02:37,954
+Our six planted providers
+sit 0.8 from the centre.
+
+35
+00:02:37,994 --> 00:02:44,973
+Fixed effects put them at 0.67, on
+average. Random effects, at 0.46.
+
+36
+00:02:45,013 --> 00:02:49,224
+And fixed effects flag four of
+the six; random effects, three.
+
+37
+00:02:50,800 --> 00:02:53,516
+The second cost is subtler. In this crowd,
+
+38
+00:02:53,556 --> 00:02:56,928
+providers with sicker
+patients truly perform better.
+
+39
+00:02:56,968 --> 00:03:00,471
+The random-effect model
+assumes there is no such link,
+
+40
+00:03:00,511 --> 00:03:03,289
+and pulls everyone toward one centre.
+
+41
+00:03:03,433 --> 00:03:06,575
+So its errors follow the case mix.
+
+42
+00:03:06,615 --> 00:03:12,417
+Their correlation with it is
+0.35. For fixed effects, 0.06.
+
+43
+00:03:12,457 --> 00:03:16,924
+The sickest fifth of providers
+look 0.10 worse than they are.
+
+44
+00:03:16,964 --> 00:03:19,826
+The healthiest fifth, 0.10 better.
+
+45
+00:03:19,967 --> 00:03:23,713
+Break the link, so that performance
+and case mix are unrelated,
+
+46
+00:03:23,753 --> 00:03:25,906
+and that correlation vanishes.
+
+47
+00:03:27,500 --> 00:03:30,599
+So which? If you are judging
+individual providers,
+
+48
+00:03:30,639 --> 00:03:34,372
+and performance may be tied
+to case mix, fixed effects.
+
+49
+00:03:34,412 --> 00:03:36,522
+If you have many tiny providers,
+
+50
+00:03:36,562 --> 00:03:41,482
+or your question is about providers
+as a population, random effects.
+
+51
+00:03:41,600 --> 00:03:46,189
+Either way, the estimates feed the
+same standardization from Episode 11.
+
+52
+00:03:46,229 --> 00:03:51,331
+The choice changes the numbers that go
+in, not the arithmetic that follows.
+
+53
+00:03:51,371 --> 00:03:55,774
+And neither one protects you from
+a risk factor that nobody recorded.
+
+54
+00:03:57,367 --> 00:03:58,863
+Let's gather it up.
+
+55
+00:03:58,903 --> 00:04:03,834
+Random effects pull each estimate
+toward the centre, by its reliability.
+
+56
+00:04:03,874 --> 00:04:08,634
+The pull buys accuracy on average,
+and gives every provider an estimate.
+
+57
+00:04:08,674 --> 00:04:12,309
+It costs you the outliers, and
+it bends with the case mix.
+
+58
+00:04:12,433 --> 00:04:16,361
+Fixed effects have a cost of
+their own that we have not faced.
+
+59
+00:04:16,401 --> 00:04:20,137
+One intercept per provider
+is a great many intercepts.
+
+60
+00:04:20,177 --> 00:04:22,596
+Next time: too many intercepts.
+
+61
+00:04:22,733 --> 00:04:26,838
+This has been Model in Motion.
+Thanks for following the story.

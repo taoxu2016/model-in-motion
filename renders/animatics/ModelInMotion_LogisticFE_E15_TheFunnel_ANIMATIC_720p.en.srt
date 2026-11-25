@@ -1,0 +1,290 @@
+1
+00:00:00,000 --> 00:00:02,819
+Here are two hundred providers, and a secret.
+
+2
+00:00:02,859 --> 00:00:07,218
+Six of them truly differ from
+the reference: three worse,
+
+3
+00:00:07,258 --> 00:00:11,699
+three better. The other 194
+are, in truth, identical.
+
+4
+00:00:11,833 --> 00:00:16,657
+And here are their ratios, sorted from
+highest to lowest. A league table.
+
+5
+00:00:16,697 --> 00:00:18,476
+Can you pick out the six?
+
+6
+00:00:18,600 --> 00:00:23,965
+Take the three at the top and the three at
+the bottom, and you would be right about two.
+
+7
+00:00:24,005 --> 00:00:29,568
+The other four are identical providers, small
+ones, having a lucky or an unlucky year.
+
+8
+00:00:29,608 --> 00:00:34,097
+A league table cannot tell luck from
+difference. We need a picture that can.
+
+9
+00:00:35,667 --> 00:00:37,888
+Welcome back to Model in Motion.
+
+10
+00:00:37,928 --> 00:00:39,665
+Today: the funnel.
+
+11
+00:00:41,733 --> 00:00:45,319
+Start with Dune's pile from
+Episode 13: what luck allows,
+
+12
+00:00:45,359 --> 00:00:49,010
+for a clinic like the
+reference with Dune's patients.
+
+13
+00:00:49,050 --> 00:00:51,960
+Divide every count by the 4.8 expected,
+
+14
+00:00:52,000 --> 00:00:56,206
+and the pile sits on the
+ratio scale, centred on 1.
+
+15
+00:00:56,333 --> 00:01:02,864
+Keep the stretch that holds
+95% of it: from 0.38 to 1.62.
+
+16
+00:01:02,904 --> 00:01:07,947
+Stand that band upright. A ratio
+inside it is unremarkable for Dune.
+
+17
+00:01:08,067 --> 00:01:11,915
+How wide the band is depends on
+how much a clinic can tell us.
+
+18
+00:01:11,955 --> 00:01:14,619
+Call that its precision. Dune's is 10.
+
+19
+00:01:14,659 --> 00:01:23,073
+Birch has more to go on: a precision of
+39, and a narrower band, from 0.69 to 1.31.
+
+20
+00:01:25,667 --> 00:01:29,168
+Now do that at every
+precision, and join the edges.
+
+21
+00:01:29,208 --> 00:01:34,124
+Wide on the left, where clinics tell us
+little. Narrow on the right. A funnel.
+
+22
+00:01:34,267 --> 00:01:40,947
+Place the cast. Dune, Cedar and Birch
+sit inside. Alder, at 1.62, is outside.
+
+23
+00:01:40,987 --> 00:01:45,611
+Outside the funnel means flagged,
+by last episode's bell-curve test.
+
+24
+00:01:45,651 --> 00:01:48,334
+It is the same calculation, drawn.
+
+25
+00:01:48,467 --> 00:01:53,474
+And Elm, far to the left. At Elm's
+precision the lower edge is below zero.
+
+26
+00:01:53,514 --> 00:01:59,526
+No count, not even none, could flag so
+small a clinic as better than the reference.
+
+27
+00:02:02,100 --> 00:02:04,971
+Now the two hundred from the start.
+
+28
+00:02:05,011 --> 00:02:11,447
+Of the 194 identical providers, 13
+fall outside the funnel, by luck alone.
+
+29
+00:02:11,487 --> 00:02:15,910
+That is what a 5% line means.
+Draw the crowd again and again,
+
+30
+00:02:15,950 --> 00:02:19,154
+and on average 5% of them land outside.
+
+31
+00:02:19,300 --> 00:02:22,759
+And the six who truly differ?
+The funnel catches three.
+
+32
+00:02:22,799 --> 00:02:26,771
+It misses both of the small
+ones, with 37 patients each.
+
+33
+00:02:26,811 --> 00:02:30,784
+And it misses a better-than-reference
+provider with 105:
+
+34
+00:02:30,824 --> 00:02:34,541
+a low count is harder to
+prove than a high one.
+
+35
+00:02:34,667 --> 00:02:39,549
+So a dot outside is not a verdict,
+and a dot inside is not an acquittal.
+
+36
+00:02:39,589 --> 00:02:44,041
+Inside means consistent with
+the reference, not equal to it.
+
+37
+00:02:45,633 --> 00:02:49,476
+Why put precision along the bottom,
+and not the number of patients?
+
+38
+00:02:49,516 --> 00:02:52,813
+Take two providers with 100 patients each.
+
+39
+00:02:52,853 --> 00:02:58,137
+One treats patients whose risk
+is near 5%; the other, near 40%.
+
+40
+00:02:58,177 --> 00:03:04,522
+Their precisions are 5 and 67. The same
+size, at opposite ends of the funnel.
+
+41
+00:03:04,667 --> 00:03:11,054
+In our crowd, providers of about a hundred
+patients have precisions from 19 to 74.
+
+42
+00:03:12,633 --> 00:03:16,346
+One companion picture. Sort
+the providers by ratio,
+
+43
+00:03:16,386 --> 00:03:20,124
+and give each one its
+interval from Episode 13.
+
+44
+00:03:20,164 --> 00:03:23,142
+The funnel shows how much
+each provider can tell us.
+
+45
+00:03:23,182 --> 00:03:27,767
+The caterpillar shows the order, and
+how little the order can be trusted.
+
+46
+00:03:27,900 --> 00:03:33,148
+A footnote on the funnel. With the exact
+test, each provider has limits of its own,
+
+47
+00:03:33,188 --> 00:03:37,807
+stepping between whole counts. The
+smooth curve is a guide to them.
+
+48
+00:03:40,600 --> 00:03:46,206
+One last turn of a knob. Until now, all
+but six of our providers were identical.
+
+49
+00:03:46,246 --> 00:03:50,267
+Let them truly differ a
+little, as real providers do.
+
+50
+00:03:50,307 --> 00:03:53,281
+Now a quarter of the dots
+are outside the funnel.
+
+51
+00:03:53,400 --> 00:03:55,112
+Is each of them an outlier?
+
+52
+00:03:55,152 --> 00:03:59,396
+Or is the funnel too narrow for a
+world in which everyone differs?
+
+53
+00:03:59,436 --> 00:04:02,966
+Hold that question. It
+has an episode of its own.
+
+54
+00:04:04,533 --> 00:04:06,029
+Let's gather it up.
+
+55
+00:04:06,069 --> 00:04:11,789
+Up the side, the ratio. Along the bottom,
+precision: how much a provider can tell us.
+
+56
+00:04:11,829 --> 00:04:16,482
+The funnel is what luck allows at each
+precision. Outside it means flagged.
+
+57
+00:04:16,522 --> 00:04:20,862
+And dots on the left are not worse
+providers. They are quieter ones.
+
+58
+00:04:21,000 --> 00:04:25,655
+Every picture in this act has leaned on
+something we have not yet questioned:
+
+59
+00:04:25,695 --> 00:04:27,317
+the risk model itself.
+
+60
+00:04:27,357 --> 00:04:29,542
+Next time: can we trust it?
+
+61
+00:04:29,667 --> 00:04:33,772
+This has been Model in Motion.
+Thanks for following the story.

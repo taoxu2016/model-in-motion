@@ -1,0 +1,256 @@
+1
+00:00:00,000 --> 00:00:03,757
+Here is the smallest provider
+there could be: two patients.
+
+2
+00:00:03,797 --> 00:00:07,957
+And here are two thousand of them.
+Each pair has its own intercept,
+
+3
+00:00:07,997 --> 00:00:11,294
+as always, and all of
+them share one risk rule.
+
+4
+00:00:11,433 --> 00:00:16,513
+We built this world, so we know
+the rule: a coefficient of 0.5.
+
+5
+00:00:16,553 --> 00:00:21,212
+Four thousand patients is a lot of
+evidence. What should the fit return?
+
+6
+00:00:21,333 --> 00:00:25,304
+It returns 0.92. Nearly twice the truth.
+
+7
+00:00:25,344 --> 00:00:30,022
+Draw the world again, four hundred
+times. The average is 1.01.
+
+8
+00:00:30,062 --> 00:00:33,608
+This is not bad luck, and it is not a bug.
+
+9
+00:00:35,200 --> 00:00:37,421
+Welcome back to Model in Motion.
+
+10
+00:00:37,461 --> 00:00:39,561
+Today: too many intercepts.
+
+11
+00:00:41,633 --> 00:00:49,401
+Look inside the pairs. In 1,224 of these
+2,000, both patients had the same outcome.
+
+12
+00:00:49,441 --> 00:00:51,690
+Episode 10 told us what happens then:
+
+13
+00:00:51,730 --> 00:00:56,596
+the intercept runs to the wall, and
+the pair says nothing about the rule.
+
+14
+00:00:56,733 --> 00:01:00,718
+In the other pairs, one patient
+was readmitted and one was not.
+
+15
+00:01:00,758 --> 00:01:04,679
+Here the intercept is free to
+go wherever fits this pair best,
+
+16
+00:01:04,719 --> 00:01:08,582
+and it settles exactly midway
+between the two patients.
+
+17
+00:01:08,700 --> 00:01:09,926
+That fit is too good.
+
+18
+00:01:09,966 --> 00:01:15,252
+The intercept has been tuned to two patients
+and nobody else, and it flatters them.
+
+19
+00:01:15,292 --> 00:01:18,782
+The shared rule inherits a
+little of that from every pair.
+
+20
+00:01:18,822 --> 00:01:21,850
+For pairs the sum is exact: twice the truth.
+
+21
+00:01:24,533 --> 00:01:28,730
+Keep the same four thousand
+patients and regroup them,
+
+22
+00:01:28,770 --> 00:01:32,344
+into providers of 5, of 10, of 25, of 100.
+
+23
+00:01:32,384 --> 00:01:39,240
+The rule comes out 26% too steep,
+then 12%, then 5%, then 1%.
+
+24
+00:01:39,367 --> 00:01:44,852
+The error shrinks as each provider grows.
+It does not shrink as providers are added.
+
+25
+00:01:44,892 --> 00:01:48,207
+More providers of the same
+size bring more intercepts,
+
+26
+00:01:48,247 --> 00:01:50,896
+and no more information for each one.
+
+27
+00:01:53,467 --> 00:01:56,780
+And nothing in the output warns you.
+
+28
+00:01:56,820 --> 00:02:02,131
+The standard error stays
+small, between 0.04 and 0.08.
+
+29
+00:02:02,171 --> 00:02:07,549
+So the 95% intervals are narrow, and in
+the wrong place. With providers of 5,
+
+30
+00:02:07,589 --> 00:02:12,654
+they hold the truth about a quarter
+of the time. With pairs, never.
+
+31
+00:02:14,233 --> 00:02:17,618
+There is a fit that escapes
+this. Within each provider,
+
+32
+00:02:17,658 --> 00:02:22,918
+take the number of readmissions as given,
+and ask only which patients they were.
+
+33
+00:02:22,958 --> 00:02:26,118
+Asked that way, the
+provider's intercept cancels.
+
+34
+00:02:26,158 --> 00:02:30,882
+It is the same move the Cox model
+makes when it asks who, not when.
+
+35
+00:02:31,000 --> 00:02:34,792
+This conditional fit gets
+the rule right at every size:
+
+36
+00:02:34,832 --> 00:02:37,829
+within 1% of the truth, even for pairs.
+
+37
+00:02:37,869 --> 00:02:40,940
+But it has deleted the
+very numbers we came for.
+
+38
+00:02:40,980 --> 00:02:45,089
+It returns no intercepts, so
+it cannot profile a provider.
+
+39
+00:02:47,667 --> 00:02:52,621
+So we keep the joint fit, and
+keep an eye on provider size.
+
+40
+00:02:52,661 --> 00:02:58,358
+At 25 patients the rule is about
+5% too steep; at 100, about 1%.
+
+41
+00:02:58,398 --> 00:03:03,871
+The software sets aside providers with
+10 patients or fewer before it fits.
+
+42
+00:03:03,911 --> 00:03:07,766
+And in our crowd, with 20
+to 500 patients a provider,
+
+43
+00:03:07,806 --> 00:03:10,950
+the rule comes out about 1% too steep.
+
+44
+00:03:11,067 --> 00:03:14,143
+One last thing. This is
+a property of the method,
+
+45
+00:03:14,183 --> 00:03:18,350
+not of any program. Every joint
+fit, in any package, has it.
+
+46
+00:03:19,933 --> 00:03:21,429
+Let's gather it up.
+
+47
+00:03:21,469 --> 00:03:26,314
+Each intercept is fitted to its own few
+patients, and overfits them a little.
+
+48
+00:03:26,354 --> 00:03:29,580
+The shared rule inherits
+that, and comes out too steep,
+
+49
+00:03:29,620 --> 00:03:32,928
+by a little more than one
+over the provider's size.
+
+50
+00:03:32,968 --> 00:03:36,646
+Conditioning removes the bias,
+and the intercepts with it.
+
+51
+00:03:36,767 --> 00:03:39,655
+One question has been
+waiting since Episode 15.
+
+52
+00:03:39,695 --> 00:03:44,898
+When a quarter of the providers fall
+outside the funnel, are they all outliers?
+
+53
+00:03:44,938 --> 00:03:48,424
+Next time, the last
+episode: wider than chance.
+
+54
+00:03:48,567 --> 00:03:52,672
+This has been Model in Motion.
+Thanks for following the story.

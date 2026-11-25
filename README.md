@@ -10,6 +10,7 @@ Start here:
 
 - `docs/STATUS.md`: one row per episode, with its stage, running time, check count and review link.
 - `docs/DECISIONS.md`: the 86 choices the fifteen draft scripts are waiting on.
+- `renders/animatics/`: the current animatic of every unfinished episode, ready to watch.
 - `docs/blueprints/`: the blueprint this arc follows, and the Cox arc's.
 
 ## Layout
@@ -57,6 +58,8 @@ logistic_fe/
   STATUS.md              one row per episode: stage, script, time, words, clips, checks, review link
   DECISIONS.md           the open choices of the fifteen draft scripts, gathered from their reviews
   blueprints/            the logistic fixed-effect blueprint (Markdown) and the Cox blueprint (PDF)
+renders/
+  animatics/             the 720p animatic of Episodes 4 to 19, each with captions and a timed script
 ```
 
 An episode folder holds only what is its own. Each episode file sets `MIM_EPISODE` to its folder and imports `mim.common`,
@@ -116,9 +119,6 @@ are in the repository; only re-voicing a changed script does.
 
 ## Not in this repository
 
-- **The animatics of Episodes 4 to 19.** The sixteen videos, with their captions and timed scripts, are one further
-  commit that travels separately (`model-in-motion-renders.bundle`, about 180 MB). To add `renders/animatics/`:
-  `git pull path/to/model-in-motion-renders.bundle main`.
 - **The finished videos of Episodes 1 to 3.** Their sources are here, frozen behind the regression test. The 1080p60
   files were rendered in another workspace; `tools/build.sh logistic_fe/<episode folder> final` rebuilds each.
 - **The Cox arc.** Its blueprint is in `docs/blueprints/`. Its first three episodes were built in another workspace,

@@ -1,0 +1,246 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.568
+For two episodes, the dial and the
+sliders have simply known where to stop.
+
+00:00:04.608 --> 00:00:08.883
+Four sliders settled, the dial
+settled, and we read off the answers.
+
+00:00:09.000 --> 00:00:11.715
+But nobody handed them those answers.
+
+00:00:11.755 --> 00:00:16.497
+All they had was the data: 103
+patients, and who came back.
+
+00:00:16.633 --> 00:00:20.710
+So what makes one setting of the
+dial and sliders better than another?
+
+00:00:20.750 --> 00:00:22.850
+And how do they find the best one?
+
+00:00:24.433 --> 00:00:26.654
+Welcome back to Model in Motion.
+
+00:00:26.694 --> 00:00:28.751
+Today: fitting by balance.
+
+00:00:30.833 --> 00:00:34.461
+Start with any setting at
+all. Here is the plainest:
+
+00:00:34.501 --> 00:00:39.012
+every patient, at every clinic,
+gets the overall rate, 41%.
+
+00:00:39.133 --> 00:00:44.832
+Now ask of each patient: what probability did
+this guess give to what actually happened?
+
+00:00:44.872 --> 00:00:51.046
+For a patient who was readmitted,
+41%. For one who wasn't, 59%.
+
+00:00:51.167 --> 00:00:53.493
+Multiply those 103 numbers together,
+
+00:00:53.533 --> 00:00:59.532
+and you have the probability the guess gave
+to the whole story. That is its likelihood.
+
+00:00:59.572 --> 00:01:04.100
+It is tiny: a decimal point
+followed by thirty zeros.
+
+00:01:04.140 --> 00:01:08.370
+So we take its logarithm instead: minus 69.6.
+
+00:01:08.500 --> 00:01:12.172
+Think of that number as a height.
+A better guess stands higher.
+
+00:01:12.212 --> 00:01:17.255
+The height itself means nothing. Only
+the climb from one guess to another does.
+
+00:01:18.833 --> 00:01:22.485
+So which way is up? Bring
+back the meter from Episode 3:
+
+00:01:22.525 --> 00:01:25.705
+observed on one side, expected on the other.
+
+00:01:25.745 --> 00:01:29.039
+Here is one for every clinic,
+under the plain guess.
+
+00:01:29.167 --> 00:01:33.356
+Dune expected 4.9 readmissions and saw 7.
+
+00:01:33.396 --> 00:01:40.141
+Birch expected 12.2 and saw 14.
+Elm expected 4.5 and saw none.
+
+00:01:40.267 --> 00:01:43.256
+And here is the fact that
+makes fitting possible.
+
+00:01:43.296 --> 00:01:48.078
+Each meter's tilt is exactly the slope
+of the height in that clinic's gamma.
+
+00:01:48.118 --> 00:01:53.225
+Observed above expected: push the
+slider up. Observed below: pull it down.
+
+00:01:55.800 --> 00:02:01.499
+Try it with Dune. Push its slider up, and
+among the clinics, only Dune's meter responds.
+
+00:02:01.539 --> 00:02:06.070
+Its expected count climbs toward
+7, and the height rises with it.
+
+00:02:06.200 --> 00:02:10.960
+When the meter is level, the height is
+as high as this one slider can take it.
+
+00:02:11.000 --> 00:02:14.678
+Push further, and the meter tips
+the other way. The height falls.
+
+00:02:14.800 --> 00:02:19.344
+The dial has a meter too. It weighs
+only the higher-risk patients:
+
+00:02:19.384 --> 00:02:24.665
+29 of them were readmitted, and the
+plain guess expected fewer than 19.
+
+00:02:24.800 --> 00:02:27.640
+Turn the dial up until that meter is level.
+
+00:02:27.680 --> 00:02:32.190
+But look at the clinics. Every one that
+has higher-risk patients has shifted.
+
+00:02:32.333 --> 00:02:35.117
+So nothing can be settled one piece at a time.
+
+00:02:35.157 --> 00:02:39.190
+The dial and the sliders have
+to find their places together.
+
+00:02:41.767 --> 00:02:45.077
+And here is where they stop. The dial at 2.02,
+
+00:02:45.117 --> 00:02:49.258
+and the sliders where we
+found them two episodes ago.
+
+00:02:49.298 --> 00:02:52.698
+Four clinic meters are
+level, and so is the dial's.
+
+00:02:52.833 --> 00:02:59.406
+In each of those four clinics, expected
+now equals observed: 13, 14, 8 and 7.
+
+00:02:59.446 --> 00:03:02.015
+That is what fitting is: balancing.
+
+00:03:02.133 --> 00:03:07.896
+One detail. The balance holds for each
+clinic's total, not for each group inside it.
+
+00:03:07.936 --> 00:03:15.095
+Alder expected 8.2 among its lower-risk
+patients and 4.8 among its higher-risk ones.
+
+00:03:15.135 --> 00:03:18.056
+Not 8 and 5. But together, 13.
+
+00:03:18.200 --> 00:03:21.895
+And Elm? Its meter can never
+level. With no readmissions,
+
+00:03:21.935 --> 00:03:25.819
+expected stays above observed
+wherever the slider sits.
+
+00:03:25.859 --> 00:03:29.661
+So the slider keeps sliding, gaining
+a little less height each time.
+
+00:03:29.701 --> 00:03:31.350
+We'll come back to Elm.
+
+00:03:31.500 --> 00:03:34.933
+With Elm's slider run all the way down,
+
+00:03:34.973 --> 00:03:40.042
+the height has climbed from
+minus 69.6 to minus 55.6.
+
+00:03:41.633 --> 00:03:44.486
+One last picture. For
+each position of the dial,
+
+00:03:44.526 --> 00:03:47.828
+level the clinics' meters,
+and record the height.
+
+00:03:47.967 --> 00:03:51.938
+The result is a hill, with one top, at 2.02.
+
+00:03:51.978 --> 00:03:58.216
+The pooled step from Episode 3, 1.75,
+sits a little way down the left side.
+
+00:03:58.333 --> 00:04:00.875
+And notice how gently the top is rounded.
+
+00:04:00.915 --> 00:04:05.168
+That gentleness is the roughness
+we keep promising to measure.
+
+00:04:06.767 --> 00:04:08.263
+Let's gather it up.
+
+00:04:08.303 --> 00:04:12.572
+A guess is scored by the probability
+it gave to what actually happened.
+
+00:04:12.612 --> 00:04:18.034
+Each clinic's meter, observed minus expected,
+says which way its slider should move.
+
+00:04:18.074 --> 00:04:21.666
+And at the best fit, every
+meter that can level is level.
+
+00:04:21.800 --> 00:04:25.728
+A caution. Level meters do not
+show that the model is right.
+
+00:04:25.768 --> 00:04:28.991
+Any model with a number for
+each clinic will level them.
+
+00:04:29.031 --> 00:04:33.926
+Whether it is right has to be judged
+inside the clinics, and that comes later.
+
+00:04:34.067 --> 00:04:39.168
+We have seen where the top of the hill is,
+not how to get there. No formula gives it.
+
+00:04:39.208 --> 00:04:41.414
+Next time: climbing the hill.
+
+00:04:41.533 --> 00:04:45.638
+This has been Model in Motion.
+Thanks for following the story.

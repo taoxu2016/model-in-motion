@@ -1,0 +1,325 @@
+1
+00:00:00,000 --> 00:00:04,568
+Last time, every clinic got a line
+of its own, all with the same tilt.
+
+2
+00:00:04,608 --> 00:00:09,786
+Alder's line sits 0.87 above
+Cedar's. At the lower-risk end,
+
+3
+00:00:09,826 --> 00:00:15,134
+at the higher-risk end, anywhere
+you look: the same 0.87.
+
+4
+00:00:15,267 --> 00:00:21,968
+On the log-odds ruler, a step of
+0.87 multiplies the odds by 2.4.
+
+5
+00:00:22,008 --> 00:00:28,097
+So in some sense, Alder is 2.4
+times Cedar. But 2.4 times what?
+
+6
+00:00:28,233 --> 00:00:30,881
+Here are three ways to finish that sentence.
+
+7
+00:00:30,921 --> 00:00:34,721
+One: Alder has 2.4 times as many readmissions.
+
+8
+00:00:34,761 --> 00:00:40,652
+Two: at Alder, each patient is 2.4
+times as likely to be readmitted.
+
+9
+00:00:40,692 --> 00:00:46,604
+Three: at Alder, each patient's odds
+of readmission are 2.4 times as high.
+
+10
+00:00:46,644 --> 00:00:50,300
+Only one of them is right.
+Pick one before we go on.
+
+11
+00:00:51,900 --> 00:00:54,121
+Welcome back to Model in Motion.
+
+12
+00:00:54,161 --> 00:00:56,090
+Today: reading gamma.
+
+13
+00:00:58,167 --> 00:01:00,303
+Start with the first, and count.
+
+14
+00:01:00,343 --> 00:01:04,129
+Alder had 13 readmissions among 30 patients.
+
+15
+00:01:04,169 --> 00:01:09,668
+Cedar had 8 among 20. That is
+43% against 40%: almost level.
+
+16
+00:01:09,708 --> 00:01:12,431
+And we already know why
+raw counts settle nothing:
+
+17
+00:01:12,471 --> 00:01:14,922
+they depend on who each clinic treats.
+
+18
+00:01:15,067 --> 00:01:20,488
+The second reading: each patient is
+2.4 times as likely to come back.
+
+19
+00:01:20,528 --> 00:01:27,356
+Take a lower-risk patient. The model
+gives 18% at Cedar and 34% at Alder.
+
+20
+00:01:27,396 --> 00:01:30,216
+That is 1.9 times, not 2.4.
+
+21
+00:01:30,256 --> 00:01:36,126
+For a higher-risk patient, 62%
+becomes 80%: only 1.3 times.
+
+22
+00:01:36,166 --> 00:01:41,934
+And it could never be 2.4. That
+would be a chance of nearly 150%.
+
+23
+00:01:42,067 --> 00:01:45,526
+Now the third. Turn those
+probabilities into odds.
+
+24
+00:01:45,566 --> 00:01:53,440
+For the lower-risk patient: 0.22
+at Cedar, 0.52 at Alder. 2.4 times.
+
+25
+00:01:53,480 --> 00:02:00,246
+For the higher-risk patient:
+1.64 and 3.91. 2.4 times again.
+
+26
+00:02:00,286 --> 00:02:06,048
+That is what a gap between two gammas means.
+For patients who look the same on paper,
+
+27
+00:02:06,088 --> 00:02:11,558
+one at each clinic, the odds differ by
+a single multiplier: the odds ratio.
+
+28
+00:02:13,133 --> 00:02:18,192
+Here are the two clinics as S-curves:
+one shape, slid sideways by that gap.
+
+29
+00:02:18,232 --> 00:02:23,190
+Now slide a patient along, from low
+risk to high, and read both curves.
+
+30
+00:02:23,333 --> 00:02:29,224
+A patient with a 5% chance at Cedar
+has 11% at Alder: 6 points more.
+
+31
+00:02:29,264 --> 00:02:35,922
+At 18%, where Cedar's lower-risk
+patients sit, Alder gives 34%: 16 points.
+
+32
+00:02:35,962 --> 00:02:39,037
+At 50%, it is 70%: 20 points.
+
+33
+00:02:39,077 --> 00:02:44,520
+At 62%, Cedar's higher-risk
+patients: 80%. That's 18 points.
+
+34
+00:02:44,560 --> 00:02:48,195
+And at 90%, 96%: back down to 6.
+
+35
+00:02:48,333 --> 00:02:49,905
+One gap, one odds ratio.
+
+36
+00:02:49,945 --> 00:02:55,461
+But the difference in probability swells
+in the middle and fades at both ends.
+
+37
+00:02:55,501 --> 00:03:01,128
+The ratio of probabilities shrinks
+all the way: 2.2 at the low end,
+
+38
+00:03:01,168 --> 00:03:07,621
+1.06 at the top. Only when readmission
+is rare does it come close to 2.4.
+
+39
+00:03:07,661 --> 00:03:12,598
+So what a gap costs in readmissions
+depends on which patients a clinic sees.
+
+40
+00:03:15,167 --> 00:03:19,927
+Last time we said: read the gaps, not
+the gammas themselves. Here is why.
+
+41
+00:03:19,967 --> 00:03:23,355
+A gamma is read where
+every risk factor is zero.
+
+42
+00:03:23,395 --> 00:03:26,888
+So far, zero has meant a lower-risk patient.
+
+43
+00:03:27,033 --> 00:03:31,238
+But that was our choice. Call the
+higher-risk patient zero instead.
+
+44
+00:03:31,278 --> 00:03:35,164
+Every gamma climbs by 2.02: the whole step.
+
+45
+00:03:35,204 --> 00:03:39,782
+Or put zero halfway between,
+at a patient who doesn't exist.
+
+46
+00:03:39,822 --> 00:03:43,788
+Now every gamma is 1.01
+above where it started.
+
+47
+00:03:43,933 --> 00:03:49,120
+Through all of this, no line has moved,
+and no patient's probability has changed.
+
+48
+00:03:49,160 --> 00:03:54,026
+And the gap between Alder
+and Cedar is 0.87 every time.
+
+49
+00:03:54,066 --> 00:03:57,723
+A gamma depends on where
+we put zero. A gap doesn't.
+
+50
+00:03:59,300 --> 00:04:01,287
+One warning before we finish.
+
+51
+00:04:01,327 --> 00:04:04,911
+Suppose all 103 patients went to Cedar.
+
+52
+00:04:04,951 --> 00:04:11,063
+The model says 38% would come
+back. All of them at Alder: 55%.
+
+53
+00:04:11,200 --> 00:04:18,285
+Put those two rates on the log-odds
+ruler. They are 0.69 apart, not 0.87.
+
+54
+00:04:18,325 --> 00:04:24,356
+Nothing has gone wrong. The 0.87
+compares one kind of patient at a time.
+
+55
+00:04:24,396 --> 00:04:31,000
+The 0.69 compares two averages, taken
+over patients of very different risk.
+
+56
+00:04:31,040 --> 00:04:32,740
+Those are different questions,
+
+57
+00:04:32,780 --> 00:04:37,363
+and the second gives the smaller answer
+whenever patients differ in risk.
+
+58
+00:04:37,500 --> 00:04:42,054
+So if a gap from a model looks bigger
+than the gap between two overall rates,
+
+59
+00:04:42,094 --> 00:04:44,293
+that alone is no contradiction.
+
+60
+00:04:45,867 --> 00:04:47,363
+Let's gather it up.
+
+61
+00:04:47,403 --> 00:04:52,760
+A gap between gammas multiplies the odds,
+by the same amount for every patient.
+
+62
+00:04:52,800 --> 00:04:56,814
+What that does to a probability
+depends on where the patient starts.
+
+63
+00:04:56,854 --> 00:05:00,510
+And gammas depend on where
+zero is. Gaps do not.
+
+64
+00:05:00,633 --> 00:05:05,079
+One reminder: every gap we read
+today rests on 103 patients,
+
+65
+00:05:05,119 --> 00:05:09,062
+so each one is rough. How
+rough is still to come.
+
+66
+00:05:09,102 --> 00:05:13,244
+And all this time, the lines have
+simply appeared, already in place.
+
+67
+00:05:13,284 --> 00:05:17,696
+Next time, we find out how the dial
+and the sliders settle where they do:
+
+68
+00:05:17,736 --> 00:05:19,244
+fitting by balance.
+
+69
+00:05:19,367 --> 00:05:23,472
+This has been Model in Motion.
+Thanks for following the story.

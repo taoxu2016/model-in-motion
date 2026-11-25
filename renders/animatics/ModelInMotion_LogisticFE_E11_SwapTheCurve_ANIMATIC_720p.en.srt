@@ -1,0 +1,309 @@
+1
+00:00:00,000 --> 00:00:04,781
+Alder had 13 readmissions among
+its 30 patients. Is that a lot?
+
+2
+00:00:04,821 --> 00:00:10,287
+In Episode 3 we got two answers.
+Against everyone pooled together,
+
+3
+00:00:10,327 --> 00:00:16,350
+1.4 times what was expected. Against
+everyone but Alder itself, 1.8.
+
+4
+00:00:16,500 --> 00:00:21,293
+So we asked for two things: a risk rule
+learned from patients who share a clinic,
+
+5
+00:00:21,333 --> 00:00:24,119
+and a yardstick no single clinic can bend.
+
+6
+00:00:24,159 --> 00:00:28,157
+The risk rule arrived with the
+dial. Today, the yardstick.
+
+7
+00:00:28,300 --> 00:00:32,403
+Here is the idea. Keep Alder's
+30 patients exactly as they are,
+
+8
+00:00:32,443 --> 00:00:35,748
+and send them, on paper, to the middle clinic.
+
+9
+00:00:35,788 --> 00:00:39,359
+Would they have more than 13
+readmissions there, or fewer?
+
+10
+00:00:40,933 --> 00:00:43,154
+Welcome back to Model in Motion.
+
+11
+00:00:43,194 --> 00:00:45,102
+Today: swap the curve.
+
+12
+00:00:47,200 --> 00:00:52,088
+First, the yardstick. Line up the five
+sliders, and take the one in the middle.
+
+13
+00:00:52,128 --> 00:00:56,334
+It is Cedar's, at minus 1.52.
+And as we saw last time,
+
+14
+00:00:56,374 --> 00:01:00,734
+it stays put wherever Elm's
+slider happens to stop.
+
+15
+00:01:00,867 --> 00:01:04,304
+Draw that clinic's curve in
+grey, and call it the reference.
+
+16
+00:01:04,344 --> 00:01:09,796
+At the reference, a lower-risk patient
+has an 18% chance of readmission.
+
+17
+00:01:09,836 --> 00:01:12,246
+A higher-risk patient, 62%.
+
+18
+00:01:12,367 --> 00:01:16,615
+Notice what kind of thing the
+reference is. Not an average patient.
+
+19
+00:01:16,655 --> 00:01:20,717
+A clinic: one clinic's level,
+applied to whoever walks in.
+
+20
+00:01:23,300 --> 00:01:27,251
+Here are Alder's patients
+on Alder's own curve:
+
+21
+00:01:27,291 --> 00:01:32,327
+24 lower-risk patients at
+34%, and 6 higher-risk at 80%.
+
+22
+00:01:32,367 --> 00:01:34,922
+Add up those chances, and you get 13.
+
+23
+00:01:34,962 --> 00:01:39,309
+Exactly what Alder observed,
+because the fit balanced it.
+
+24
+00:01:39,433 --> 00:01:47,990
+Now swap the curve. The same 30 patients,
+on the grey one: 24 at 18%, and 6 at 62%.
+
+25
+00:01:48,030 --> 00:01:50,748
+Add those up: 8.02.
+
+26
+00:01:50,867 --> 00:01:55,643
+So at the reference, these same patients
+would expect about 8 readmissions.
+
+27
+00:01:55,683 --> 00:01:57,504
+At Alder, there were 13.
+
+28
+00:01:57,544 --> 00:01:59,400
+13 over 8.02 is 1.62.
+
+29
+00:01:59,440 --> 00:02:05,000
+Alder had 62% more readmissions
+than its own patients would be
+
+30
+00:02:05,040 --> 00:02:09,094
+expected to have at the reference clinic.
+
+31
+00:02:09,233 --> 00:02:13,615
+That is the whole method. Keep the
+patients. Swap the curve. Count.
+
+32
+00:02:15,200 --> 00:02:21,429
+Do the same for every clinic.
+Alder, 1.62. Birch, 0.88.
+
+33
+00:02:21,469 --> 00:02:26,765
+Cedar, exactly 1. Dune, 1.46. And Elm, zero.
+
+34
+00:02:26,805 --> 00:02:32,361
+Cedar comes out at exactly 1, because it
+is the reference, measured against itself.
+
+35
+00:02:32,500 --> 00:02:38,583
+So Alder's answer is neither
+1.4 nor 1.8. It is 1.62.
+
+36
+00:02:38,623 --> 00:02:43,074
+And this yardstick is hard to bend.
+Push any one slider as far as you like,
+
+37
+00:02:43,114 --> 00:02:47,357
+and the middle value moves no
+further than the next clinic along.
+
+38
+00:02:47,500 --> 00:02:52,454
+One thing has changed since Episode
+3. Against the pooled standard,
+
+39
+00:02:52,494 --> 00:02:56,032
+the expected counts added
+up to the 42 observed.
+
+40
+00:02:56,072 --> 00:02:59,855
+Against the middle clinic,
+they add up to 38.8.
+
+41
+00:02:59,895 --> 00:03:03,829
+The clinics no longer break even
+as a group, and they need not.
+
+42
+00:03:05,400 --> 00:03:08,280
+Ratios are often reported as rates.
+
+43
+00:03:08,320 --> 00:03:13,189
+Multiply each one by the
+overall readmission rate, 41%.
+
+44
+00:03:13,229 --> 00:03:20,939
+Alder becomes 66%. Birch, 36.
+Cedar, 41. Dune, 59. Elm, zero.
+
+45
+00:03:21,067 --> 00:03:26,534
+Read these with care. No patient at
+Alder had a 66% chance of readmission.
+
+46
+00:03:26,574 --> 00:03:30,868
+It is the same ratio, moved
+to a more familiar scale.
+
+47
+00:03:32,467 --> 00:03:38,678
+One more connection. Move Alder's slider,
+and its ratio traces a single rising curve.
+
+48
+00:03:38,718 --> 00:03:45,041
+With the slider at the reference, the
+ratio is 1. At Alder's own gamma, 1.62.
+
+49
+00:03:45,167 --> 00:03:50,744
+So every statement about a gamma
+becomes a statement about a ratio.
+
+50
+00:03:50,784 --> 00:03:56,865
+Episode 9's interval for Alder's gamma
+becomes an interval for its ratio:
+
+51
+00:03:56,905 --> 00:03:58,765
+from 1.02 to 2.31.
+
+52
+00:04:00,333 --> 00:04:04,838
+Two cautions. First, a ratio of 1
+means like the reference clinic.
+
+53
+00:04:04,878 --> 00:04:06,742
+It does not mean good.
+
+54
+00:04:06,867 --> 00:04:09,656
+Second, always say which reference.
+
+55
+00:04:09,696 --> 00:04:15,476
+Last time we tried a size-weighted
+average instead of the middle clinic.
+
+56
+00:04:15,516 --> 00:04:19,100
+Against that, Alder's 1.62 becomes 1.87.
+
+57
+00:04:19,233 --> 00:04:22,080
+In our crowd of 200 providers,
+
+58
+00:04:22,120 --> 00:04:28,366
+the ratios run from 0.44 to 1.99,
+with half on each side of 1.
+
+59
+00:04:28,406 --> 00:04:33,258
+Which of those are real differences, and
+which are luck? That question is coming.
+
+60
+00:04:34,833 --> 00:04:36,329
+Let's gather it up.
+
+61
+00:04:36,369 --> 00:04:38,953
+The reference is the middle clinic's curve.
+
+62
+00:04:38,993 --> 00:04:44,308
+Keep a clinic's patients, swap in that
+curve, and count: observed over expected.
+
+63
+00:04:44,348 --> 00:04:46,938
+And name the reference with every ratio.
+
+64
+00:04:47,067 --> 00:04:50,309
+We kept the patients and
+swapped the curve. Next time,
+
+65
+00:04:50,349 --> 00:04:54,286
+the other way round: keep the
+curve, and swap the patients.
+
+66
+00:04:54,433 --> 00:04:58,538
+This has been Model in Motion.
+Thanks for following the story.

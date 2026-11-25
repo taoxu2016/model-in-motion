@@ -1,0 +1,281 @@
+1
+00:00:00,000 --> 00:00:02,190
+Last time we found the top of the hill:
+
+2
+00:00:02,230 --> 00:00:05,827
+the one setting where every
+meter that can level is level.
+
+3
+00:00:05,867 --> 00:00:08,499
+But we found it by being told where it was.
+
+4
+00:00:08,633 --> 00:00:13,109
+A computer has no such luck. It
+cannot solve for the top with algebra,
+
+5
+00:00:13,149 --> 00:00:17,041
+because every expected count
+passes through the S-curve.
+
+6
+00:00:17,081 --> 00:00:20,544
+All it can do, from wherever
+it stands, is feel the ground:
+
+7
+00:00:20,584 --> 00:00:23,724
+which way is up, and how
+the slope is changing.
+
+8
+00:00:23,867 --> 00:00:27,950
+So how do you climb a hill you
+can only feel one spot at a time?
+
+9
+00:00:29,533 --> 00:00:31,754
+Welcome back to Model in Motion.
+
+10
+00:00:31,794 --> 00:00:33,744
+Today: climbing the hill.
+
+11
+00:00:35,833 --> 00:00:41,535
+Start small, with one slider. Hold
+the dial at its fitted place, 2.02,
+
+12
+00:00:41,575 --> 00:00:47,831
+and stand Dune's slider in the wrong
+spot: on Cedar's level, minus 1.52.
+
+13
+00:00:47,967 --> 00:00:52,343
+Here is Dune's own hill: its height
+for every position of its slider.
+
+14
+00:00:52,383 --> 00:00:56,076
+From where we stand, we can't
+see it. We know just two things:
+
+15
+00:00:56,116 --> 00:01:00,200
+the slope under our feet, and
+how fast that slope is changing.
+
+16
+00:01:00,333 --> 00:01:04,261
+That is enough to draw a parabola
+that matches the hill right here.
+
+17
+00:01:04,301 --> 00:01:11,478
+So jump to the top of the parabola:
+0.96 to the right, to minus 0.56.
+
+18
+00:01:11,600 --> 00:01:18,600
+Do it again from the new spot. The second
+jump is tiny: 0.017 back to the left.
+
+19
+00:01:18,640 --> 00:01:22,809
+And we are there: minus 0.58. Two steps.
+
+20
+00:01:24,400 --> 00:01:28,243
+Where did 0.96 come from?
+Read it off the meter.
+
+21
+00:01:28,283 --> 00:01:34,030
+The tilt, we know: observed
+7, expected 4.8, a gap of 2.2.
+
+22
+00:01:34,167 --> 00:01:38,598
+The second number is how readily the
+expected count moves when the slider does.
+
+23
+00:01:38,638 --> 00:01:39,994
+Call it the wobble.
+
+24
+00:01:40,034 --> 00:01:43,331
+A patient near 50% adds the most to it.
+
+25
+00:01:43,371 --> 00:01:47,844
+A patient near 0 or near
+100% hardly adds at all.
+
+26
+00:01:47,884 --> 00:01:51,754
+For Dune's twelve patients, it comes to 2.29.
+
+27
+00:01:51,900 --> 00:01:57,108
+So the step is tilt over
+wobble: 2.2 divided by 2.29.
+
+28
+00:01:57,148 --> 00:02:04,239
+A gap of 2.2 to close, at 2.29
+per unit of slider: move 0.96.
+
+29
+00:02:04,367 --> 00:02:07,875
+That division is what makes
+this more than walking uphill.
+
+30
+00:02:07,915 --> 00:02:11,202
+It does not just say which
+way. It says how far.
+
+31
+00:02:13,800 --> 00:02:16,419
+Now the whole machine, from the plain guess.
+
+32
+00:02:16,459 --> 00:02:19,440
+Every clinic can take its
+step at the same moment,
+
+33
+00:02:19,480 --> 00:02:23,153
+because each step uses only
+that clinic's own patients.
+
+34
+00:02:23,300 --> 00:02:26,823
+Then the dial takes one step,
+with the sliders frozen.
+
+35
+00:02:26,863 --> 00:02:30,405
+But that unsettles every clinic,
+so the sliders step again.
+
+36
+00:02:30,445 --> 00:02:32,738
+Then the dial. Then the sliders.
+
+37
+00:02:32,867 --> 00:02:40,251
+Watch the dial. After eight rounds it has
+only reached 1.91, on its way to 2.02.
+
+38
+00:02:40,291 --> 00:02:45,569
+Each round covers a fraction of what
+is left. Getting there takes 54 rounds.
+
+39
+00:02:45,700 --> 00:02:50,018
+And Elm steps down by about one
+unit every round, without end.
+
+40
+00:02:51,600 --> 00:02:55,305
+Here is why it is slow. This
+is the hill seen from above:
+
+41
+00:02:55,345 --> 00:02:59,304
+the dial runs left to right,
+Birch's slider up and down.
+
+42
+00:02:59,344 --> 00:03:04,409
+The path is a staircase: up or down
+for the sliders, sideways for the dial.
+
+43
+00:03:04,533 --> 00:03:09,271
+And the ridge it is trying to follow
+runs diagonally. Turn the dial up,
+
+44
+00:03:09,311 --> 00:03:13,965
+and every expected count rises,
+so every slider has to come down.
+
+45
+00:03:14,005 --> 00:03:17,406
+A staircase is a slow way along a diagonal.
+
+46
+00:03:17,533 --> 00:03:21,696
+How slow depends on something that
+should not matter: where we put zero.
+
+47
+00:03:21,736 --> 00:03:27,797
+Last episode, moving zero changed every
+gamma and no gap. It changes the climb too.
+
+48
+00:03:27,837 --> 00:03:35,526
+Record the risk factor five units higher,
+and the same alternation needs 3,125 rounds.
+
+49
+00:03:35,667 --> 00:03:40,742
+Put zero in the middle of the patients
+instead, and the ridge straightens:
+
+50
+00:03:40,782 --> 00:03:44,934
+21 rounds. That is what
+pprof_py does before it starts.
+
+51
+00:03:46,533 --> 00:03:48,029
+Let's gather it up.
+
+52
+00:03:48,069 --> 00:03:52,125
+A step is tilt over wobble. It
+says which way, and how far.
+
+53
+00:03:52,165 --> 00:03:56,093
+The sliders can all step at
+once. The dial steps in turn.
+
+54
+00:03:56,133 --> 00:04:00,152
+And taking turns climbs a
+diagonal ridge by staircase.
+
+55
+00:04:00,300 --> 00:04:05,173
+Every route here climbs toward the same
+top. They differ in how long they take.
+
+56
+00:04:05,300 --> 00:04:07,209
+So here is the obvious question.
+
+57
+00:04:07,249 --> 00:04:11,852
+Could the sliders and the dial step
+together, straight along the ridge?
+
+58
+00:04:11,892 --> 00:04:16,701
+They can, and then it takes five
+steps. Next time: the arrow matrix.
+
+59
+00:04:16,833 --> 00:04:20,938
+This has been Model in Motion.
+Thanks for following the story.

@@ -1,0 +1,306 @@
+1
+00:00:00,000 --> 00:00:03,122
+Episode 15 ended on a
+picture we never explained.
+
+2
+00:00:03,162 --> 00:00:08,030
+Two hundred providers on the funnel,
+and a quarter of them outside it.
+
+3
+00:00:08,167 --> 00:00:12,309
+When the providers were identical,
+about one in twenty fell outside.
+
+4
+00:00:12,349 --> 00:00:15,828
+That was luck, and we knew
+how much of it to expect.
+
+5
+00:00:15,868 --> 00:00:19,760
+A quarter is something else.
+Luck does not stretch that far.
+
+6
+00:00:19,900 --> 00:00:24,404
+So is a quarter of the crowd outliers?
+Or is something wrong with the test?
+
+7
+00:00:24,444 --> 00:00:28,975
+Neither. The test is answering a
+question that has stopped being useful.
+
+8
+00:00:30,567 --> 00:00:32,788
+Welcome back to Model in Motion.
+
+9
+00:00:32,828 --> 00:00:36,080
+Today, the last episode: wider than chance.
+
+10
+00:00:38,167 --> 00:00:41,803
+Our crowd has a knob: how
+much providers truly differ.
+
+11
+00:00:41,843 --> 00:00:45,935
+Set it to zero, and every
+ordinary provider is the same.
+
+12
+00:00:45,975 --> 00:00:51,939
+Give each one its z: its distance from the
+reference, in units of what luck allows.
+
+13
+00:00:51,979 --> 00:00:57,248
+The pile of them hugs the bell
+curve, and 11 of the 194 are flagged.
+
+14
+00:00:57,367 --> 00:00:59,674
+Now turn the knob, in three steps.
+
+15
+00:00:59,714 --> 00:01:05,397
+The pile spreads. And the flags
+climb: 16, then 35, then 48.
+
+16
+00:01:05,533 --> 00:01:11,344
+At the last setting, a typical provider's
+odds differ from the reference by roughly 30%.
+
+17
+00:01:11,384 --> 00:01:15,590
+That is not much. But it is
+real, and the test can see it.
+
+18
+00:01:17,167 --> 00:01:23,153
+Look at who is flagged. Of the providers
+with 200 patients or more, 40%.
+
+19
+00:01:23,193 --> 00:01:26,221
+Of those with fewer than 50, 7%.
+
+20
+00:01:26,367 --> 00:01:30,355
+The reason fits in one line. A
+provider's z spreads by chance,
+
+21
+00:01:30,395 --> 00:01:33,539
+and also by its true
+distance from the reference,
+
+22
+00:01:33,579 --> 00:01:36,588
+measured against how precisely we know it.
+
+23
+00:01:36,628 --> 00:01:41,265
+For a provider known to within 0.1,
+that second part swamps the first.
+
+24
+00:01:41,305 --> 00:01:45,408
+Its z has three times the spread
+that chance alone would give,
+
+25
+00:01:45,448 --> 00:01:48,605
+and it is flagged more than half the time.
+
+26
+00:01:48,733 --> 00:01:50,489
+Large providers are not worse.
+
+27
+00:01:50,529 --> 00:01:54,651
+They are measured better, so
+their small true differences show.
+
+28
+00:01:56,233 --> 00:02:00,431
+So nothing is wrong with the test.
+Every one of those flags is true:
+
+29
+00:02:00,471 --> 00:02:03,617
+that provider is not exactly at the reference.
+
+30
+00:02:03,657 --> 00:02:08,935
+But with enough patients, nobody is. The
+question has stopped sorting providers.
+
+31
+00:02:09,067 --> 00:02:13,938
+Here is a better one. Not: is this
+provider exactly at the reference?
+
+32
+00:02:13,978 --> 00:02:17,673
+But: is this provider
+unusual, among providers?
+
+33
+00:02:19,267 --> 00:02:22,676
+To answer that, we stop taking
+the bell curve on faith,
+
+34
+00:02:22,716 --> 00:02:27,952
+and fit one to the providers themselves:
+to the central bulk of their z-values.
+
+35
+00:02:27,992 --> 00:02:30,875
+That fitted curve is called an empirical null.
+
+36
+00:02:30,915 --> 00:02:36,253
+We do it separately for small,
+medium and large providers.
+
+37
+00:02:36,293 --> 00:02:40,630
+The fitted spreads are 1.14, 1.60 and 2.18.
+
+38
+00:02:40,767 --> 00:02:47,255
+Judge each provider against its own group's
+curve, and 13 are flagged, in place of 52.
+
+39
+00:02:47,295 --> 00:02:50,101
+Across twenty redraws of the crowd,
+
+40
+00:02:50,141 --> 00:02:55,453
+the share of ordinary providers
+flagged falls from 23% to 5%.
+
+41
+00:02:55,600 --> 00:03:02,246
+On the funnel, it is a wider pair
+of limits for each size group.
+
+42
+00:03:02,286 --> 00:03:11,203
+For a provider of 280 patients, they move
+from 0.76 and 1.24 out to 0.50 and 1.57.
+
+43
+00:03:12,800 --> 00:03:15,708
+It is not free. Of our six planted providers,
+
+44
+00:03:15,748 --> 00:03:19,635
+the standard test caught
+four. This one catches three.
+
+45
+00:03:19,767 --> 00:03:24,743
+The curve is itself an estimate, and it
+can miss. With the knob back at zero,
+
+46
+00:03:24,783 --> 00:03:27,349
+this crowd's curves came out too narrow,
+
+47
+00:03:27,389 --> 00:03:30,927
+and flagged 20 where the
+standard test flagged 11.
+
+48
+00:03:30,967 --> 00:03:34,020
+And it assumes that most
+providers are ordinary.
+
+49
+00:03:34,060 --> 00:03:37,440
+If many are not, the
+curve widens to hide them.
+
+50
+00:03:37,567 --> 00:03:40,747
+Above all, it has not
+made anything more exact.
+
+51
+00:03:40,787 --> 00:03:45,932
+It has changed the question. A flag
+now means: unusual among providers.
+
+52
+00:03:45,972 --> 00:03:47,872
+There are other answers too:
+
+53
+00:03:47,912 --> 00:03:53,320
+the shrunken estimates of Episode 17,
+or no flags at all, only intervals.
+
+54
+00:03:54,900 --> 00:03:56,396
+Let's gather it up.
+
+55
+00:03:56,436 --> 00:03:58,730
+When providers truly differ a little,
+
+56
+00:03:58,770 --> 00:04:04,097
+their test statistics spread wider than
+chance, most of all for large providers.
+
+57
+00:04:04,137 --> 00:04:08,702
+The standard test asks whether a
+provider is exactly at the reference.
+
+58
+00:04:08,742 --> 00:04:13,100
+The empirical null asks whether
+it is unusual among providers.
+
+59
+00:04:13,140 --> 00:04:16,626
+Choosing between them is
+choosing what a flag should mean.
+
+60
+00:04:18,200 --> 00:04:21,055
+And that is the logistic fixed-effect model,
+
+61
+00:04:21,095 --> 00:04:24,731
+from an unfair comparison
+to a flag you can defend.
+
+62
+00:04:24,771 --> 00:04:30,131
+One intercept for every provider. A fit
+that balances observed against expected.
+
+63
+00:04:30,171 --> 00:04:35,261
+A ratio that asks what the reference
+would have done with the same patients.
+
+64
+00:04:35,301 --> 00:04:38,689
+And a test that knows how far luck can reach.
+
+65
+00:04:39,467 --> 00:04:43,572
+This has been Model in Motion.
+Thanks for following the story.

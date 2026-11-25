@@ -1,0 +1,209 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.448
+Last time we built Alder's pile coin by coin,
+and read its p-value from the tail: 3.5%.
+
+00:00:07.488 --> 00:00:09.971
+Exact, and a fair amount of work.
+
+00:00:10.100 --> 00:00:15.159
+In practice, people often skip the pile.
+Three shortcuts are in everyday use:
+
+00:00:15.199 --> 00:00:18.727
+a bell curve, a ruler,
+and brute-force flipping.
+
+00:00:18.867 --> 00:00:24.404
+Each gives Alder a p-value of its own.
+Will all three land on the same side of 5%?
+
+00:00:24.444 --> 00:00:28.604
+And is there a clinic where
+a shortcut goes badly wrong?
+
+00:00:30.200 --> 00:00:32.421
+Welcome back to Model in Motion.
+
+00:00:32.461 --> 00:00:34.433
+Today: three shortcuts.
+
+00:00:36.500 --> 00:00:39.925
+The first shortcut replaces
+the pile with a bell curve of
+
+00:00:39.965 --> 00:00:42.433
+the same centre and the same spread.
+
+00:00:42.473 --> 00:00:48.775
+For Alder, that is centred on 8.02,
+with a standard deviation of 2.22.
+
+00:00:48.900 --> 00:00:57.457
+Alder's 13 is 4.98 above the centre. Divide
+by the spread: 2.24 standard deviations out.
+
+00:00:57.497 --> 00:01:01.389
+The bell curve's two tails
+beyond that hold 2.5%.
+
+00:01:01.533 --> 00:01:07.210
+That is the score test. It needs just three
+numbers: observed, expected, and the spread.
+
+00:01:07.250 --> 00:01:12.528
+It is our old friend, observed minus
+expected, measured in standard units.
+
+00:01:14.100 --> 00:01:18.689
+The second shortcut never looks at the
+count. It goes back to the sliders.
+
+00:01:18.729 --> 00:01:22.661
+Alder's gamma sits 0.87 above the reference,
+
+00:01:22.701 --> 00:01:27.293
+and Episode 9 gave it a
+standard error of 0.43.
+
+00:01:27.433 --> 00:01:38.706
+0.87 over 0.43 is 2.02 standard errors, and
+a p-value of 4.4%. That is the Wald test.
+
+00:01:40.300 --> 00:01:44.590
+The third shortcut takes last
+episode's opening idea seriously.
+
+00:01:44.630 --> 00:01:49.241
+Flip Alder's thirty coins ten
+thousand times, and simply count.
+
+00:01:49.281 --> 00:01:52.789
+This run gives a p-value of 3.8%.
+
+00:01:52.933 --> 00:01:56.291
+It homes in on the exact
+pile as the rounds add up.
+
+00:01:56.331 --> 00:02:02.408
+But with ten thousand rounds, it cannot report
+anything rarer than one in ten thousand.
+
+00:02:02.448 --> 00:02:04.931
+The software calls this one a bootstrap.
+
+00:02:06.500 --> 00:02:13.472
+So, Alder four ways: 3.5%
+exact, 2.5% by the bell curve,
+
+00:02:13.512 --> 00:02:18.300
+4.4% by the ruler, 3.8% by flipping.
+
+00:02:18.340 --> 00:02:24.087
+All below 5%. All four flag Alder, and
+none of the tests flags anyone else.
+
+00:02:24.233 --> 00:02:26.906
+But look at Elm. Exact and bell curve agree:
+
+00:02:26.946 --> 00:02:30.678
+about one and a half standard
+units below the reference.
+
+00:02:30.718 --> 00:02:36.700
+The ruler says only 0.7. It is measuring
+from a gamma that does not exist.
+
+00:02:38.300 --> 00:02:44.020
+That is the ruler's first weakness. Its second
+is one we have met: which standard error?
+
+00:02:44.060 --> 00:02:49.883
+Record the risk factor sixty-five units
+higher, as an age in years might be,
+
+00:02:49.923 --> 00:02:56.991
+and the textbook standard error of Alder's
+gamma becomes 38. The test collapses to 0.02.
+
+00:02:57.031 --> 00:03:01.370
+Taken at the average case
+mix, it stays at 2.02.
+
+00:03:01.500 --> 00:03:04.233
+The bell curve's weakness is small numbers.
+
+00:03:04.273 --> 00:03:06.812
+Elm expects fewer than two readmissions,
+
+00:03:06.852 --> 00:03:10.362
+and a bell curve centred
+there spills below zero.
+
+00:03:10.500 --> 00:03:15.392
+In our crowds where every
+provider equals the reference,
+
+00:03:15.432 --> 00:03:19.180
+among those with fewer than fifty patients,
+
+00:03:19.220 --> 00:03:25.911
+the exact test flags 4.7%, the bell
+curve 4.9%, and the ruler only 4.0%.
+
+00:03:27.500 --> 00:03:35.533
+Each test also turns inside out
+into an interval. For Alder's ratio:
+
+00:03:35.573 --> 00:03:45.301
+1.04 to 2.26, exact. 1.07 to 2.25 by the
+bell curve. 1.02 to 2.31 by the ruler.
+
+00:03:45.433 --> 00:03:50.577
+So which one, when? The exact test for
+flags: it is the software's default.
+
+00:03:50.617 --> 00:03:52.907
+The bell curve when you need a formula.
+
+00:03:52.947 --> 00:03:57.169
+It costs almost nothing, and next
+time it will draw smooth limits.
+
+00:03:57.209 --> 00:04:02.978
+The ruler for anything built on gamma itself.
+And flipping, as a check on the others.
+
+00:04:04.567 --> 00:04:06.063
+Let's gather it up.
+
+00:04:06.103 --> 00:04:11.055
+The bell curve swaps the pile for a normal
+curve with the same centre and spread.
+
+00:04:11.095 --> 00:04:15.044
+The ruler measures the gap between
+sliders in standard errors.
+
+00:04:15.084 --> 00:04:18.486
+Flipping rebuilds the pile
+by brute force. On Alder,
+
+00:04:18.526 --> 00:04:23.776
+all three agree with the exact test.
+On small clinics, they can part ways.
+
+00:04:23.900 --> 00:04:28.283
+We now have a verdict for every
+clinic. Five verdicts are easy to read.
+
+00:04:28.323 --> 00:04:31.220
+What about two hundred, or seven thousand?
+
+00:04:31.260 --> 00:04:33.231
+Next time: the funnel.
+
+00:04:33.367 --> 00:04:37.472
+This has been Model in Motion.
+Thanks for following the story.

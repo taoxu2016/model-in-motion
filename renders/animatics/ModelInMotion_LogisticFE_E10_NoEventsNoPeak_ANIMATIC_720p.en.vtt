@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.181
+One clinic has waited six
+episodes for its turn.
+
+00:00:03.221 --> 00:00:09.673
+Elm: 11 patients, all lower-risk, and not
+one readmission. The best record in the cast.
+
+00:00:09.800 --> 00:00:15.072
+So what is Elm's gamma? Ask the
+software, and it prints minus 6.25.
+
+00:00:15.112 --> 00:00:20.597
+Ask again with its other fitting
+routine, and it prints minus 11.52.
+
+00:00:20.637 --> 00:00:23.739
+Same patients. Same model. Two answers.
+
+00:00:23.867 --> 00:00:28.633
+Which one is right? Neither. And seeing
+why shows us what to trust instead.
+
+00:00:30.200 --> 00:00:32.421
+Welcome back to Model in Motion.
+
+00:00:32.461 --> 00:00:34.667
+Today: no events, no peak.
+
+00:00:36.767 --> 00:00:41.122
+Here is Elm's own hill: the height,
+for each position of its slider.
+
+00:00:41.162 --> 00:00:48.361
+With the slider at the middle clinic's
+level, the height is minus 2.17.
+
+00:00:48.401 --> 00:00:54.461
+At minus 3, it is minus 0.53.
+At minus 6.25, minus 0.02.
+
+00:00:54.600 --> 00:01:00.235
+It keeps rising, more and more slowly, toward
+a ceiling at zero that it never reaches.
+
+00:01:00.275 --> 00:01:03.526
+A ramp, not a hill. There is no top to find.
+
+00:01:03.667 --> 00:01:07.709
+The meter tells the same story.
+Elm observed no readmissions.
+
+00:01:07.749 --> 00:01:12.246
+But wherever the slider sits,
+the model expects more than none.
+
+00:01:12.286 --> 00:01:17.372
+So expected always exceeds observed,
+and the meter always says: lower.
+
+00:01:18.967 --> 00:01:24.047
+So the slider marches, about one unit a
+step, for as long as the fitting runs.
+
+00:01:24.087 --> 00:01:27.573
+Stepping together stops
+once the dial has settled.
+
+00:01:27.613 --> 00:01:32.266
+That takes five steps, and leaves
+Elm's slider at minus 6.25.
+
+00:01:32.400 --> 00:01:36.776
+Taking turns waits for every slider
+to settle, and Elm's never will.
+
+00:01:36.816 --> 00:01:41.763
+So the software builds a wall,
+ten units below the middle clinic.
+
+00:01:41.803 --> 00:01:45.913
+Elm's slider runs into it
+and stops: minus 11.52.
+
+00:01:46.033 --> 00:01:49.586
+Even the stopping rule matters. Loosen it,
+
+00:01:49.626 --> 00:01:55.450
+and stepping together prints minus
+5.24. Tighten it: minus 7.25.
+
+00:01:55.600 --> 00:02:00.957
+Each of these numbers records when an
+algorithm stopped. None of them is an estimate.
+
+00:02:00.997 --> 00:02:02.633
+And nothing else is harmed.
+
+00:02:02.673 --> 00:02:07.491
+The dial and the other four sliders
+finish in the same place every time.
+
+00:02:09.067 --> 00:02:11.566
+What breaks is anything built on that number.
+
+00:02:11.606 --> 00:02:18.590
+Last episode's interval, from minus
+19.7 to plus 7.2, was one casualty.
+
+00:02:18.733 --> 00:02:24.176
+Here is a worse one. Suppose the reference
+is the average gamma, weighted by size.
+
+00:02:24.216 --> 00:02:31.536
+That average is minus 1.75 after one
+routine, and minus 2.31 after the other.
+
+00:02:31.576 --> 00:02:37.754
+Measured against it, Alder's readmissions
+come out at 1.87 times expected,
+
+00:02:37.794 --> 00:02:44.278
+or 2.76 times. Alder's patients did
+not change. Elm's stopping point did.
+
+00:02:44.400 --> 00:02:49.251
+A clinic with no readmissions has
+quietly moved the yardstick for everyone.
+
+00:02:50.833 --> 00:02:53.566
+What survives is anything built on the count.
+
+00:02:53.606 --> 00:02:57.074
+Take the middle clinic
+as the reference instead.
+
+00:02:57.114 --> 00:03:03.236
+The median does not care how far out
+Elm's slider went: minus 1.52, either way.
+
+00:03:03.367 --> 00:03:10.260
+At that reference, Elm's 11 patients would
+expect 1.97 readmissions. Elm had none.
+
+00:03:10.300 --> 00:03:15.874
+How surprising is none? Each patient
+has an 82% chance of staying out.
+
+00:03:15.914 --> 00:03:18.992
+For all eleven, that comes to 11%.
+
+00:03:19.133 --> 00:03:25.670
+Eleven percent is not rare. So Elm is not
+flagged. Zero is not automatically excellent.
+
+00:03:25.800 --> 00:03:30.068
+But thirty such patients with no
+readmissions would be another matter:
+
+00:03:30.108 --> 00:03:32.480
+about three chances in a thousand.
+
+00:03:32.520 --> 00:03:35.366
+The count speaks, even when gamma cannot.
+
+00:03:36.933 --> 00:03:39.538
+Two footnotes. First, the mirror image:
+
+00:03:39.578 --> 00:03:44.878
+a clinic where every patient is
+readmitted runs to an upper wall instead.
+
+00:03:45.000 --> 00:03:49.941
+Second, there was a sixth clinic. Fen,
+with 8 patients, never entered the fit,
+
+00:03:49.981 --> 00:03:54.795
+because the software screens out any
+provider with 10 records or fewer.
+
+00:03:54.835 --> 00:03:58.171
+Elm, with 11, stayed in by a single patient.
+
+00:03:59.767 --> 00:04:01.263
+Let's gather it up.
+
+00:04:01.303 --> 00:04:03.762
+No readmissions means a hill with no top,
+
+00:04:03.802 --> 00:04:07.983
+and a printed gamma that only
+records where the fitting stopped.
+
+00:04:08.023 --> 00:04:12.612
+Anything built on that gamma breaks.
+Anything built on the count survives.
+
+00:04:12.652 --> 00:04:16.352
+And zero, from a handful of
+patients, is weak evidence.
+
+00:04:16.500 --> 00:04:19.545
+That count, set against what
+the reference would expect,
+
+00:04:19.585 --> 00:04:22.839
+is the measure this whole
+series has been heading for.
+
+00:04:22.879 --> 00:04:25.021
+Next time: swap the curve.
+
+00:04:25.167 --> 00:04:29.272
+This has been Model in Motion.
+Thanks for following the story.
