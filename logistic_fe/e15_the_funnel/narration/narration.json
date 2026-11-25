@@ -1,0 +1,346 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 15,
+ "title": "The Funnel",
+ "subtitle": "every provider's result, and its uncertainty, in one picture",
+ "name": "ModelInMotion_LogisticFE_E15_TheFunnel",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "A field of two hundred dots. Six are marked for a moment, three in one colour and three in another, then all look alike again.",
+     "sentences": [
+      {
+       "text": "Here are two hundred providers, and a secret."
+      },
+      {
+       "text": "Six of them truly differ from the reference: three worse, three better. The other 194 are, in truth, identical.",
+       "say": "Six of them truly differ from the reference: three worse, three better. The other one hundred and ninety-four are, in truth, identical."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "The same two hundred as a league table: their ratios in order, from 2.03 on the left to 0.32 on the right.",
+     "sentences": [
+      {
+       "text": "And here are their ratios, sorted from highest to lowest. A league table."
+      },
+      {
+       "text": "Can you pick out the six?"
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "The top three and bottom three are boxed. Two turn out to be among the six; the other four are identical providers with 25, 27, 42 and 29 patients.",
+     "sentences": [
+      {
+       "text": "Take the three at the top and the three at the bottom, and you would be right about two. The other four are identical providers, small ones, having a lucky or an unlucky year."
+      },
+      {
+       "text": "A league table cannot tell luck from difference. We need a picture that can."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: the funnel."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Band",
+   "chapter": "From pile to band",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Dune's pile from Episode 13, on its axis of counts. The axis is relabelled: each count divided by 4.8, so that it reads as a ratio, with 1 at the centre.",
+     "sentences": [
+      {
+       "text": "Start with Dune's pile from Episode 13: what luck allows, for a clinic like the reference with Dune's patients.",
+       "say": "Start with Dune's pile from Episode thirteen: what luck allows, for a clinic like the reference with Dune's patients."
+      },
+      {
+       "text": "Divide every count by the 4.8 expected, and the pile sits on the ratio scale, centred on 1.",
+       "say": "Divide every count by the four point eight expected, and the pile sits on the ratio scale, centred on one."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "A bracket under the pile from 0.38 to 1.62, holding 95% of it. The bracket turns upright and becomes a vertical band.",
+     "sentences": [
+      {
+       "text": "Keep the stretch that holds 95% of it: from 0.38 to 1.62.",
+       "say": "Keep the stretch that holds ninety-five percent of it: from zero point three eight to one point six two."
+      },
+      {
+       "text": "Stand that band upright. A ratio inside it is unremarkable for Dune."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "Two upright bands on one chart, placed by precision: Dune's at 10, from 0.38 to 1.62; Birch's at 39, from 0.69 to 1.31.",
+     "sentences": [
+      {
+       "text": "How wide the band is depends on how much a clinic can tell us. Call that its precision. Dune's is 10.",
+       "say": "How wide the band is depends on how much a clinic can tell us. Call that its precision. Dune's is ten."
+      },
+      {
+       "text": "Birch has more to go on: a precision of 39, and a narrower band, from 0.69 to 1.31.",
+       "say": "Birch has more to go on: a precision of thirty-nine, and a narrower band, from zero point six nine to one point three one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Funnel",
+   "chapter": "Join the edges",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "Bands at many precisions; their upper and lower edges are joined into two curves around the line at 1.",
+     "sentences": [
+      {
+       "text": "Now do that at every precision, and join the edges."
+      },
+      {
+       "text": "Wide on the left, where clinics tell us little. Narrow on the right. A funnel."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "The five clinics as dots on the funnel: Dune (10.0, 1.46), Cedar (16.7, 1.00) and Birch (39.1, 0.88) inside; Alder (13.0, 1.62) above the upper edge.",
+     "sentences": [
+      {
+       "text": "Place the cast. Dune, Cedar and Birch sit inside. Alder, at 1.62, is outside.",
+       "say": "Place the cast. Dune, Cedar and Birch sit inside. Alder, at one point six two, is outside."
+      },
+      {
+       "text": "Outside the funnel means flagged, by last episode's bell-curve test. It is the same calculation, drawn."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "Elm at precision 2.4 and ratio 0. There the lower edge is at −0.27, below the zero line.",
+     "sentences": [
+      {
+       "text": "And Elm, far to the left. At Elm's precision the lower edge is below zero. No count, not even none, could flag so small a clinic as better than the reference."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Crowd",
+   "chapter": "Two hundred at once",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "The level crowd on the funnel. Thirteen of the 194 identical providers lie outside and are ringed. A note: over fifty redraws, 4.8% on average.",
+     "sentences": [
+      {
+       "text": "Now the two hundred from the start. Of the 194 identical providers, 13 fall outside the funnel, by luck alone.",
+       "say": "Now the two hundred from the start. Of the one hundred and ninety-four identical providers, thirteen fall outside the funnel, by luck alone."
+      },
+      {
+       "text": "That is what a 5% line means. Draw the crowd again and again, and on average 5% of them land outside.",
+       "say": "That is what a five percent line means. Draw the crowd again and again, and on average five percent of them land outside."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "The six who differ are coloured, each labelled with its number of patients. Three are outside; the two with 37 patients and the better one with 105 are inside.",
+     "sentences": [
+      {
+       "text": "And the six who truly differ? The funnel catches three."
+      },
+      {
+       "text": "It misses both of the small ones, with 37 patients each. And it misses a better-than-reference provider with 105: a low count is harder to prove than a high one.",
+       "say": "It misses both of the small ones, with thirty-seven patients each. And it misses a better-than-reference provider with a hundred and five: a low count is harder to prove than a high one."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "Two notes beside the funnel: outside is not a verdict; inside is consistent with the reference, not equal to it.",
+     "sentences": [
+      {
+       "text": "So a dot outside is not a verdict, and a dot inside is not an acquittal. Inside means consistent with the reference, not equal to it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Precision",
+   "chapter": "Why precision, not size",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Two rows of a hundred risk chips: one with slices of 5%, one with slices of 40%. Their precisions: 5 and 67, marked on the funnel's axis.",
+     "sentences": [
+      {
+       "text": "Why put precision along the bottom, and not the number of patients?"
+      },
+      {
+       "text": "Take two providers with 100 patients each. One treats patients whose risk is near 5%; the other, near 40%.",
+       "say": "Take two providers with a hundred patients each. One treats patients whose risk is near five percent; the other, near forty percent."
+      },
+      {
+       "text": "Their precisions are 5 and 67. The same size, at opposite ends of the funnel.",
+       "say": "Their precisions are five and sixty-seven. The same size, at opposite ends of the funnel."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "The crowd's fourteen providers of about a hundred patients, picked out on the funnel: precisions from 19 to 74.",
+     "sentences": [
+      {
+       "text": "In our crowd, providers of about a hundred patients have precisions from 19 to 74.",
+       "say": "In our crowd, providers of about a hundred patients have precisions from nineteen to seventy-four."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Cater",
+   "chapter": "The caterpillar",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "The two hundred providers in ratio order, each with its exact interval as a thin vertical line; flagged ones are coloured. A line at 1.",
+     "sentences": [
+      {
+       "text": "One companion picture. Sort the providers by ratio, and give each one its interval from Episode 13.",
+       "say": "One companion picture. Sort the providers by ratio, and give each one its interval from Episode thirteen."
+      },
+      {
+       "text": "The funnel shows how much each provider can tell us. The caterpillar shows the order, and how little the order can be trusted."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "A close-up of the funnel at Dune's precision: the smooth edges at 0.38 and 1.62, and the exact limits at 0.31 and 1.56, half-way between counts.",
+     "sentences": [
+      {
+       "text": "A footnote on the funnel. With the exact test, each provider has limits of its own, stepping between whole counts. The smooth curve is a guide to them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Differ",
+   "chapter": "When providers truly differ",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "The funnel with the level crowd; then the dots move to the series' usual crowd, where providers differ a little. Forty-nine of the 194 are now outside.",
+     "sentences": [
+      {
+       "text": "One last turn of a knob. Until now, all but six of our providers were identical. Let them truly differ a little, as real providers do."
+      },
+      {
+       "text": "Now a quarter of the dots are outside the funnel."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "A question over the funnel: outliers, or a funnel too narrow?",
+     "sentences": [
+      {
+       "text": "Is each of them an outlier? Or is the funnel too narrow for a world in which everyone differs? Hold that question. It has an episode of its own."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "Up the side, the ratio. Along the bottom, precision: how much a provider can tell us."
+      },
+      {
+       "text": "The funnel is what luck allows at each precision. Outside it means flagged."
+      },
+      {
+       "text": "And dots on the left are not worse providers. They are quieter ones."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "The funnel, small, resting on a block labelled the risk model; the next episode's title.",
+     "sentences": [
+      {
+       "text": "Every picture in this act has leaned on something we have not yet questioned: the risk model itself."
+      },
+      {
+       "text": "Next time: can we trust it?"
+      }
+     ]
+    },
+    {
+     "id": "s9_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
