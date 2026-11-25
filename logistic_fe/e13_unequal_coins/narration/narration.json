@@ -1,0 +1,394 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 13,
+ "title": "Unequal Coins",
+ "subtitle": "is this count surprising for a reference clinic?",
+ "name": "ModelInMotion_LogisticFE_E13_UnequalCoins",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Alder's 13 observed beside the 8.02 expected at the reference. A question: a real difference, or luck?",
+     "sentences": [
+      {
+       "text": "Alder had 13 readmissions. The reference clinic, given the same patients, expects 8.",
+       "say": "Alder had thirteen readmissions. The reference clinic, given the same patients, expects eight."
+      },
+      {
+       "text": "Is that a real difference? Or could a clinic exactly like the reference have had 13, just by luck?",
+       "say": "Is that a real difference? Or could a clinic exactly like the reference have had thirteen, just by luck?"
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Dune's 12 patients as chips: six lower-risk, six higher-risk, 7 of them filled.",
+     "sentences": [
+      {
+       "text": "To answer, we need to see what luck looks like."
+      },
+      {
+       "text": "We'll start with Dune, because Dune has only 12 patients, and we can watch every one of them.",
+       "say": "We'll start with Dune, because Dune has only twelve patients, and we can watch every one of them."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Dune's figures beside the chips: 7 observed, 4.8 expected, 58% readmitted, the highest raw rate in the cast.",
+     "sentences": [
+      {
+       "text": "Dune had 7 readmissions against 4.8 expected: the highest raw rate in the cast. So make a guess. Is Dune unusual?",
+       "say": "Dune had seven readmissions against four point eight expected: the highest raw rate in the cast. So make a guess. Is Dune unusual?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: unequal coins."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Coins",
+   "chapter": "Twelve coins",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Dune's twelve patients become twelve coins: risk chips whose slice is the reference chance. Six show 18%, six show 62%.",
+     "sentences": [
+      {
+       "text": "Suppose Dune were exactly like the reference. Then each patient is a coin."
+      },
+      {
+       "text": "For the six lower-risk patients, it comes up readmitted 18% of the time. For the six higher-risk patients, 62%.",
+       "say": "For the six lower-risk patients, it comes up readmitted eighteen percent of the time. For the six higher-risk patients, sixty-two percent."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "Three rounds of flips, each a row of twelve marks under the coins, filled where the coin came up readmitted. The counts: 3, 5, 3.",
+     "sentences": [
+      {
+       "text": "Flip all twelve and count. Three readmissions."
+      },
+      {
+       "text": "Flip again: five. And again: three."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "A histogram of the counts grows below: after 20 rounds, 200, then 2,000. A dashed line marks 4.8.",
+     "sentences": [
+      {
+       "text": "Do it two thousand times, and the counts pile up around 4.8.",
+       "say": "Do it two thousand times, and the counts pile up around four point eight."
+      },
+      {
+       "text": "That pile is what luck looks like, for a clinic like the reference with Dune's patients."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Exact",
+   "chapter": "No need to flip",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "An empty histogram with one full bar at zero: before any coin is added, the count is certainly zero.",
+     "sentences": [
+      {
+       "text": "We don't actually have to flip anything. The pile can be worked out exactly, one coin at a time."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "The first coin splits the bar: 82% stays at zero, 18% moves to one. Then the other eleven coins, one at a time; the bars spread and settle.",
+     "sentences": [
+      {
+       "text": "Each new coin splits every bar in two. One part stays where it is: no readmission. The other moves one step to the right."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "The finished pile, enlarged, with four labels: 26% at 5, 19% at 6, 9% at 7, and 4% at 8 or more.",
+     "sentences": [
+      {
+       "text": "After twelve coins, the chance of exactly 5 is 26%. Of 6, 19%. Of 7, 9%. And of 8 or more, 4%.",
+       "say": "After twelve coins, the chance of exactly five is twenty-six percent. Of six, nineteen percent. Of seven, nine percent. And of eight or more, four percent."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Tail",
+   "chapter": "How surprising is seven?",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "The pile with a marker at 7. The bars at 7 and beyond are shaded: 13%.",
+     "sentences": [
+      {
+       "text": "Dune's count was 7. For a clinic just like the reference, the chance of 7 or more is 13%.",
+       "say": "Dune's count was seven. For a clinic just like the reference, the chance of seven or more is thirteen percent."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "The bar at 7 is cut in half. Half of it, plus the bars beyond: 0.046 + 0.036 = 0.082. Then × 2 = 0.165.",
+     "sentences": [
+      {
+       "text": "Two refinements. Counts move in whole steps, so we take only half of the bar at 7 itself. That brings it to 8%.",
+       "say": "Two refinements. Counts move in whole steps, so we take only half of the bar at seven itself. That brings it to eight percent."
+      },
+      {
+       "text": "And a clinic can surprise us in either direction, so we double it: 16%.",
+       "say": "And a clinic can surprise us in either direction, so we double it: sixteen percent."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "A verdict: p = 0.165, about 1 in 6. Not flagged.",
+     "sentences": [
+      {
+       "text": "That is the p-value. About one time in six, luck alone does this. Dune is not flagged."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Alder",
+   "chapter": "Alder's thirty coins",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Alder's thirty coins in a row, 24 at 18% and 6 at 62%, above their exact pile. A marker at 13; the tail from 13 is shaded: 2.5%. The p-value: 0.035.",
+     "sentences": [
+      {
+       "text": "Now Alder. Thirty coins: 24 at 18%, and 6 at 62%. The pile centres on 8.",
+       "say": "Now Alder. Thirty coins: twenty-four at eighteen percent, and six at sixty-two percent. The pile centres on eight."
+      },
+      {
+       "text": "Alder's 13 sits far out in the tail. The chance of 13 or more is two and a half percent, and the p-value is 3.5%.",
+       "say": "Alder's thirteen sits far out in the tail. The chance of thirteen or more is two and a half percent, and the p-value is three point five percent."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "A line at 5% and a flag beside Alder's p-value.",
+     "sentences": [
+      {
+       "text": "That is below the usual 5% line. Alder is flagged: more readmissions than luck comfortably explains.",
+       "say": "That is below the usual five percent line. Alder is flagged: more readmissions than luck comfortably explains."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "Dune and Alder side by side. Dune: 12 patients, 58% readmitted, p = 16%, not flagged. Alder: 30 patients, 43% readmitted, p = 3.5%, flagged.",
+     "sentences": [
+      {
+       "text": "So the clinic with the highest raw rate is not flagged, and Alder is. Twelve patients leave a lot of room for luck. Thirty leave less."
+      }
+     ]
+    },
+    {
+     "id": "s6_4",
+     "visual": "All five p-values in a row: 0.035, 0.45, 0.99, 0.16 and 0.11, with one flag.",
+     "sentences": [
+      {
+       "text": "For the others: Birch, 45%. Cedar, 99%. And Elm, 11%, which is simply its whole bar at zero.",
+       "say": "For the others: Birch, forty-five percent. Cedar, ninety-nine percent. And Elm, eleven percent, which is simply its whole bar at zero."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Unequal",
+   "chapter": "Why unequal matters",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Alder's pile as filled bars, and over it, as an outline, the pile for thirty identical coins of 27%: wider. Two p-values: 3.5% and 5.2%.",
+     "sentences": [
+      {
+       "text": "Why insist that the coins are unequal? Swap Alder's thirty for thirty identical coins with the same average."
+      },
+      {
+       "text": "The pile gets wider. The p-value rises from 3.5% to 5.2%, and Alder slips under the bar.",
+       "say": "The pile gets wider. The p-value rises from three point five percent to five point two percent, and Alder slips under the bar."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "Two variances: 4.94 for the mixed coins, 5.88 for identical ones.",
+     "sentences": [
+      {
+       "text": "Mixed coins vary less than identical ones. Use the right pile, and the test is sharper."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Inside",
+   "chapter": "Turn the test inside out",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Alder's pile with its marker at 13 and, under it, a ruler for gamma with a slider at the reference, −1.52.",
+     "sentences": [
+      {
+       "text": "So far we built the pile at the reference. But we can build it at any gamma, and ask where Alder's 13 stops being surprising.",
+       "say": "So far we built the pile at the reference. But we can build it at any gamma, and ask where Alder's thirteen stops being surprising."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "The slider moves up. The pile slides right under the fixed marker, and a live p-value changes. Two positions are marked where it reads 5%: −1.46 and +0.13. The reference sits just outside.",
+     "sentences": [
+      {
+       "text": "Slide the gamma up, and the pile slides right. Between minus 1.46 and plus 0.13, thirteen is unremarkable.",
+       "say": "Slide the gamma up, and the pile slides right. Between minus one point four six and plus zero point one three, thirteen is unremarkable."
+      },
+      {
+       "text": "That is Alder's exact 95% interval. The reference, at minus 1.52, lies just outside it: the same verdict as the flag.",
+       "say": "That is Alder's exact ninety-five percent interval. The reference, at minus one point five two, lies just outside it: the same verdict as the flag."
+      }
+     ]
+    },
+    {
+     "id": "s8_3",
+     "visual": "Three intervals on a ratio axis with its line at 1: Alder 1.04 to 2.26, Dune 0.82 to 2.04, Elm 0 to 1.33. Episode 11's shortcut interval for Alder is drawn faintly beside the exact one.",
+     "sentences": [
+      {
+       "text": "Carried through the rising curve from Episode 11, Alder's ratio lies between 1.04 and 2.26. Dune's, between 0.82 and 2.04, which includes 1.",
+       "say": "Carried through the rising curve from Episode eleven, Alder's ratio lies between one point zero four and two point two six. Dune's, between zero point eight two and two point zero four, which includes one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Trust",
+   "chapter": "What the p-value promises",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Fifty simulated crowds in which every provider truly equals the reference: 10,000 tests, 4.8% flagged, against a nominal 5%.",
+     "sentences": [
+      {
+       "text": "Does the test keep its promise? We built fifty crowds in which every provider truly equals the reference, and tested all ten thousand."
+      },
+      {
+       "text": "It flagged 4.8%, against the 5% it promises.",
+       "say": "It flagged four point eight percent, against the five percent it promises."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "Two caution cards: the dial and the reference are treated as known; a p-value is not the chance that the clinic is ordinary.",
+     "sentences": [
+      {
+       "text": "Two cautions. The test treats the dial and the reference as known."
+      },
+      {
+       "text": "And a p-value is not the chance that the clinic is ordinary. It is the chance of a count like this, if it were."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s10_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "If a clinic were like the reference, each patient would be a coin with a chance of their own."
+      },
+      {
+       "text": "The count's whole distribution can be worked out exactly, and the tail beyond what was observed gives the p-value."
+      },
+      {
+       "text": "Turned inside out, the same test gives an interval."
+      }
+     ]
+    },
+    {
+     "id": "s10_2",
+     "visual": "The exact pile beside three quick sketches; the next episode's title.",
+     "sentences": [
+      {
+       "text": "Exact is satisfying, but it takes work. Are there quicker ways to nearly the same answer?"
+      },
+      {
+       "text": "Next time: three shortcuts."
+      }
+     ]
+    },
+    {
+     "id": "s10_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
