@@ -22,3 +22,8 @@ The script was approved as written there; `narration/narration.json` carries the
     ../../tools/build.sh . preview                         # the animatic: every scene at 480p15, assembled with sound and captions
 
 Still to do, in order: a look at the animatic, animation, a watch-through with sound.
+
+For the animation pass: `episode/episode04.py` still defines its own copies of eight helpers that `mim/boards.py` now
+provides (`side`, `big`, `fit_width`, `controls`, `value_tag`, `dim_bracket`, `tick_mark`, `clear`; its `start_ring` is
+`ring_at` there). Import them from `mim.boards` instead. The voice also shares the open “readmissions” pronunciation
+question in `docs/DECISIONS.md`.

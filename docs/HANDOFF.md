@@ -63,7 +63,9 @@ Codespace.
 **C. Your own computer.** Install Claude Code, then run `tools/setup_env.sh` on Ubuntu or Debian. On macOS, install the
 same pieces with Homebrew (ffmpeg, cairo, pango, pkg-config, a TeX distribution with `standalone` and `preview`,
 `dvisvgm`, the three fonts), then `pip install -r requirements.txt`, and fetch the voice files as `tools/setup_env.sh`
-does.
+does. On Windows, use option A or B. `tools/setup_env.sh --check`, which the session-start hook runs, assumes Linux: on
+native Windows it counts the Microsoft Store's `python3` placeholder as Python and leaves the missing packages out of its
+report, and on stock macOS it trips on bash 3.2 and BSD `stat`.
 
 Claude Code's documentation is at code.claude.com/docs: see "Extend Claude Code" for CLAUDE.md, skills, agents and hooks,
 "Cloud environments" for option B, and "Development containers" for option A.

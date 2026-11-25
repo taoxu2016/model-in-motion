@@ -6,8 +6,16 @@ settled in one sitting: 86 choices across fifteen draft scripts, as the reviews 
 The review docs are the working copies. If a doc has moved on, the doc is right and this file is stale. Scene numbers
 (S03, S07) refer to the scenes of that episode; “the blueprint” is `docs/blueprints/logistic_fixed_effect_blueprint.md`.
 
-Episode 4's script was approved as written, so it has nothing open ([review doc](https://claude.ai/artifact/CTx3BUU8yhMrfH7d3cWDab)).
-Episodes 1 to 3 are finished.
+Episode 4's script was approved as written, so its review left nothing open ([review doc](https://claude.ai/artifact/CTx3BUU8yhMrfH7d3cWDab)).
+Its voice does share the pronunciation question under “Across episodes”. Episodes 1 to 3 are finished.
+
+## Across episodes
+
+One choice, found by a check of the repository on 25 November 2026 rather than by a script review.
+
+| Question | What the voice does now | Alternative |
+| --- | --- | --- |
+| How “readmissions” sounds | Episodes 2 and 3 respell it “re-admissions” in `pronunciations`. Episodes 4 to 19 respell only “readmission” and “readmitted”, and a respelling matches whole words only, so 28 sentences were voiced from the plain spelling: 3 in Episode 4, 3 in 5, 2 in 6, 6 in 10, 4 in 11, 3 in 12, 4 in 13, and 1 each in 14, 16 and 18. No person has heard them yet. | Listen first: the first sentence of Episode 3 (“8 expected readmissions”) against Episode 4's animatic at 0:20 (“no readmissions at all”). If the plain word sounds wrong, add `"readmissions": "re-admissions"` to those ten episodes' `pronunciations` and `/revoice` each; only the 28 sentences are re-voiced. Episode 4's script is approved, so its change needs your word. |
 
 ## Episode 5 · Reading γ
 

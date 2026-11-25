@@ -32,7 +32,7 @@ all of which passed on that date (417 checks in total).
 ## What the stages mean
 
 - **Finished.** Animated, rendered at 1080p60, and frozen behind the regression test (`python tools/check_repo.py`).
-  The finished videos themselves were rendered in another workspace and are not in this repository; see the README.
+  The videos were rendered in another workspace and committed to `renders/finished/`.
 - **Animatic.** The script, its numbers file and its voiceover exist, and every narration clip has a still board cut to
   the voice. Most of the motion is still to come. The animatics are in `renders/animatics/`, which the renders commit adds.
 - **Script: approved or draft.** Each animatic-stage script has a review doc that lists what is verified, what could
