@@ -1,7 +1,7 @@
 # Status of the logistic fixed-effect arc
 
 Nineteen episodes, one for each module of the blueprint (`docs/blueprints/logistic_fixed_effect_blueprint.md`).
-Episodes 1 to 3 are finished. Episodes 4 to 19 are animatics: 16 of them, 79 minutes in all.
+Episodes 1 to 3 are finished; their 1080p60 videos are in `renders/finished/`. Episodes 4 to 19 are animatics: 16 of them, 79 minutes in all.
 
 This table was generated from the repository on 25 November 2026. Words and clips are counted from each episode's
 `narration/narration.json`; times are those of the rendered files; checks are the count printed by each numbers file,

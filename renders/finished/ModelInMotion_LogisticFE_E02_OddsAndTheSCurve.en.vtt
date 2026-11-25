@@ -1,0 +1,267 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.403
+Last time, we ended with a
+wish: one ruler for risk,
+
+00:00:03.443 --> 00:00:08.627
+where everything we know about a
+patient turns into a single probability.
+
+00:00:08.767 --> 00:00:11.010
+Here's the obvious way to build it.
+
+00:00:11.050 --> 00:00:16.157
+Start a typical patient at 20%, then
+add points for each risk factor.
+
+00:00:16.300 --> 00:00:24.043
+Age 81: plus 25. Diabetes: plus 30. A
+third hospital stay this year: plus 35.
+
+00:00:24.083 --> 00:00:26.219
+That's 110%.
+
+00:00:26.259 --> 00:00:31.644
+A probability can't do that. Adding points
+was the wrong move, on the wrong ruler.
+
+00:00:33.133 --> 00:00:35.354
+Welcome back to Model in Motion.
+
+00:00:35.394 --> 00:00:40.246
+Today: odds, and the curve that
+turns any patient into a probability.
+
+00:00:42.033 --> 00:00:43.934
+Let's try a different ruler.
+
+00:00:43.974 --> 00:00:47.961
+Take ten patients who each have
+a 20% chance of coming back.
+
+00:00:48.001 --> 00:00:50.767
+On average, two do, and eight don't.
+
+00:00:50.917 --> 00:00:53.736
+Probability compares the two with all ten.
+
+00:00:53.776 --> 00:00:57.774
+Odds compare the two with the
+eight: one to four, or a quarter.
+
+00:00:57.917 --> 00:01:01.760
+At 50%, it's five against five: odds of one.
+
+00:01:01.800 --> 00:01:05.350
+At 80%, eight against two: odds of four.
+
+00:01:05.483 --> 00:01:14.211
+And as the probability creeps toward 100%,
+the odds just keep running: 9, 99, 999.
+
+00:01:14.251 --> 00:01:16.308
+This ruler has no ceiling.
+
+00:01:17.600 --> 00:01:19.523
+But it's a lopsided ruler.
+
+00:01:19.563 --> 00:01:23.529
+Every patient below fifty-fifty
+is squeezed between zero and one,
+
+00:01:23.569 --> 00:01:27.123
+while everyone above gets
+all the room in the world.
+
+00:01:27.267 --> 00:01:29.254
+The cure is a logarithm.
+
+00:01:29.294 --> 00:01:33.158
+On a log scale, every doubling
+of the odds is one equal step:
+
+00:01:33.198 --> 00:01:35.724
+a quarter, a half, one, two, four.
+
+00:01:35.883 --> 00:01:39.662
+This is the log-odds ruler.
+Fifty-fifty sits at zero.
+
+00:01:39.702 --> 00:01:47.177
+20% is about minus 1.4, and 80%
+is plus 1.4: perfectly symmetric.
+
+00:01:47.317 --> 00:01:53.342
+And it runs forever in both directions. No
+floor, no ceiling, nothing to bump into.
+
+00:01:54.633 --> 00:01:59.841
+Here's why that matters. On the log-odds
+ruler, a risk factor is simply a step.
+
+00:01:59.881 --> 00:02:05.458
+Take one that multiplies the odds
+by four: a step of 1.4 to the right.
+
+00:02:05.600 --> 00:02:08.894
+Now give that same step to
+four different patients.
+
+00:02:09.033 --> 00:02:12.851
+On the probability ruler, 5% becomes 17%.
+
+00:02:12.891 --> 00:02:18.322
+20% becomes 50%. 50% becomes
+80%. And 80% becomes 94%.
+
+00:02:18.467 --> 00:02:22.928
+Same step, very different jumps: big
+in the middle, small near the ends.
+
+00:02:22.968 --> 00:02:25.750
+And nobody ever goes past one hundred.
+
+00:02:27.033 --> 00:02:29.918
+Now picture a risk factor
+that comes in amounts,
+
+00:02:29.958 --> 00:02:32.796
+like the number of earlier hospital stays.
+
+00:02:32.836 --> 00:02:37.324
+Suppose each extra stay is one
+more equal step in log-odds.
+
+00:02:37.467 --> 00:02:40.116
+On this scale, the pattern is a straight line.
+
+00:02:40.156 --> 00:02:43.897
+Its slope is the size of the
+step, and we'll call it beta.
+
+00:02:44.033 --> 00:02:47.321
+Now switch the vertical
+axis back to probability.
+
+00:02:47.361 --> 00:02:50.296
+The line bends into an S: steep in the middle,
+
+00:02:50.336 --> 00:02:53.983
+flat at both ends, and
+always between zero and one.
+
+00:02:54.133 --> 00:02:56.979
+How steep it is depends on where you stand.
+
+00:02:57.019 --> 00:03:00.536
+The steepness is proportional
+to p times one minus p:
+
+00:03:00.576 --> 00:03:04.546
+greatest at fifty-fifty,
+fading to nothing at the ends.
+
+00:03:04.586 --> 00:03:08.307
+Keep that in your pocket. It
+comes back when we fit the model.
+
+00:03:08.450 --> 00:03:11.141
+Turn beta up, and the S gets steeper.
+
+00:03:11.181 --> 00:03:14.923
+Shift the starting point, and
+the whole curve slides sideways.
+
+00:03:16.850 --> 00:03:20.010
+Let's fit one of these
+by hand. Remember Cedar?
+
+00:03:20.050 --> 00:03:25.776
+Ten lower-risk patients, 2 readmitted.
+Ten higher-risk patients, 6 readmitted.
+
+00:03:25.917 --> 00:03:30.406
+So the odds are 2 to 8, a quarter;
+and 6 to 4, one and a half.
+
+00:03:30.550 --> 00:03:34.684
+Divide one by the other, and
+you get an odds ratio of six.
+
+00:03:34.724 --> 00:03:38.601
+At Cedar, higher risk
+multiplies the odds by six.
+
+00:03:38.750 --> 00:03:45.366
+On the log-odds ruler, that's a step
+of 1.79, starting from minus 1.39.
+
+00:03:45.406 --> 00:03:49.255
+Those two numbers are a complete
+logistic model of Cedar.
+
+00:03:49.400 --> 00:03:53.797
+One caution. Six times the
+odds is not six times the risk.
+
+00:03:53.837 --> 00:03:58.603
+Cedar's rate went from 20%
+to 60%: three times, not six.
+
+00:04:00.000 --> 00:04:04.361
+Now, back to our patient. This
+time, we add on the right ruler.
+
+00:04:04.500 --> 00:04:10.227
+Each risk factor is a step in log-odds, and
+the steps simply stack, one after another.
+
+00:04:10.267 --> 00:04:13.128
+And the probability? 94%.
+
+00:04:13.168 --> 00:04:15.438
+High, but still a probability.
+
+00:04:15.583 --> 00:04:20.556
+From now on, every chip carries its
+probability with it, as a shaded slice.
+
+00:04:20.596 --> 00:04:25.042
+A sliver for a low-risk patient;
+nearly the whole disc for this one.
+
+00:04:26.433 --> 00:04:27.929
+Let's gather it up.
+
+00:04:27.969 --> 00:04:31.406
+Odds compare the patients who
+come back with those who don't.
+
+00:04:31.446 --> 00:04:34.585
+Log-odds is the ruler where risk factors add.
+
+00:04:34.625 --> 00:04:37.898
+And the S-curve carries the
+sum back to a probability.
+
+00:04:38.033 --> 00:04:40.958
+So now every patient has a probability.
+
+00:04:40.998 --> 00:04:44.569
+Add them up across a clinic, and
+you get a number of patients:
+
+00:04:44.609 --> 00:04:46.938
+the readmissions we should expect.
+
+00:04:47.083 --> 00:04:51.211
+Next time, we'll set that number
+beside what actually happened.
+
+00:04:51.251 --> 00:04:53.321
+Observed, versus expected.
+
+00:04:53.467 --> 00:04:57.572
+This has been Model in Motion.
+Thanks for following the story.

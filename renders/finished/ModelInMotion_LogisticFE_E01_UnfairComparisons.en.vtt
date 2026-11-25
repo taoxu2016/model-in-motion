@@ -1,0 +1,302 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.307
+Here's a question that sounds simple.
+
+00:00:02.347 --> 00:00:04.679
+Five clinics send their patients home.
+
+00:00:04.719 --> 00:00:08.612
+Some of those patients are back
+in hospital within thirty days.
+
+00:00:08.652 --> 00:00:11.187
+Which clinic is doing the best job?
+
+00:00:11.333 --> 00:00:16.270
+Each chip is one patient. A filled
+chip is a patient who was readmitted.
+
+00:00:16.417 --> 00:00:23.417
+The obvious move is to count. At Alder,
+13 of 30 patients came back: that's 43%.
+
+00:00:23.457 --> 00:00:30.186
+Birch, 47%. Cedar, 40%. Dune,
+58%. And at Elm, nobody at all.
+
+00:00:30.333 --> 00:00:34.026
+Line them up from lowest to
+highest, and we have a league table.
+
+00:00:34.066 --> 00:00:38.363
+Elm in first place, Dune in last,
+and Alder just ahead of Birch.
+
+00:00:38.500 --> 00:00:43.010
+It looks like an answer. But for
+those two, the table has it backwards.
+
+00:00:44.500 --> 00:00:46.136
+Welcome to Model in Motion,
+
+00:00:46.176 --> 00:00:50.241
+where we build statistical models
+one moving piece at a time.
+
+00:00:50.281 --> 00:00:54.601
+This is the start of a new story:
+how to compare providers fairly.
+
+00:00:54.641 --> 00:00:58.823
+Today, unfair comparisons, and
+what a fair one would need.
+
+00:01:00.717 --> 00:01:03.344
+Let's look more closely at Alder and Birch.
+
+00:01:03.384 --> 00:01:08.192
+So far, we've treated every patient
+as interchangeable. They aren't.
+
+00:01:08.333 --> 00:01:12.350
+Some are frail, or going home
+after a long and complicated stay.
+
+00:01:12.390 --> 00:01:17.360
+Patients like that are more likely to
+come back, wherever they're treated.
+
+00:01:17.400 --> 00:01:20.331
+Let's mark those higher-risk
+patients with a ring.
+
+00:01:20.467 --> 00:01:25.340
+Now sort the chips: lower-risk patients
+on the left, higher-risk on the right.
+
+00:01:25.483 --> 00:01:31.864
+Look at who each clinic is caring for. At
+Alder, 24 of the 30 patients are lower-risk.
+
+00:01:31.904 --> 00:01:36.436
+Birch is the mirror image:
+24 of its 30 are higher-risk.
+
+00:01:36.583 --> 00:01:39.957
+This is a clinic's case mix:
+the kind of patients it serves.
+
+00:01:39.997 --> 00:01:42.906
+And these two could hardly be more different.
+
+00:01:44.000 --> 00:01:47.934
+So let's compare like with like,
+starting with the lower-risk patients.
+
+00:01:48.083 --> 00:01:55.574
+At Alder, 8 of 24 were readmitted: one
+in three. At Birch, 1 of 6: about 17%.
+
+00:01:55.614 --> 00:01:58.268
+For these patients, Birch does better.
+
+00:01:58.417 --> 00:02:07.358
+Now the higher-risk patients. Alder: 5
+of 6, or 83%. Birch: 13 of 24, or 54%.
+
+00:02:07.398 --> 00:02:09.263
+Birch does better again.
+
+00:02:09.400 --> 00:02:14.416
+Lower-risk patients do better at Birch.
+Higher-risk patients do better at Birch.
+
+00:02:14.456 --> 00:02:18.753
+And yet, put everyone back together,
+and it's Alder with the lower rate.
+
+00:02:18.900 --> 00:02:22.925
+Nothing is wrong with the arithmetic.
+This is Simpson's paradox,
+
+00:02:22.965 --> 00:02:27.762
+and it lies in wait wherever groups
+with different mixes are compared.
+
+00:02:28.950 --> 00:02:31.901
+Here's what's going on.
+Give each clinic a beam,
+
+00:02:31.941 --> 00:02:34.713
+marked from zero to one hundred percent.
+
+00:02:34.753 --> 00:02:39.156
+Each group of patients sits on the
+beam at its own readmission rate.
+
+00:02:39.300 --> 00:02:43.084
+A clinic's overall rate is the
+point where its beam balances.
+
+00:02:43.124 --> 00:02:46.797
+And that depends on how much
+weight sits at each end.
+
+00:02:46.933 --> 00:02:53.534
+Alder's patients are mostly lower-risk, so
+its balance point sits near the low end: 43%.
+
+00:02:53.683 --> 00:02:58.144
+Birch's piles both sit further
+left: lower rates in both groups.
+
+00:02:58.184 --> 00:03:01.553
+But most of its weight is
+at the higher-risk end,
+
+00:03:01.593 --> 00:03:04.934
+and that drags the balance point up to 47%.
+
+00:03:05.083 --> 00:03:10.574
+So a raw rate blends two things: how well a
+clinic performs, and who walked in the door.
+
+00:03:11.667 --> 00:03:16.390
+Here's a way to feel the difference.
+Imagine the two clinics traded patients.
+
+00:03:17.467 --> 00:03:22.674
+Alder's two rates stay where they were.
+But now it carries Birch's patients,
+
+00:03:22.714 --> 00:03:26.515
+and its balance point slides
+all the way up to 73%.
+
+00:03:26.555 --> 00:03:30.020
+With those same patients, Birch managed 47%.
+
+00:03:30.167 --> 00:03:37.429
+And Birch, with Alder's easier mix? Its balance
+point falls to 24%, where Alder had 43%.
+
+00:03:37.567 --> 00:03:41.292
+Whichever set of patients you
+choose, Birch comes out well ahead.
+
+00:03:41.332 --> 00:03:44.637
+The league table had these
+two the wrong way round.
+
+00:03:46.133 --> 00:03:50.338
+Two clinics could be a fluke. So
+let's zoom out to 200 providers.
+
+00:03:50.378 --> 00:03:54.632
+They're simulated, which means we
+know how good each one truly is.
+
+00:03:54.767 --> 00:03:59.036
+Line them up from truly best on the
+left to truly worst on the right.
+
+00:03:59.076 --> 00:04:04.290
+Then lift each one by its raw rate:
+lowest at the bottom, highest at the top.
+
+00:04:04.433 --> 00:04:09.582
+If raw rates told the truth, the
+dots would hug the diagonal. Instead,
+
+00:04:09.622 --> 00:04:15.087
+they're scattered almost everywhere:
+a rank correlation of just 0.16.
+
+00:04:15.233 --> 00:04:21.684
+Cut the table into fifths, and 142 of
+the 200 providers land in the wrong one.
+
+00:04:21.833 --> 00:04:26.444
+Now re-sort the very same providers
+by how sick their patients are.
+
+00:04:26.484 --> 00:04:32.700
+There's the pattern the raw rates were
+following all along: a correlation of 0.58.
+
+00:04:34.300 --> 00:04:36.859
+There's a second problem in that league table,
+
+00:04:36.899 --> 00:04:40.922
+and it has nothing to do with case
+mix. Look at the two extremes.
+
+00:04:41.067 --> 00:04:46.985
+Dune's 58% rests on 12 patients.
+Elm's perfect zero, on 11.
+
+00:04:47.133 --> 00:04:51.979
+So try an experiment. Suppose all
+five clinics were secretly identical:
+
+00:04:52.019 --> 00:04:56.246
+every patient with the same
+four-in-ten chance of coming back.
+
+00:04:56.286 --> 00:04:59.594
+Now deal out the luck. And again. And again.
+
+00:04:59.634 --> 00:05:03.504
+Even the bigger clinics wobble.
+The smallest swing much further.
+
+00:05:03.600 --> 00:05:06.308
+So before trusting any gap between providers,
+
+00:05:06.348 --> 00:05:09.973
+we'll have to ask how much of
+it chance alone could produce.
+
+00:05:10.013 --> 00:05:12.867
+That question gets an episode of its own.
+
+00:05:14.467 --> 00:05:15.963
+Let's gather it up.
+
+00:05:16.003 --> 00:05:18.950
+A raw rate blends performance with case mix.
+
+00:05:18.990 --> 00:05:21.851
+Compare like with like,
+and a ranking can flip.
+
+00:05:21.891 --> 00:05:24.289
+And small providers swing with chance.
+
+00:05:24.433 --> 00:05:27.470
+What we really want is to
+compare providers as if they
+
+00:05:27.510 --> 00:05:29.726
+had all treated the same patients.
+
+00:05:29.766 --> 00:05:33.765
+With one risk factor, sorting
+chips into two piles was enough.
+
+00:05:33.805 --> 00:05:37.476
+But real patients differ
+in dozens of ways at once.
+
+00:05:37.617 --> 00:05:40.768
+So next time, we'll build
+a single ruler for risk:
+
+00:05:40.808 --> 00:05:45.626
+a way to turn everything we know
+about a patient into one probability.
+
+00:05:45.767 --> 00:05:49.872
+This has been Model in Motion.
+Thanks for following the story.

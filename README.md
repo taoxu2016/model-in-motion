@@ -11,6 +11,7 @@ Start here:
 - `docs/STATUS.md`: one row per episode, with its stage, running time, check count and review link.
 - `docs/DECISIONS.md`: the 86 choices the fifteen draft scripts are waiting on.
 - `renders/animatics/`: the current animatic of every unfinished episode, ready to watch.
+- `renders/finished/`: Episodes 1 to 3 as finished 1080p60 videos, each with captions and a timed script.
 - `docs/blueprints/`: the blueprint this arc follows, and the Cox arc's.
 
 ## Layout
@@ -62,6 +63,7 @@ docs/
     logistic_fixed_effect_analysis/   the pprof_py scripts that computed the blueprint's numbers, and their output
 renders/
   animatics/             the 720p animatic of Episodes 4 to 19, each with captions and a timed script
+  finished/              Episodes 1 to 3 at 1080p60, each with captions and a timed script
 ```
 
 An episode folder holds only what is its own. Each episode file sets `MIM_EPISODE` to its folder and imports `mim.common`,
@@ -122,8 +124,6 @@ are in the repository; only re-voicing a changed script does.
 
 ## Not in this repository
 
-- **The finished videos of Episodes 1 to 3.** Their sources are here, frozen behind the regression test. The 1080p60
-  files were rendered in another workspace; `tools/build.sh logistic_fe/<episode folder> final` rebuilds each.
 - **The Cox arc.** Its blueprint is in `docs/blueprints/`. Its first three episodes were built in another workspace,
   each with its own copy of the shared library. Folding them in is the move Episodes 1 to 3 of this arc already made:
   one copy of `mim/`, a few import lines per episode. They would live in `cox_ph/`, beside `logistic_fe/`.
@@ -144,7 +144,8 @@ providers, and the experiments built on them. There is no patient-level or restr
 The work was not under version control while it was made. This repository was assembled from it on 25 November 2026,
 so its history is a record of structure, not of time: one commit for the scaffold, one for the shared library and
 tools, one for each episode and one for the documents. The rendered animatics are one further commit on top, so that
-they can be left out. The scripts behind the blueprint's numbers followed on the same day, in one more commit. The commits carry a placeholder author.
+they can be left out. The scripts behind the blueprint's numbers followed on the same day, in one more commit.
+The finished videos of Episodes 1 to 3 came last, in a commit of their own like the animatics. The commits carry a placeholder author.
 To make them yours before you publish:
 
     git rebase -r --root --exec "git commit --amend --no-edit --reset-author"
