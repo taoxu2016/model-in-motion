@@ -1,0 +1,355 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 7,
+ "title": "Climbing the Hill",
+ "subtitle": "how a computer finds the top",
+ "name": "ModelInMotion_LogisticFE_E07_ClimbingTheHill",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Episode 6's hill, its top marked. A climber's dot waits at the foot with a question mark.",
+     "sentences": [
+      {
+       "text": "Last time we found the top of the hill: the one setting where every meter that can level is level."
+      },
+      {
+       "text": "But we found it by being told where it was."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "The balance equation for one clinic, with the S-curve inside it. A label: no formula solves this.",
+     "sentences": [
+      {
+       "text": "A computer has no such luck. It cannot solve for the top with algebra, because every expected count passes through the S-curve."
+      },
+      {
+       "text": "All it can do, from wherever it stands, is feel the ground: which way is up, and how the slope is changing."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Two small marks at the climber's feet: a slope arrow and a curvature arc.",
+     "sentences": [
+      {
+       "text": "So how do you climb a hill you can only feel one spot at a time?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: climbing the hill."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_OneStep",
+   "chapter": "One slider, one step",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Dune's slider alone, standing at −1.52. The dial is held at 2.02.",
+     "sentences": [
+      {
+       "text": "Start small, with one slider. Hold the dial at its fitted place, 2.02, and stand Dune's slider in the wrong spot: on Cedar's level, minus 1.52.",
+       "say": "Start small, with one slider. Hold the dial at its fitted place, two point zero two, and stand Dune's slider in the wrong spot: on Cedar's level, minus one point five two."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "Dune's own hill, drawn faintly: its height for every slider position. A dot marks where we stand.",
+     "sentences": [
+      {
+       "text": "Here is Dune's own hill: its height for every position of its slider."
+      },
+      {
+       "text": "From where we stand, we can't see it. We know just two things: the slope under our feet, and how fast that slope is changing."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "A parabola through the dot, matching the hill there. Its top is marked: 0.96 to the right, at −0.56. The dot jumps to it.",
+     "sentences": [
+      {
+       "text": "That is enough to draw a parabola that matches the hill right here."
+      },
+      {
+       "text": "So jump to the top of the parabola: 0.96 to the right, to minus 0.56.",
+       "say": "So jump to the top of the parabola: zero point nine six to the right, to minus zero point five six."
+      }
+     ]
+    },
+    {
+     "id": "s3_4",
+     "visual": "A second, much smaller parabola: 0.017 to the left. The dot settles at −0.58, the top of Dune's hill.",
+     "sentences": [
+      {
+       "text": "Do it again from the new spot. The second jump is tiny: 0.017 back to the left.",
+       "say": "Do it again from the new spot. The second jump is tiny: zero point zero one seven back to the left."
+      },
+      {
+       "text": "And we are there: minus 0.58. Two steps.",
+       "say": "And we are there: minus zero point five eight. Two steps."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Tilt",
+   "chapter": "Tilt over wobble",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "Dune's meter, large: observed 7, expected 4.8, a gap of 2.2.",
+     "sentences": [
+      {
+       "text": "Where did 0.96 come from? Read it off the meter.",
+       "say": "Where did zero point nine six come from? Read it off the meter."
+      },
+      {
+       "text": "The tilt, we know: observed 7, expected 4.8, a gap of 2.2.",
+       "say": "The tilt, we know: observed seven, expected four point eight, a gap of two point two."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "A hump: how much each patient adds to the wobble, against their probability. Marks at 18% and 62%, Dune's two groups; the sum, 2.29.",
+     "sentences": [
+      {
+       "text": "The second number is how readily the expected count moves when the slider does. Call it the wobble."
+      },
+      {
+       "text": "A patient near 50% adds the most to it. A patient near 0 or near 100% hardly adds at all.",
+       "say": "A patient near fifty percent adds the most to it. A patient near zero or near a hundred percent hardly adds at all."
+      },
+      {
+       "text": "For Dune's twelve patients, it comes to 2.29.",
+       "say": "For Dune's twelve patients, it comes to two point two nine."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "The step as a fraction: tilt over wobble, 2.2 over 2.29, equals 0.96.",
+     "sentences": [
+      {
+       "text": "So the step is tilt over wobble: 2.2 divided by 2.29.",
+       "say": "So the step is tilt over wobble: two point two divided by two point two nine."
+      },
+      {
+       "text": "A gap of 2.2 to close, at 2.29 per unit of slider: move 0.96.",
+       "say": "A gap of two point two to close, at two point two nine per unit of slider: move zero point nine six."
+      }
+     ]
+    },
+    {
+     "id": "s4_4",
+     "visual": "Caption: which way, and how far.",
+     "sentences": [
+      {
+       "text": "That division is what makes this more than walking uphill. It does not just say which way. It says how far."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Turns",
+   "chapter": "Taking turns",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "The whole machine at the plain guess. All five sliders step at once.",
+     "sentences": [
+      {
+       "text": "Now the whole machine, from the plain guess. Every clinic can take its step at the same moment, because each step uses only that clinic's own patients."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "The dial steps; the clinic meters tilt again. Sliders, dial, sliders: a round counter ticks.",
+     "sentences": [
+      {
+       "text": "Then the dial takes one step, with the sliders frozen."
+      },
+      {
+       "text": "But that unsettles every clinic, so the sliders step again. Then the dial. Then the sliders."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "The round counter reaches 8 with the dial at 1.91; then runs on to 54, where the meters are level.",
+     "sentences": [
+      {
+       "text": "Watch the dial. After eight rounds it has only reached 1.91, on its way to 2.02.",
+       "say": "Watch the dial. After eight rounds it has only reached one point nine one, on its way to two point zero two."
+      },
+      {
+       "text": "Each round covers a fraction of what is left. Getting there takes 54 rounds.",
+       "say": "Each round covers a fraction of what is left. Getting there takes fifty-four rounds."
+      }
+     ]
+    },
+    {
+     "id": "s5_4",
+     "visual": "Elm's slider is picked out: −2.06, −3.19, −4.23, −5.24, −6.25.",
+     "sentences": [
+      {
+       "text": "And Elm steps down by about one unit every round, without end."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Stairs",
+   "chapter": "Why it zig-zags",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "The hill from above: the dial left to right, Birch's slider up and down, contour lines around the top. The path appears as a staircase.",
+     "sentences": [
+      {
+       "text": "Here is why it is slow. This is the hill seen from above: the dial runs left to right, Birch's slider up and down."
+      },
+      {
+       "text": "The path is a staircase: up or down for the sliders, sideways for the dial."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "The ridge is drawn as a dashed diagonal through the top.",
+     "sentences": [
+      {
+       "text": "And the ridge it is trying to follow runs diagonally. Turn the dial up, and every expected count rises, so every slider has to come down."
+      },
+      {
+       "text": "A staircase is a slow way along a diagonal."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "Three rows beside the map: zero at a lower-risk patient, 54 rounds; zero five units away, 3,125 rounds.",
+     "sentences": [
+      {
+       "text": "How slow depends on something that should not matter: where we put zero."
+      },
+      {
+       "text": "Last episode, moving zero changed every gamma and no gap. It changes the climb too."
+      },
+      {
+       "text": "Record the risk factor five units higher, and the same alternation needs 3,125 rounds.",
+       "say": "Record the risk factor five units higher, and the same alternation needs three thousand one hundred and twenty-five rounds."
+      }
+     ]
+    },
+    {
+     "id": "s6_4",
+     "visual": "The third row: zero in the middle of the patients, 21 rounds, with the package's name.",
+     "sentences": [
+      {
+       "text": "Put zero in the middle of the patients instead, and the ridge straightens: 21 rounds. That is what pprof_py does before it starts.",
+       "say": "Put zero in the middle of the patients instead, and the ridge straightens: twenty-one rounds. That is what p-prof pie does before it starts."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "A step is tilt over wobble. It says which way, and how far."
+      },
+      {
+       "text": "The sliders can all step at once. The dial steps in turn."
+      },
+      {
+       "text": "And taking turns climbs a diagonal ridge by staircase."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "A line under the cards: every route climbs toward the same top.",
+     "sentences": [
+      {
+       "text": "Every route here climbs toward the same top. They differ in how long they take."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "The map again, with one straight arrow along the ridge to the top; the next episode's title.",
+     "sentences": [
+      {
+       "text": "So here is the obvious question. Could the sliders and the dial step together, straight along the ridge?"
+      },
+      {
+       "text": "They can, and then it takes five steps. Next time: the arrow matrix."
+      }
+     ]
+    },
+    {
+     "id": "s7_4",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

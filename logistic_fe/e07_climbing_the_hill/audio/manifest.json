@@ -1,0 +1,390 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 8.299,
+  "sentences": [
+   {
+    "text": "Last time we found the top of the hill: the one setting where every meter that can level is level.",
+    "start": 0.0,
+    "end": 5.547
+   },
+   {
+    "text": "But we found it by being told where it was.",
+    "start": 5.867,
+    "end": 8.149
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 14.891,
+  "sentences": [
+   {
+    "text": "A computer has no such luck. It cannot solve for the top with algebra, because every expected count passes through the S-curve.",
+    "start": 0.0,
+    "end": 8.128
+   },
+   {
+    "text": "All it can do, from wherever it stands, is feel the ground: which way is up, and how the slope is changing.",
+    "start": 8.448,
+    "end": 14.741
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 3.883,
+  "sentences": [
+   {
+    "text": "So how do you climb a hill you can only feel one spot at a time?",
+    "start": 0.0,
+    "end": 3.733
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.011,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: climbing the hill.",
+    "start": 2.261,
+    "end": 3.861
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_OneStep",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 11.798,
+  "sentences": [
+   {
+    "text": "Start small, with one slider. Hold the dial at its fitted place, 2.02, and stand Dune's slider in the wrong spot: on Cedar's level, minus 1.52.",
+    "start": 0.0,
+    "end": 11.648
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_OneStep",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 12.033,
+  "sentences": [
+   {
+    "text": "Here is Dune's own hill: its height for every position of its slider.",
+    "start": 0.0,
+    "end": 4.096
+   },
+   {
+    "text": "From where we stand, we can't see it. We know just two things: the slope under our feet, and how fast that slope is changing.",
+    "start": 4.416,
+    "end": 11.883
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_OneStep",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 10.945,
+  "sentences": [
+   {
+    "text": "That is enough to draw a parabola that matches the hill right here.",
+    "start": 0.0,
+    "end": 3.648
+   },
+   {
+    "text": "So jump to the top of the parabola: 0.96 to the right, to minus 0.56.",
+    "start": 3.968,
+    "end": 10.795
+   }
+  ]
+ },
+ "s3_4": {
+  "scene": "S03_OneStep",
+  "file": "audio/segments/s3_4.wav",
+  "duration": 11.009,
+  "sentences": [
+   {
+    "text": "Do it again from the new spot. The second jump is tiny: 0.017 back to the left.",
+    "start": 0.0,
+    "end": 6.72
+   },
+   {
+    "text": "And we are there: minus 0.58. Two steps.",
+    "start": 7.04,
+    "end": 10.859
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Tilt",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 9.43,
+  "sentences": [
+   {
+    "text": "Where did 0.96 come from? Read it off the meter.",
+    "start": 0.0,
+    "end": 3.563
+   },
+   {
+    "text": "The tilt, we know: observed 7, expected 4.8, a gap of 2.2.",
+    "start": 3.883,
+    "end": 9.28
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Tilt",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 17.387,
+  "sentences": [
+   {
+    "text": "The second number is how readily the expected count moves when the slider does. Call it the wobble.",
+    "start": 0.0,
+    "end": 5.547
+   },
+   {
+    "text": "A patient near 50% adds the most to it. A patient near 0 or near 100% hardly adds at all.",
+    "start": 5.867,
+    "end": 13.397
+   },
+   {
+    "text": "For Dune's twelve patients, it comes to 2.29.",
+    "start": 13.717,
+    "end": 17.237
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_Tilt",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 12.139,
+  "sentences": [
+   {
+    "text": "So the step is tilt over wobble: 2.2 divided by 2.29.",
+    "start": 0.0,
+    "end": 4.928
+   },
+   {
+    "text": "A gap of 2.2 to close, at 2.29 per unit of slider: move 0.96.",
+    "start": 5.248,
+    "end": 11.989
+   }
+  ]
+ },
+ "s4_4": {
+  "scene": "S04_Tilt",
+  "file": "audio/segments/s4_4.wav",
+  "duration": 6.635,
+  "sentences": [
+   {
+    "text": "That division is what makes this more than walking uphill. It does not just say which way. It says how far.",
+    "start": 0.0,
+    "end": 6.485
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_Turns",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 9.153,
+  "sentences": [
+   {
+    "text": "Now the whole machine, from the plain guess. Every clinic can take its step at the same moment, because each step uses only that clinic's own patients.",
+    "start": 0.0,
+    "end": 9.003
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_Turns",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 9.238,
+  "sentences": [
+   {
+    "text": "Then the dial takes one step, with the sliders frozen.",
+    "start": 0.0,
+    "end": 3.243
+   },
+   {
+    "text": "But that unsettles every clinic, so the sliders step again. Then the dial. Then the sliders.",
+    "start": 3.563,
+    "end": 9.088
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_Turns",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 12.502,
+  "sentences": [
+   {
+    "text": "Watch the dial. After eight rounds it has only reached 1.91, on its way to 2.02.",
+    "start": 0.0,
+    "end": 7.104
+   },
+   {
+    "text": "Each round covers a fraction of what is left. Getting there takes 54 rounds.",
+    "start": 7.424,
+    "end": 12.352
+   }
+  ]
+ },
+ "s5_4": {
+  "scene": "S05_Turns",
+  "file": "audio/segments/s5_4.wav",
+  "duration": 4.118,
+  "sentences": [
+   {
+    "text": "And Elm steps down by about one unit every round, without end.",
+    "start": 0.0,
+    "end": 3.968
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Stairs",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 12.609,
+  "sentences": [
+   {
+    "text": "Here is why it is slow. This is the hill seen from above: the dial runs left to right, Birch's slider up and down.",
+    "start": 0.0,
+    "end": 7.424
+   },
+   {
+    "text": "The path is a staircase: up or down for the sliders, sideways for the dial.",
+    "start": 7.744,
+    "end": 12.459
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Stairs",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 12.673,
+  "sentences": [
+   {
+    "text": "And the ridge it is trying to follow runs diagonally. Turn the dial up, and every expected count rises, so every slider has to come down.",
+    "start": 0.0,
+    "end": 9.152
+   },
+   {
+    "text": "A staircase is a slow way along a diagonal.",
+    "start": 9.472,
+    "end": 12.523
+   }
+  ]
+ },
+ "s6_3": {
+  "scene": "S06_Stairs",
+  "file": "audio/segments/s6_3.wav",
+  "duration": 17.793,
+  "sentences": [
+   {
+    "text": "How slow depends on something that should not matter: where we put zero.",
+    "start": 0.0,
+    "end": 3.883
+   },
+   {
+    "text": "Last episode, moving zero changed every gamma and no gap. It changes the climb too.",
+    "start": 4.203,
+    "end": 9.984
+   },
+   {
+    "text": "Record the risk factor five units higher, and the same alternation needs 3,125 rounds.",
+    "start": 10.304,
+    "end": 17.643
+   }
+  ]
+ },
+ "s6_4": {
+  "scene": "S06_Stairs",
+  "file": "audio/segments/s6_4.wav",
+  "duration": 9.067,
+  "sentences": [
+   {
+    "text": "Put zero in the middle of the patients instead, and the ridge straightens: 21 rounds. That is what pprof_py does before it starts.",
+    "start": 0.0,
+    "end": 8.917
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Recap",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 13.419,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "A step is tilt over wobble. It says which way, and how far.",
+    "start": 1.536,
+    "end": 5.312
+   },
+   {
+    "text": "The sliders can all step at once. The dial steps in turn.",
+    "start": 5.632,
+    "end": 9.28
+   },
+   {
+    "text": "And taking turns climbs a diagonal ridge by staircase.",
+    "start": 9.6,
+    "end": 13.269
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Recap",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 4.673,
+  "sentences": [
+   {
+    "text": "Every route here climbs toward the same top. They differ in how long they take.",
+    "start": 0.0,
+    "end": 4.523
+   }
+  ]
+ },
+ "s7_3": {
+  "scene": "S07_Recap",
+  "file": "audio/segments/s7_3.wav",
+  "duration": 11.201,
+  "sentences": [
+   {
+    "text": "So here is the obvious question. Could the sliders and the dial step together, straight along the ridge?",
+    "start": 0.0,
+    "end": 6.272
+   },
+   {
+    "text": "They can, and then it takes five steps. Next time: the arrow matrix.",
+    "start": 6.592,
+    "end": 11.051
+   }
+  ]
+ },
+ "s7_4": {
+  "scene": "S07_Recap",
+  "file": "audio/segments/s7_4.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}
