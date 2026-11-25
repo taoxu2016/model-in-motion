@@ -1,0 +1,367 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 5,
+ "title": "Reading γ",
+ "subtitle": "what a gap between two clinics means for a patient",
+ "name": "ModelInMotion_LogisticFE_E05_ReadingGamma",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "The log-odds panel with Alder's and Cedar's lines. A bracket between them reads 0.87 and slides from one end to the other without changing.",
+     "sentences": [
+      {
+       "text": "Last time, every clinic got a line of its own, all with the same tilt."
+      },
+      {
+       "text": "Alder's line sits 0.87 above Cedar's. At the lower-risk end, at the higher-risk end, anywhere you look: the same 0.87.",
+       "say": "Alder's line sits zero point eight seven above Cedar's. At the lower-risk end, at the higher-risk end, anywhere you look: the same zero point eight seven."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Beside the panel: a step of 0.87 becomes odds × 2.4. Then the question: 2.4 times what?",
+     "sentences": [
+      {
+       "text": "On the log-odds ruler, a step of 0.87 multiplies the odds by 2.4.",
+       "say": "On the log-odds ruler, a step of zero point eight seven multiplies the odds by two point four."
+      },
+      {
+       "text": "So in some sense, Alder is 2.4 times Cedar. But 2.4 times what?",
+       "say": "So in some sense, Alder is two point four times Cedar. But two point four times what?"
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Three cards, numbered 1 to 3, each finishing the sentence a different way.",
+     "sentences": [
+      {
+       "text": "Here are three ways to finish that sentence."
+      },
+      {
+       "text": "One: Alder has 2.4 times as many readmissions.",
+       "say": "One: Alder has two point four times as many readmissions."
+      },
+      {
+       "text": "Two: at Alder, each patient is 2.4 times as likely to be readmitted.",
+       "say": "Two: at Alder, each patient is two point four times as likely to be readmitted."
+      },
+      {
+       "text": "Three: at Alder, each patient's odds of readmission are 2.4 times as high.",
+       "say": "Three: at Alder, each patient's odds of readmission are two point four times as high."
+      },
+      {
+       "text": "Only one of them is right. Pick one before we go on."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: reading gamma."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Three",
+   "chapter": "Three readings",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Reading 1 as a header. Two rate bars: Alder 13 of 30, 43%; Cedar 8 of 20, 40%. A cross.",
+     "sentences": [
+      {
+       "text": "Start with the first, and count."
+      },
+      {
+       "text": "Alder had 13 readmissions among 30 patients. Cedar had 8 among 20. That is 43% against 40%: almost level.",
+       "say": "Alder had thirteen readmissions among thirty patients. Cedar had eight among twenty. That is forty-three percent against forty: almost level."
+      },
+      {
+       "text": "And we already know why raw counts settle nothing: they depend on who each clinic treats."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "Reading 2 as a header. Two rows of risk chips: lower-risk 18% and 34%, × 1.9; higher-risk 62% and 80%, × 1.3. A note: 2.4 × 62% is nearly 150%. A cross.",
+     "sentences": [
+      {
+       "text": "The second reading: each patient is 2.4 times as likely to come back.",
+       "say": "The second reading: each patient is two point four times as likely to come back."
+      },
+      {
+       "text": "Take a lower-risk patient. The model gives 18% at Cedar and 34% at Alder. That is 1.9 times, not 2.4.",
+       "say": "Take a lower-risk patient. The model gives eighteen percent at Cedar and thirty-four at Alder. That is one point nine times, not two point four."
+      },
+      {
+       "text": "For a higher-risk patient, 62% becomes 80%: only 1.3 times.",
+       "say": "For a higher-risk patient, sixty-two percent becomes eighty: only one point three times."
+      },
+      {
+       "text": "And it could never be 2.4. That would be a chance of nearly 150%.",
+       "say": "And it could never be two point four. That would be a chance of nearly a hundred and fifty percent."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "Reading 3 as a header. The same two rows as odds: 0.22 and 0.52, × 2.4; 1.64 and 3.91, × 2.4. A tick, then the gap written as an odds ratio.",
+     "sentences": [
+      {
+       "text": "Now the third. Turn those probabilities into odds."
+      },
+      {
+       "text": "For the lower-risk patient: 0.22 at Cedar, 0.52 at Alder. 2.4 times.",
+       "say": "For the lower-risk patient: zero point two two at Cedar, zero point five two at Alder. Two point four times."
+      },
+      {
+       "text": "For the higher-risk patient: 1.64 and 3.91. 2.4 times again.",
+       "say": "For the higher-risk patient: one point six four and three point nine one. Two point four times again."
+      },
+      {
+       "text": "That is what a gap between two gammas means. For patients who look the same on paper, one at each clinic, the odds differ by a single multiplier: the odds ratio."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Slide",
+   "chapter": "One odds ratio, many effects",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "Cedar's and Alder's S-curves on the probability panel. A marker appears on each curve at the same risk score, joined by a yellow segment.",
+     "sentences": [
+      {
+       "text": "Here are the two clinics as S-curves: one shape, slid sideways by that gap."
+      },
+      {
+       "text": "Now slide a patient along, from low risk to high, and read both curves."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "The patient stops five times. Each stop leaves a pair of dots on the curves and a row in a table: at Cedar, at Alder, difference.",
+     "sentences": [
+      {
+       "text": "A patient with a 5% chance at Cedar has 11% at Alder: 6 points more.",
+       "say": "A patient with a five percent chance at Cedar has eleven percent at Alder: six points more."
+      },
+      {
+       "text": "At 18%, where Cedar's lower-risk patients sit, Alder gives 34%: 16 points.",
+       "say": "At eighteen percent, where Cedar's lower-risk patients sit, Alder gives thirty-four: sixteen points."
+      },
+      {
+       "text": "At 50%, it is 70%: 20 points.",
+       "say": "At fifty percent, it is seventy: twenty points."
+      },
+      {
+       "text": "At 62%, Cedar's higher-risk patients: 80%. That's 18 points.",
+       "say": "At sixty-two percent, Cedar's higher-risk patients: eighty. That's eighteen points."
+      },
+      {
+       "text": "And at 90%, 96%: back down to 6.",
+       "say": "And at ninety percent, ninety-six: back down to six."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "The difference column is highlighted; a ratio column appears beside it, from × 2.2 down to × 1.06.",
+     "sentences": [
+      {
+       "text": "One gap, one odds ratio. But the difference in probability swells in the middle and fades at both ends."
+      },
+      {
+       "text": "The ratio of probabilities shrinks all the way: 2.2 at the low end, 1.06 at the top. Only when readmission is rare does it come close to 2.4.",
+       "say": "The ratio of probabilities shrinks all the way: two point two at the low end, one point zero six at the top. Only when readmission is rare does it come close to two point four."
+      },
+      {
+       "text": "So what a gap costs in readmissions depends on which patients a clinic sees."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Zero",
+   "chapter": "Gammas move. Gaps don't.",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "The log-odds panel with the four fitted lines. A yellow zero mark stands at the lower-risk position; a ring on each line marks where its gamma is read. Sliders show the four values.",
+     "sentences": [
+      {
+       "text": "Last time we said: read the gaps, not the gammas themselves. Here is why."
+      },
+      {
+       "text": "A gamma is read where every risk factor is zero. So far, zero has meant a lower-risk patient."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "The zero mark slides to the higher-risk position, and the rings ride up their lines: every slider value rises by 2.02. Then it slides back to the midpoint: 1.01 above the start.",
+     "sentences": [
+      {
+       "text": "But that was our choice. Call the higher-risk patient zero instead."
+      },
+      {
+       "text": "Every gamma climbs by 2.02: the whole step.",
+       "say": "Every gamma climbs by two point zero two: the whole step."
+      },
+      {
+       "text": "Or put zero halfway between, at a patient who doesn't exist. Now every gamma is 1.01 above where it started.",
+       "say": "Or put zero halfway between, at a patient who doesn't exist. Now every gamma is one point zero one above where it started."
+      }
+     ]
+    },
+    {
+     "id": "s5_3",
+     "visual": "The lines have not moved. The bracket between Alder and Cedar, which travelled with the zero mark, still reads 0.87.",
+     "sentences": [
+      {
+       "text": "Through all of this, no line has moved, and no patient's probability has changed."
+      },
+      {
+       "text": "And the gap between Alder and Cedar is 0.87 every time.",
+       "say": "And the gap between Alder and Cedar is zero point eight seven every time."
+      },
+      {
+       "text": "A gamma depends on where we put zero. A gap doesn't."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Averages",
+   "chapter": "A warning about averages",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Two rows. All 103 patients at Cedar's level: 57 lower-risk at 18% and 46 higher-risk at 62% give 38%. At Alder's level: 34% and 80% give 55%.",
+     "sentences": [
+      {
+       "text": "One warning before we finish."
+      },
+      {
+       "text": "Suppose all 103 patients went to Cedar. The model says 38% would come back. All of them at Alder: 55%.",
+       "say": "Suppose all one hundred and three patients went to Cedar. The model says thirty-eight percent would come back. All of them at Alder: fifty-five percent."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "A log-odds ruler with the two average rates as dots, 0.69 apart. Beside it, two bars to compare: 0.87 for each patient, 0.69 between the two averages.",
+     "sentences": [
+      {
+       "text": "Put those two rates on the log-odds ruler. They are 0.69 apart, not 0.87.",
+       "say": "Put those two rates on the log-odds ruler. They are zero point six nine apart, not zero point eight seven."
+      },
+      {
+       "text": "Nothing has gone wrong. The 0.87 compares one kind of patient at a time. The 0.69 compares two averages, taken over patients of very different risk.",
+       "say": "Nothing has gone wrong. The zero point eight seven compares one kind of patient at a time. The zero point six nine compares two averages, taken over patients of very different risk."
+      },
+      {
+       "text": "Those are different questions, and the second gives the smaller answer whenever patients differ in risk."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "One line of text under the bars.",
+     "sentences": [
+      {
+       "text": "So if a gap from a model looks bigger than the gap between two overall rates, that alone is no contradiction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "A gap between gammas multiplies the odds, by the same amount for every patient."
+      },
+      {
+       "text": "What that does to a probability depends on where the patient starts."
+      },
+      {
+       "text": "And gammas depend on where zero is. Gaps do not."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "A tag: 103 patients, rough estimates. Then the dial and sliders, drifting toward their fitted places; the next episode's title.",
+     "sentences": [
+      {
+       "text": "One reminder: every gap we read today rests on 103 patients, so each one is rough. How rough is still to come.",
+       "say": "One reminder: every gap we read today rests on one hundred and three patients, so each one is rough. How rough is still to come."
+      },
+      {
+       "text": "And all this time, the lines have simply appeared, already in place."
+      },
+      {
+       "text": "Next time, we find out how the dial and the sliders settle where they do: fitting by balance."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
