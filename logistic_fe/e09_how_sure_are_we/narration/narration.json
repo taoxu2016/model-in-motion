@@ -1,0 +1,383 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 9,
+ "title": "How Sure Are We?",
+ "subtitle": "what the shape of the hill says",
+ "name": "ModelInMotion_LogisticFE_E09_HowSureAreWe",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Three numbers from earlier episodes, each tagged: rough estimate.",
+     "sentences": [
+      {
+       "text": "For five episodes, one phrase has followed every number: rough estimates."
+      },
+      {
+       "text": "The step is 2.02. Alder sits 0.87 above Cedar. Rough, we said, and moved on.",
+       "say": "The step is two point zero two. Alder sits zero point eight seven above Cedar. Rough, we said, and moved on."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "The dial at 2.02, with odds × 7.5 beside it. A ruler of odds ratios from 1 to 30, with a question mark over it.",
+     "sentences": [
+      {
+       "text": "Today we pay that debt."
+      },
+      {
+       "text": "The dial reads 2.02, which multiplies the odds by seven and a half. Would you stake much on seven and a half? On somewhere between five and ten?",
+       "say": "The dial reads two point zero two, which multiplies the odds by seven and a half. Would you stake much on seven and a half? On somewhere between five and ten?"
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Under the ruler, one line: the answer is in the shape of the hill.",
+     "sentences": [
+      {
+       "text": "Hold your guess. The answer is in the shape of the hill."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: how sure are we?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Dial",
+   "chapter": "The dial",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "The hill: height against the position of the dial, its top marked at 2.02.",
+     "sentences": [
+      {
+       "text": "Here is the hill from Episode 6: the height for each position of the dial.",
+       "say": "Here is the hill from Episode six: the height for each position of the dial."
+      },
+      {
+       "text": "Its top is at 2.02. The question is how far from the top the truth could be.",
+       "say": "Its top is at two point zero two. The question is how far from the top the truth could be."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "A parabola hugs the top of the hill. Beside it, a sharp peak and a flat one for comparison. The curvature: 2.93.",
+     "sentences": [
+      {
+       "text": "That depends on how sharply the top is curved. A sharp peak pins the dial. A flat one lets it wander."
+      },
+      {
+       "text": "And we already have the curvature. It is the folded number from last time: 2.93.",
+       "say": "And we already have the curvature. It is the folded number from last time: two point nine three."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "The formula: standard error = 1 ÷ √2.93 = 0.58. A bracket on the dial's axis from 0.87 to 3.16.",
+     "sentences": [
+      {
+       "text": "One over its square root gives the standard error: 0.58.",
+       "say": "One over its square root gives the standard error: zero point five eight."
+      },
+      {
+       "text": "Go about two of those either side of the top, and you have a 95% interval: from 0.87 to 3.16.",
+       "say": "Go about two of those either side of the top, and you have a ninety-five percent interval: from zero point eight seven to three point one six."
+      }
+     ]
+    },
+    {
+     "id": "s3_4",
+     "visual": "The same interval on a ruler of odds ratios: 2.4 to 23.6, with 7.5 marked.",
+     "sentences": [
+      {
+       "text": "As a multiplier on the odds, that is anywhere from 2.4 to 23.6.",
+       "say": "As a multiplier on the odds, that is anywhere from two point four to twenty-three point six."
+      },
+      {
+       "text": "So the data are clear that higher risk raises the odds. They cannot say whether by a factor of two or of twenty."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Zero",
+   "chapter": "Is the step there at all?",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The hill again, with zero marked on the dial's axis. Three measurements appear: across (3.5 standard errors), down (7.3), and the slope at zero.",
+     "sentences": [
+      {
+       "text": "Could the true step be zero? The hill answers in three ways."
+      },
+      {
+       "text": "Across: zero lies about three and a half standard errors from the top."
+      },
+      {
+       "text": "Down: the hill at zero stands 7.3 below the top.",
+       "say": "Down: the hill at zero stands seven point three below the top."
+      },
+      {
+       "text": "And by the slope: at zero, the ground is still climbing steeply."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "Three statistics side by side: 11.90, 14.55, 13.78. Under them: less than 1 in 1,000.",
+     "sentences": [
+      {
+       "text": "Three different measurements, one verdict. A step this large would turn up by chance less than once in a thousand."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Clinic",
+   "chapter": "One clinic",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Five small bars: each clinic's wobble. Beside Alder's and Dune's, their own standard errors: 0.40 and 0.66.",
+     "sentences": [
+      {
+       "text": "Now the clinics. Each one has a little hill of its own, and its curvature is that clinic's wobble."
+      },
+      {
+       "text": "Alder's is 6.38, so on its own its standard error is 0.40. Dune's is 2.31: 0.66.",
+       "say": "Alder's is six point three eight, so on its own its standard error is zero point four zero. Dune's is two point three one: zero point six six."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "Episode 7's hump: what one patient adds, against their probability. Then head counts beside wobbles: Dune 12 and 2.31, Elm 11 and 0.02.",
+     "sentences": [
+      {
+       "text": "Notice what earns precision. Not the number of patients, but what each patient adds: most near 50%, almost nothing near zero or a hundred.",
+       "say": "Notice what earns precision. Not the number of patients, but what each patient adds: most near fifty percent, almost nothing near zero or a hundred."
+      },
+      {
+       "text": "Elm has 11 patients and a wobble of 0.02. A hundred patients at 2% would carry less than Dune's twelve.",
+       "say": "Elm has eleven patients and a wobble of zero point zero two. A hundred patients at two percent would carry less than Dune's twelve."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Share",
+   "chapter": "The dial's share",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "The log-odds panel with Birch's line. Its patients cluster at the higher-risk end; its gamma is read at the other. Stacked bars: own uncertainty plus the dial's share.",
+     "sentences": [
+      {
+       "text": "But a clinic's gamma is not read on its own. It is read where the risk factor is zero, and getting there leans on the dial."
+      },
+      {
+       "text": "Birch's patients are mostly higher-risk, so its gamma at zero borrows heavily: 0.65, against 0.39 on its own. Alder barely borrows: 0.41 against 0.40.",
+       "say": "Birch's patients are mostly higher-risk, so its gamma at zero borrows heavily: zero point six five, against zero point three nine on its own. Alder barely borrows: zero point four one against zero point four zero."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "The zero mark slides three units to the left of the panel; Alder's standard error grows to 1.9. The bracket between clinics does not change.",
+     "sentences": [
+      {
+       "text": "And here zero bites again. Record the risk factor three units higher, and Alder's standard error swells to 1.9, though no gap between clinics has changed.",
+       "say": "And here zero bites again. Record the risk factor three units higher, and Alder's standard error swells to one point nine, though no gap between clinics has changed."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "The reading position moves to the average case mix. Four standard errors: 0.43, 0.47, 0.52, 0.66.",
+     "sentences": [
+      {
+       "text": "So read each clinic where the patients actually are: at the average case mix."
+      },
+      {
+       "text": "There the standard errors are 0.43, 0.47, 0.52 and 0.66, however the risk factor is recorded. These are the ones a fair comparison needs.",
+       "say": "There the standard errors are zero point four three, zero point four seven, zero point five two and zero point six six, however the risk factor is recorded. These are the ones a fair comparison needs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Caterpillar",
+   "chapter": "The caterpillar",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "Four horizontal intervals on the log-odds ruler, one per clinic, each with its gamma as a dot.",
+     "sentences": [
+      {
+       "text": "Put it in one picture. Each clinic's gamma, with its 95% interval.",
+       "say": "Put it in one picture. Each clinic's gamma, with its ninety-five percent interval."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "A shaded band shows the stretch that all four intervals share.",
+     "sentences": [
+      {
+       "text": "Every interval overlaps every other."
+      },
+      {
+       "text": "With 103 patients, the model has an opinion about the order of these clinics, and very little confidence in it.",
+       "say": "With a hundred and three patients, the model has an opinion about the order of these clinics, and very little confidence in it."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "Elm's interval, hatched, runs off both ends of the ruler: −19.7 to +7.2.",
+     "sentences": [
+      {
+       "text": "And Elm. Its printed interval runs from minus 19.7 to plus 7.2. That is not an estimate. It is a warning sign.",
+       "say": "And Elm. Its printed interval runs from minus nineteen point seven to plus seven point two. That is not an estimate. It is a warning sign."
+      }
+     ]
+    },
+    {
+     "id": "s7_4",
+     "visual": "A note: each interval is about one clinic.",
+     "sentences": [
+      {
+       "text": "One caution about the picture. Each interval is about one clinic. Whether two clinics differ is a separate calculation, and it comes later."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Size",
+   "chapter": "What size buys",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "The crowd: each provider's standard error against its number of patients, on log axes. Three medians marked: 0.55, 0.26, 0.12.",
+     "sentences": [
+      {
+       "text": "So what would it take to be sure? Ask the crowd."
+      },
+      {
+       "text": "Among its 200 providers, those with 20 to 30 patients have a standard error near 0.55. Near 100 patients: 0.26. Above 400: 0.12.",
+       "say": "Among its two hundred providers, those with twenty to thirty patients have a standard error near zero point five five. Near a hundred patients: zero point two six. Above four hundred: zero point one two."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "A line of slope −½ through the cloud. Then a planning card: 0.1 at a 20% rate needs 625 patients.",
+     "sentences": [
+      {
+       "text": "Four times the patients, half the error."
+      },
+      {
+       "text": "For a standard error of 0.1 at a 20% readmission rate, a provider needs about 625 patients.",
+       "say": "For a standard error of zero point one at a twenty percent readmission rate, a provider needs about six hundred and twenty-five patients."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "A sharp peak means a small standard error: one over the square root of the curvature."
+      },
+      {
+       "text": "A clinic's uncertainty is its own, plus a share of the dial's."
+      },
+      {
+       "text": "And for a fair comparison, read every clinic at the average case mix."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "A caution card: independent patients.",
+     "sentences": [
+      {
+       "text": "All of it assumes patients are independent of one another. Count the same patient twice, and these intervals are too narrow."
+      }
+     ]
+    },
+    {
+     "id": "s9_3",
+     "visual": "Elm's hatched marker, alone; the next episode's title.",
+     "sentences": [
+      {
+       "text": "We have left one clinic waiting since Episode 4. Next time: Elm.",
+       "say": "We have left one clinic waiting since Episode four. Next time: Elm."
+      }
+     ]
+    },
+    {
+     "id": "s9_4",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
