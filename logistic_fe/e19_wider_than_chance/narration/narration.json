@@ -1,0 +1,326 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 19,
+ "title": "Wider than Chance",
+ "subtitle": "what a flag should mean",
+ "name": "ModelInMotion_LogisticFE_E19_WiderThanChance",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Episode 15's last funnel: two hundred providers, with 49 of the 194 ordinary ones outside the limits.",
+     "sentences": [
+      {
+       "text": "Episode 15 ended on a picture we never explained. Two hundred providers on the funnel, and a quarter of them outside it.",
+       "say": "Episode fifteen ended on a picture we never explained. Two hundred providers on the funnel, and a quarter of them outside it."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Beside it, the funnel for identical providers from the same episode: about one in twenty outside.",
+     "sentences": [
+      {
+       "text": "When the providers were identical, about one in twenty fell outside. That was luck, and we knew how much of it to expect."
+      },
+      {
+       "text": "A quarter is something else. Luck does not stretch that far."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Two questions over the crowded funnel, both crossed out: a quarter of them outliers? a broken test? Under them: the test is answering a question that has stopped being useful.",
+     "sentences": [
+      {
+       "text": "So is a quarter of the crowd outliers? Or is something wrong with the test?"
+      },
+      {
+       "text": "Neither. The test is answering a question that has stopped being useful."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today, the last episode: wider than chance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Knob",
+   "chapter": "Turn the knob",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "A knob marked from 0 to 0.3, set at 0. Beside it, a pile of 194 z-values under the bell curve. A counter: 11 flagged.",
+     "sentences": [
+      {
+       "text": "Our crowd has a knob: how much providers truly differ. Set it to zero, and every ordinary provider is the same."
+      },
+      {
+       "text": "Give each one its z: its distance from the reference, in units of what luck allows. The pile of them hugs the bell curve, and 11 of the 194 are flagged.",
+       "say": "Give each one its z: its distance from the reference, in units of what luck allows. The pile of them hugs the bell curve, and eleven of the hundred and ninety-four are flagged."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "The knob at 0.1, 0.2 and 0.3 in turn. The pile widens past the bell curve each time; its spread reads 1.10, 1.41, 1.79. The counter: 16, 35, 48.",
+     "sentences": [
+      {
+       "text": "Now turn the knob, in three steps."
+      },
+      {
+       "text": "The pile spreads. And the flags climb: 16, then 35, then 48.",
+       "say": "The pile spreads. And the flags climb: sixteen, then thirty-five, then forty-eight."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "A note beside the knob at 0.3: a typical provider's odds are 35% above the reference, or 26% below.",
+     "sentences": [
+      {
+       "text": "At the last setting, a typical provider's odds differ from the reference by roughly 30%. That is not much. But it is real, and the test can see it.",
+       "say": "At the last setting, a typical provider's odds differ from the reference by roughly thirty percent. That is not much. But it is real, and the test can see it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Large",
+   "chapter": "The large ones go first",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The funnel at 0.3 with flagged providers coloured, split by size: of 48 ordinary providers with 200 patients or more, 40% flagged; of 45 with fewer than 50, 7%.",
+     "sentences": [
+      {
+       "text": "Look at who is flagged. Of the providers with 200 patients or more, 40%. Of those with fewer than 50, 7%.",
+       "say": "Look at who is flagged. Of the providers with two hundred patients or more, forty percent. Of those with fewer than fifty, seven percent."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "One line: the variance of z is one, plus the true spread squared over the standard error squared. Worked for a standard error of 0.1: a spread of 3.2, flagged 54% of the time.",
+     "sentences": [
+      {
+       "text": "The reason fits in one line. A provider's z spreads by chance, and also by its true distance from the reference, measured against how precisely we know it."
+      },
+      {
+       "text": "For a provider known to within 0.1, that second part swamps the first. Its z has three times the spread that chance alone would give, and it is flagged more than half the time.",
+       "say": "For a provider known to within zero point one, that second part swamps the first. Its z has three times the spread that chance alone would give, and it is flagged more than half the time."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "Two providers at the same true distance from the reference, one small and one large; only the large one's interval clears the reference.",
+     "sentences": [
+      {
+       "text": "Large providers are not worse. They are measured better, so their small true differences show."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Question",
+   "chapter": "Nothing is wrong with the test",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "The question the standard test asks, in a box: is this provider exactly at the reference? Under it: with enough patients, nobody is.",
+     "sentences": [
+      {
+       "text": "So nothing is wrong with the test. Every one of those flags is true: that provider is not exactly at the reference."
+      },
+      {
+       "text": "But with enough patients, nobody is. The question has stopped sorting providers."
+      }
+     ]
+    },
+    {
+     "id": "s5_2",
+     "visual": "A second box replaces the first: is this provider unusual, among providers?",
+     "sentences": [
+      {
+       "text": "Here is a better one. Not: is this provider exactly at the reference? But: is this provider unusual, among providers?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Empirical",
+   "chapter": "A null drawn from the providers",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Three piles of z-values, for small, medium and large providers, each with the standard bell curve and a wider curve fitted to its central bulk. Fitted spreads: 1.14, 1.60, 2.18.",
+     "sentences": [
+      {
+       "text": "To answer that, we stop taking the bell curve on faith, and fit one to the providers themselves: to the central bulk of their z-values."
+      },
+      {
+       "text": "That fitted curve is called an empirical null."
+      },
+      {
+       "text": "We do it separately for small, medium and large providers. The fitted spreads are 1.14, 1.60 and 2.18.",
+       "say": "We do it separately for small, medium and large providers. The fitted spreads are one point one four, one point six, and two point one eight."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "Two counts side by side: 52 flagged by the standard test, 13 by the empirical null. Under them: over twenty redraws, ordinary providers flagged 23% and 5%.",
+     "sentences": [
+      {
+       "text": "Judge each provider against its own group's curve, and 13 are flagged, in place of 52.",
+       "say": "Judge each provider against its own group's curve, and thirteen are flagged, in place of fifty-two."
+      },
+      {
+       "text": "Across twenty redraws of the crowd, the share of ordinary providers flagged falls from 23% to 5%.",
+       "say": "Across twenty redraws of the crowd, the share of ordinary providers flagged falls from twenty-three percent to five percent."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "The funnel redrawn: the standard limits, and a wider pair for each of the three size groups. The provider of 280 patients, with its limits moving from 0.76 and 1.24 to 0.50 and 1.57.",
+     "sentences": [
+      {
+       "text": "On the funnel, it is a wider pair of limits for each size group. For a provider of 280 patients, they move from 0.76 and 1.24 out to 0.50 and 1.57.",
+       "say": "On the funnel, it is a wider pair of limits for each size group. For a provider of two hundred and eighty patients, they move from zero point seven six and one point two four, out to zero point five, and one point five seven."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Costs",
+   "chapter": "What it costs",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "The six planted providers in a row, each marked caught or missed by the two tests: four and three. The one lost is the better provider with 105 patients.",
+     "sentences": [
+      {
+       "text": "It is not free. Of our six planted providers, the standard test caught four. This one catches three."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "With the knob at zero: this crowd's fitted spreads, 0.79, 0.82 and 1.06, and its flags, 20 against 11. Then a second caution: it assumes most providers are ordinary.",
+     "sentences": [
+      {
+       "text": "The curve is itself an estimate, and it can miss. With the knob back at zero, this crowd's curves came out too narrow, and flagged 20 where the standard test flagged 11.",
+       "say": "The curve is itself an estimate, and it can miss. With the knob back at zero, this crowd's curves came out too narrow, and flagged twenty where the standard test flagged eleven."
+      },
+      {
+       "text": "And it assumes that most providers are ordinary. If many are not, the curve widens to hide them."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "A card: a flag now means unusual among providers. Beside it, three alternatives: shrunken estimates; an allowance for extra spread fixed in advance; intervals without flags.",
+     "sentences": [
+      {
+       "text": "Above all, it has not made anything more exact. It has changed the question. A flag now means: unusual among providers."
+      },
+      {
+       "text": "There are other answers too: the shrunken estimates of Episode 17, or no flags at all, only intervals.",
+       "say": "There are other answers too: the shrunken estimates of Episode seventeen, or no flags at all, only intervals."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "When providers truly differ a little, their test statistics spread wider than chance, most of all for large providers."
+      },
+      {
+       "text": "The standard test asks whether a provider is exactly at the reference. The empirical null asks whether it is unusual among providers."
+      },
+      {
+       "text": "Choosing between them is choosing what a flag should mean."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Close",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "The arc in four small pictures, left to right: a row of intercepts; a level meter; a ratio of observed to expected; a funnel.",
+     "sentences": [
+      {
+       "text": "And that is the logistic fixed-effect model, from an unfair comparison to a flag you can defend."
+      },
+      {
+       "text": "One intercept for every provider. A fit that balances observed against expected. A ratio that asks what the reference would have done with the same patients. And a test that knows how far luck can reach."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "Series end card: the logistic fixed-effect model, nineteen episodes.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
