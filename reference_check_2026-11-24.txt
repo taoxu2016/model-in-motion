@@ -1,0 +1,32 @@
+logistic_fe/e01_unfair_comparisons
+  S01_ColdOpen         ok    5 clips,   44.50 s, largest timing difference 0.0000 s   (rendered in 20 s)
+  S02_Title            ok    1 clips,   16.22 s, largest timing difference 0.0000 s   (rendered in 4 s)
+  S03_CaseMix          ok    5 clips,   43.28 s, largest timing difference 0.0000 s   (rendered in 14 s)
+  S04_LikeWithLike     ok    5 clips,   44.95 s, largest timing difference 0.0000 s   (rendered in 14 s)
+  S05_Balance          ok    5 clips,   42.72 s, largest timing difference 0.0000 s   (rendered in 20 s)
+  S06_Trade            ok    4 clips,   34.47 s, largest timing difference 0.0000 s   (rendered in 24 s)
+  S07_Crowd            ok    5 clips,   48.17 s, largest timing difference 0.0000 s   (rendered in 27 s)
+  S08_Luck             ok    4 clips,   40.17 s, largest timing difference 0.0000 s   (rendered in 17 s)
+  S09_Recap            ok    4 clips,   38.00 s, largest timing difference 0.0000 s   (rendered in 13 s)
+  -> all scenes reproduce; largest difference 0.0000 s
+logistic_fe/e02_odds_and_the_s_curve
+  S01_ColdOpen         ok    4 clips,   33.13 s, largest timing difference 0.0000 s   (rendered in 8 s)
+  S02_Title            ok    1 clips,    8.90 s, largest timing difference 0.0000 s   (rendered in 4 s)
+  S03_Odds             ok    4 clips,   35.57 s, largest timing difference 0.0000 s   (rendered in 8 s)
+  S04_LogOdds          ok    4 clips,   37.03 s, largest timing difference 0.0000 s   (rendered in 9 s)
+  S05_Steps            ok    4 clips,   32.40 s, largest timing difference 0.0000 s   (rendered in 7 s)
+  S06_Curve            ok    5 clips,   49.82 s, largest timing difference 0.0000 s   (rendered in 12 s)
+  S07_Cedar            ok    5 clips,   43.15 s, largest timing difference 0.0000 s   (rendered in 11 s)
+  S08_RiskChip         ok    4 clips,   26.43 s, largest timing difference 0.0000 s   (rendered in 8 s)
+  S09_Recap            ok    4 clips,   33.73 s, largest timing difference 0.0000 s   (rendered in 9 s)
+  -> all scenes reproduce; largest difference 0.0000 s
+logistic_fe/e03_observed_versus_expected
+  S01_ColdOpen         ok    3 clips,   27.37 s, largest timing difference 0.0000 s   (rendered in 6 s)
+  S02_Title            ok    1 clips,    7.07 s, largest timing difference 0.0000 s   (rendered in 4 s)
+  S03_Standard         ok    3 clips,   26.38 s, largest timing difference 0.0000 s   (rendered in 13 s)
+  S04_Meter            ok    3 clips,   30.90 s, largest timing difference 0.0000 s   (rendered in 12 s)
+  S05_Five             ok    4 clips,   31.82 s, largest timing difference 0.0000 s   (rendered in 14 s)
+  S06_Flaw             ok    3 clips,   28.38 s, largest timing difference 0.0000 s   (rendered in 10 s)
+  S07_Rule             ok    3 clips,   33.50 s, largest timing difference 0.0000 s   (rendered in 7 s)
+  S08_Recap            ok    4 clips,   36.50 s, largest timing difference 0.0000 s   (rendered in 9 s)
+  -> all scenes reproduce; largest difference 0.0000 s
