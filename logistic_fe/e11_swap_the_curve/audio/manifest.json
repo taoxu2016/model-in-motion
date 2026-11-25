@@ -1,0 +1,380 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 16.15,
+  "sentences": [
+   {
+    "text": "Alder had 13 readmissions among its 30 patients. Is that a lot?",
+    "start": 0.0,
+    "end": 4.501
+   },
+   {
+    "text": "In Episode 3 we got two answers. Against everyone pooled together, 1.4 times what was expected. Against everyone but Alder itself, 1.8.",
+    "start": 4.821,
+    "end": 16.0
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 11.457,
+  "sentences": [
+   {
+    "text": "So we asked for two things: a risk rule learned from patients who share a clinic, and a yardstick no single clinic can bend.",
+    "start": 0.0,
+    "end": 7.339
+   },
+   {
+    "text": "The risk rule arrived with the dial. Today, the yardstick.",
+    "start": 7.659,
+    "end": 11.307
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 10.859,
+  "sentences": [
+   {
+    "text": "Here is the idea. Keep Alder's 30 patients exactly as they are, and send them, on paper, to the middle clinic.",
+    "start": 0.0,
+    "end": 7.168
+   },
+   {
+    "text": "Would they have more than 13 readmissions there, or fewer?",
+    "start": 7.488,
+    "end": 10.709
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 3.969,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: swap the curve.",
+    "start": 2.261,
+    "end": 3.819
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Reference",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 13.334,
+  "sentences": [
+   {
+    "text": "First, the yardstick. Line up the five sliders, and take the one in the middle.",
+    "start": 0.0,
+    "end": 4.608
+   },
+   {
+    "text": "It is Cedar's, at minus 1.52. And as we saw last time, it stays put wherever Elm's slider happens to stop.",
+    "start": 4.928,
+    "end": 13.184
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Reference",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 11.179,
+  "sentences": [
+   {
+    "text": "Draw that clinic's curve in grey, and call it the reference.",
+    "start": 0.0,
+    "end": 3.157
+   },
+   {
+    "text": "At the reference, a lower-risk patient has an 18% chance of readmission. A higher-risk patient, 62%.",
+    "start": 3.477,
+    "end": 11.029
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_Reference",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 8.15,
+  "sentences": [
+   {
+    "text": "Notice what kind of thing the reference is. Not an average patient. A clinic: one clinic's level, applied to whoever walks in.",
+    "start": 0.0,
+    "end": 8.0
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 15.809,
+  "sentences": [
+   {
+    "text": "Here are Alder's patients on Alder's own curve: 24 lower-risk patients at 34%, and 6 higher-risk at 80%.",
+    "start": 0.0,
+    "end": 8.747
+   },
+   {
+    "text": "Add up those chances, and you get 13. Exactly what Alder observed, because the fit balanced it.",
+    "start": 9.067,
+    "end": 15.659
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 11.115,
+  "sentences": [
+   {
+    "text": "Now swap the curve. The same 30 patients, on the grey one: 24 at 18%, and 6 at 62%.",
+    "start": 0.0,
+    "end": 8.277
+   },
+   {
+    "text": "Add those up: 8.02.",
+    "start": 8.597,
+    "end": 10.965
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 18.027,
+  "sentences": [
+   {
+    "text": "So at the reference, these same patients would expect about 8 readmissions. At Alder, there were 13.",
+    "start": 0.0,
+    "end": 6.357
+   },
+   {
+    "text": "13 over 8.02 is 1.62. Alder had 62% more readmissions than its own patients would be expected to have at the reference clinic.",
+    "start": 6.677,
+    "end": 17.877
+   }
+  ]
+ },
+ "s4_4": {
+  "scene": "S04_Swap",
+  "file": "audio/segments/s4_4.wav",
+  "duration": 4.182,
+  "sentences": [
+   {
+    "text": "That is the whole method. Keep the patients. Swap the curve. Count.",
+    "start": 0.0,
+    "end": 4.032
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 16.961,
+  "sentences": [
+   {
+    "text": "Do the same for every clinic. Alder, 1.62. Birch, 0.88. Cedar, exactly 1. Dune, 1.46. And Elm, zero.",
+    "start": 0.0,
+    "end": 11.285
+   },
+   {
+    "text": "Cedar comes out at exactly 1, because it is the reference, measured against itself.",
+    "start": 11.605,
+    "end": 16.811
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 14.657,
+  "sentences": [
+   {
+    "text": "So Alder's answer is neither 1.4 nor 1.8. It is 1.62.",
+    "start": 0.0,
+    "end": 5.803
+   },
+   {
+    "text": "And this yardstick is hard to bend. Push any one slider as far as you like, and the middle value moves no further than the next clinic along.",
+    "start": 6.123,
+    "end": 14.507
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_All",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 16.129,
+  "sentences": [
+   {
+    "text": "One thing has changed since Episode 3. Against the pooled standard, the expected counts added up to the 42 observed. Against the middle clinic, they add up to 38.8.",
+    "start": 0.0,
+    "end": 12.075
+   },
+   {
+    "text": "The clinics no longer break even as a group, and they need not.",
+    "start": 12.395,
+    "end": 15.979
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_Rate",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 15.339,
+  "sentences": [
+   {
+    "text": "Ratios are often reported as rates. Multiply each one by the overall readmission rate, 41%.",
+    "start": 0.0,
+    "end": 7.509
+   },
+   {
+    "text": "Alder becomes 66%. Birch, 36. Cedar, 41. Dune, 59. Elm, zero.",
+    "start": 7.829,
+    "end": 15.189
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_Rate",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 9.601,
+  "sentences": [
+   {
+    "text": "Read these with care. No patient at Alder had a 66% chance of readmission. It is the same ratio, moved to a more familiar scale.",
+    "start": 0.0,
+    "end": 9.451
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Link",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 12.374,
+  "sentences": [
+   {
+    "text": "One more connection. Move Alder's slider, and its ratio traces a single rising curve.",
+    "start": 0.0,
+    "end": 5.931
+   },
+   {
+    "text": "With the slider at the reference, the ratio is 1. At Alder's own gamma, 1.62.",
+    "start": 6.251,
+    "end": 12.224
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Link",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 13.398,
+  "sentences": [
+   {
+    "text": "So every statement about a gamma becomes a statement about a ratio. Episode 9's interval for Alder's gamma becomes an interval for its ratio: from 1.02 to 2.31.",
+    "start": 0.0,
+    "end": 13.248
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Cautions",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 6.209,
+  "sentences": [
+   {
+    "text": "Two cautions. First, a ratio of 1 means like the reference clinic. It does not mean good.",
+    "start": 0.0,
+    "end": 6.059
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_Cautions",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 12.033,
+  "sentences": [
+   {
+    "text": "Second, always say which reference. Last time we tried a size-weighted average instead of the middle clinic. Against that, Alder's 1.62 becomes 1.87.",
+    "start": 0.0,
+    "end": 11.883
+   }
+  ]
+ },
+ "s8_3": {
+  "scene": "S08_Cautions",
+  "file": "audio/segments/s8_3.wav",
+  "duration": 13.825,
+  "sentences": [
+   {
+    "text": "In our crowd of 200 providers, the ratios run from 0.44 to 1.99, with half on each side of 1.",
+    "start": 0.0,
+    "end": 8.853
+   },
+   {
+    "text": "Which of those are real differences, and which are luck? That question is coming.",
+    "start": 9.173,
+    "end": 13.675
+   }
+  ]
+ },
+ "s9_1": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_1.wav",
+  "duration": 11.905,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "The reference is the middle clinic's curve.",
+    "start": 1.536,
+    "end": 3.84
+   },
+   {
+    "text": "Keep a clinic's patients, swap in that curve, and count: observed over expected.",
+    "start": 4.16,
+    "end": 9.195
+   },
+   {
+    "text": "And name the reference with every ratio.",
+    "start": 9.515,
+    "end": 11.755
+   }
+  ]
+ },
+ "s9_2": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_2.wav",
+  "duration": 7.019,
+  "sentences": [
+   {
+    "text": "We kept the patients and swapped the curve. Next time, the other way round: keep the curve, and swap the patients.",
+    "start": 0.0,
+    "end": 6.869
+   }
+  ]
+ },
+ "s9_3": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_3.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}
