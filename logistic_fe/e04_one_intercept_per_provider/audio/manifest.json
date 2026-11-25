@@ -1,0 +1,631 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 13.91,
+  "sentences": [
+   {
+    "text": "Last time, we pooled all five clinics into a single standard.",
+    "start": 0.0,
+    "end": 3.84
+   },
+   {
+    "text": "Drawn on the log-odds ruler, that standard is one line: lower-risk patients start at 23%, and higher risk is one step up, to 63%.",
+    "start": 4.16,
+    "end": 13.76
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 13.419,
+  "sentences": [
+   {
+    "text": "Now put the clinics back.",
+    "start": 0.0,
+    "end": 1.493
+   },
+   {
+    "text": "Alder's patients sit above the line, at both ends. So do Dune's.",
+    "start": 1.813,
+    "end": 5.675
+   },
+   {
+    "text": "Birch and Cedar sit below it, at both ends. And Elm, with no readmissions at all, is off the bottom of the chart.",
+    "start": 5.995,
+    "end": 13.269
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 8.363,
+  "sentences": [
+   {
+    "text": "One line for everyone misses, and it misses clinic by clinic.",
+    "start": 0.0,
+    "end": 3.627
+   },
+   {
+    "text": "So here is today's question: what is the smallest change that fixes it?",
+    "start": 3.947,
+    "end": 8.213
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.673,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: one intercept per provider.",
+    "start": 2.261,
+    "end": 4.523
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_OwnLines",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 9.494,
+  "sentences": [
+   {
+    "text": "The obvious fix is to give every clinic a line of its own: its own starting point, and its own step.",
+    "start": 0.0,
+    "end": 6.187
+   },
+   {
+    "text": "That's what we did for Cedar, two episodes ago.",
+    "start": 6.507,
+    "end": 9.344
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_OwnLines",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 16.769,
+  "sentences": [
+   {
+    "text": "But look at what it costs.",
+    "start": 0.0,
+    "end": 1.408
+   },
+   {
+    "text": "Each line now rests on one clinic's patients alone. Alder's higher-risk end is just 6 people.",
+    "start": 1.728,
+    "end": 7.829
+   },
+   {
+    "text": "And the gap between two clinics is no longer one number. Alder sits further above Cedar for higher-risk patients than for lower-risk ones.",
+    "start": 8.149,
+    "end": 16.619
+   }
+  ]
+ },
+ "s3_3": {
+  "scene": "S03_OwnLines",
+  "file": "audio/segments/s3_3.wav",
+  "duration": 7.041,
+  "sentences": [
+   {
+    "text": "So the question 'how much higher is Alder?' would have two answers. With a dozen risk factors, it would have thousands.",
+    "start": 0.0,
+    "end": 6.891
+   }
+  ]
+ },
+ "s3_4": {
+  "scene": "S03_OwnLines",
+  "file": "audio/segments/s3_4.wav",
+  "duration": 13.163,
+  "sentences": [
+   {
+    "text": "So let's make a bet instead.",
+    "start": 0.0,
+    "end": 1.664
+   },
+   {
+    "text": "Suppose a risk factor works the same way in every clinic: the same step on the log-odds ruler, wherever you are treated.",
+    "start": 1.984,
+    "end": 9.365
+   },
+   {
+    "text": "Then clinics can differ in only one way: where they start.",
+    "start": 9.685,
+    "end": 13.013
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Model",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 7.489,
+  "sentences": [
+   {
+    "text": "Here is that bet as a machine.",
+    "start": 0.0,
+    "end": 1.749
+   },
+   {
+    "text": "One dial, beta, sets the step for everyone. Turn it, and every line tilts together.",
+    "start": 2.069,
+    "end": 7.339
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Model",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 8.726,
+  "sentences": [
+   {
+    "text": "And every clinic gets a slider of its own. It moves that clinic's line up or down, and leaves the tilt alone.",
+    "start": 0.0,
+    "end": 6.72
+   },
+   {
+    "text": "We'll call that number gamma.",
+    "start": 7.04,
+    "end": 8.576
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_Model",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 8.619,
+  "sentences": [
+   {
+    "text": "Statisticians call a line's starting point its intercept.",
+    "start": 0.0,
+    "end": 3.456
+   },
+   {
+    "text": "So that's the whole idea: one intercept per provider, and one shared step.",
+    "start": 3.776,
+    "end": 8.469
+   }
+  ]
+ },
+ "s4_4": {
+  "scene": "S04_Model",
+  "file": "audio/segments/s4_4.wav",
+  "duration": 12.417,
+  "sentences": [
+   {
+    "text": "Written out: a patient's log-odds is their clinic's gamma, plus beta if they are higher-risk.",
+    "start": 0.0,
+    "end": 5.483
+   },
+   {
+    "text": "With more risk factors there are more steps, each with its own beta. There is still just one gamma per clinic.",
+    "start": 5.803,
+    "end": 12.267
+   }
+  ]
+ },
+ "s4_5": {
+  "scene": "S04_Model",
+  "file": "audio/segments/s4_5.wav",
+  "duration": 11.009,
+  "sentences": [
+   {
+    "text": "This is the logistic fixed-effect model.",
+    "start": 0.0,
+    "end": 2.56
+   },
+   {
+    "text": "'Fixed' means only that each gamma is its own unknown number. We assume nothing about how those numbers are spread across clinics.",
+    "start": 2.88,
+    "end": 10.859
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_Fit",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 7.681,
+  "sentences": [
+   {
+    "text": "How the dial and the sliders find their best positions is a story for a later episode. For now, here is where they land.",
+    "start": 0.0,
+    "end": 7.531
+   }
+  ]
+ },
+ "s5_2": {
+  "scene": "S05_Fit",
+  "file": "audio/segments/s5_2.wav",
+  "duration": 10.049,
+  "sentences": [
+   {
+    "text": "The shared step is 2.02.",
+    "start": 0.0,
+    "end": 2.304
+   },
+   {
+    "text": "That is the bet at work: in every clinic, higher risk multiplies the odds of readmission by about seven and a half.",
+    "start": 2.624,
+    "end": 9.899
+   }
+  ]
+ },
+ "s5_3": {
+  "scene": "S05_Fit",
+  "file": "audio/segments/s5_3.wav",
+  "duration": 8.897,
+  "sentences": [
+   {
+    "text": "Four sliders settle. Birch is lowest, at minus 1.82. Then Cedar. Then Alder and Dune, close together at the top.",
+    "start": 0.0,
+    "end": 8.747
+   }
+  ]
+ },
+ "s5_4": {
+  "scene": "S05_Fit",
+  "file": "audio/segments/s5_4.wav",
+  "duration": 9.323,
+  "sentences": [
+   {
+    "text": "Elm's never does. With no readmissions at all, a lower line always fits better, so it slides off the chart.",
+    "start": 0.0,
+    "end": 6.784
+   },
+   {
+    "text": "Elm gets an episode of its own.",
+    "start": 7.104,
+    "end": 9.173
+   }
+  ]
+ },
+ "s5_5": {
+  "scene": "S05_Fit",
+  "file": "audio/segments/s5_5.wav",
+  "duration": 17.067,
+  "sentences": [
+   {
+    "text": "Switch to the probability ruler, and the parallel lines become S-curves: one shape, slid sideways.",
+    "start": 0.0,
+    "end": 6.464
+   },
+   {
+    "text": "For a lower-risk patient, the model gives 14% at Birch and 34% at Alder.",
+    "start": 6.784,
+    "end": 12.16
+   },
+   {
+    "text": "For a higher-risk patient, 55% at Birch and 80% at Alder.",
+    "start": 12.48,
+    "end": 16.917
+   }
+  ]
+ },
+ "s5_6": {
+  "scene": "S05_Fit",
+  "file": "audio/segments/s5_6.wav",
+  "duration": 6.977,
+  "sentences": [
+   {
+    "text": "One caution. With 103 patients, these are rough estimates. How rough is a question for later.",
+    "start": 0.0,
+    "end": 6.827
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_WhereBeta",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 7.745,
+  "sentences": [
+   {
+    "text": "Notice that the step has grown. The pooled line climbed 1.75. These lines climb 2.02.",
+    "start": 0.0,
+    "end": 7.595
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_WhereBeta",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 17.473,
+  "sentences": [
+   {
+    "text": "Here's why. Each clinic is now compared only with itself: its own higher-risk patients against its own lower-risk patients.",
+    "start": 0.0,
+    "end": 7.872
+   },
+   {
+    "text": "Inside Alder, the step is 2.3. Inside Birch, 1.78. Cedar, 1.79. Dune, 2.3.",
+    "start": 8.192,
+    "end": 17.323
+   }
+  ]
+ },
+ "s6_3": {
+  "scene": "S06_WhereBeta",
+  "file": "audio/segments/s6_3.wav",
+  "duration": 11.329,
+  "sentences": [
+   {
+    "text": "Beta is a compromise among those four, weighted by how much each clinic's patients can tell us.",
+    "start": 0.0,
+    "end": 5.781
+   },
+   {
+    "text": "Elm has no say. All of its patients are lower-risk, so it has no step to offer.",
+    "start": 6.101,
+    "end": 11.179
+   }
+  ]
+ },
+ "s6_4": {
+  "scene": "S06_WhereBeta",
+  "file": "audio/segments/s6_4.wav",
+  "duration": 13.419,
+  "sentences": [
+   {
+    "text": "Last time, the pooled rule mixed up how sick patients are with where they were treated.",
+    "start": 0.0,
+    "end": 4.821
+   },
+   {
+    "text": "Now the 'where' has a place of its own: the gammas.",
+    "start": 5.141,
+    "end": 8.0
+   },
+   {
+    "text": "That is the first thing we asked for: a risk rule learned from patients who share a clinic.",
+    "start": 8.32,
+    "end": 13.269
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_NoIntercept",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 5.569,
+  "sentences": [
+   {
+    "text": "You might expect one more number: an overall starting point, with each clinic measured from it.",
+    "start": 0.0,
+    "end": 5.419
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_NoIntercept",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 11.585,
+  "sentences": [
+   {
+    "text": "Try it. Raise that number by a half, and lower every gamma by a half.",
+    "start": 0.0,
+    "end": 4.224
+   },
+   {
+    "text": "Nothing on screen moves. The data cannot tell those two descriptions apart, so the model keeps only the gammas.",
+    "start": 4.544,
+    "end": 11.435
+   }
+  ]
+ },
+ "s7_3": {
+  "scene": "S07_NoIntercept",
+  "file": "audio/segments/s7_3.wav",
+  "duration": 12.054,
+  "sentences": [
+   {
+    "text": "The same goes for anything that is identical for every patient at a clinic: its size, its ownership, its neighbourhood.",
+    "start": 0.0,
+    "end": 7.531
+   },
+   {
+    "text": "None of them can have a beta of its own. They are already inside gamma.",
+    "start": 7.851,
+    "end": 11.904
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Gamma",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 18.753,
+  "sentences": [
+   {
+    "text": "So what is a gamma? Read it carefully.",
+    "start": 0.0,
+    "end": 2.325
+   },
+   {
+    "text": "Alder's is minus 0.65. That is not a readmission rate. It is a position on the log-odds ruler: the log-odds for a patient with no risk factor switched on.",
+    "start": 2.645,
+    "end": 14.464
+   },
+   {
+    "text": "Here, that's a lower-risk patient at Alder: 34%.",
+    "start": 14.784,
+    "end": 18.603
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_Gamma",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 8.363,
+  "sentences": [
+   {
+    "text": "With many risk factors, that patient may not exist at all. So we will mostly read the gaps between gammas, not the gammas themselves.",
+    "start": 0.0,
+    "end": 8.213
+   }
+  ]
+ },
+ "s8_3": {
+  "scene": "S08_Gamma",
+  "file": "audio/segments/s8_3.wav",
+  "duration": 14.401,
+  "sentences": [
+   {
+    "text": "And gamma is not a pure measure of care.",
+    "start": 0.0,
+    "end": 2.389
+   },
+   {
+    "text": "It holds everything that is constant within a clinic: how well it looks after patients, but also anything about its patients that we failed to measure. The data cannot separate the two.",
+    "start": 2.709,
+    "end": 14.251
+   }
+  ]
+ },
+ "s8_4": {
+  "scene": "S08_Gamma",
+  "file": "audio/segments/s8_4.wav",
+  "duration": 8.427,
+  "sentences": [
+   {
+    "text": "So read a higher gamma this way: for patients who look the same on paper, more readmissions here than there. Why is a separate question.",
+    "start": 0.0,
+    "end": 8.277
+   }
+  ]
+ },
+ "s9_1": {
+  "scene": "S09_Crowd",
+  "file": "audio/segments/s9_1.wav",
+  "duration": 12.929,
+  "sentences": [
+   {
+    "text": "Does learning the rule inside providers really help?",
+    "start": 0.0,
+    "end": 2.859
+   },
+   {
+    "text": "Go back to our simulated crowd of 200 providers, where we set the truth ourselves. The true step for the main risk factor is 0.8.",
+    "start": 3.179,
+    "end": 12.779
+   }
+  ]
+ },
+ "s9_2": {
+  "scene": "S09_Crowd",
+  "file": "audio/segments/s9_2.wav",
+  "duration": 13.483,
+  "sentences": [
+   {
+    "text": "Pool everyone, and the estimate is 0.71, because in this crowd, providers with sicker patients happen to do a little better.",
+    "start": 0.0,
+    "end": 8.469
+   },
+   {
+    "text": "Give every provider its own gamma, and the estimate is 0.81.",
+    "start": 8.789,
+    "end": 13.333
+   }
+  ]
+ },
+ "s10_1": {
+  "scene": "S10_Recap",
+  "file": "audio/segments/s10_1.wav",
+  "duration": 12.737,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "Every provider gets its own intercept: gamma.",
+    "start": 1.536,
+    "end": 4.523
+   },
+   {
+    "text": "All providers share one step for each risk factor: beta.",
+    "start": 4.843,
+    "end": 8.661
+   },
+   {
+    "text": "And beta is learned from comparisons inside providers.",
+    "start": 8.981,
+    "end": 12.587
+   }
+  ]
+ },
+ "s10_2": {
+  "scene": "S10_Recap",
+  "file": "audio/segments/s10_2.wav",
+  "duration": 12.95,
+  "sentences": [
+   {
+    "text": "Remember what this rests on: the bet that the lines are parallel.",
+    "start": 0.0,
+    "end": 3.776
+   },
+   {
+    "text": "A clinic that does well with lower-risk patients and badly with higher-risk ones would have a line that crosses the others. We will come back and check.",
+    "start": 4.096,
+    "end": 12.8
+   }
+  ]
+ },
+ "s10_3": {
+  "scene": "S10_Recap",
+  "file": "audio/segments/s10_3.wav",
+  "duration": 15.467,
+  "sentences": [
+   {
+    "text": "Last time, we asked for two things. The risk rule, we now have.",
+    "start": 0.0,
+    "end": 3.819
+   },
+   {
+    "text": "And the yardstick? Line the gammas up, and one of them sits in the middle: Cedar's.",
+    "start": 4.139,
+    "end": 9.045
+   },
+   {
+    "text": "A middle clinic is a yardstick that no clinic's size can pull toward itself. We'll build on it later.",
+    "start": 9.365,
+    "end": 15.317
+   }
+  ]
+ },
+ "s10_4": {
+  "scene": "S10_Recap",
+  "file": "audio/segments/s10_4.wav",
+  "duration": 9.451,
+  "sentences": [
+   {
+    "text": "First, though: Alder's line sits 0.87 above Cedar's. What does that gap mean for an actual patient?",
+    "start": 0.0,
+    "end": 7.125
+   },
+   {
+    "text": "Next time: reading gamma.",
+    "start": 7.445,
+    "end": 9.301
+   }
+  ]
+ },
+ "s10_5": {
+  "scene": "S10_Recap",
+  "file": "audio/segments/s10_5.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}
