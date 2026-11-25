@@ -1,0 +1,319 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 17,
+ "title": "Fixed or Random?",
+ "subtitle": "pull the estimates together, or let each stand alone",
+ "name": "ModelInMotion_LogisticFE_E17_FixedOrRandom",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "The cast's four estimates on a line, highest at the top: Dune at −0.58, Alder at −0.65, Cedar at −1.52, Birch at −1.82. Dune is marked as the highest, with its 12 patients.",
+     "sentences": [
+      {
+       "text": "Dune's number is minus 0.58: the highest of any clinic. On that number, Dune is the worst performer in the cast.",
+       "say": "Dune's number is minus zero point five eight: the highest of any clinic. On that number, Dune is the worst performer in the cast."
+      },
+      {
+       "text": "It comes from 12 patients.",
+       "say": "It comes from twelve patients."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "Alder beside it: −0.65, from 30 patients. Each clinic's patients shown as a block of chips. A question: which is truly the worst?",
+     "sentences": [
+      {
+       "text": "Alder is just behind, at minus 0.65, from 30 patients.",
+       "say": "Alder is just behind, at minus zero point six five, from thirty patients."
+      },
+      {
+       "text": "If you had to bet on which clinic is truly the worst, would you still pick Dune?"
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Faint arrows from every estimate toward the centre line, longest for the clinics with fewest patients.",
+     "sentences": [
+      {
+       "text": "Many analysts would not. They would pull every estimate toward the average, and pull hardest where there is least to go on."
+      },
+      {
+       "text": "That is the random-effect model, and this episode is about what it buys and what it costs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: fixed or random?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Assume",
+   "chapter": "A different assumption",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "Left: four separate dots, labelled fixed: nothing assumed. Right: the same dots under one bell curve with a centre and a spread, labelled random: draws from one curve.",
+     "sentences": [
+      {
+       "text": "So far, each provider has had a number of its own, and we have assumed nothing about those numbers. That is what fixed means."
+      },
+      {
+       "text": "The alternative assumes something: that the numbers are draws from one bell curve, with a centre and a spread."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "Dune's estimate joined to the centre by a band. The formula for reliability: spread squared over spread squared plus standard error squared. With 0.33 and 0.66: 0.20.",
+     "sentences": [
+      {
+       "text": "Then each estimate is a compromise between the provider's own data and the centre. The weight on its own data is called its reliability."
+      },
+      {
+       "text": "For Dune, with a spread of 0.33 borrowed from our crowd, the reliability is 0.20. Dune keeps a fifth of its distance from the centre.",
+       "say": "For Dune, with a spread of zero point three three borrowed from our crowd, the reliability is zero point two. Dune keeps a fifth of its distance from the centre."
+      }
+     ]
+    },
+    {
+     "id": "s3_3",
+     "visual": "All five clinics, before and after the pull: Dune −0.58 to −1.33, Alder −0.65 to −1.18, Birch −1.82 to −1.65, Cedar unmoved at −1.52, and Elm, which had none, at −1.71.",
+     "sentences": [
+      {
+       "text": "Do that for every clinic. Dune moves to minus 1.33. Alder, with more patients, keeps two fifths, and stops at minus 1.18.",
+       "say": "Do that for every clinic. Dune moves to minus one point three three. Alder, with more patients, keeps two fifths, and stops at minus one point one eight."
+      },
+      {
+       "text": "The order has flipped. And Elm, which had no estimate at all, now has one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Pull",
+   "chapter": "The pull, in the crowd",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The two hundred providers by number of patients. For each, a line from its fixed-effect estimate to its random-effect one. The lines are long on the left and short on the right.",
+     "sentences": [
+      {
+       "text": "Now the crowd of two hundred, fitted both ways. Each line joins a provider's fixed-effect estimate to its random-effect one."
+      },
+      {
+       "text": "Small providers move most. Under 50 patients, a typical reliability is 0.37. Above 200, it is 0.83.",
+       "say": "Small providers move most. Under fifty patients, a typical reliability is zero point three seven. Above two hundred, it is zero point eight three."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "Three piles of two hundred values: fixed-effect estimates, spread 0.44; the truth, 0.33; random-effect estimates, 0.26.",
+     "sentences": [
+      {
+       "text": "The estimates draw together. Their spread falls from 0.44 to 0.26.",
+       "say": "The estimates draw together. Their spread falls from zero point four four to zero point two six."
+      },
+      {
+       "text": "The true spread is 0.33. Fixed effects scatter wider than the truth; random effects, narrower.",
+       "say": "The true spread is zero point three three. Fixed effects scatter wider than the truth; random effects, narrower."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Buys",
+   "chapter": "What it buys",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Each provider's error against its number of patients, for both fits. Bars for the typical error: 0.28 and 0.20 overall; 0.40 and 0.25 under 50 patients.",
+     "sentences": [
+      {
+       "text": "What does the pull buy? Accuracy, on average. We know the truth in this crowd, so we can measure the typical error."
+      },
+      {
+       "text": "It falls from 0.28 to 0.20. For providers under 50 patients, from 0.40 to 0.25.",
+       "say": "It falls from zero point two eight to zero point two. For providers under fifty patients, from zero point four to zero point two five."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_Outliers",
+   "chapter": "What it costs: the outliers",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "The six planted providers on a line marked at 0.8 either side of the centre. Their fixed-effect estimates average 0.67 from the centre; their random-effect ones, 0.46. Flags: four and three.",
+     "sentences": [
+      {
+       "text": "Now the costs. First, the pull does not know who truly differs. Our six planted providers sit 0.8 from the centre.",
+       "say": "Now the costs. First, the pull does not know who truly differs. Our six planted providers sit zero point eight from the centre."
+      },
+      {
+       "text": "Fixed effects put them at 0.67, on average. Random effects, at 0.46.",
+       "say": "Fixed effects put them at zero point six seven, on average. Random effects, at zero point four six."
+      },
+      {
+       "text": "And fixed effects flag four of the six; random effects, three."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_CaseMix",
+   "chapter": "What it costs: the case mix",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "True provider effects against case mix: a downward cloud. Providers with sicker patients truly do better.",
+     "sentences": [
+      {
+       "text": "The second cost is subtler. In this crowd, providers with sicker patients truly perform better. The random-effect model assumes there is no such link, and pulls everyone toward one centre."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "Each provider's error against its case mix, two panels. Fixed effects: a level cloud, correlation 0.06. Random effects: a rising cloud, 0.35; the sickest fifth 0.10 too high, the healthiest 0.10 too low.",
+     "sentences": [
+      {
+       "text": "So its errors follow the case mix. Their correlation with it is 0.35. For fixed effects, 0.06.",
+       "say": "So its errors follow the case mix. Their correlation with it is zero point three five. For fixed effects, zero point zero six."
+      },
+      {
+       "text": "The sickest fifth of providers look 0.10 worse than they are. The healthiest fifth, 0.10 better.",
+       "say": "The sickest fifth of providers look zero point one worse than they are. The healthiest fifth, zero point one better."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "The random-effect panel again, for the same crowd with the link broken: a level cloud, correlation −0.01.",
+     "sentences": [
+      {
+       "text": "Break the link, so that performance and case mix are unrelated, and that correlation vanishes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Choose",
+   "chapter": "Which to use",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "Two cards. Fixed effects: judging individual providers, when performance may be tied to case mix. Random effects: many tiny providers, or questions about providers as a population.",
+     "sentences": [
+      {
+       "text": "So which? If you are judging individual providers, and performance may be tied to case mix, fixed effects."
+      },
+      {
+       "text": "If you have many tiny providers, or your question is about providers as a population, random effects."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "Both cards feed one box: the standardization of Episode 11, observed over expected. Under it, a caution that applies to both: a risk factor nobody recorded.",
+     "sentences": [
+      {
+       "text": "Either way, the estimates feed the same standardization from Episode 11. The choice changes the numbers that go in, not the arithmetic that follows.",
+       "say": "Either way, the estimates feed the same standardization from Episode eleven. The choice changes the numbers that go in, not the arithmetic that follows."
+      },
+      {
+       "text": "And neither one protects you from a risk factor that nobody recorded."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "Random effects pull each estimate toward the centre, by its reliability."
+      },
+      {
+       "text": "The pull buys accuracy on average, and gives every provider an estimate."
+      },
+      {
+       "text": "It costs you the outliers, and it bends with the case mix."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "A long row of small intercept markers, one per provider, running off the edge of the frame. The next episode's title.",
+     "sentences": [
+      {
+       "text": "Fixed effects have a cost of their own that we have not faced. One intercept per provider is a great many intercepts."
+      },
+      {
+       "text": "Next time: too many intercepts."
+      }
+     ]
+    },
+    {
+     "id": "s9_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
