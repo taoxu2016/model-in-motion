@@ -1,0 +1,339 @@
+{
+ "s1_1": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_1.wav",
+  "duration": 12.737,
+  "sentences": [
+   {
+    "text": "Every picture in the last act leaned on the risk model. So here is a comforting fact about it.",
+    "start": 0.0,
+    "end": 5.675
+   },
+   {
+    "text": "For every one of our two hundred providers, observed equals expected, exactly. Every meter is level.",
+    "start": 5.995,
+    "end": 12.587
+   }
+  ]
+ },
+ "s1_2": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_2.wav",
+  "duration": 9.878,
+  "sentences": [
+   {
+    "text": "Here is a second crowd, fitted the same way. Its two hundred meters are level too.",
+    "start": 0.0,
+    "end": 5.099
+   },
+   {
+    "text": "One of these two models is badly wrong. From here, you cannot tell which.",
+    "start": 5.419,
+    "end": 9.728
+   }
+  ]
+ },
+ "s1_3": {
+  "scene": "S01_ColdOpen",
+  "file": "audio/segments/s1_3.wav",
+  "duration": 13.035,
+  "sentences": [
+   {
+    "text": "That is because the fit itself levels these meters. Episode 6 showed how: balancing is what fitting means.",
+    "start": 0.0,
+    "end": 7.083
+   },
+   {
+    "text": "A check that every model passes is no check at all. We need to cut the patients another way.",
+    "start": 7.403,
+    "end": 12.885
+   }
+  ]
+ },
+ "s2_1": {
+  "scene": "S02_Title",
+  "file": "audio/segments/s2_1.wav",
+  "duration": 4.353,
+  "sentences": [
+   {
+    "text": "Welcome back to Model in Motion.",
+    "start": 0.0,
+    "end": 1.941
+   },
+   {
+    "text": "Today: trusting the risk model.",
+    "start": 2.261,
+    "end": 4.203
+   }
+  ]
+ },
+ "s3_1": {
+  "scene": "S03_Tenths",
+  "file": "audio/segments/s3_1.wav",
+  "duration": 15.211,
+  "sentences": [
+   {
+    "text": "Forget the providers for a moment. Line up all 28,848 patients by the risk the model gives them, from lowest to highest.",
+    "start": 0.0,
+    "end": 10.197
+   },
+   {
+    "text": "Cut the line into ten equal groups, and give each group a meter of its own.",
+    "start": 10.517,
+    "end": 15.061
+   }
+  ]
+ },
+ "s3_2": {
+  "scene": "S03_Tenths",
+  "file": "audio/segments/s3_2.wav",
+  "duration": 13.547,
+  "sentences": [
+   {
+    "text": "For the first crowd, the ten meters barely tilt. Observed over expected runs from 0.95 to 1.05.",
+    "start": 0.0,
+    "end": 9.216
+   },
+   {
+    "text": "Every one of those is within what luck allows. This model passes.",
+    "start": 9.536,
+    "end": 13.397
+   }
+  ]
+ },
+ "s4_1": {
+  "scene": "S04_Wrong",
+  "file": "audio/segments/s4_1.wav",
+  "duration": 16.385,
+  "sentences": [
+   {
+    "text": "Now the second crowd. In its lowest-risk tenth, the model expected 136 readmissions. There were 339: two and a half times as many.",
+    "start": 0.0,
+    "end": 11.413
+   },
+   {
+    "text": "In the middle, the meters tilt the other way: more than a fifth fewer than expected.",
+    "start": 11.733,
+    "end": 16.235
+   }
+  ]
+ },
+ "s4_2": {
+  "scene": "S04_Wrong",
+  "file": "audio/segments/s4_2.wav",
+  "duration": 15.851,
+  "sentences": [
+   {
+    "text": "Here is what went wrong. In this crowd, risk does not rise in a straight line with the first risk factor. It bends: patients at either extreme are at higher risk than a straight line allows.",
+    "start": 0.0,
+    "end": 12.096
+   },
+   {
+    "text": "The model was given a straight line, and did the best it could.",
+    "start": 12.416,
+    "end": 15.701
+   }
+  ]
+ },
+ "s4_3": {
+  "scene": "S04_Wrong",
+  "file": "audio/segments/s4_3.wav",
+  "duration": 7.19,
+  "sentences": [
+   {
+    "text": "Give it the bend, as a squared term, and the ten meters settle: from 0.92 to 1.08.",
+    "start": 0.0,
+    "end": 7.04
+   }
+  ]
+ },
+ "s5_1": {
+  "scene": "S05_Cost",
+  "file": "audio/segments/s5_1.wav",
+  "duration": 16.257,
+  "sentences": [
+   {
+    "text": "Did the bend matter for the providers? It did. Between the two fits, 16 of the 200 change their flag.",
+    "start": 0.0,
+    "end": 6.891
+   },
+   {
+    "text": "And the fifth of providers with the most unusual case mix had ratios 16% too high. They were being blamed for the model's mistake.",
+    "start": 7.211,
+    "end": 16.107
+   }
+  ]
+ },
+ "s6_1": {
+  "scene": "S06_AUC",
+  "file": "audio/segments/s6_1.wav",
+  "duration": 12.95,
+  "sentences": [
+   {
+    "text": "There is a famous one-number summary of a risk model: the AUC. Take one patient who was readmitted and one who was not. The AUC is the chance that the model gave the first the higher risk.",
+    "start": 0.0,
+    "end": 12.8
+   }
+  ]
+ },
+ "s6_2": {
+  "scene": "S06_AUC",
+  "file": "audio/segments/s6_2.wav",
+  "duration": 15.403,
+  "sentences": [
+   {
+    "text": "For the wrong model, it is 0.74. For the corrected one, 0.76.",
+    "start": 0.0,
+    "end": 6.208
+   },
+   {
+    "text": "A tenth of the patients were off by a factor of two and a half, and the AUC barely noticed. It measures ranking, not whether the risks are right.",
+    "start": 6.528,
+    "end": 15.253
+   }
+  ]
+ },
+ "s6_3": {
+  "scene": "S06_AUC",
+  "file": "audio/segments/s6_3.wav",
+  "duration": 17.003,
+  "sentences": [
+   {
+    "text": "One more caution. In the first crowd, the AUC is 0.72 from the risk factors alone, and 0.74 once the model knows each patient's provider.",
+    "start": 0.0,
+    "end": 11.947
+   },
+   {
+    "text": "That gain says providers differ. It does not say the risk rule got any better.",
+    "start": 12.267,
+    "end": 16.853
+   }
+  ]
+ },
+ "s7_1": {
+  "scene": "S07_Slope",
+  "file": "audio/segments/s7_1.wav",
+  "duration": 12.225,
+  "sentences": [
+   {
+    "text": "A third cut: inside one provider. Our largest has 484 patients, and for them, in this experiment, risk climbs twice as steeply as the shared rule allows.",
+    "start": 0.0,
+    "end": 12.075
+   }
+  ]
+ },
+ "s7_2": {
+  "scene": "S07_Slope",
+  "file": "audio/segments/s7_2.wav",
+  "duration": 16.641,
+  "sentences": [
+   {
+    "text": "Its total balances, as it must: 143 observed, 143 expected.",
+    "start": 0.0,
+    "end": 6.912
+   },
+   {
+    "text": "But split its patients into a lower-risk half and a higher-risk half. 18 against 41. And 125 against 102.",
+    "start": 7.232,
+    "end": 16.491
+   }
+  ]
+ },
+ "s7_3": {
+  "scene": "S07_Slope",
+  "file": "audio/segments/s7_3.wav",
+  "duration": 8.726,
+  "sentences": [
+   {
+    "text": "One gamma cannot describe this provider. It is an average over the patients it happens to treat, and a direct rate built on it would mislead.",
+    "start": 0.0,
+    "end": 8.576
+   }
+  ]
+ },
+ "s8_1": {
+  "scene": "S08_Limits",
+  "file": "audio/segments/s8_1.wav",
+  "duration": 8.406,
+  "sentences": [
+   {
+    "text": "Software can catch some trouble before fitting: missing values, a risk factor that never varies, two that say nearly the same thing.",
+    "start": 0.0,
+    "end": 8.256
+   }
+  ]
+ },
+ "s8_2": {
+  "scene": "S08_Limits",
+  "file": "audio/segments/s8_2.wav",
+  "duration": 15.809,
+  "sentences": [
+   {
+    "text": "But every check today compared the model with data we have. None can see a risk factor that nobody recorded.",
+    "start": 0.0,
+    "end": 6.72
+   },
+   {
+    "text": "And more is not always better. Adjust for something a provider causes, such as a complication, and you adjust its performance away.",
+    "start": 7.04,
+    "end": 15.659
+   }
+  ]
+ },
+ "s9_1": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_1.wav",
+  "duration": 13.782,
+  "sentences": [
+   {
+    "text": "Let's gather it up.",
+    "start": 0.0,
+    "end": 1.216
+   },
+   {
+    "text": "Provider meters are level by construction. They prove nothing.",
+    "start": 1.536,
+    "end": 5.355
+   },
+   {
+    "text": "So take the same meter to new groups: tenths of risk, and halves within a provider.",
+    "start": 5.675,
+    "end": 10.667
+   },
+   {
+    "text": "And the AUC measures ranking, not fairness.",
+    "start": 10.987,
+    "end": 13.632
+   }
+  ]
+ },
+ "s9_2": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_2.wav",
+  "duration": 13.227,
+  "sentences": [
+   {
+    "text": "Throughout this series, each provider has had a number of its own, estimated on its own. Many analysts would do it differently, and pull the small providers toward the average.",
+    "start": 0.0,
+    "end": 10.795
+   },
+   {
+    "text": "Next time: fixed or random?",
+    "start": 11.115,
+    "end": 13.077
+   }
+  ]
+ },
+ "s9_3": {
+  "scene": "S09_Recap",
+  "file": "audio/segments/s9_3.wav",
+  "duration": 3.905,
+  "sentences": [
+   {
+    "text": "This has been Model in Motion. Thanks for following the story.",
+    "start": 0.0,
+    "end": 3.755
+   }
+  ]
+ }
+}

@@ -1,0 +1,332 @@
+{
+ "series": "Model in Motion",
+ "arc": "The Logistic Fixed-Effect Model",
+ "episode": 16,
+ "title": "Trusting the Risk Model",
+ "subtitle": "the same meter, on new groups",
+ "name": "ModelInMotion_LogisticFE_E16_TrustingTheRiskModel",
+ "status": "DRAFT: script under review together with its animatic.",
+ "voice": {
+  "engine": "kokoro-onnx v1.0",
+  "name": "af_heart",
+  "speed": 0.92,
+  "lang": "en-us",
+  "pause_between_sentences": 0.32,
+  "tail_pad": 0.15
+ },
+ "pronunciations": {
+  "readmitted": "re-admitted",
+  "readmission": "re-admission"
+ },
+ "scenes": [
+  {
+   "id": "S01_ColdOpen",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s1_1",
+     "visual": "Two hundred small meters in a grid, one per provider. Every one is level. A label: observed minus expected is zero for each.",
+     "sentences": [
+      {
+       "text": "Every picture in the last act leaned on the risk model. So here is a comforting fact about it."
+      },
+      {
+       "text": "For every one of our two hundred providers, observed equals expected, exactly. Every meter is level."
+      }
+     ]
+    },
+    {
+     "id": "s1_2",
+     "visual": "A second grid of two hundred meters beside the first, for a second crowd. These are level too.",
+     "sentences": [
+      {
+       "text": "Here is a second crowd, fitted the same way. Its two hundred meters are level too."
+      },
+      {
+       "text": "One of these two models is badly wrong. From here, you cannot tell which."
+      }
+     ]
+    },
+    {
+     "id": "s1_3",
+     "visual": "Across both grids: level by construction. Under them: a check that every model passes is no check.",
+     "sentences": [
+      {
+       "text": "That is because the fit itself levels these meters. Episode 6 showed how: balancing is what fitting means.",
+       "say": "That is because the fit itself levels these meters. Episode six showed how: balancing is what fitting means."
+      },
+      {
+       "text": "A check that every model passes is no check at all. We need to cut the patients another way."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S02_Title",
+   "chapter": null,
+   "segments": [
+    {
+     "id": "s2_1",
+     "visual": "Series logo and wordmark; arc and episode title.",
+     "sentences": [
+      {
+       "text": "Welcome back to Model in Motion."
+      },
+      {
+       "text": "Today: trusting the risk model."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03_Tenths",
+   "chapter": "Cut by risk",
+   "segments": [
+    {
+     "id": "s3_1",
+     "visual": "A long strip for all 28,848 patients, in order of predicted risk, cut into ten equal parts. Under each part, a meter.",
+     "sentences": [
+      {
+       "text": "Forget the providers for a moment. Line up all 28,848 patients by the risk the model gives them, from lowest to highest.",
+       "say": "Forget the providers for a moment. Line up all twenty-eight thousand, eight hundred and forty-eight patients by the risk the model gives them, from lowest to highest."
+      },
+      {
+       "text": "Cut the line into ten equal groups, and give each group a meter of its own."
+      }
+     ]
+    },
+    {
+     "id": "s3_2",
+     "visual": "The first crowd's ten meters, each with its ratio: all between 0.95 and 1.05. Beside them, observed against expected for the ten groups, on the diagonal.",
+     "sentences": [
+      {
+       "text": "For the first crowd, the ten meters barely tilt. Observed over expected runs from 0.95 to 1.05.",
+       "say": "For the first crowd, the ten meters barely tilt. Observed over expected runs from zero point nine five to one point zero five."
+      },
+      {
+       "text": "Every one of those is within what luck allows. This model passes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04_Wrong",
+   "chapter": "A model that is wrong",
+   "segments": [
+    {
+     "id": "s4_1",
+     "visual": "The second crowd's ten meters. The first tips hard: 339 observed against 136 expected, a ratio of 2.50. The middle ones tip the other way: 0.77 to 0.79.",
+     "sentences": [
+      {
+       "text": "Now the second crowd. In its lowest-risk tenth, the model expected 136 readmissions. There were 339: two and a half times as many.",
+       "say": "Now the second crowd. In its lowest-risk tenth, the model expected one hundred and thirty-six readmissions. There were three hundred and thirty-nine: two and a half times as many."
+      },
+      {
+       "text": "In the middle, the meters tilt the other way: more than a fifth fewer than expected."
+      }
+     ]
+    },
+    {
+     "id": "s4_2",
+     "visual": "The truth and the model, on the log-odds scale against the first risk factor: a curve that bends upward at both ends, and the straight line fitted to it.",
+     "sentences": [
+      {
+       "text": "Here is what went wrong. In this crowd, risk does not rise in a straight line with the first risk factor. It bends: patients at either extreme are at higher risk than a straight line allows."
+      },
+      {
+       "text": "The model was given a straight line, and did the best it could."
+      }
+     ]
+    },
+    {
+     "id": "s4_3",
+     "visual": "The ten meters again, after a squared term is added to the model: ratios from 0.92 to 1.08.",
+     "sentences": [
+      {
+       "text": "Give it the bend, as a squared term, and the ten meters settle: from 0.92 to 1.08.",
+       "say": "Give it the bend, as a squared term, and the ten meters settle: from zero point nine two to one point zero eight."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05_Cost",
+   "chapter": "What it cost",
+   "segments": [
+    {
+     "id": "s5_1",
+     "visual": "Each provider's ratio under the wrong model against its ratio under the corrected one. Sixteen that change their flag are ringed. The fifth with the most unusual case mix are coloured: they sit to one side of the diagonal.",
+     "sentences": [
+      {
+       "text": "Did the bend matter for the providers? It did. Between the two fits, 16 of the 200 change their flag.",
+       "say": "Did the bend matter for the providers? It did. Between the two fits, sixteen of the two hundred change their flag."
+      },
+      {
+       "text": "And the fifth of providers with the most unusual case mix had ratios 16% too high. They were being blamed for the model's mistake.",
+       "say": "And the fifth of providers with the most unusual case mix had ratios sixteen percent too high. They were being blamed for the model's mistake."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06_AUC",
+   "chapter": "What the AUC saw",
+   "segments": [
+    {
+     "id": "s6_1",
+     "visual": "Four pairs of patients, one readmitted and one not, each with the risk the model gave them; three pairs are in the right order. Below, a thousand such pairs as coloured squares: 738 in the right order.",
+     "sentences": [
+      {
+       "text": "There is a famous one-number summary of a risk model: the AUC. Take one patient who was readmitted and one who was not. The AUC is the chance that the model gave the first the higher risk.",
+       "say": "There is a famous one-number summary of a risk model: the A U C. Take one patient who was readmitted and one who was not. The A U C is the chance that the model gave the first the higher risk."
+      }
+     ]
+    },
+    {
+     "id": "s6_2",
+     "visual": "Two bars on a scale from 0.5 to 1: the wrong model at 0.74, the corrected one at 0.76. Beside them, the lowest-risk tenth's ratio: 2.50.",
+     "sentences": [
+      {
+       "text": "For the wrong model, it is 0.74. For the corrected one, 0.76.",
+       "say": "For the wrong model, it is zero point seven four. For the corrected one, zero point seven six."
+      },
+      {
+       "text": "A tenth of the patients were off by a factor of two and a half, and the AUC barely noticed. It measures ranking, not whether the risks are right.",
+       "say": "A tenth of the patients were off by a factor of two and a half, and the A U C barely noticed. It measures ranking, not whether the risks are right."
+      }
+     ]
+    },
+    {
+     "id": "s6_3",
+     "visual": "Two more bars for the first crowd: 0.72 from the risk factors alone, 0.74 with the provider terms.",
+     "sentences": [
+      {
+       "text": "One more caution. In the first crowd, the AUC is 0.72 from the risk factors alone, and 0.74 once the model knows each patient's provider.",
+       "say": "One more caution. In the first crowd, the A U C is zero point seven two from the risk factors alone, and zero point seven four once the model knows each patient's provider."
+      },
+      {
+       "text": "That gain says providers differ. It does not say the risk rule got any better."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07_Slope",
+   "chapter": "One slope for all",
+   "segments": [
+    {
+     "id": "s7_1",
+     "visual": "The largest provider, 484 patients. Two curves of risk against the first risk factor: the shared rule's, and this provider's own, twice as steep.",
+     "sentences": [
+      {
+       "text": "A third cut: inside one provider. Our largest has 484 patients, and for them, in this experiment, risk climbs twice as steeply as the shared rule allows.",
+       "say": "A third cut: inside one provider. Our largest has four hundred and eighty-four patients, and for them, in this experiment, risk climbs twice as steeply as the shared rule allows."
+      }
+     ]
+    },
+    {
+     "id": "s7_2",
+     "visual": "Three meters for this provider. All its patients: 143 against 143.0, level. Its lower-risk half: 18 against 41.2. Its higher-risk half: 125 against 101.8.",
+     "sentences": [
+      {
+       "text": "Its total balances, as it must: 143 observed, 143 expected.",
+       "say": "Its total balances, as it must: one hundred and forty-three observed, one hundred and forty-three expected."
+      },
+      {
+       "text": "But split its patients into a lower-risk half and a higher-risk half. 18 against 41. And 125 against 102.",
+       "say": "But split its patients into a lower-risk half and a higher-risk half. Eighteen against forty-one. And one hundred and twenty-five against one hundred and two."
+      }
+     ]
+    },
+    {
+     "id": "s7_3",
+     "visual": "A note: one gamma, an average over the patients this provider happens to treat.",
+     "sentences": [
+      {
+       "text": "One gamma cannot describe this provider. It is an average over the patients it happens to treat, and a direct rate built on it would mislead."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S08_Limits",
+   "chapter": "What no check sees",
+   "segments": [
+    {
+     "id": "s8_1",
+     "visual": "A card of checks the software runs before fitting: missing values; a risk factor that never varies; pairs correlated above 0.9; variance inflation above 10.",
+     "sentences": [
+      {
+       "text": "Software can catch some trouble before fitting: missing values, a risk factor that never varies, two that say nearly the same thing."
+      }
+     ]
+    },
+    {
+     "id": "s8_2",
+     "visual": "Two cards: a risk factor nobody recorded, which no check can see; and a consequence of care used as a risk factor, which adjusts performance away.",
+     "sentences": [
+      {
+       "text": "But every check today compared the model with data we have. None can see a risk factor that nobody recorded."
+      },
+      {
+       "text": "And more is not always better. Adjust for something a provider causes, such as a complication, and you adjust its performance away."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S09_Recap",
+   "chapter": "Recap",
+   "segments": [
+    {
+     "id": "s9_1",
+     "visual": "Three recap cards, each with a small icon.",
+     "sentences": [
+      {
+       "text": "Let's gather it up."
+      },
+      {
+       "text": "Provider meters are level by construction. They prove nothing."
+      },
+      {
+       "text": "So take the same meter to new groups: tenths of risk, and halves within a provider."
+      },
+      {
+       "text": "And the AUC measures ranking, not fairness.",
+       "say": "And the A U C measures ranking, not fairness."
+      }
+     ]
+    },
+    {
+     "id": "s9_2",
+     "visual": "A row of providers, each with its own separate estimate; then the small ones drawn toward a common line. The next episode's title.",
+     "sentences": [
+      {
+       "text": "Throughout this series, each provider has had a number of its own, estimated on its own. Many analysts would do it differently, and pull the small providers toward the average."
+      },
+      {
+       "text": "Next time: fixed or random?"
+      }
+     ]
+    },
+    {
+     "id": "s9_3",
+     "visual": "Series end card with the next episode title.",
+     "sentences": [
+      {
+       "text": "This has been Model in Motion. Thanks for following the story."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
